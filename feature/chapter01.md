@@ -19,10 +19,10 @@ Entre sus principales características se incluyen:
 
 - Gestión de Clientes: Optimiza la organización y control de los huéspedes mediante el uso de calendarios y agendas para una gestión más eficiente de las reservas.
 
-- **Misión:** 
 
-- **Visión:** 
+- **Misión:** Nuestro objetivo es ser la principal opción en gestión hotelera a nivel global, proporcionando a hoteles de cualquier tamaño soluciones tecnológicas avanzadas que facilitan y mejoran cada aspecto de su operación, lo que les permite a nuestros clientes concentrarse en brindar experiencias excepcionales a sus visitantes.
 
+- **Visión:** Ofrecer a los responsables de la administración hotelera una solución completa y accesible que cubra aspectos clave como la administración de ingresos y egresos, la supervisión de inventarios, y la gestión de relaciones con proveedores y clientes. Buscamos simplificar el manejo del negocio, permitiendo su monitoreo remoto y en tiempo real, apoyando a nuestros usuarios en la toma de decisiones acertadas, optimizando los procesos operativos y maximizando la rentabilidad de sus negocios.
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |                    Photo                        |                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                    |
