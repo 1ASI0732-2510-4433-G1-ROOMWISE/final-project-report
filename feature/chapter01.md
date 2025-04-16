@@ -5,7 +5,19 @@
 
 ### 1.1.1. Descripción de la Startup
 
-" " 
+Una administración eficaz de un hotel es clave para asegurar que los huéspedes disfruten de una experiencia única y, al mismo tiempo, maximizar las ganancias. Con ese objetivo, presentamos “RoomWise”, una aplicación diseñada para optimizar todos los procesos operativos de la gestión hotelera, garantizando estancias cómodas y de calidad para los visitantes.
+
+RoomWise es una herramienta completa que cubre desde el monitoreo de ingresos y gastos hasta la supervisión de proveedores, inventarios y recursos humanos. Con su interfaz amigable y sencilla de usar, permite a los gerentes y propietarios de hoteles controlar todos los aspectos de su negocio de manera remota y en cualquier momento.
+
+Entre sus principales características se incluyen:
+
+- Seguimiento de Ingresos y Egresos: RoomWise proporciona un monitoreo detallado de los ingresos y egresos del hotel, ofreciendo informes actualizados para tomar decisiones más acertadas.
+
+- Gestión de Inventarios: Nuestra aplicación facilita la administración de inventarios de alimentos, bebidas, productos de tocador y otros, evitando tanto escasez como desperdicios.
+
+- Gestión de Proveedores: Simplificamos la interacción con proveedores, permitiendo realizar pedidos de forma ágil y eficiente.
+
+- Gestión de Clientes: Optimiza la organización y control de los huéspedes mediante el uso de calendarios y agendas para una gestión más eficiente de las reservas.
 
 - **Misión:** 
 
