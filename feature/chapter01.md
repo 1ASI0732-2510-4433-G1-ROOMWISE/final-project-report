@@ -29,9 +29,9 @@ Ofrecer a los responsables de la administración hotelera una solución completa
 
 |                    Photo                        |                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                    |
 | :------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |                                                                                                                         
-| ![Fabrisio]()  |                                                                         |
-| ![Luciana]()  |  |
-|    ![Sebastian](./assets/chapter01/Sebastianpfp.png)    |  Como estudiante de ingeniería de software, me comprometo a contribuir al máximo en el grupo y a cumplir con las entregas dentro del plazo establecido, manteniendo una comunicación efectiva con mis compañeros y aplicando mis habilidades para desarrollar las tareas asignadas en este proyecto.   |
+| ![]()  |                                                                         |
+| ![]()  |  |
+| [Sebastian]()    |  Como estudiante de ingeniería de software, me comprometo a contribuir al máximo en el grupo y a cumplir con las entregas dentro del plazo establecido, manteniendo una comunicación efectiva con mis compañeros y aplicando mis habilidades para desarrollar las tareas asignadas en este proyecto.   |
 
 
 ## 1.2. Solution Profile
@@ -52,13 +52,18 @@ Ofrecer a los responsables de la administración hotelera una solución completa
 | Where?       | ¿Dónde sucede el problema?                             | Las dificultades surgen en la administración de las actividades cotidianas, como el control de los ingresos, la gestión del inventario y la organización del equipo de trabajo.                                                                                                                                           |
 | Why?      | ¿Por qué sucede el problema?                               | El problema se origina por una administración deficiente, lo que puede acarrear pérdidas económicas, falta de stock, desorganización en el trabajo del personal y, en consecuencia, una experiencia negativa para los clientes. Esto tiene un impacto directo en la imagen y los ingresos del establecimiento hotelero.                                                                                                                                                                                        |
 | Who?        | ¿Quiénes son los afectados?                    |Los inconvenientes impactan a dueños, administradores de hoteles y al personal laboral en los centros de hospedaje.       |
-| How?        | ¿En qué condiciones los clientes usaran nuestro producto?               |                                                                                                                                                                      |
-| How Much?   | ¿Con qué frecuencia o en qué cantidad se utilizará nuestro producto? |                                                                                          |
+| How?        | ¿Como se distingue el problema del estado ideal?            |   El estado ideal se define por una gestión hotelera eficiente, sin contratiempos y con una buena coordinación entre áreas. En cambio, el problema rompe con esa fluidez, generando interrupciones que afectan negativamente tanto la eficiencia operativa como la experiencia del cliente. La aparición de este problema puede deberse a patrones predecibles, como la ausencia de automatización, o presentarse de forma aleatoria por falta de planificación.                                                                                                                                                                   |
+| How Much?   | ¿Con qué frecuencia o en qué cantidad se utilizará nuestro producto? | RoomWise será utilizado diariamente por el personal administrativo del hotel, especialmente por gerentes, supervisores y encargados de áreas como contabilidad, recepción y almacén. Su uso será constante, ya que centraliza funciones esenciales como el control de ingresos y egresos, la gestión de inventarios y proveedores, y la administración de reservas. Dado que las operaciones hoteleras son continuas, la aplicación será una herramienta de uso frecuente y sostenido durante toda la jornada laboral.                                                                                         |
 
 
 ## 1.2.2. Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
+La administración hotelera enfrenta retos operativos que impactan la rentabilidad y la calidad del servicio. Entre ellos destacan la gestión ineficiente de ingresos, inventarios, proveedores y personal, agravada por la falta de herramientas integradas. Esto genera pérdidas económicas, sobrecarga de trabajo y una experiencia deficiente para los huéspedes.
+
+Gerentes y propietarios tienen dificultades para alcanzar sus metas debido al escaso control financiero, la mala administración de insumos y la complejidad de gestionar al personal. Estas fallas reducen la competitividad y eficiencia del hotel.
+
+Por ello, se requiere una solución integral que centralice y simplifique la gestión financiera, operativa y de recursos humanos, mejorando la productividad y la experiencia tanto del equipo como de los huéspedes.
 
 
 
