@@ -170,6 +170,14 @@ Ofrecer a los responsables de la administración hotelera una solución completa
 | How Much?   | ¿Con qué frecuencia o en qué cantidad se utilizará nuestro producto? | RoomWise será utilizado diariamente por el personal administrativo del hotel, especialmente por gerentes, supervisores y encargados de áreas como contabilidad, recepción y almacén. Su uso será constante, ya que centraliza funciones esenciales como el control de ingresos y egresos, la gestión de inventarios y proveedores, y la administración de reservas. Dado que las operaciones hoteleras son continuas, la aplicación será una herramienta de uso frecuente y sostenido durante toda la jornada laboral.                                                                                         |
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+La administración hotelera enfrenta retos operativos que impactan la rentabilidad y la calidad del servicio. Entre ellos destacan la gestión ineficiente de ingresos, inventarios, proveedores y personal, agravada por la falta de herramientas integradas. Esto genera pérdidas económicas, sobrecarga de trabajo y una experiencia deficiente para los huéspedes.
+
+Gerentes y propietarios tienen dificultades para alcanzar sus metas debido al escaso control financiero, la mala administración de insumos y la complejidad de gestionar al personal. Estas fallas reducen la competitividad y eficiencia del hotel.
+
+Por ello, se requiere una solución integral que centralice y simplifique la gestión financiera, operativa y de recursos humanos, mejorando la productividad y la experiencia tanto del equipo como de los huéspedes.
+
+
+
 #### 1.2.2.2. Lean UX Assumptions
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### 1.2.2.4. Lean UX Canvas
