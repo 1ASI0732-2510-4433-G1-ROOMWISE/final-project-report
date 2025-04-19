@@ -211,12 +211,23 @@
 ## 4.7. Web Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
+
 ### 4.8.1. Software Architecture Context Diagram
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/GL3GbgB.png" alt="Imagen del context diagram" width="90%" />
+</div>
+
 ### 4.8.2. Software Architecture Container Diagrams
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/BigfPO9.png" alt="Imagen del container diagram" width="90%" />
+</div>
+
 ### 4.8.3. Software Architecture Components Diagrams
+
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
+
 ### 4.9.2. Class Dictionary
 
 ## 4.10. Database Design
