@@ -211,19 +211,54 @@
 ## 4.7. Web Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
-
+A continuación, se mostrarán los diagramas C4
 ### 4.8.1. Software Architecture Context Diagram
+Se puede visualizar el diagrama de contexto que representa un panorama general de la comunicación entre nuestros segmento objetivo y la aplicacion
 <div style="text-align: center;">
   <img src="https://i.imgur.com/GL3GbgB.png" alt="Imagen del context diagram" width="90%" />
 </div>
 
 ### 4.8.2. Software Architecture Container Diagrams
+En el siguiente diagrama se puede apreciar el funcionamiento que la aplicación trendrá y las relaciones con los correspondientes sistemas, lo que se busca es lograr una organización de forma que no generen dependencias fuertes que perjudiquen migraciones a futuro, asi mcomo también esquematizar como funcionara la interaccion entre los diferentes sistemas
 <div style="text-align: center;">
   <img src="https://i.imgur.com/BigfPO9.png" alt="Imagen del container diagram" width="90%" />
 </div>
 
 ### 4.8.3. Software Architecture Components Diagrams
+A contuniación, se muestra las relaciones entre los bounded context que trabajan en el servicio de RoomWise
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/5gOn3Bk.png" alt="Imagen del container diagram" width="50%" />
+</div>
 
+## **Commerce Context**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/V51iHjq.png" alt="Imagen del container diagram" width="90%" />
+</div>
+
+## **Resource Management Context**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Fm1raQs.png" alt="Imagen del container diagram" width="90%" />
+</div>
+
+## **Supply Management Context**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/c7wVVE4.png" alt="Imagen del container diagram" width="90%" />
+</div>
+
+## **Profile Context**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/dzpzORr.png" alt="Imagen del container diagram" width="90%" />
+</div>
+
+## **Monitoring Context**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/E1mg7F4.png" alt="Imagen del container diagram" width="90%" />
+</div>
+
+## **Communication Context**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Q3HWIkh.png" alt="Imagen del container diagram" width="90%" />
+</div>
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
