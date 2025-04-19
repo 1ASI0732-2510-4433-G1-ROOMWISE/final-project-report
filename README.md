@@ -217,10 +217,39 @@
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
+
 ### 4.9.2. Class Dictionary
+| Clase                   | Descripción                                                                 |
+|-------------------------|----------------------------------------------------------------------------|
+| `assignments_workers`   | Asignaciones de trabajadores a áreas con fechas y estado.                  |
+| `types_reports`         | Tipos de reportes disponibles en el sistema.                               |
+| `workers_areas`         | Áreas de trabajo donde se asignan los trabajadores.                        |
+| `reports`               | Reportes generados por trabajadores o administradores.                    |
+| `workers_`              | Información de los trabajadores (usuarios con rol de operación).           |
+| `owners_credentials`    | Credenciales de acceso para propietarios.                                  |
+| `subscriptions`         | Planes de suscripción disponibles para propietarios.                       |
+| `contracts_owners`      | Contratos activos de propietarios con suscripciones.                       |
+| `supplies`              | Insumos o materiales gestionados en el sistema.                            |
+| `providers`             | Proveedores de insumos/materiales.                                         |
+| `notifications`         | Notificaciones enviadas a usuarios (propietarios, admins o trabajadores). |
+| `notes`                 | Notas asociadas a propietarios (datos adicionales).                       |
+| `payments_owners`       | Pagos realizados por propietarios.                                         |
+| `customers`             | Clientes del sistema (usuarios que realizan reservas).                     |
+| `supplies_requests`     | Solicitudes de insumos vinculadas a pagos.                                 |
+| `admins_credentials`    | Credenciales de acceso para administradores.                               |
+| `admins`                | Usuarios con rol administrativo.                                           |
+| `types_notifications`   | Tipos de notificaciones disponibles.                                       |
+| `types_rooms`           | Tipos de habitaciones y sus características.                               |
+| `bookings`              | Reservas realizadas por clientes.                                          |
+| `payments_customers`    | Pagos realizados por clientes.                                             |
+
 
 ## 4.10. Database Design
+Para RoomWise, se ha implementado una base de datos relacional que garantiza la integridad y consistencia de los datos mediante relaciones bien definidas entre entidades como habitaciones, clientes, reservas y pagos, permitiendo consultas complejas con alto rendimiento para gestionar disponibilidad, historiales y transacciones, mientras que su estructura normalizada elimina redundancias y facilita la escalabilidad para incorporar futuras funcionalidades sin comprometer la organización existente, todo ello asegurando la coherencia de las operaciones mediante claves primarias y foráneas.
 ### 4.10.1. Relational/Non-Relational Database Diagram
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/QPeNpMH.png" alt="Imagen del db diagram" width="90%" />
+</div>
 
 # Capítulo V: Product Implementation
 
