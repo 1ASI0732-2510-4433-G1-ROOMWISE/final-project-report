@@ -223,12 +223,64 @@
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 # Capítulo V: Product Implementation
-
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+-Project Management:
+
+*Producto: Jira
+*Propósito: Ayudar a los equipos a planificar, rastrear y gestionar el trabajo en proyectos de desarrollo de software y otras iniciativas.
+
+*Enlace: https://jeremyantonio.atlassian.net/jira/software/projects/EDS/boards/34/backlog?atlOrigin=eyJpIjoiZDdlM2UxYzEwMDFhNDQ2Zjk2YmExZWViMmZhZTM4ZmUiLCJwIjoiaiJ9
+
+-Product UX/UI Design:
+
+*Producto: Figma
+
+*Propósito:  Proporcionar una plataforma de diseño colaborativo en línea para equipos de diseño de interfaces de usuario (UI) y experiencia de usuario (UX), permitiendo crear, compartir y colaborar en tiempo real en proyectos de diseño visual, prototipos y maquetas de productos digitales.
+
+ *Enlace:
+
 ### 5.1.2. Source Code Management
+A continuación, se describe cómo se gestionará el código fuente en este proyecto, lo cual permitirá monitorear y controlar los cambios realizados por cualquier integrante del equipo durante el proceso de desarrollo. Además, se utilizará un repositorio en GitHub para administrar las distintas versiones del código a lo largo del proyecto.
+
+*REPOSITORIO DE GITHUB:
+
+*LANDING PAGE:
+
+Desarrollo de GitFlow: Para llevar a cabo este proyecto, se emplea GitFlow como modelo de control de versiones. Este enfoque facilitará la organización mediante la creación de ramas principales y ramas de apoyo, permitiendo una gestión estructurada del desarrollo.
+
+ Ramas de apoyo:
+
+-Rama Release:
+Se genera a partir de la rama Develop y se utiliza para preparar una nueva versión del proyecto. En esta etapa se llevan a cabo tareas como la identificación y corrección de errores. No obstante, no se permite la incorporación de nuevas funcionalidades. Una vez finalizado este proceso, la rama Release debe fusionarse tanto con main como con develop.
+
+-Rama Hotfix:
+Se crea desde la rama Main con el objetivo de solucionar errores detectados durante la fase de depuración del código en producción. Tras resolver dichos problemas, esta rama debe integrarse nuevamente en main y develop para mantener la coherencia del proyecto.
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Para la implementación en HTML y CSS, se adoptarán las convenciones establecidas por la Google HTML/CSS Style Guide, la cual proporciona lineamientos claros sobre cómo estructurar y escribir código utilizando estas tecnologías. Entre las principales prácticas que aplicaremos se encuentran:
+
+-Utilizar siempre letras minúsculas para nombrar los elementos HTML.
+
+-Asegurarse de cerrar correctamente todos los elementos HTML.
+
+-Incluir siempre comillas alrededor de los atributos de los elementos HTML.
+
+-Evitar líneas de código excesivamente largas para mejorar la legibilidad.
+
+-Incluir la etiqueta meta (MetaTags) al inicio del documento para definir la codificación y otros metadatos relevantes.
+
 ### 5.1.4. Software Deployment Configuration
+
+Para implementar la Landing Page del proyecto, se empleará GitHub Pages, un servicio proporcionado por GitHub que permite la publicación sencilla de sitios web estáticos directamente desde un repositorio. Por ello, se ha creado un repositorio inicial donde se documentan las distintas versiones generadas durante el desarrollo.
+Durante la construcción de la Landing Page, se utilizarán las siguientes herramientas:
+
+HTML: Este lenguaje  se usará para estructurar y organizar el contenido del landing page.
+
+CSS: Se aplicará este lenguaje de estilos para definir la presentación visual del sitio, mejorando su apariencia y experiencia de usuario. Para agilizar este proceso, se aprovecharán clases previamente definidas mediante el framework Tailwind CSS.
+
 
 ## 5.2. Product Implementation & Deployment
 ### 5.2.1. Sprint Backlogs
