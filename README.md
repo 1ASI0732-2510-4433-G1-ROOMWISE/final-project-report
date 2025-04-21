@@ -169,6 +169,49 @@
 
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+
+# 🗂️ Product Backlog - RoomWise
+
+## Épica 1: Información del producto
+
+| ID | Historia de Usuario | Prioridad | Estado |
+|----|----------------------|-----------|--------|
+| 1.1 | Como visitante quiero ver una página de inicio atractiva para conocer RoomWise. | Alta | Pendiente |
+| 1.2 | Como visitante quiero navegar por secciones informativas para comprender los beneficios del sistema. | Alta | Pendiente |
+| 1.3 | Como visitante quiero ver imágenes o videos del sistema en uso para entender su funcionamiento. | Media | Pendiente |
+| 1.4 | Como visitante quiero conocer los precios o planes disponibles para decidir si me conviene. | Alta | Pendiente |
+
+## Épica 2: Gestión de cuentas
+
+| ID | Historia de Usuario | Prioridad | Estado |
+|----|----------------------|-----------|--------|
+| 2.1 | Como usuario quiero crear una cuenta para empezar a usar RoomWise. | Alta | Pendiente |
+| 2.2 | Como usuario quiero iniciar sesión con mi correo y contraseña para acceder a mi perfil. | Alta | Pendiente |
+| 2.3 | Como usuario quiero recuperar mi contraseña en caso de olvidarla. | Media | Pendiente |
+| 2.4 | Como usuario quiero poder cerrar sesión de forma segura. | Media | Pendiente |
+
+## Épica 3: Gestión de habitaciones
+
+| ID | Historia de Usuario | Prioridad | Estado |
+|----|----------------------|-----------|--------|
+| 3.1 | Como usuario quiero agregar una nueva habitación para gestionar sus recursos. | Alta | Pendiente |
+| 3.2 | Como usuario quiero editar la información de una habitación existente para mantenerla actualizada. | Alta | Pendiente |
+| 3.3 | Como usuario quiero eliminar una habitación para removerla del sistema. | Media | Pendiente |
+| 3.4 | Como usuario quiero ver una lista de todas mis habitaciones para acceder rápidamente a ellas. | Alta | Pendiente |
+
+## Épica 4: Inventario de objetos
+
+| ID | Historia de Usuario | Prioridad | Estado |
+|----|----------------------|-----------|--------|
+| 4.1 | Como usuario quiero agregar objetos al inventario de una habitación para tener un control de los elementos. | Alta | Pendiente |
+| 4.2 | Como usuario quiero editar la información de un objeto para mantenerla actualizada. | Alta | Pendiente |
+| 4.3 | Como usuario quiero eliminar objetos del inventario que ya no existen. | Media | Pendiente |
+| 4.4 | Como usuario quiero ver un listado del inventario por habitación para revisar qué hay en cada una. | Alta | Pendiente |
+
+## Épica 5: Tareas
+
+| ID | Historia de Usuario | Prioridad | Estado
+
 ## 3.3. Product Backlog
 ## 3.4. Impact Mapping
 
