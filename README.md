@@ -153,7 +153,74 @@
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+Las entrevistas representan una herramienta clave para identificar las necesidades, deseos y problemas de los usuarios, además de permitir la validación de hipótesis y suposiciones del negocio. Mediante estas conversaciones, es posible recopilar información valiosa sobre las expectativas de los clientes, sus experiencias actuales y sus preferencias respecto a productos y servicios. En el contexto de RoomWise, entrevistar a propietarios, administradores y trabajadores será esencial para desarrollar una solución alineada con las demandas del mercado y que aporte un valor real a sus usuarios.
+
 ### 2.2.2. Registro de entrevistas
+
+En esta sección se documentarán las preguntas que se utilizaron en nuestras entrevistas, conteniendo las preguntas generales que se comparten entre los segmentos objetivos, y las preguntas que fueron creadas específicamente para cada una.
+
+**Preguntas complementarias generales**
+
+- ¿Qué navegador usas con más frecuencia?
+
+- ¿Qué dispositivo tecnológico usas con más frecuencia?
+
+- ¿Cómo describes tu personalidad?
+
+- ¿Presentas alguna frustración en el trabajo?
+
+- ¿Cuáles son los canales de interacción que usas?
+
+- ¿Qué tipo de ambiente de trabajo te resulta más motivador y productivo?
+
+- ¿Cómo se llama el distrito o lugar de tu residencia?
+
+- ¿Qué objetivos tienes tanto laboralmente como personalmente?
+
+**Preguntas Segmento 1: Gerentes**
+
+- ¿Qué caracteristicas o funcionalidades consideraría más utiles para mejorar la eficiencia de su hotel?
+
+- ¿Cómo gestiona actualmente las reservas de habitaciones y el seguimiento de ingresos y gastos en su hotel?
+
+- ¿Qué aspectos valoran más al evaluar nuevas soluciones de software para su hotel?
+
+- ¿Cómo crees que podríamos mejorar la comunicación y la colaboración del equipo?
+
+- ¿Qué desafíos enfrentan al gestionar proveedores y controlar los inventarios en su hotel?
+
+- ¿Cómo ve conveniente un sistema hotelero dedicado a la gestión de recursos, comunicación con proveedores, seguimiento de ganancias, etc?
+
+**Preguntas Segmento 2: Administradores**
+
+- ¿Qué herramientas o sistemas utilizan actualmente para realizar su trabajo y qué aspectos les resultan más difíciles o menos eficientes?
+
+- ¿Qué características adicionales le gustaría ver en un sistema de gestión hotelera para facilitar su trabajo diario?
+
+- ¿Cómo se sienten acerca de la adopción de nuevas tecnologías en el lugar de trabajo y cómo creen que podría mejorar su experiencia laboral?
+
+- ¿Qué desafíos enfrenta al gestionar las solicitudes de los huéspedes y asegurarse de que se cumplan sus expectativas durante su estancia?
+
+- ¿Cómo creen que podríamos simplificar los procesos de registro de huéspedes y check-in/check-out en su hotel?
+
+- ¿Qué herramientas o recursos adicionales les ayudarán a ofrecer un mejor servicio a los huéspedes y mejorar su experiencia general en el hotel?
+
+**Preguntas Segmento 3: Trabajadores**
+
+- ¿Cuáles son las tareas o procesos diarios que considera más tediosos o que consumen más tiempo en su trabajo?
+
+- ¿Qué herramientas o sistemas utilizan actualmente para realizar su trabajo y qué aspectos les resultan más difíciles o menos eficientes?
+
+- ¿Cómo describiría la interacción y la comunicación entre los diferentes departamentos y miembros del personal del hotel?
+
+- ¿Qué características adicionales le gustaría ver en un sistema de gestión hotelera para facilitar su trabajo diario?
+
+- ¿Cómo se sienten acerca de la adopción de nuevas tecnologías en el lugar de trabajo y cómo creen que podría mejorar su experiencia laboral?
+
+- ¿Qué desafíos enfrenta al gestionar las solicitudes de los huéspedes y asegurarse de que se cumplan sus expectativas durante su estancia?
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
