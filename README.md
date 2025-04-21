@@ -152,11 +152,10 @@
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
 
 Las entrevistas representan una herramienta clave para identificar las necesidades, deseos y problemas de los usuarios, además de permitir la validación de hipótesis y suposiciones del negocio. Mediante estas conversaciones, es posible recopilar información valiosa sobre las expectativas de los clientes, sus experiencias actuales y sus preferencias respecto a productos y servicios. En el contexto de RoomWise, entrevistar a propietarios, administradores y trabajadores será esencial para desarrollar una solución alineada con las demandas del mercado y que aporte un valor real a sus usuarios.
 
-### 2.2.2. Registro de entrevistas
+### 2.2.1. Diseño de entrevistas
 
 En esta sección se documentarán las preguntas que se utilizaron en nuestras entrevistas, conteniendo las preguntas generales que se comparten entre los segmentos objetivos, y las preguntas que fueron creadas específicamente para cada una.
 
@@ -220,6 +219,50 @@ En esta sección se documentarán las preguntas que se utilizaron en nuestras en
 
 - ¿Qué desafíos enfrenta al gestionar las solicitudes de los huéspedes y asegurarse de que se cumplan sus expectativas durante su estancia?
 
+### 2.2.2. Registro de entrevistas
+
+A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
+
+Inicio: 0:00 <br><br>
+Fin: 36:51
+
+**Entrevista 01 (Gerentes)**
+
+**Entrevista 02 (Gerentes)**
+
+**Entrevista 03 (Gerentes)**
+
+**Entrevista 01 (Administradores)**
+<br>
+URL del vídeo: <br>
+Nombre: Sergio Renard <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive: La Plata - Argentina <br>
+Ocupación: Administrador de hotel <br>
+Duración de la entrevista: 00:00 - 00:00 <br>
+Personalidad: Alegre <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/sKGvt61.png" alt="Sergio Renard Interview" width="80%" />
+ </div><br>
+
+Sergio Renard es un administrador hotelero que reside en La Plata, Argentina, y dirige un hospedaje familiar enfocado en el turismo tanto local como internacional. Comparte su experiencia enfrentando los desafíos diarios de la gestión hotelera, especialmente en lo referente al manejo de reservas y a las preferencias de los huéspedes. A diferencia de los grandes hoteles, actualmente no dispone de un sistema automatizado, por lo que realiza el control de reservas, pagos y asignaciones de manera manual, lo que representa una alta carga operativa y un margen considerable para errores humanos.
+
+Sergio se describe como una persona práctica, dedicada y muy atenta a las necesidades de sus clientes. Por eso, está en busca de una solución tecnológica que le permita modernizar su modelo de gestión. Su meta principal es ofrecer mayor comodidad a los huéspedes mediante una plataforma digital que les permita registrar sus preferencias de estadía, lo cual facilitaría brindar una experiencia más personalizada en futuras visitas.
+
+Además, considera esencial que esta herramienta no solo optimice el proceso de reservas, sino que también incorpore funcionalidades administrativas, seguimiento de recursos y comunicación interna, todo dentro de un mismo sistema. Sergio está convencido de que una gestión digital eficiente no solo mejora el trabajo del administrador, sino que también eleva la calidad del servicio al cliente y refuerza la competitividad del establecimiento.
+
+
+**Entrevista 02 (Administradores)**
+
+**Entrevista 03 (Administradores)**
+
+**Entrevista 01 (Huéspedes)**
+
+**Entrevista 02 (Huéspedes)**
+
+**Entrevista 03 (Huéspedes)**
 
 ### 2.2.3. Análisis de entrevistas
 
