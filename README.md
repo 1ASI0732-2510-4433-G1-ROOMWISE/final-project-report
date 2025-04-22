@@ -168,6 +168,22 @@
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+En esta sección se presentan los diagramas de los escenarios futuros (To-Be Scenario Mapping) para los perfiles de gerentes y empleados, los cuales detallan las interacciones y tareas que los usuarios llevarán a cabo con el sistema de gestión hotelera una vez implementado. Estos diagramas proporcionan una visión general de las funciones y características esperadas del producto final, sirviendo como guía para su diseño y desarrollo.
+
+SEGMENTO TRABAJADOR:
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/wThvLlw.png" alt="to be scenario maping trabajador" width="70%" />
+</div>
+
+SEGMENTO GERENTE:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/XPxZMX7.png" alt="to be scenario maping gerente" width="70%" />
+</div>
+
+
 ## 3.2. User Stories
 
 | EPIC/STORY ID | TÍTULO                        | Descripción                                                                 | Criterios de Aceptación                                                                                                                                                    | Relacionado con (Epic ID) |
@@ -250,6 +266,18 @@
 | 28     | HU04-EP09      | Registro de Proveedores (Administrador) | Como administrador, quiero poder gestionar la información de los proveedores del hotel, para mantener un control adecuado sobre los suministros y servicios proporcionados. | 3 |
 
 ## 3.4. Impact Mapping
+
+En esta sección se describen y muestran los Impact Mappings, los cuales fueron desarrollados a partir de los User Personas. Estos mapas incluyen los objetivos de negocio de cada uno y permiten identificar las funcionalidades necesarias para generar los entregables definidos.
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/Cty3B7u.png" alt="Descripción de la imagen" width="70%" />
+</div>
+
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/ID9J1Vg.png" alt="Descripción de la imagen" width="70%" />
+</div>
+
 
 # Capítulo IV: Product Design
 
