@@ -179,10 +179,194 @@ Por ello, se requiere una solución integral que centralice y simplifique la ges
 
 
 #### 1.2.2.2. Lean UX Assumptions
+
+
+---
+
+**Features**
+
+Estas son las herramientas clave que integrará nuestra solución:
+
+- **Seguimiento Financiero en Tiempo Real:** Permite registrar y analizar ingresos y gastos al instante para tener una visión clara de la situación económica del hotel.  
+- **Gestión de Inventario y Proveedores:** Control preciso de suministros y pedidos, con comunicación eficiente con proveedores.  
+- **Módulos de Recursos Humanos:** Gestión de horarios, nóminas y evaluaciones del personal para optimizar el área de RRHH.  
+- **Interfaz Intuitiva y Personalizable:** Fácil de usar y adaptable a cada hotel para una experiencia personalizada.  
+- **Integración con Sistemas Existentes:** Compatible con plataformas hoteleras actuales para una transición fluida y una gestión completa.
+
+---
+
+**Assumptions Worksheets**
+
+1. **Necesidad del Cliente:** Soluciones tecnológicas que aumenten la eficiencia y rentabilidad.  
+2. **Cómo lo resolvemos:** Con Sweet Manager, una plataforma integral y fácil de usar.  
+3. **Clientes iniciales:** Propietarios y gerentes que buscan simplificar la gestión diaria.  
+4. **Valor principal:** Simplificar la gestión y mejorar la experiencia del cliente.  
+5. **Beneficios adicionales:**
+   - Mejora operativa
+   - Decisiones basadas en datos
+   - Menor carga laboral
+   - Mejor comunicación interna
+   - Mayor transparencia
+6. **Adquisición de clientes:** Marketing dirigido y alianzas con la industria hotelera.  
+7. **Modelo de ingresos:** Suscripción, servicios premium e integraciones.  
+8. **Competencia:** Otras soluciones de gestión hotelera.  
+9. **Ventaja competitiva:** Facilidad de uso, servicio de calidad y personalización.  
+10. **Mayor riesgo:** No cumplir expectativas en funcionalidad, rendimiento o soporte.  
+11. **Mitigación del riesgo:** Enfoque centrado en el cliente, soporte constante y actualizaciones.  
+12. **Otras suposiciones críticas:**
+    - **Adopción tecnológica:** Si los usuarios se resisten, puede afectar el crecimiento.  
+    - **Demanda del mercado:** Si disminuye, compromete la viabilidad.  
+    - **Escalabilidad:** Si no escala bien, limita el mercado y requiere cambios técnicos o estratégicos.
+
+---
+
+**¿Quién es el usuario?**
+
+- **Propietarios y Gerentes:** Responsables de decisiones estratégicas, buscan eficiencia y rentabilidad.  
+- **Personal de Trabajo:** Contabilidad, compras y RRHH. Buscan herramientas que faciliten sus tareas diarias.
+
+---
+
+**¿Dónde encaja el producto?**
+
+- **Gerentes/Propietarios:** Plataforma centralizada para gestionar todo el hotel y tomar decisiones informadas.  
+- **Personal:** Herramientas especializadas para automatizar tareas y mejorar la productividad.
+
+---
+
+**¿Qué problema resuelve?**
+
+- **Gerentes/Propietarios:** Dispersión de datos y herramientas. Centraliza la gestión en un solo lugar con datos en tiempo real.  
+- **Personal:** Tareas manuales y complejas. Automatiza procesos para reducir carga laboral y estrés.
+
+---
+
+**¿Cómo y cuándo se usa?**
+
+- **Gerentes/Propietarios:** A diario para tomar decisiones y supervisar la operación del hotel.  
+- **Personal:** Durante la jornada laboral para gestionar tareas específicas de su área.
+
+---
+
+**Características clave**
+
+**Gerentes/Propietarios:**  
+- Datos en tiempo real  
+- Interfaz personalizable  
+- Gestión centralizada  
+- Análisis y reportes
+
+**Personal:**  
+- Automatización de tareas  
+- Integración con otros sistemas  
+- Herramientas específicas  
+- Comunicación eficiente
+
+---
+
+**¿Cómo debe verse y funcionar?**
+
+**Gerentes/Propietarios:**  
+- Interfaz limpia, personalizable y funcional. Acceso rápido a datos.
+
+**Personal:**  
+- Navegación sencilla, funcionamiento estable, procesos automatizados.
+
+---
+
+**Business Outcomes**
+
+- **Referente del mercado:** Ser reconocidos como solución líder en gestión hotelera.  
+- **Eficiencia operativa:** Reducir en un 30% el tiempo en tareas administrativas.  
+- **Mejor rentabilidad:** Aumentar en 15% el margen neto en seis meses.  
+- **Satisfacción del cliente:** Incremento de 0.5 puntos en reseñas.  
+- **Fidelización:** Aumentar 20% las reservas repetidas en un año.  
+- **Reducción de costos:** Disminución del 25% en gastos operativos.
+
+---
+
+**User Outcomes**
+
+**¿Qué buscan los usuarios?**  
+- **Gerentes/Propietarios:** Mejorar rentabilidad y eficiencia.  
+- **Personal:** Simplificar sus responsabilidades con herramientas efectivas.
+
+**¿Cómo se quieren sentir?**  
+- **Gerentes/Propietarios:** En control y seguros con datos confiables.  
+- **Personal:** Menos estresados, más eficientes.
+
+**¿Cómo ayuda el producto?**  
+- **Gerentes/Propietarios:** Plataforma integral con información en tiempo real.  
+- **Personal:** Automatización de tareas que reduce la carga diaria.
+
+**¿Qué beneficios obtienen?**  
+- **Gerentes/Propietarios:** Gestión eficiente, operaciones fluidas.  
+- **Personal:** Procesos simplificados, mejor comunicación y productividad.
+
+**¿Qué cambios veremos si logramos el objetivo?**  
+- **Gerentes/Propietarios:** Mayor uso de datos en decisiones y aumento de rentabilidad.  
+- **Personal:** Tiempos más cortos de ejecución, menos estrés y mayor satisfacción.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+ **Hipótesis**
+
+- **Hipótesis 1:**  
+  Creemos que una interfaz intuitiva y adaptable para gerentes y propietarios mejorará la eficiencia operativa.  
+  Sabremos que esto es cierto si al menos el 80% de los usuarios reportan una experiencia positiva.
+
+- **Hipótesis 2:**  
+  Creemos que mostrar datos financieros en tiempo real ayudará a tomar decisiones más rápidas e informadas.  
+  Sabremos que esto es cierto si el tiempo de decisión se reduce en un 30% y la precisión de los reportes mejora en un 15%.
+
+- **Hipótesis 3:**  
+  Creemos que mejorar la gestión de inventario disminuirá los costos operativos.  
+  Sabremos que estamos bien si los costos bajan un 20% y el exceso de stock cae un 15% en seis meses.
+
+- **Hipótesis 4:**  
+  Creemos que un módulo eficiente de gestión de personal aumentará la productividad.  
+  Sabremos que esto es cierto si la satisfacción del equipo sube un 25% y las evaluaciones mejoran en un 10%.
+
+- **Hipótesis 5:**  
+  Creemos que centralizar la plataforma reducirá cancelaciones.  
+  Sabremos que esto es cierto si la retención de usuarios crece un 15% y las cancelaciones bajan un 10% en el primer año.
+
 #### 1.2.2.4. Lean UX Canvas
 
 ## 1.3. Segmentos objetivo
+
+**Usuarios:**  
+**Propietarios y Gerentes de Hoteles:**
+
+- **Ubicación:** Principalmente en ciudades y destinos turísticos a nivel global.
+
+- **Perfil:** Enfocados en la eficiencia, rentabilidad y control total de su negocio. Buscan herramientas para mejorar continuamente la experiencia del cliente y el éxito del hotel.
+
+- **Demografía:** Adultos de 30 a 60 años, con formación empresarial o experiencia directa en hotelería. Pueden ser expertos en gestión o nuevos propietarios optimizando su operación.
+
+**Personal de Trabajo**
+
+- **Ubicación:** También en zonas urbanas y turísticas alrededor del mundo.
+
+- **Perfil:** Comprometidos con la atención al cliente y adaptables a entornos dinámicos. Valoran la colaboración y comunicación efectiva dentro del equipo.
+
+- **Demografía:** Adultos jóvenes a de mediana edad, con experiencia laboral diversa y educación desde nivel secundario hasta formación técnica en hospitalidad.
+
+
+**Stakeholders (Externos e Internos )**
+
+- **Equipo de Desarrollo de Producto:** Diseña y mejora la plataforma Sweet Manager, adaptándola a las necesidades de los usuarios.
+
+- **Equipo de Marketing:** Desarrolla estrategias para captar a propietarios y gerentes de hoteles.
+
+- **Soporte Técnico:** Ofrece asistencia constante para resolver problemas técnicos y asegurar la satisfacción del cliente.
+
+- **Clientes Finales:** Propietarios, gerentes y personal de hoteles que utilizan directamente la plataforma.
+
+- **Asociaciones de la Industria Hotelera:** Potenciales aliados estratégicos que pueden impulsar la visibilidad y adopción de Sweet Manager.
+
+- **Proveedores de Sistemas Integrados:** Empresas con soluciones complementarias que se integran con la plataforma para ofrecer un sistema más completo.
+
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 
