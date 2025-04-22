@@ -148,11 +148,50 @@
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+El análisis competitivo es clave para tomar decisiones estratégicas, identificar oportunidades y amenazas, y generar ventajas sostenibles. Permite a las empresas adaptarse y actuar con información en un entorno cambiante. A continuación, se presenta su aplicación en el proyecto y el análisis de competidores.
 ### 2.1.1. Análisis competitivo
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+**Estrategias para afrontar las fortalezas de la competencia**
+
+- **Diferenciación tecnológica con IoT:**  
+**RoomWise** incorporará termostatos inteligentes, control de entretenimiento desde una app y sensores IoT para automatizar la experiencia hotelera, ofreciendo innovación y eficiencia.
+
+- **Enfoque en la experiencia del usuario:**  
+A diferencia de los competidores centrados en lo administrativo, **RoomWise** priorizará una interfaz moderna, intuitiva y adaptable.
+
+---
+
+**Estrategias ante las debilidades de la competencia**
+
+- **Planes escalables y flexibles:**  
+Frente a los precios fijos poco accesibles, **RoomWise** ofrecerá suscripciones modulares ajustadas al tamaño y necesidades del hotel.
+
+- **Compatibilidad multiplataforma:** 
+Mientras otros tienen interfaces limitadas, **RoomWise** optimizará su app web y móvil para una experiencia fluida en cualquier dispositivo.
+
+---
+
+**Estrategias frente a las oportunidades de la competencia**
+
+- **Alianzas con proveedores IoT:**    
+**RoomWise** se asociará con fabricantes de dispositivos inteligentes para reducir costos, mejorar la integración y asegurar compatibilidad.
+
+- **Eficiencia energética:**   
+La conexión del sistema IoT con el consumo eléctrico permitirá controlar y reducir gastos operativos.
+
+---
+
+**Estrategias frente a las amenazas**
+
+- **Seguridad y privacidad:**   
+Se aplicará cifrado avanzado y estándares de protección de datos para evitar vulnerabilidades y generar confianza.
+
+- **Marketing estratégico:**    
+Se impulsará la marca mediante publicidad digital y alianzas con influencers del sector hotelero, anticipándose a la competencia.
+
 
 ## 2.2. Entrevistas
-df
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
