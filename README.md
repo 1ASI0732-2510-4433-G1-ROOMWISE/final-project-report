@@ -197,13 +197,58 @@ Se impulsará la marca mediante publicidad digital y alianzas con influencers de
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
+Para comprender mejor cómo será la experiencia del usuario con nuestro producto, emplearemos herramientas como User Persona, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping. 
 ### 2.3.1. User Personas
+
 ### 2.3.2. User Task Matrix
+**Descripción**
+
+Esta sección introduce la User Task Matrix, una herramienta esencial para identificar las tareas más importantes y frecuentes que realizan los User Personas en su ambiente laboral. Esta matriz permite observar y comparar las actividades de los huéspedes, administradores y dueños, destacando tanto sus diferencias como sus similitudes respecto a la frecuencia y la importancia de dichas tareas.
+
+El análisis obtenido facilita una comprensión más profunda de las necesidades y desafíos de cada tipo de usuario, lo que permite enfocar el diseño del producto en aquellas funciones que realmente impactan en su trabajo diario.
+
+---
+
+**Tabla de Actividades por Usuario**
+
+| **Tarea** | **Huésped (Frecuencia/Importancia)** | **Administrador (Frecuencia/Importancia)** | **Dueño (Frecuencia/Importancia)** |
+|----------|----------------------------------------|---------------------------------------------|--------------------------------------|
+| Reserva de habitaciones | Alta/Alta | Baja/Baja | Baja/Baja |
+| Gestión de reservas | Alta/Alta | Alta/Alta | Media/Media |
+| Solicitud de servicio a las habitaciones | Alta/Alta | Baja/Baja | Baja/Baja |
+| Programación de limpieza de habitaciones | Baja/Baja | Alta/Alta | Baja/Media |
+| Registro de preferencias de temperatura e iluminación | Alta/Alta | Baja/Baja | Baja/Baja |
+| Negociación con proveedores | Baja/Baja | Media/Media | Alta/Alta |
+| Gestión de las habitaciones | Baja/Baja | Alta/Alta | Alta/Alta |
+| Gestión de las finanzas | Baja/Baja | Media/Media | Alta/Alta |
+| Administración de recursos | Baja/Baja | Alta/Alta | Alta/Alta |
+| Comunicación y organización constante | Baja/Baja | Alta/Alta | Alta/Alta |
+| Solicitud de abastecimiento | Baja/Baja | Media/Alta | Alta/Alta |
+| Control de entradas y salidas | Baja/Baja | Alta/Alta | Media/Alta |
+
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
+## Glosario de términos del dominio
+
+Esta sección presenta un glosario de términos y conceptos clave, con el fin de mantener una comunicación clara y uniforme entre el equipo de trabajo y los stakeholders. Esta práctica sigue el enfoque propuesto por Eric Evans en su libro Domain-Driven Design: Tackling Complexity in the Heart of Software.
+
+| Término (Inglés)         | Término (Español)             | Definición                                                                 |
+|--------------------------|-------------------------------|---------------------------------------------------------------------------|
+| **Check-In**             | (Registro de entrada)         | Procedimiento mediante el cual el huésped se registra al llegar y recibe su habitación. |
+| **Check-Out**            | (Salida del huésped)          | Proceso en el que el huésped concluye su estadía, liquida su cuenta y entrega la llave o tarjeta. |
+| **Reservation**          | (Reserva)                     | Acción de apartar una habitación para fechas específicas.                |
+| **Reservation Status**   | (Estado de la reserva)        | Estado actual de una reserva: confirmada, pendiente, cancelada o completada. |
+| **Reservation Type**     | (Tipo de reserva)             | Clasificación de la reserva según su origen o condiciones, como directa, en línea, grupal o por agencia. |
+| **Availability**         | (Disponibilidad)              | Número de habitaciones disponibles para reservar en un periodo específico. |
+| **No-show**              | (No presentación)             | Situación en la que un huésped con reserva confirmada no se presenta en el hotel. |
+| **House Rules**          | (Reglamento del hotel)        | Conjunto de normas internas que deben seguir los huéspedes durante su estadía. |
+| **Housekeeping**         | (Limpieza)                    | Departamento encargado del aseo, mantenimiento y organización diaria de las habitaciones. |
+| **Inventory Management** | (Gestión de inventario)       | Supervisión de los productos y materiales necesarios para el funcionamiento del hotel. |
+
 
 # Capítulo III: Requirements Specification
 
