@@ -232,8 +232,6 @@ El análisis obtenido facilita una comprensión más profunda de las necesidades
 ### 2.3.5. As-is Scenario Mapping
 
 ## 2.4. Ubiquitous Language
-## Glosario de términos del dominio
-
 Esta sección presenta un glosario de términos y conceptos clave, con el fin de mantener una comunicación clara y uniforme entre el equipo de trabajo y los stakeholders. Esta práctica sigue el enfoque propuesto por Eric Evans en su libro Domain-Driven Design: Tackling Complexity in the Heart of Software.
 
 | Término (Inglés)         | Término (Español)             | Definición                                                                 |
