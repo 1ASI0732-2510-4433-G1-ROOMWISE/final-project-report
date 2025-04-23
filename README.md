@@ -443,6 +443,8 @@ Esta sección expone los mapeos de escenarios para los segmentos objetivo: Hués
   <img src="https://i.imgur.com/PQLe7XV.png" width="100%" />
 </div>
 
+**A continuación, se comparte el enlace de LucidChart donde fueron elaborados: https://lucid.app/lucidspark/06682147-9f10-470a-8e7c-5a780fb41668/edit?viewport_loc=8240%2C-1378%2C2989%2C1484%2C0_0&invitationId=inv_8659ae05-40f9-4205-88ad-a899659127c8**
+
 ## 2.4. Ubiquitous Language
 Esta sección presenta un glosario de términos y conceptos clave, con el fin de mantener una comunicación clara y uniforme entre el equipo de trabajo y los stakeholders. Esta práctica sigue el enfoque propuesto por Eric Evans en su libro Domain-Driven Design: Tackling Complexity in the Heart of Software.
 
