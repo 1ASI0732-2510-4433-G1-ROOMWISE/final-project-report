@@ -239,12 +239,12 @@
 
 *Propósito:  Proporcionar una plataforma de diseño colaborativo en línea para equipos de diseño de interfaces de usuario (UI) y experiencia de usuario (UX), permitiendo crear, compartir y colaborar en tiempo real en proyectos de diseño visual, prototipos y maquetas de productos digitales.
 
- *Enlace:
+ *Enlace: https://www.figma.com/design/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise?node-id=10-27888&t=qPAbglcZ1AvZZ9FW-1
 
 ### 5.1.2. Source Code Management
 A continuación, se describe cómo se gestionará el código fuente en este proyecto, lo cual permitirá monitorear y controlar los cambios realizados por cualquier integrante del equipo durante el proceso de desarrollo. Además, se utilizará un repositorio en GitHub para administrar las distintas versiones del código a lo largo del proyecto.
 
-*REPOSITORIO DE GITHUB:
+*REPOSITORIO DE GITHUB: https://github.com/1ASI0732-2510-4433-G1-ROOMWISE
 
 *LANDING PAGE:
 
