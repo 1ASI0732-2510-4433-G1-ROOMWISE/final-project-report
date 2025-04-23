@@ -718,6 +718,25 @@ Además, considera esencial que esta herramienta no solo optimice el proceso de 
 
 **Entrevista 02 (Administradores)**
 
+<br>
+URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118152_upc_edu_pe/EU9hK-g_KtZHuGYYffuD9goB9SYCjwzsUjK57LATJ7Z8Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZiYFod <br>
+Nombre: CAMILA BUSTAMANTE <br>
+Edad: 25 <br>
+Sexo: FEMENINO <br>
+Lugar donde vive: Miraflores - Perú <br>
+Ocupación: Administradora de hotel <br>
+Personalidad: Proactiva <br>
+
+<div style="text-align: center;">
+   <img src="https://imgur.com/8y2Uu33.png" alt="Camila Bustamante Interview" width="80%" />
+ </div><br>
+
+Camila Bustamante es una administrado de un hotel , reside en Miraflores. En esta entrevista comparte algunos detalles de su trabajo como administradora, se describe como una persona proactiva y empática , suele usar 
+su laptop mayormente usando el navegador de chrome.Laboralmente quiere seguir creciendo y mejorar el funcionamiento del hotel.Le motiva trabajar con personas comprometidas y tambien el trabajo en equipo.Se frustra cuando el sistema se cae ya que generan muchos problemas y perdida de tiempo.
+
+ Usan un sistema para reservas , factuarición y check-in, le gustaría un interfaz mas agradable y una app que permita gestionar puntos claves. Piensa que las tecnologías bien implementadas reducen el tiempo y errores.
+El principal reto es la coordinación rápida entre el hotel y los huéspedes. Implementando check-in online reduciría el tiempo de espera haciendo colas.
+
 **Entrevista 03 (Administradores)**
 
 **Entrevista 01 (Huéspedes)**
