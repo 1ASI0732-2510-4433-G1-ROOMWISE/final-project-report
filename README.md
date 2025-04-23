@@ -151,6 +151,202 @@
 El análisis competitivo es clave para tomar decisiones estratégicas, identificar oportunidades y amenazas, y generar ventajas sostenibles. Permite a las empresas adaptarse y actuar con información en un entorno cambiante. A continuación, se presenta su aplicación en el proyecto y el análisis de competidores.
 ### 2.1.1. Análisis competitivo
 
+<table border="1" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th colspan="7" style="text-align: center;">Competitive Analysis Landscape</th>
+        </tr>
+        <tr>
+            <td colspan="2">¿Por qué llevar a cabo este análisis?</td>
+            <td colspan="5">Porque de esta forma, es posible identificar a los posibles competidores en el mercado, analizar sus propuestas y detectar debilidades que podamos aprovechar para diferenciarnos y destacar frente a ellos.</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="text-align: center;">
+            <td colspan="2">Empresas</td>
+            <td><strong>SweetManager</strong><br></td>
+            <td><strong>Sistema hotelero Xafiro</strong><div style="text-align: center;">
+            <img src="https://i.imgur.com/4g6o3D5.jpeg"  width="70%" />
+            </div>
+            <td><strong>Samin PMS</strong><br>strong><div style="text-align: center;">
+            <img src="https://i.imgur.com/Sbq8QNG.png"  width="70%" />
+            <td><strong>Binz360</strong><br><div style="text-align: center;">
+            <img src="https://i.imgur.com/kis4Kz4.jpeg["  width="70%" />
+            </div></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="writing-mode: vertical-lr; text-align: center;">Perfil</td>
+            <td>Overview</td>
+            <td>Plataforma tecnológica peruana especializada en la gestión hotelera eficiente, orientada a facilitar las labores operativas y administrativas, además de modernizar los procedimientos mediante dispositivos IoT que mejoran la comodidad, seguridad y eficiencia energética de las instalaciones.</td>
+            <td>Solución desarrollada en Perú que permite gestionar operaciones administrativas y funcionales de hoteles, operable desde cualquier dispositivo gracias a su enfoque multiplataforma. Agiliza tareas manuales repetitivas y ofrece facturación electrónica homologada por SUNAT.</td>
+            <td>Plataforma nacional que brinda una solución integral para administrar hoteles, incorporando herramientas para reservas, facturación SUNAT, limpieza, entre otros, con el fin de optimizar procesos y elevar la experiencia del cliente.</td>
+            <td>Software peruano orientado a la administración de hoteles que centraliza funciones como reservas, manejo de huéspedes, caja y almacén. Incorpora facturación electrónica y automatización de tareas con reportes interactivos mediante dashboards.</td>
+            </tr>
+            <tr>
+            <td>¿Qué valor ofrece a los clientes?</td>
+            <td>SweetManager integra tecnología IoT en un sistema hotelero fácil de usar, permitiendo gestionar trámites administrativos en tiempo real con una configuración adaptable y orientada al cliente.</td>
+            <td>Xafiro digitaliza la operación hotelera desde la planificación hasta la facturación, ofreciendo acceso multiplataforma y una interfaz intuitiva para reservas. Se comercializa bajo un modelo de suscripción mensual.</td>
+            <td>Samin PMS proporciona un sistema completo que abarca todo el ciclo operativo del hotel, incluyendo facturación, reservas, recepción, limpieza, caja y almacén, complementado con dashboards que permiten analizar el rendimiento.</td>
+            <td>Binz360 propone una herramienta automatizada que reemplaza procesos manuales con un sistema integral para la gestión de áreas clave del hotel como caja, facturación y almacén, evitando el uso de Excel u otros métodos tradicionales.</td>
+            </tr>
+            <tr>
+            <td rowspan="2" style="writing-mode: vertical-lr; text-align: center;">Perfil de Marketing</td>
+            <td>Mercado objetivo</td>
+            <td><strong>Demográfico</strong><br>Dirigido a hoteles medianos y grandes con más de 20 habitaciones, con personal administrativo de entre 30 y 55 años interesado en transformación digital.<br><strong>Geográfico</strong><br>Enfocado en Perú con miras a expandirse por Latinoamérica, comenzando en ciudades turísticas como Lima, Cusco, Arequipa y Trujillo.<br><strong>Psicológico</strong><br>Profesionales enfocados en eficiencia energética y sostenibilidad que buscan automatizar procesos con IoT.<br><strong>Comportamiento</strong><br>Empresas que utilizan soluciones básicas pero desean evolucionar a sistemas más avanzados e innovadores.</td>
+            <td><strong>Demográfico</strong><br>Hoteles pequeños y medianos con hasta 50 habitaciones, dirigidos por empresarios jóvenes (25-45 años) en emprendimientos familiares.<br><strong>Geográfico</strong><br>Opera principalmente en Perú, especialmente en ciudades turísticas y rurales emergentes como Cusco, Iquitos y Trujillo.<br><strong>Psicológico</strong><br>Usuarios con mentalidad de expansión que aún dependen de métodos manuales.<br><strong>Comportamiento</strong><br>Propietarios que prefieren pagar mensualmente en lugar de realizar una inversión inicial alta.</td>
+            <td><strong>Demográfico</strong><br>Diseñado para hoteles de cualquier tamaño, incluyendo cadenas hoteleras. Enfocado en gerentes y administradores con experiencia y equipos de más de 10 personas.<br><strong>Geográfico</strong><br>Presencia en todo Perú, con foco en zonas urbanas y turísticas. Planes de expansión hacia otros países de Latinoamérica.<br><strong>Psicológico</strong><br>Negocios con mentalidad analítica que buscan reportes para optimizar decisiones.<br><strong>Comportamiento</strong><br>Empresas que requieren herramientas robustas como facturación electrónica y automatización total.</td>
+            <td><strong>Demográfico</strong><br>Dirigido a hoteles medianos con necesidad de modernización gradual. Gerentes entre 28 y 50 años interesados en digitalización.<br><strong>Geográfico</strong><br>Enfocado en regiones de Perú con menor adopción tecnológica y alto potencial turístico.<br><strong>Psicológico</strong><br>Dueños que buscan avanzar tecnológicamente sin modificar drásticamente sus métodos tradicionales.<br><strong>Comportamiento</strong><br>Usuarios que buscan soluciones simples para automatizar tareas sin cambiar todo su sistema operativo.</td>
+            </tr>
+            <tr>
+            <td>Estrategias de marketing</td>
+            <td>SweetManager presenta una propuesta diferenciada con IoT, permitiendo a los huéspedes personalizar su entorno desde una app. Se combina con funciones tradicionales como facturación, automatización y monitoreo, además de marketing digital en redes sociales. Incluye una página de preguntas frecuentes para atención personalizada y claridad informativa.</td>
+            <td>Su estrategia se basa en un motor de reservas directo para aumentar ingresos sin comisiones. Destacan la integración con SUNAT y el ahorro significativo de tiempo en operaciones, beneficiando al equipo del hotel.</td>
+            <td>Samin PMS agrega valor con herramientas como Housekeeping Smart y Restaurante Smart. Ofrece apoyo en marketing digital, publicidad y demostraciones gratuitas como medio para atraer y convencer a potenciales clientes.</td>
+            <td>Binz360 ofrece una prueba gratuita de 14 días y planes desde S/7.50 por habitación. Su estrategia se centra en la automatización, reemplazando tareas manuales para optimizar la operación hotelera.</td>
+            </tr>
+        <tr>
+            <td rowspan="3" style="writing-mode: vertical-lr; text-align: center;">Perfil de Producto</td>
+            <td>Productos & Servicios</td>
+            <td>
+            SweetManager ofrece una plataforma integral de gestión hotelera que incorpora tecnología IoT para permitir a los huéspedes controlar su entorno y acceder a opciones de entretenimiento. Además, optimiza el consumo energético con sensores inteligentes y facilita la administración del hotel con herramientas como reservas, check-in/check-out, facturación electrónica y reportes en tiempo real.
+            </td>
+            <td>
+            Xafiro es un software orientado a la digitalización completa de la gestión hotelera, con integración de facturación electrónica y un motor de reservas directo para mejorar los ingresos del hotel. Ofrece informes detallados sobre la ocupación y el rendimiento, permitiendo una visión en tiempo real de la operación del hotel.
+            </td>
+            <td>
+            Samin PMS proporciona una solución de gestión hotelera integral que cubre reservas, check-in/check-out, tarifas y facturación electrónica. Incorpora módulos avanzados como Restaurante Smart y Housekeeping Smart, además de ofrecer reportes detallados para mejorar la toma de decisiones estratégicas.
+            </td>
+            <td>
+            Binz360 es una plataforma centrada en la automatización de procesos operativos y administrativos de los hoteles. Incluye un panel de control centralizado, gestión de habitaciones, reportes financieros, administración de tarifas y facturación electrónica, con el objetivo de reducir la carga de trabajo manual y mejorar la eficiencia operativa.
+            </td>
+            </tr>
+            <tr>
+            <td>Precios & Costos</td>
+            <td>
+            SweetManager ofrece planes de suscripción mensual ajustados a las necesidades del hotel, con costos adicionales si se integran dispositivos IoT como termostatos y sistemas de entretenimiento. Su modelo flexible permite adaptar los servicios a medida que el hotel crece.
+            </td>
+            <td>
+            Xafiro tiene planes mensuales en función del número de habitaciones y las funcionalidades seleccionadas. Ofrece paquetes básicos y avanzados, con un costo adicional si se requiere la integración de la facturación electrónica.
+            </td>
+            <td>
+            Samin PMS ofrece planes modulares que permiten elegir los servicios y funciones que mejor se adapten al hotel. El costo de la facturación electrónica y otros módulos adicionales varía según las necesidades específicas de cada cliente.
+            </td>
+            <td>
+            Binz360 tiene una suscripción mensual basada en el número de habitaciones y los servicios contratados. Sus precios varían según el tamaño del hotel y las opciones de personalización requeridas, con soporte técnico adicional para personalizaciones.
+            </td>
+            </tr>
+            <tr>
+            <td>Canales de distribución (Web y/o Móvil)</td>
+            <td>
+            SweetManager está disponible tanto en versión web como móvil, permitiendo la gestión del hotel desde cualquier dispositivo conectado. Su integración con IoT permite controlar diversas funciones en tiempo real desde teléfonos inteligentes y tabletas.
+            </td>
+            <td>
+            Xafiro es una plataforma accesible desde cualquier navegador web, con una versión responsiva que se adapta a dispositivos móviles, aunque no cuenta con una aplicación móvil dedicada para la gestión.
+            </td>
+            <td>
+            Samin PMS ofrece una plataforma web que también tiene versiones adaptadas a dispositivos móviles. Algunos módulos específicos están disponibles como aplicaciones móviles para una gestión más especializada del hotel.
+            </td>
+            <td>
+            Binz360 ofrece una plataforma web optimizada para diferentes dispositivos, con una versión móvil que permite gestionar algunas funciones básicas. Sin embargo, la experiencia completa está diseñada para el uso en escritorio.
+            </td>
+            </tr>
+            <tr>
+            <td rowspan="4" style="writing-mode: vertical-lr; text-align: center;">Análisis SWOT</td>
+            <td>Fortalezas</td>
+            <td>
+            Integración de tecnología IoT para control en tiempo real de la temperatura, entretenimiento y automatización de procesos.<br>
+            Aplicación móvil intuitiva que permite gestionar el hotel desde cualquier lugar.<br>
+            Facturación electrónica completamente integrada con SUNAT.<br>
+            Enfoque sostenible y eficiente en el consumo energético.
+            </td>
+            <td>
+            Plataforma estable con vasta experiencia en el mercado.<br>
+            Compatibilidad con diversos dispositivos.<br>
+            Integración fluida con sistemas contables y de reservas.
+            </td>
+            <td>
+            Sistema de gestión hotelera completo con aplicaciones móviles para tareas específicas.<br>
+            Automatización de procesos administrativos que facilita la operación del hotel.
+            </td>
+            <td>
+            Enfoque en la digitalización de hoteles medianos y grandes.<br>
+            Plataforma intuitiva con opciones de personalización.<br>
+            Adaptabilidad a diferentes tipos de establecimientos hoteleros.
+            </td>
+            </tr>
+            <tr>
+            <td>Debilidades</td>
+            <td>
+            Ser una opción nueva en el mercado, con menor reconocimiento frente a competidores establecidos.<br>
+            Costo inicial elevado debido a la integración de IoT.<br>
+            Dependencia de infraestructura tecnológica avanzada para su funcionamiento.
+            </td>
+            <td>
+            Falta de una aplicación móvil robusta.<br>
+            El sistema es menos flexible para empresas de menor tamaño.<br>
+            Dependencia de integraciones externas para funciones avanzadas.
+            </td>
+            <td>
+            Curva de aprendizaje moderada para nuevos usuarios.<br>
+            Algunas funcionalidades requieren pagos adicionales.<br>
+            No posee una estrategia de expansión clara fuera de Perú.
+            </td>
+            <td>
+            Dependencia de la automatización sin una fuerte diferenciación tecnológica.<br>
+            Poca personalización disponible para los usuarios.<br>
+            Menor enfoque en IoT en comparación con competidores.
+            </td>
+            </tr>
+            <tr>
+            <td>Oportunidades</td>
+            <td>
+            Expansión en mercados latinoamericanos con una creciente demanda turística.<br>
+            Incremento en el uso de IoT para una mayor automatización.<br>
+            Alianzas estratégicas con cadenas hoteleras para implementaciones exclusivas.
+            </td>
+            <td>
+            Mejorar la plataforma móvil para atraer a más usuarios.<br>
+            Desarrollo de nuevos módulos para segmentos de hotelería de lujo.<br>
+            Expansión a mercados con menos competencia digital.
+            </td>
+            <td>
+            Desarrollo de nuevas integraciones con plataformas de pago y reservas online.<br>
+            Crecimiento del turismo y de la digitalización en el sector hotelero.<br>
+            Fortalecer la automatización para diferenciarse en el mercado.
+            </td>
+            <td>
+            Fortalecer la experiencia móvil y en la nube.<br>
+            Adopción de nuevas tecnologías que optimicen los procesos operativos.<br>
+            Expansión en mercados de hoteles boutique y pequeñas cadenas.
+            </td>
+            </tr>
+            <tr>
+            <td>Amenazas</td>
+            <td>
+            Competencia con marcas consolidadas que ya dominan el mercado.<br>
+            Posibles dificultades para la adopción de nuevas tecnologías por parte de hoteles tradicionales.<br>
+            Dependencia de la estabilidad de las redes IoT para la operatividad.
+            </td>
+            <td>
+            Avance de competidores con mejor integración móvil.<br>
+            Posibles cambios regulatorios en la facturación electrónica que afecten la operación.<br>
+            Aparición de soluciones más económicas y accesibles.
+            </td>
+            <td>
+            Aparición de nuevas startups con tecnología más avanzada.<br>
+            Resistencia de algunos hoteles a adaptarse a nuevas tendencias tecnológicas.<br>
+            Posible saturación del mercado con soluciones similares.
+            </td>
+            <td>
+            La llegada de nuevas soluciones con mayor escalabilidad.<br>
+            Cambios en las preferencias de los hoteles por sistemas más flexibles.<br>
+            Reducción de inversión tecnológica en hoteles más pequeños.
+            </td>
+            </tr>
+
+</table>
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 **Estrategias para afrontar las fortalezas de la competencia**
 
