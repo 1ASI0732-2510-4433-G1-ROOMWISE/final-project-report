@@ -168,7 +168,7 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <td><strong>Sistema hotelero Xafiro</strong><div style="text-align: center;">
             <img src="https://i.imgur.com/4g6o3D5.jpeg"  width="70%" />
             </div>
-            <td><strong>Samin PMS</strong><br>strong><div style="text-align: center;">
+            <td><strong>Samin PMS</strong><br><div style="text-align: center;">
             <img src="https://i.imgur.com/Sbq8QNG.png"  width="70%" />
             <td><strong>Binz360</strong><br><div style="text-align: center;">
             <img src="https://i.imgur.com/kis4Kz4.jpeg["  width="70%" />
