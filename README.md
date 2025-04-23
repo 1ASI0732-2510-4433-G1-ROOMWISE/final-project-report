@@ -426,7 +426,22 @@ El análisis obtenido facilita una comprensión más profunda de las necesidades
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
+Esta sección expone los mapeos de escenarios para los segmentos objetivo: Huésped, Administrador y Dueño, los cuales ilustran cómo son actualmente sus experiencias y rutinas diarias como usuarios potenciales.
 
+**As-is Scenario Mapping Huésped:**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Pu1CCf7.png" width="100%" />
+</div>
+
+**As-is Scenario Mapping Administrador:**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/dmDgckf.png" width="100%" />
+</div>
+
+**As-is Scenario Mapping Dueño:**
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PQLe7XV.png" width="100%" />
+</div>
 ## 2.4. Ubiquitous Language
 Esta sección presenta un glosario de términos y conceptos clave, con el fin de mantener una comunicación clara y uniforme entre el equipo de trabajo y los stakeholders. Esta práctica sigue el enfoque propuesto por Eric Evans en su libro Domain-Driven Design: Tackling Complexity in the Heart of Software.
 
