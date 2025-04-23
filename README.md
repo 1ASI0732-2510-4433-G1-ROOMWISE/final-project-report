@@ -126,6 +126,26 @@
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+Una administración eficaz de un hotel es clave para asegurar que los huéspedes disfruten de una experiencia única y, al mismo tiempo, maximizar las ganancias. Con ese objetivo, presentamos “RoomWise”, una aplicación diseñada para optimizar todos los procesos operativos de la gestión hotelera, garantizando estancias cómodas y de calidad para los visitantes.
+
+RoomWise es una herramienta completa que cubre desde el monitoreo de ingresos y gastos hasta la supervisión de proveedores, inventarios y recursos humanos. Con su interfaz amigable y sencilla de usar, permite a los gerentes y propietarios de hoteles controlar todos los aspectos de su negocio de manera remota y en cualquier momento.
+
+Entre sus principales características se incluyen:
+
+- Seguimiento de Ingresos y Egresos: RoomWise proporciona un monitoreo detallado de los ingresos y egresos del hotel, ofreciendo informes actualizados para tomar decisiones más acertadas.
+
+- Gestión de Inventarios: Nuestra aplicación facilita la administración de inventarios de alimentos, bebidas, productos de tocador y otros, evitando tanto escasez como desperdicios.
+
+- Gestión de Proveedores: Simplificamos la interacción con proveedores, permitiendo realizar pedidos de forma ágil y eficiente.
+
+- Gestión de Clientes: Optimiza la organización y control de los huéspedes mediante el uso de calendarios y agendas para una gestión más eficiente de las reservas.
+
+
+### Misión:
+ Nuestro objetivo es ser la principal opción en gestión hotelera a nivel global, proporcionando a hoteles de cualquier tamaño soluciones tecnológicas avanzadas que facilitan y mejoran cada aspecto de su operación, lo que les permite a nuestros clientes concentrarse en brindar experiencias excepcionales a sus visitantes.
+### Visión:
+Ofrecer a los responsables de la administración hotelera una solución completa y accesible que cubra aspectos clave como la administración de ingresos y egresos, la supervisión de inventarios, y la gestión de relaciones con proveedores y clientes. Buscamos simplificar el manejo del negocio, permitiendo su monitoreo remoto y en tiempo real, apoyando a nuestros usuarios en la toma de decisiones acertadas, optimizando los procesos operativos y maximizando la rentabilidad de sus negocios.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 | Miembros del equipo                             | Codigo Estudiante | Carrera                | Conocimientos / Habilidades |
 | ----------------------------------------------- | ----------------- | ---------------------- | --------------------------- |
@@ -137,13 +157,219 @@
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
+#### Uso de la técnica The 5'W's w Y 2'H's
+
+| LAS 5W y 2H | Pregunta                                                | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ----------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| What?        | ¿Cuál es el problema?                                     | Nos enfocamos en los retos asociados con la administración de hoteles, tales como dificultades en el control de ingresos, manejo de inventarios, organización del personal, gestión de habitaciones, elaboración de informes, distribución de tareas al equipo, entre otros. Estos problemas afectan las operaciones, la eficacia del hotel, la obtención de ingresos y la experiencia del cliente.                                                                                                          |
+| When?       | ¿Cuándo sucede el problema?                                   |  El problema puede presentarse en cualquier instante, ya sea de forma cotidiana en la supervisión del equipo o el manejo de existencias, o de manera inesperada con carencias de recursos fundamentales como alimentos, agua o electricidad. |
+| Where?       | ¿Dónde sucede el problema?                             | Las dificultades surgen en la administración de las actividades cotidianas, como el control de los ingresos, la gestión del inventario y la organización del equipo de trabajo.                                                                                                                                           |
+| Why?      | ¿Por qué sucede el problema?                               | El problema se origina por una administración deficiente, lo que puede acarrear pérdidas económicas, falta de stock, desorganización en el trabajo del personal y, en consecuencia, una experiencia negativa para los clientes. Esto tiene un impacto directo en la imagen y los ingresos del establecimiento hotelero.                                                                                                                                                                                        |
+| Who?        | ¿Quiénes son los afectados?                    |Los inconvenientes impactan a dueños, administradores de hoteles y al personal laboral en los centros de hospedaje.       |
+| How?        | ¿Como se distingue el problema del estado ideal?            |   El estado ideal se define por una gestión hotelera eficiente, sin contratiempos y con una buena coordinación entre áreas. En cambio, el problema rompe con esa fluidez, generando interrupciones que afectan negativamente tanto la eficiencia operativa como la experiencia del cliente. La aparición de este problema puede deberse a patrones predecibles, como la ausencia de automatización, o presentarse de forma aleatoria por falta de planificación.                                                                                                                                                                   |
+| How Much?   | ¿Con qué frecuencia o en qué cantidad se utilizará nuestro producto? | RoomWise será utilizado diariamente por el personal administrativo del hotel, especialmente por gerentes, supervisores y encargados de áreas como contabilidad, recepción y almacén. Su uso será constante, ya que centraliza funciones esenciales como el control de ingresos y egresos, la gestión de inventarios y proveedores, y la administración de reservas. Dado que las operaciones hoteleras son continuas, la aplicación será una herramienta de uso frecuente y sostenido durante toda la jornada laboral.                                                                                         |
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+La administración hotelera enfrenta retos operativos que impactan la rentabilidad y la calidad del servicio. Entre ellos destacan la gestión ineficiente de ingresos, inventarios, proveedores y personal, agravada por la falta de herramientas integradas. Esto genera pérdidas económicas, sobrecarga de trabajo y una experiencia deficiente para los huéspedes.
+
+Gerentes y propietarios tienen dificultades para alcanzar sus metas debido al escaso control financiero, la mala administración de insumos y la complejidad de gestionar al personal. Estas fallas reducen la competitividad y eficiencia del hotel.
+
+Por ello, se requiere una solución integral que centralice y simplifique la gestión financiera, operativa y de recursos humanos, mejorando la productividad y la experiencia tanto del equipo como de los huéspedes.
+
+
+
 #### 1.2.2.2. Lean UX Assumptions
+
+
+---
+
+**Features**
+
+Estas son las herramientas clave que integrará nuestra solución:
+
+- **Seguimiento Financiero en Tiempo Real:** Permite registrar y analizar ingresos y gastos al instante para tener una visión clara de la situación económica del hotel.  
+- **Gestión de Inventario y Proveedores:** Control preciso de suministros y pedidos, con comunicación eficiente con proveedores.  
+- **Módulos de Recursos Humanos:** Gestión de horarios, nóminas y evaluaciones del personal para optimizar el área de RRHH.  
+- **Interfaz Intuitiva y Personalizable:** Fácil de usar y adaptable a cada hotel para una experiencia personalizada.  
+- **Integración con Sistemas Existentes:** Compatible con plataformas hoteleras actuales para una transición fluida y una gestión completa.
+
+---
+
+**Assumptions Worksheets**
+
+1. **Necesidad del Cliente:** Soluciones tecnológicas que aumenten la eficiencia y rentabilidad.  
+2. **Cómo lo resolvemos:** Con Sweet Manager, una plataforma integral y fácil de usar.  
+3. **Clientes iniciales:** Propietarios y gerentes que buscan simplificar la gestión diaria.  
+4. **Valor principal:** Simplificar la gestión y mejorar la experiencia del cliente.  
+5. **Beneficios adicionales:**
+   - Mejora operativa
+   - Decisiones basadas en datos
+   - Menor carga laboral
+   - Mejor comunicación interna
+   - Mayor transparencia
+6. **Adquisición de clientes:** Marketing dirigido y alianzas con la industria hotelera.  
+7. **Modelo de ingresos:** Suscripción, servicios premium e integraciones.  
+8. **Competencia:** Otras soluciones de gestión hotelera.  
+9. **Ventaja competitiva:** Facilidad de uso, servicio de calidad y personalización.  
+10. **Mayor riesgo:** No cumplir expectativas en funcionalidad, rendimiento o soporte.  
+11. **Mitigación del riesgo:** Enfoque centrado en el cliente, soporte constante y actualizaciones.  
+12. **Otras suposiciones críticas:**
+    - **Adopción tecnológica:** Si los usuarios se resisten, puede afectar el crecimiento.  
+    - **Demanda del mercado:** Si disminuye, compromete la viabilidad.  
+    - **Escalabilidad:** Si no escala bien, limita el mercado y requiere cambios técnicos o estratégicos.
+
+---
+
+**¿Quién es el usuario?**
+
+- **Propietarios y Gerentes:** Responsables de decisiones estratégicas, buscan eficiencia y rentabilidad.  
+- **Personal de Trabajo:** Contabilidad, compras y RRHH. Buscan herramientas que faciliten sus tareas diarias.
+
+---
+
+**¿Dónde encaja el producto?**
+
+- **Gerentes/Propietarios:** Plataforma centralizada para gestionar todo el hotel y tomar decisiones informadas.  
+- **Personal:** Herramientas especializadas para automatizar tareas y mejorar la productividad.
+
+---
+
+**¿Qué problema resuelve?**
+
+- **Gerentes/Propietarios:** Dispersión de datos y herramientas. Centraliza la gestión en un solo lugar con datos en tiempo real.  
+- **Personal:** Tareas manuales y complejas. Automatiza procesos para reducir carga laboral y estrés.
+
+---
+
+**¿Cómo y cuándo se usa?**
+
+- **Gerentes/Propietarios:** A diario para tomar decisiones y supervisar la operación del hotel.  
+- **Personal:** Durante la jornada laboral para gestionar tareas específicas de su área.
+
+---
+
+**Características clave**
+
+**Gerentes/Propietarios:**  
+- Datos en tiempo real  
+- Interfaz personalizable  
+- Gestión centralizada  
+- Análisis y reportes
+
+**Personal:**  
+- Automatización de tareas  
+- Integración con otros sistemas  
+- Herramientas específicas  
+- Comunicación eficiente
+
+---
+
+**¿Cómo debe verse y funcionar?**
+
+**Gerentes/Propietarios:**  
+- Interfaz limpia, personalizable y funcional. Acceso rápido a datos.
+
+**Personal:**  
+- Navegación sencilla, funcionamiento estable, procesos automatizados.
+
+---
+
+**Business Outcomes**
+
+- **Referente del mercado:** Ser reconocidos como solución líder en gestión hotelera.  
+- **Eficiencia operativa:** Reducir en un 30% el tiempo en tareas administrativas.  
+- **Mejor rentabilidad:** Aumentar en 15% el margen neto en seis meses.  
+- **Satisfacción del cliente:** Incremento de 0.5 puntos en reseñas.  
+- **Fidelización:** Aumentar 20% las reservas repetidas en un año.  
+- **Reducción de costos:** Disminución del 25% en gastos operativos.
+
+---
+
+**User Outcomes**
+
+**¿Qué buscan los usuarios?**  
+- **Gerentes/Propietarios:** Mejorar rentabilidad y eficiencia.  
+- **Personal:** Simplificar sus responsabilidades con herramientas efectivas.
+
+**¿Cómo se quieren sentir?**  
+- **Gerentes/Propietarios:** En control y seguros con datos confiables.  
+- **Personal:** Menos estresados, más eficientes.
+
+**¿Cómo ayuda el producto?**  
+- **Gerentes/Propietarios:** Plataforma integral con información en tiempo real.  
+- **Personal:** Automatización de tareas que reduce la carga diaria.
+
+**¿Qué beneficios obtienen?**  
+- **Gerentes/Propietarios:** Gestión eficiente, operaciones fluidas.  
+- **Personal:** Procesos simplificados, mejor comunicación y productividad.
+
+**¿Qué cambios veremos si logramos el objetivo?**  
+- **Gerentes/Propietarios:** Mayor uso de datos en decisiones y aumento de rentabilidad.  
+- **Personal:** Tiempos más cortos de ejecución, menos estrés y mayor satisfacción.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+ **Hipótesis**
+
+- **Hipótesis 1:**  
+  Creemos que una interfaz intuitiva y adaptable para gerentes y propietarios mejorará la eficiencia operativa.  
+  Sabremos que esto es cierto si al menos el 80% de los usuarios reportan una experiencia positiva.
+
+- **Hipótesis 2:**  
+  Creemos que mostrar datos financieros en tiempo real ayudará a tomar decisiones más rápidas e informadas.  
+  Sabremos que esto es cierto si el tiempo de decisión se reduce en un 30% y la precisión de los reportes mejora en un 15%.
+
+- **Hipótesis 3:**  
+  Creemos que mejorar la gestión de inventario disminuirá los costos operativos.  
+  Sabremos que estamos bien si los costos bajan un 20% y el exceso de stock cae un 15% en seis meses.
+
+- **Hipótesis 4:**  
+  Creemos que un módulo eficiente de gestión de personal aumentará la productividad.  
+  Sabremos que esto es cierto si la satisfacción del equipo sube un 25% y las evaluaciones mejoran en un 10%.
+
+- **Hipótesis 5:**  
+  Creemos que centralizar la plataforma reducirá cancelaciones.  
+  Sabremos que esto es cierto si la retención de usuarios crece un 15% y las cancelaciones bajan un 10% en el primer año.
+
 #### 1.2.2.4. Lean UX Canvas
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LiHSxX2.png" alt="Lean Ux Canva" width="100%" />
+</div>
 
 ## 1.3. Segmentos objetivo
+
+**Usuarios:**  
+**Propietarios y Gerentes de Hoteles:**
+
+- **Ubicación:** Principalmente en ciudades y destinos turísticos a nivel global.
+
+- **Perfil:** Enfocados en la eficiencia, rentabilidad y control total de su negocio. Buscan herramientas para mejorar continuamente la experiencia del cliente y el éxito del hotel.
+
+- **Demografía:** Adultos de 30 a 60 años, con formación empresarial o experiencia directa en hotelería. Pueden ser expertos en gestión o nuevos propietarios optimizando su operación.
+
+**Personal de Trabajo**
+
+- **Ubicación:** También en zonas urbanas y turísticas alrededor del mundo.
+
+- **Perfil:** Comprometidos con la atención al cliente y adaptables a entornos dinámicos. Valoran la colaboración y comunicación efectiva dentro del equipo.
+
+- **Demografía:** Adultos jóvenes a de mediana edad, con experiencia laboral diversa y educación desde nivel secundario hasta formación técnica en hospitalidad.
+
+
+**Stakeholders (Externos e Internos )**
+
+- **Equipo de Desarrollo de Producto:** Diseña y mejora la plataforma Sweet Manager, adaptándola a las necesidades de los usuarios.
+
+- **Equipo de Marketing:** Desarrolla estrategias para captar a propietarios y gerentes de hoteles.
+
+- **Soporte Técnico:** Ofrece asistencia constante para resolver problemas técnicos y asegurar la satisfacción del cliente.
+
+- **Clientes Finales:** Propietarios, gerentes y personal de hoteles que utilizan directamente la plataforma.
+
+- **Asociaciones de la Industria Hotelera:** Potenciales aliados estratégicos que pueden impulsar la visibilidad y adopción de Sweet Manager.
+
+- **Proveedores de Sistemas Integrados:** Empresas con soluciones complementarias que se integran con la plataforma para ofrecer un sistema más completo.
+
+
 
 # Capítulo II: Requirements Elicitation & Analysis
 
