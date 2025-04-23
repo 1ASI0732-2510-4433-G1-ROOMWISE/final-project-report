@@ -331,6 +331,9 @@ Estas son las herramientas clave que integrará nuestra solución:
   Sabremos que esto es cierto si la retención de usuarios crece un 15% y las cancelaciones bajan un 10% en el primer año.
 
 #### 1.2.2.4. Lean UX Canvas
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LiHSxX2.png" alt="Lean Ux Canva" width="70%" />
+</div>
 
 ## 1.3. Segmentos objetivo
 
