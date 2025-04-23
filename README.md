@@ -332,7 +332,7 @@ Estas son las herramientas clave que integrará nuestra solución:
 
 #### 1.2.2.4. Lean UX Canvas
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/LiHSxX2.png" alt="Lean Ux Canva" width="70%" />
+  <img src="https://i.imgur.com/LiHSxX2.png" alt="Lean Ux Canva" width="100%" />
 </div>
 
 ## 1.3. Segmentos objetivo
