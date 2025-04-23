@@ -442,6 +442,7 @@ Esta sección expone los mapeos de escenarios para los segmentos objetivo: Hués
 <div style="text-align: center;">
   <img src="https://i.imgur.com/PQLe7XV.png" width="100%" />
 </div>
+
 ## 2.4. Ubiquitous Language
 Esta sección presenta un glosario de términos y conceptos clave, con el fin de mantener una comunicación clara y uniforme entre el equipo de trabajo y los stakeholders. Esta práctica sigue el enfoque propuesto por Eric Evans en su libro Domain-Driven Design: Tackling Complexity in the Heart of Software.
 
