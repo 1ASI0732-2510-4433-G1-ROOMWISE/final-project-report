@@ -270,12 +270,12 @@ SEGMENTO GERENTE:
 En esta sección se describen y muestran los Impact Mappings, los cuales fueron desarrollados a partir de los User Personas. Estos mapas incluyen los objetivos de negocio de cada uno y permiten identificar las funcionalidades necesarias para generar los entregables definidos.
 
 <div style="text-align: center;">
-  <img src="https://imgur.com/Cty3B7u.png" alt="Descripción de la imagen" width="70%" />
+  <img src="https://imgur.com/2lY2qvQ.png" alt="impact map gerente" width="70%" />
 </div>
 
 
 <div style="text-align: center;">
-  <img src="https://imgur.com/ID9J1Vg.png" alt="Descripción de la imagen" width="70%" />
+  <img src="https://imgur.com/uHk2kQo.png" alt="impact map empleado" width="70%" />
 </div>
 
 
