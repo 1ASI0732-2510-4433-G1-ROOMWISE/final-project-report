@@ -218,6 +218,36 @@
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
 
+## Communication 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/657Jcan.jpeg" alt="Imagen del db diagram" width="90%" />
+</div>
+
+## Commerce 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Hjbopta.png" alt="Imagen del db diagram" width="90%" />
+</div>
+
+## Organizational Management
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/mTtALSQ.png" alt="Imagen del db diagram" width="90%" />
+</div>
+
+## Reservation
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/XDh2sCt.png" alt="Imagen del db diagram" width="90%" />
+</div>
+
+## IAM
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/6OAktK0.png" alt="Imagen del db diagram" width="90%" />
+</div>
+
+## Supply
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/qFkckna.png" alt="Imagen del db diagram" width="90%" />
+</div>
+
 ### 4.9.2. Class Dictionary
 | Clase                   | Descripción                                                                 |
 |-------------------------|----------------------------------------------------------------------------|
