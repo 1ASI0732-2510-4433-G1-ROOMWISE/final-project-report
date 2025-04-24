@@ -710,6 +710,25 @@ Además, considera esencial que esta herramienta no solo optimice el proceso de 
 
 
 **Entrevista 02 (Administradores)**
+<br>
+Nombre: Manuel Chávez <br>
+Edad: 23 <br>
+Sexo: Masculino <br>
+Lugar donde vive: San Borja - Lima, Perú <br>
+Ocupación: Administrador de hotel <br>
+Personalidad: Práctico, organizado y resolutivo <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/L3xAeOf.png" alt="Manuel Chávez Interview"/>
+</div><br>
+
+Manuel Chávez es un administrador hotelero con base en San Borja, Lima, que gestiona un hotel urbano de nivel medio. Actualmente, su trabajo se ve afectado por la falta de integración entre herramientas como hojas de cálculo, software contable básico y un sistema de reservas obsoleto. Esto provoca duplicación de tareas, pérdida de tiempo y problemas de coordinación interna.
+
+Se describe como una persona práctica, organizada y enfocada en la resolución de problemas. Aunque enfrenta frustraciones relacionadas con la falta de alineación entre herramientas y fallos de comunicación interna, mantiene una actitud proactiva hacia la adopción tecnológica, siempre que esta venga acompañada de capacitación adecuada.
+
+Manuel busca una plataforma de gestión hotelera "todo en uno" que incluya una interfaz moderna, automatización de reportes, coordinación de tareas, y acceso móvil para facilitar su trabajo en diferentes áreas del hotel. También considera vital la existencia de una app interna que notifique en tiempo real sobre solicitudes, cambios y llegadas, así como herramientas para evaluar el rendimiento del personal y recopilar opiniones de los huéspedes a través de encuestas rápidas.
+
+Está convencido de que una transformación digital efectiva puede mejorar significativamente la experiencia del cliente y hacer que la gestión hotelera sea más eficiente, profesional y competitiva.
 
 <br>
 URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118152_upc_edu_pe/EU9hK-g_KtZHuGYYffuD9goB9SYCjwzsUjK57LATJ7Z8Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZiYFod <br>
@@ -732,7 +751,27 @@ El principal reto es la coordinación rápida entre el hotel y los huéspedes. I
 
 **Entrevista 03 (Administradores)**
 
+
 **Entrevista 01 (Trabajadores)**
+<br>
+Nombre: Joseph Cubas <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive: Pueblo Libre, Lima, Perú <br>
+Ocupación: Trabajador del sector hotelero <br>
+Personalidad: Comprometido y receptivo al cambio <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/Km9qFjd.png" alt="Joseph Cubas Interview"/>
+</div><br>
+
+Joseph Cubas forma parte del personal operativo de un hotel, desempeñando un rol clave en la atención diaria de las necesidades tanto del establecimiento como de los huéspedes. Durante la entrevista, compartió con franqueza los principales desafíos que enfrenta en su trabajo, entre ellos la falta de coordinación entre áreas, la dependencia de herramientas informales como radios y WhatsApp, y el uso persistente del papel para registrar tareas y reportes.
+
+Para Joseph, estos métodos generan demoras, confusiones y duplicación de esfuerzos. Destaca que una de sus mayores frustraciones es enterarse tarde de las solicitudes de los huéspedes o no saber si una tarea ya fue realizada por otro compañero. A pesar de las limitaciones actuales, valora la buena disposición del equipo, aunque reconoce que la ausencia de un sistema centralizado de información afecta negativamente la eficiencia.
+
+Joseph imagina un sistema ideal donde las tareas se asignen en tiempo real, puedan actualizarse fácilmente, incluyan evidencia fotográfica y estén visibles para todo el personal. A su juicio, esto permitiría mayor control, mejor comunicación interdepartamental y una experiencia más satisfactoria tanto para el huésped como para el trabajador.
+
+Finalmente, se muestra abierto al uso de nuevas tecnologías, siempre que vengan acompañadas de una adecuada capacitación. Considera que la digitalización no solo mejoraría el flujo de trabajo, sino que también elevaría la calidad del servicio ofrecido, beneficiando a todos los actores del entorno hotelero.
 
 **Entrevista 02 (Trabajadores)**
 
@@ -927,19 +966,142 @@ En esta sección se describen y muestran los Impact Mappings, los cuales fueron 
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+| Aspecto             | Directrices                                                                                                                                                                                                 |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre de la aplicación | Sweet Manager                                                                                                                                                                                              |
+| Identidad Visual    | Se utilizarán colores tenues que inspiran seguridad y profesionalismo en la herramienta.                                                                                                                   |
+| Diseño de la Interfaz | El diseño estará enfocado en facilitar la navegación a todo tipo de usuarios, independientemente de su edad o experiencia con la tecnología. Se empleará una disposición lógica en los menús, agrupando funciones similares para optimizar la experiencia del usuario. |
+| Diseño de Usuario   | - Se da prioridad a una navegación intuitiva.<br>- La estructura del menú será ordenada y directa.                                                                                                         |
+| Contenido           | - Se mostrará información verificada y actualizada.<br>- Control detallado de los recursos e insumos empleados en el establecimiento hotelero.                                                             |
+| Funcionalidad       | - Registro de ingresos.<br>- Gestión precisa y actualizada de materiales y recursos, con el fin de minimizar errores y reducir pérdidas.                                                                   |
+| Comunicación        | - Funciones de chat y correo electrónico.<br>- Formulario de contacto para comentarios.                                                                                                                    |
+| Diseño Responsivo   | - Compatibilidad con dispositivos móviles.                                                                                                                                                                 |
+| Seguridad y Privacidad | - Protección de datos sensibles.<br>- Cumplimiento de regulaciones de privacidad.                                                                                                                          |
+| Actualizaciones y Mantenimiento | - Actualizaciones regulares de las bases de datos principales.<br>- Respuestas oportunas a problemas informados.                                                                                           |
+| Promoción           | - Estrategias de marketing digital (publicidades en redes sociales).<br>- Colaboraciones con organizaciones hoteleras.                                                                                     |
 ### 4.1.1. General Style Guidelines
+| **Aspecto**         | **Directrices** |
+|----------------------|----------------|
+| **Tipografía**       | Se optará por fuentes profesionales y de fácil lectura, priorizando la claridad del texto sobre su aspecto visual. Se recomienda el uso de tipografías Sans Serif. |
+| **Colores**          | Se preferirán tonalidades suaves y tranquilas. |
+| **Espaciado y diseño** | Se mantendrá un diseño despejado y estéticamente equilibrado. Se usarán márgenes amplios para evitar que el contenido luzca saturado. El espaciado ideal será entre 1.5 a 2 veces el tamaño de fuente utilizado. |
 ### 4.1.2. Web Style Guidelines
+| **Aspecto**          | **Directrices** |
+|----------------------|----------------|
+| **Paleta de colores** | <div style="text-align: center;"><img src="https://i.imgur.com/T7mEAgd.png" alt="Paleta de colores"/></div>Estos colores fueron elegidos en base a principios de confianza, habilidad y limpieza. |
+| **Menú de navegación** | El menú será adaptable a cualquier tamaño de pantalla, aprovechando el espacio disponible para mejorar la visibilidad del contenido. |
+| **Interacción del Ratón** | Se diseñarán los elementos interactivos como botones, menús desplegables y animaciones pensando en la usabilidad con el ratón, brindando una experiencia fluida y atractiva. |
+| **Uso de imágenes** | Se utilizarán imágenes de alta calidad y adecuadas para diferentes resoluciones sin comprometer el rendimiento de carga de la web. |
+| **Cumplimiento de WCAG** | Se cumplirán los estándares de accesibilidad del contenido web, asegurando que cualquier persona pueda acceder y comprender el sitio sin barreras. |
+| **Tipo de letra** | Se usará la fuente "Nunito" en sus estilos Medium y Normal, favoreciendo la claridad y el confort visual. |
 ### 4.1.3. Mobile Style Guidelines
+| **Aspecto**          | **Directrices** |
+|----------------------|----------------|
+| **Paleta de colores** | <div style="text-align: center;"><img src="https://i.imgur.com/yk5loNt.png" alt="Paleta de colores móvil"/></div> Se emplearán colores suaves que refuercen la percepción de limpieza, profesionalismo y confianza en la interfaz móvil. |
+| **Menú de navegación** | El menú inferior será claro, accesible y adaptable a diferentes tamaños de pantalla. Se utilizarán iconos intuitivos con colores suaves. |
+| **Interacción táctil** | Los botones responderán con microanimaciones y cambios de color al tocarse, generando una experiencia amigable y reactiva para el usuario. |
+| **Uso de imágenes** | Se usarán imágenes optimizadas para dispositivos móviles, asegurando tiempos de carga rápidos sin sacrificar la calidad visual. |
+| **Accesibilidad** | Se mantendrá el contraste suficiente entre los colores, respetando los lineamientos de accesibilidad móvil (Android/iOS), como etiquetas de voz. |
+| **Tipografía** | Se utilizará "Nunito" en dispositivos Android y "San Francisco" en iOS, ambas Sans Serif, para asegurar legibilidad y estética limpia en móviles. |
 #### 4.1.3.1. iOS Mobile Style Guidelines
+| **Aspecto**             | **Directrices** |
+|-------------------------|----------------|
+| **Diseño Visual**       | Se prioriza un diseño minimalista con una estructura limpia, donde los colores suaves transmiten profesionalismo y confianza. Se respetan las proporciones estándar del sistema iOS para una integración nativa. |
+| **Navegación**          | Se implementa una barra de navegación inferior (tab bar) con íconos intuitivos, permitiendo al usuario acceder fácilmente a secciones clave como mensajes, alertas y ajustes. Se emplean transiciones suaves entre pantallas para una experiencia fluida. |
+| **Tipografía**          | Se utiliza una tipografía Sans Serif moderna y legible, como "San Francisco", adaptándose al estilo nativo del sistema operativo iOS. |
+| **Interacciones táctiles** | Los botones responden con animaciones suaves al tacto, utilizando gestos comunes como deslizamiento y tap para una navegación cómoda. |
+| **Íconos e imágenes**   | Se utilizan iconos en formato vectorial de alta calidad compatibles con Retina Display. Las imágenes mantienen una resolución óptima sin sacrificar el rendimiento. |
+| **Seguridad y privacidad** | Se integra Face ID y Touch ID como métodos de autenticación rápida, cumpliendo con los lineamientos de privacidad de Apple. |
+| **Compatibilidad**      | La interfaz está optimizada para adaptarse a diferentes resoluciones de pantalla de iPhone, desde versiones SE hasta Pro Max. |
+| **Accesibilidad**       | Se cumple con las recomendaciones de accesibilidad de Apple, como texto dinámico, etiquetas de voz y contraste suficiente para usuarios con discapacidades visuales. |
 #### 4.1.3.2. Android Mobile Style Guidelines
-
+| **Aspecto**             | **Directrices** |
+|-------------------------|----------------|
+| **Diseño Visual**       | Se sigue el sistema de diseño Material You, adaptando los colores suaves de la identidad visual a la personalización del usuario. El diseño es simple, limpio y estructurado para garantizar claridad. |
+| **Navegación**          | Se utiliza una barra inferior de navegación (bottom navigation) con iconos representativos. El menú hamburguesa se usa para funciones secundarias. |
+| **Tipografía**          | Se emplea la fuente "Roboto", optimizada para legibilidad en Android. Se asegura consistencia con los tamaños recomendados por Material Design. |
+| **Interacciones táctiles** | Los botones y tarjetas responden con sombras y microanimaciones al ser presionados, siguiendo las directrices de interacción de Android. |
+| **Íconos e imágenes**   | Se usan iconos adaptativos y vectores compatibles con múltiples densidades de pantalla (mdpi, hdpi, xhdpi, etc.). Las imágenes se adaptan automáticamente sin pérdida de calidad. |
+| **Seguridad y privacidad** | Se incluye autenticación mediante PIN o huella dactilar. La aplicación sigue los lineamientos de Google para el manejo de datos sensibles. |
+| **Compatibilidad**      | Se garantiza el correcto funcionamiento en una amplia gama de dispositivos con diferentes resoluciones, desde Android 8 (Oreo) en adelante. |
+| **Accesibilidad**       | Se respetan las pautas de accesibilidad de Android, incluyendo compatibilidad con TalkBack, tamaños de texto escalables y colores con contraste adecuado. |
 ## 4.2. Information Architecture
+La arquitectura de información de **Sweet Manager** ha sido diseñada para garantizar una navegación fluida, comprensible y accesible para todos los usuarios del sector hotelero. Cada módulo ha sido estructurado jerárquicamente según tareas, con etiquetas claras, organización visual efectiva y mecanismos de búsqueda potentes. La organización interna de los datos y su presentación facilitan la toma de decisiones y mejoran la experiencia de usuario en todo momento.
 ### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
+La organización de contenidos en **Sweet Manager** responde a una estructura jerárquica basada en módulos funcionales que permiten la segmentación lógica de las tareas principales de gestión hotelera. Esta jerarquía garantiza que los usuarios puedan acceder a la información de forma rápida y ordenada, optimizando el tiempo de operación y reduciendo la carga cognitiva.
 
+La información se presenta en secciones como:
+
+- **Inicio**: Vista general con resumen de ingresos, tareas y notificaciones urgentes.
+- **Inventario**: Módulo para el control de insumos y recursos, con indicadores visuales de stock y alertas de reabastecimiento.
+- **Proveedores**: Listado de proveedores ordenado alfabéticamente con filtros por categoría, historial de pedidos y contacto directo.
+- **Habitaciones**: Gestión del estado de las habitaciones (disponible, ocupada, mantenimiento), asignación de huéspedes y programación de limpieza.
+- **Perfil**: Información del usuario y del establecimiento, con funciones para editar datos y gestionar accesos.
+
+Estos módulos han sido organizados para facilitar la operación diaria, agrupando funciones similares y priorizando la información más consultada.
+
+### 4.2.2. Labeling Systems
+El sistema de etiquetado de **Sweet Manager** está diseñado para ser directo, comprensible y coherente a lo largo de toda la aplicación. Se busca minimizar la carga cognitiva del usuario mediante el uso de términos sencillos y familiares, principalmente sustantivos y verbos que describan acciones claras.
+
+#### Criterios aplicados:
+
+- **Claridad**: Las etiquetas como "Agregar proveedor", "Ver inventario" o "Editar habitación" describen exactamente la acción a realizar.
+
+- **Consistencia**: Se utiliza el mismo término en todo el sistema para referirse a una función (por ejemplo, siempre se usa "habitaciones", no "cuartos" o "dormitorios").
+
+- **Brevedad**: Las etiquetas son cortas y precisas, evitando frases largas que dificulten la lectura rápida.
+
+- **Apoyo visual**: Se acompañan de iconos o colores que refuerzan el significado. Por ejemplo, el icono de caja se usa para inventario, el de gráfico para ingresos.
+
+Este sistema mejora la velocidad de navegación, reduce errores y permite que incluso usuarios con baja alfabetización digital puedan utilizar la herramienta con facilidad.
+### 4.2.3. SEO Tags and Meta Tags
+Aunque **Sweet Manager** es una plataforma de acceso restringido, se aplican buenas prácticas de SEO y metadatos en las páginas públicas, como la **landing page** y documentación de soporte, lo cual permite mejorar su visibilidad en motores de búsqueda y garantizar una buena accesibilidad.
+
+**Principales metaetiquetas implementadas:**
+
+- **Título** : Describe brevemente el contenido de cada vista. Ejemplo: "Sweet Manager - Panel Principal", "Sweet Manager - Proveedores".
+
+- **Meta descripción**: Resume en una o dos frases el propósito de la página. Ejemplo: "Gestiona de manera eficiente tus insumos, proveedores y habitaciones desde una sola plataforma."
+
+- **Meta autor y copyright**: Atribuye el contenido a la empresa o equipo desarrollador, asegurando propiedad intelectual.
+
+- **Codificación**: Asegura que todos los caracteres especiales, acentos y símbolos se visualicen correctamente.
+
+- **Meta viewport**: Permite la correcta adaptación del diseño en dispositivos móviles.
+### 4.2.4. Searching Systems
+El sistema de búsqueda de Sweet Manager ha sido implementado para agilizar la localización de información dentro de los módulos principales, especialmente en áreas como proveedores, inventario y registros financieros.
+
+**Características del sistema de búsqueda:**
+
+- **Filtros personalizables**: Se pueden aplicar filtros por nombre, categoría, estado (activo/inactivo), fecha o tipo de transacción.
+
+- **Autocompletado**: Sugiere resultados a medida que se escribe, utilizando el historial reciente y registros frecuentes.
+
+- **Búsqueda global vs. contextual**:  
+  - Global: Disponible desde la barra superior para buscar en toda la aplicación.  
+  - Contextual: Integrada en cada módulo para buscar dentro de ese contexto específico (por ejemplo, solo en "Insumos").
+
+- **Resultados ordenados por relevancia**: Los resultados más relacionados con la búsqueda aparecen primero.
+
+Este sistema permite ahorrar tiempo y facilita el acceso a datos en tiempo real, algo esencial en entornos hoteleros donde la eficiencia es clave.
+### 4.2.5. Navigation Systems
+La navegación de **Sweet Manager** ha sido desarrollada siguiendo un enfoque centrado en el usuario, permitiéndole desplazarse de forma rápida, lógica y coherente entre los distintos módulos y funciones.
+
+**Elementos clave del sistema de navegación:**
+
+- **Menú inferior (mobile):** Contiene accesos rápidos a las secciones principales (Inicio, Inventario, Proveedores, Perfil).
+
+- **Menú lateral (web):** Desplegable, contiene acceso a configuraciones, reportes y funciones avanzadas.
+
+- **Breadcrumbs o migas de pan:** Indican al usuario en qué sección se encuentra, permitiendo regresar fácilmente al paso anterior.
+
+- **Botones de acción flotantes:** Para realizar tareas comunes como añadir, editar o eliminar elementos, visibles en todas las vistas operativas.
+
+Además, la navegación es completamente **responsive**, adaptándose a cualquier tamaño de pantalla y manteniendo la coherencia visual y funcional en todos los dispositivos.
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
