@@ -126,13 +126,13 @@
 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-Una administración eficaz de un hotel es clave para asegurar que los huéspedes disfruten de una experiencia única y, al mismo tiempo, maximizar las ganancias. Con ese objetivo, presentamos “RoomWise”, una aplicación diseñada para optimizar todos los procesos operativos de la gestión hotelera, garantizando estancias cómodas y de calidad para los visitantes.
+Una administración eficaz de un hotel es clave para asegurar que los huéspedes disfruten de una experiencia única y, al mismo tiempo, maximizar las ganancias. Con ese objetivo, presentamos “Sweet Manager”, una aplicación diseñada para optimizar todos los procesos operativos de la gestión hotelera, garantizando estancias cómodas y de calidad para los visitantes.
 
-RoomWise es una herramienta completa que cubre desde el monitoreo de ingresos y gastos hasta la supervisión de proveedores, inventarios y recursos humanos. Con su interfaz amigable y sencilla de usar, permite a los gerentes y propietarios de hoteles controlar todos los aspectos de su negocio de manera remota y en cualquier momento.
+Sweet Manager es una herramienta completa que cubre desde el monitoreo de ingresos y gastos hasta la supervisión de proveedores, inventarios y recursos humanos. Con su interfaz amigable y sencilla de usar, permite a los gerentes y propietarios de hoteles controlar todos los aspectos de su negocio de manera remota y en cualquier momento.
 
 Entre sus principales características se incluyen:
 
-- Seguimiento de Ingresos y Egresos: RoomWise proporciona un monitoreo detallado de los ingresos y egresos del hotel, ofreciendo informes actualizados para tomar decisiones más acertadas.
+- Seguimiento de Ingresos y Egresos: Sweet Manager proporciona un monitoreo detallado de los ingresos y egresos del hotel, ofreciendo informes actualizados para tomar decisiones más acertadas.
 
 - Gestión de Inventarios: Nuestra aplicación facilita la administración de inventarios de alimentos, bebidas, productos de tocador y otros, evitando tanto escasez como desperdicios.
 
@@ -167,7 +167,7 @@ Ofrecer a los responsables de la administración hotelera una solución completa
 | Why?      | ¿Por qué sucede el problema?                               | El problema se origina por una administración deficiente, lo que puede acarrear pérdidas económicas, falta de stock, desorganización en el trabajo del personal y, en consecuencia, una experiencia negativa para los clientes. Esto tiene un impacto directo en la imagen y los ingresos del establecimiento hotelero.                                                                                                                                                                                        |
 | Who?        | ¿Quiénes son los afectados?                    |Los inconvenientes impactan a dueños, administradores de hoteles y al personal laboral en los centros de hospedaje.       |
 | How?        | ¿Como se distingue el problema del estado ideal?            |   El estado ideal se define por una gestión hotelera eficiente, sin contratiempos y con una buena coordinación entre áreas. En cambio, el problema rompe con esa fluidez, generando interrupciones que afectan negativamente tanto la eficiencia operativa como la experiencia del cliente. La aparición de este problema puede deberse a patrones predecibles, como la ausencia de automatización, o presentarse de forma aleatoria por falta de planificación.                                                                                                                                                                   |
-| How Much?   | ¿Con qué frecuencia o en qué cantidad se utilizará nuestro producto? | RoomWise será utilizado diariamente por el personal administrativo del hotel, especialmente por gerentes, supervisores y encargados de áreas como contabilidad, recepción y almacén. Su uso será constante, ya que centraliza funciones esenciales como el control de ingresos y egresos, la gestión de inventarios y proveedores, y la administración de reservas. Dado que las operaciones hoteleras son continuas, la aplicación será una herramienta de uso frecuente y sostenido durante toda la jornada laboral.                                                                                         |
+| How Much?   | ¿Con qué frecuencia o en qué cantidad se utilizará nuestro producto? | Sweet Manager será utilizado diariamente por el personal administrativo del hotel, especialmente por gerentes, supervisores y encargados de áreas como contabilidad, recepción y almacén. Su uso será constante, ya que centraliza funciones esenciales como el control de ingresos y egresos, la gestión de inventarios y proveedores, y la administración de reservas. Dado que las operaciones hoteleras son continuas, la aplicación será una herramienta de uso frecuente y sostenido durante toda la jornada laboral.                                                                                         |
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 La administración hotelera enfrenta retos operativos que impactan la rentabilidad y la calidad del servicio. Entre ellos destacan la gestión ineficiente de ingresos, inventarios, proveedores y personal, agravada por la falta de herramientas integradas. Esto genera pérdidas económicas, sobrecarga de trabajo y una experiencia deficiente para los huéspedes.
@@ -403,14 +403,14 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
         <tr>
             <td rowspan="2" style="writing-mode: vertical-lr; text-align: center;">Perfil</td>
             <td>Overview</td>
-            <td>Plataforma tecnológica peruana especializada en la gestión hotelera eficiente, orientada a facilitar las labores operativas y administrativas, además de modernizar los procedimientos mediante dispositivos IoT que mejoran la comodidad, seguridad y eficiencia energética de las instalaciones.</td>
+            <td>Plataforma tecnológica peruana especializada en la gestión hotelera eficiente, orientada a facilitar las labores operativas y administrativas, además de modernizar los procedimientos mediante enfoques que mejoran la comodidad, seguridad y eficiencia energética de las instalaciones.</td>
             <td>Solución desarrollada en Perú que permite gestionar operaciones administrativas y funcionales de hoteles, operable desde cualquier dispositivo gracias a su enfoque multiplataforma. Agiliza tareas manuales repetitivas y ofrece facturación electrónica homologada por SUNAT.</td>
             <td>Plataforma nacional que brinda una solución integral para administrar hoteles, incorporando herramientas para reservas, facturación SUNAT, limpieza, entre otros, con el fin de optimizar procesos y elevar la experiencia del cliente.</td>
             <td>Software peruano orientado a la administración de hoteles que centraliza funciones como reservas, manejo de huéspedes, caja y almacén. Incorpora facturación electrónica y automatización de tareas con reportes interactivos mediante dashboards.</td>
             </tr>
             <tr>
             <td>¿Qué valor ofrece a los clientes?</td>
-            <td>SweetManager integra tecnología IoT en un sistema hotelero fácil de usar, permitiendo gestionar trámites administrativos en tiempo real con una configuración adaptable y orientada al cliente.</td>
+            <td>SweetManager integra un sistema hotelero fácil de usar, permitiendo gestionar trámites administrativos en tiempo real con una configuración adaptable y orientada al cliente.</td>
             <td>Xafiro digitaliza la operación hotelera desde la planificación hasta la facturación, ofreciendo acceso multiplataforma y una interfaz intuitiva para reservas. Se comercializa bajo un modelo de suscripción mensual.</td>
             <td>Samin PMS proporciona un sistema completo que abarca todo el ciclo operativo del hotel, incluyendo facturación, reservas, recepción, limpieza, caja y almacén, complementado con dashboards que permiten analizar el rendimiento.</td>
             <td>Binz360 propone una herramienta automatizada que reemplaza procesos manuales con un sistema integral para la gestión de áreas clave del hotel como caja, facturación y almacén, evitando el uso de Excel u otros métodos tradicionales.</td>
@@ -418,14 +418,14 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <tr>
             <td rowspan="2" style="writing-mode: vertical-lr; text-align: center;">Perfil de Marketing</td>
             <td>Mercado objetivo</td>
-            <td><strong>Demográfico</strong><br>Dirigido a hoteles medianos y grandes con más de 20 habitaciones, con personal administrativo de entre 30 y 55 años interesado en transformación digital.<br><strong>Geográfico</strong><br>Enfocado en Perú con miras a expandirse por Latinoamérica, comenzando en ciudades turísticas como Lima, Cusco, Arequipa y Trujillo.<br><strong>Psicológico</strong><br>Profesionales enfocados en eficiencia energética y sostenibilidad que buscan automatizar procesos con IoT.<br><strong>Comportamiento</strong><br>Empresas que utilizan soluciones básicas pero desean evolucionar a sistemas más avanzados e innovadores.</td>
+            <td><strong>Demográfico</strong><br>Dirigido a hoteles medianos y grandes con más de 20 habitaciones, con personal administrativo de entre 30 y 55 años interesado en transformación digital.<br><strong>Geográfico</strong><br>Enfocado en Perú con miras a expandirse por Latinoamérica, comenzando en ciudades turísticas como Lima, Cusco, Arequipa y Trujillo.<br><strong>Psicológico</strong><br>Profesionales enfocados en eficiencia energética y sostenibilidad que buscan automatizar procesos.<br><strong>Comportamiento</strong><br>Empresas que utilizan soluciones básicas pero desean evolucionar a sistemas más avanzados e innovadores.</td>
             <td><strong>Demográfico</strong><br>Hoteles pequeños y medianos con hasta 50 habitaciones, dirigidos por empresarios jóvenes (25-45 años) en emprendimientos familiares.<br><strong>Geográfico</strong><br>Opera principalmente en Perú, especialmente en ciudades turísticas y rurales emergentes como Cusco, Iquitos y Trujillo.<br><strong>Psicológico</strong><br>Usuarios con mentalidad de expansión que aún dependen de métodos manuales.<br><strong>Comportamiento</strong><br>Propietarios que prefieren pagar mensualmente en lugar de realizar una inversión inicial alta.</td>
             <td><strong>Demográfico</strong><br>Diseñado para hoteles de cualquier tamaño, incluyendo cadenas hoteleras. Enfocado en gerentes y administradores con experiencia y equipos de más de 10 personas.<br><strong>Geográfico</strong><br>Presencia en todo Perú, con foco en zonas urbanas y turísticas. Planes de expansión hacia otros países de Latinoamérica.<br><strong>Psicológico</strong><br>Negocios con mentalidad analítica que buscan reportes para optimizar decisiones.<br><strong>Comportamiento</strong><br>Empresas que requieren herramientas robustas como facturación electrónica y automatización total.</td>
             <td><strong>Demográfico</strong><br>Dirigido a hoteles medianos con necesidad de modernización gradual. Gerentes entre 28 y 50 años interesados en digitalización.<br><strong>Geográfico</strong><br>Enfocado en regiones de Perú con menor adopción tecnológica y alto potencial turístico.<br><strong>Psicológico</strong><br>Dueños que buscan avanzar tecnológicamente sin modificar drásticamente sus métodos tradicionales.<br><strong>Comportamiento</strong><br>Usuarios que buscan soluciones simples para automatizar tareas sin cambiar todo su sistema operativo.</td>
             </tr>
             <tr>
             <td>Estrategias de marketing</td>
-            <td>SweetManager presenta una propuesta diferenciada con IoT, permitiendo a los huéspedes personalizar su entorno desde una app. Se combina con funciones tradicionales como facturación, automatización y monitoreo, además de marketing digital en redes sociales. Incluye una página de preguntas frecuentes para atención personalizada y claridad informativa.</td>
+            <td>SweetManager presenta una propuesta diferenciada, permitiendo a los huéspedes personalizar su entorno desde una app. Se combina con funciones tradicionales como facturación, automatización y monitoreo, además de marketing digital en redes sociales. Incluye una página de preguntas frecuentes para atención personalizada y claridad informativa.</td>
             <td>Su estrategia se basa en un motor de reservas directo para aumentar ingresos sin comisiones. Destacan la integración con SUNAT y el ahorro significativo de tiempo en operaciones, beneficiando al equipo del hotel.</td>
             <td>Samin PMS agrega valor con herramientas como Housekeeping Smart y Restaurante Smart. Ofrece apoyo en marketing digital, publicidad y demostraciones gratuitas como medio para atraer y convencer a potenciales clientes.</td>
             <td>Binz360 ofrece una prueba gratuita de 14 días y planes desde S/7.50 por habitación. Su estrategia se centra en la automatización, reemplazando tareas manuales para optimizar la operación hotelera.</td>
@@ -434,7 +434,7 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <td rowspan="3" style="writing-mode: vertical-lr; text-align: center;">Perfil de Producto</td>
             <td>Productos & Servicios</td>
             <td>
-            SweetManager ofrece una plataforma integral de gestión hotelera que incorpora tecnología IoT para permitir a los huéspedes controlar su entorno y acceder a opciones de entretenimiento. Además, optimiza el consumo energético con sensores inteligentes y facilita la administración del hotel con herramientas como reservas, check-in/check-out, facturación electrónica y reportes en tiempo real.
+            SweetManager ofrece una plataforma integral de gestión hotelera la cual para permite a los huéspedes controlar su entorno y acceder a opciones de entretenimiento. Además, optimiza el consumo energético con sensores inteligentes y facilita la administración del hotel con herramientas como reservas, check-in/check-out, facturación electrónica y reportes en tiempo real.
             </td>
             <td>
             Xafiro es un software orientado a la digitalización completa de la gestión hotelera, con integración de facturación electrónica y un motor de reservas directo para mejorar los ingresos del hotel. Ofrece informes detallados sobre la ocupación y el rendimiento, permitiendo una visión en tiempo real de la operación del hotel.
@@ -449,7 +449,7 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <tr>
             <td>Precios & Costos</td>
             <td>
-            SweetManager ofrece planes de suscripción mensual ajustados a las necesidades del hotel, con costos adicionales si se integran dispositivos IoT como termostatos y sistemas de entretenimiento. Su modelo flexible permite adaptar los servicios a medida que el hotel crece.
+            SweetManager ofrece planes de suscripción mensual ajustados a las necesidades del hotel, con costos adicionales. Su modelo flexible permite adaptar los servicios a medida que el hotel crece.
             </td>
             <td>
             Xafiro tiene planes mensuales en función del número de habitaciones y las funcionalidades seleccionadas. Ofrece paquetes básicos y avanzados, con un costo adicional si se requiere la integración de la facturación electrónica.
@@ -464,7 +464,7 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <tr>
             <td>Canales de distribución (Web y/o Móvil)</td>
             <td>
-            SweetManager está disponible tanto en versión web como móvil, permitiendo la gestión del hotel desde cualquier dispositivo conectado. Su integración con IoT permite controlar diversas funciones en tiempo real desde teléfonos inteligentes y tabletas.
+            SweetManager está disponible tanto en versión web como móvil, permitiendo la gestión del hotel desde cualquier dispositivo conectado. 
             </td>
             <td>
             Xafiro es una plataforma accesible desde cualquier navegador web, con una versión responsiva que se adapta a dispositivos móviles, aunque no cuenta con una aplicación móvil dedicada para la gestión.
@@ -480,7 +480,7 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <td rowspan="4" style="writing-mode: vertical-lr; text-align: center;">Análisis SWOT</td>
             <td>Fortalezas</td>
             <td>
-            Integración de tecnología IoT para control en tiempo real de la temperatura, entretenimiento y automatización de procesos.<br>
+            Integración de tecnología , entretenimiento y automatización de procesos.<br>
             Aplicación móvil intuitiva que permite gestionar el hotel desde cualquier lugar.<br>
             Facturación electrónica completamente integrada con SUNAT.<br>
             Enfoque sostenible y eficiente en el consumo energético.
@@ -504,7 +504,6 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <td>Debilidades</td>
             <td>
             Ser una opción nueva en el mercado, con menor reconocimiento frente a competidores establecidos.<br>
-            Costo inicial elevado debido a la integración de IoT.<br>
             Dependencia de infraestructura tecnológica avanzada para su funcionamiento.
             </td>
             <td>
@@ -520,14 +519,12 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <td>
             Dependencia de la automatización sin una fuerte diferenciación tecnológica.<br>
             Poca personalización disponible para los usuarios.<br>
-            Menor enfoque en IoT en comparación con competidores.
             </td>
             </tr>
             <tr>
             <td>Oportunidades</td>
             <td>
             Expansión en mercados latinoamericanos con una creciente demanda turística.<br>
-            Incremento en el uso de IoT para una mayor automatización.<br>
             Alianzas estratégicas con cadenas hoteleras para implementaciones exclusivas.
             </td>
             <td>
@@ -551,7 +548,6 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
             <td>
             Competencia con marcas consolidadas que ya dominan el mercado.<br>
             Posibles dificultades para la adopción de nuevas tecnologías por parte de hoteles tradicionales.<br>
-            Dependencia de la estabilidad de las redes IoT para la operatividad.
             </td>
             <td>
             Avance de competidores con mejor integración móvil.<br>
@@ -576,31 +572,28 @@ El análisis competitivo es clave para tomar decisiones estratégicas, identific
 ### 2.1.2. Estrategias y tácticas frente a competidores
 **Estrategias para afrontar las fortalezas de la competencia**
 
-- **Diferenciación tecnológica con IoT:**  
-**RoomWise** incorporará termostatos inteligentes, control de entretenimiento desde una app y sensores IoT para automatizar la experiencia hotelera, ofreciendo innovación y eficiencia.
-
 - **Enfoque en la experiencia del usuario:**  
-A diferencia de los competidores centrados en lo administrativo, **RoomWise** priorizará una interfaz moderna, intuitiva y adaptable.
+A diferencia de los competidores centrados en lo administrativo, **Sweet Manager** priorizará una interfaz moderna, intuitiva y adaptable.
 
 ---
 
 **Estrategias ante las debilidades de la competencia**
 
 - **Planes escalables y flexibles:**  
-Frente a los precios fijos poco accesibles, **RoomWise** ofrecerá suscripciones modulares ajustadas al tamaño y necesidades del hotel.
+Frente a los precios fijos poco accesibles, **Sweet Manager** ofrecerá suscripciones modulares ajustadas al tamaño y necesidades del hotel.
 
 - **Compatibilidad multiplataforma:** 
-Mientras otros tienen interfaces limitadas, **RoomWise** optimizará su app web y móvil para una experiencia fluida en cualquier dispositivo.
+Mientras otros tienen interfaces limitadas, **Sweet Manager** optimizará su app web y móvil para una experiencia fluida en cualquier dispositivo.
 
 ---
 
 **Estrategias frente a las oportunidades de la competencia**
 
-- **Alianzas con proveedores IoT:**    
-**RoomWise** se asociará con fabricantes de dispositivos inteligentes para reducir costos, mejorar la integración y asegurar compatibilidad.
+- **Alianzas con proveedores :**    
+**Sweet Manager** se asociará con fabricantes de dispositivos inteligentes para reducir costos, mejorar la integración y asegurar compatibilidad.
 
 - **Eficiencia energética:**   
-La conexión del sistema IoT con el consumo eléctrico permitirá controlar y reducir gastos operativos.
+La conexión del sistema  con el consumo eléctrico permitirá controlar y reducir gastos operativos.
 
 ---
 
@@ -615,7 +608,7 @@ Se impulsará la marca mediante publicidad digital y alianzas con influencers de
 
 ## 2.2. Entrevistas
 
-Las entrevistas representan una herramienta clave para identificar las necesidades, deseos y problemas de los usuarios, además de permitir la validación de hipótesis y suposiciones del negocio. Mediante estas conversaciones, es posible recopilar información valiosa sobre las expectativas de los clientes, sus experiencias actuales y sus preferencias respecto a productos y servicios. En el contexto de RoomWise, entrevistar a propietarios, administradores y trabajadores será esencial para desarrollar una solución alineada con las demandas del mercado y que aporte un valor real a sus usuarios.
+Las entrevistas representan una herramienta clave para identificar las necesidades, deseos y problemas de los usuarios, además de permitir la validación de hipótesis y suposiciones del negocio. Mediante estas conversaciones, es posible recopilar información valiosa sobre las expectativas de los clientes, sus experiencias actuales y sus preferencias respecto a productos y servicios. En el contexto de Sweet Manager, entrevistar a propietarios, administradores y trabajadores será esencial para desarrollar una solución alineada con las demandas del mercado y que aporte un valor real a sus usuarios.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -739,11 +732,11 @@ El principal reto es la coordinación rápida entre el hotel y los huéspedes. I
 
 **Entrevista 03 (Administradores)**
 
-**Entrevista 01 (Huéspedes)**
+**Entrevista 01 (Trabajadores)**
 
-**Entrevista 02 (Huéspedes)**
+**Entrevista 02 (Trabajadores)**
 
-**Entrevista 03 (Huéspedes)**
+**Entrevista 03 (Trabajadores)**
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -845,7 +838,7 @@ SEGMENTO GERENTE:
 | HU02       | Conocer los beneficios del producto    | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | - DADO QUE el visitante está en la sección de beneficios,CUANDOrevisa las ventajas asociadas al uso de nuestra solución,ENTONCES aumenta su interés por el producto,Y decide registrarse como usuario. | EP01 |
 | HU03       | Consultar los planes de precios del producto |Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto | -DADO QUE el visitante se encuentra en la sección de planes de precios,CUANDO examina las diferentes alternativas ofrecidas,ENTONCES puede comprender mejor las opciones disponibles y tomar una decisión informada,Y optar por registrarse como usuario.  | EP01 |
 | HU04       | Establecer contacto con la empresa           |Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | - DADO QUE el visitante se encuentra en la página principal,CUANDO busca una opción de contacto accesible,ENTONCES puede establecer comunicación de forma rápida Y sencilla con la empresa.                | EP01 |
-| EP02          |Crear cuenta       | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación RoomWise | - DADO QUE el usuario está en la pantalla de inicio de sesión, CUANDO hace clic en el botón "Sign Up" e ingresa su información, ENTONCES se le mostrará el plan más adecuado según las necesidades de su negocio,Y tras realizar el pago, podrá crear su cuenta como gerente| - |
+| EP02          |Crear cuenta       | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación Sweet Manager | - DADO QUE el usuario está en la pantalla de inicio de sesión, CUANDO hace clic en el botón "Sign Up" e ingresa su información, ENTONCES se le mostrará el plan más adecuado según las necesidades de su negocio,Y tras realizar el pago, podrá crear su cuenta como gerente| - |
 | HU01       | Activación de cuenta de empleado                | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión            | - DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema. | EP02 |
 | HU02       | Registro de cuenta para gerente                   | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo.     | - DADO QUE ya se ha realizado el pago del plan,CUANDO el usuario completa el formulario con los datos del hotel y su información como gerente,ENTONCES se muestra un mensaje de bienvenidaY se accede al panel principal del gerente.                          | EP02 |
 | HU03       | Actualizar información personal     | Como usuario, quiero actualizar mis datos personales.                        | - DADO QUE estoy en mi perfil, CUANDO edito mis datos y guardo, ENTONCES la información debe actualizarse correctamente.                                                      | EP02 |
@@ -872,12 +865,12 @@ SEGMENTO GERENTE:
 | HU05   |Eliminar un mensaje      | Como gerente, quiero eliminar un mensaje específico para mantener el sistema organizado.| -DADO QUE el usuario tiene acceso a la ruta de mensajes,CUANDO presiona en eliminar un mensaje,ENTONCES el mensaje se elimina correctamente.| EP06|
 | HU06 |Recibir alertas de emergencia de seguridad     | Como trabajador de seguridad, quiero recibir alertas de emergencia para poder actuar de inmediato.| -DADO QUE el usuario es trabajador de seguridad,CUANDO un administrador envía una alerta de seguridad,ENTONCES recibe la alerta inmediatamente.| EP06|
 | HU07  |Envío de Alertas de Seguridad (Administrador)     | Como administrador, quiero poder enviar notificaciones de emergencia a los agentes de seguridad para que puedan actuar rápidamente.| -DADO QUE el usuario tiene el rol de administrador,CUANDO se produce un incidente,ENTONCES se enviará una alerta de seguridad a los agentes encargados.| EP06|
-| EP07   |Integración de APIs y Gestión de Seguridad      | Como desarrollador, quiero incorporar la API de verificación JWT en RoomWise para asegurar la autenticidad de los usuarios al ingresar la clave JWT.| -DADO QUE el sistema necesita integrar múltiples APIs (como la de servicios, autenticación y verificación JWT) para garantizar un funcionamiento seguro y eficiente,CUANDO se implementen estas APIs en el backend y se conecten correctamente con el frontend,ENTONCES el sistema debe permitir realizar operaciones de autenticación de usuarios, verificar la autenticidad de tokens JWT Y procesar transacciones de forma segura y eficiente.|-|
+| EP07   |Integración de APIs y Gestión de Seguridad      | Como desarrollador, quiero incorporar la API de verificación JWT en Sweet Manager para asegurar la autenticidad de los usuarios al ingresar la clave JWT.| -DADO QUE el sistema necesita integrar múltiples APIs (como la de servicios, autenticación y verificación JWT) para garantizar un funcionamiento seguro y eficiente,CUANDO se implementen estas APIs en el backend y se conecten correctamente con el frontend,ENTONCES el sistema debe permitir realizar operaciones de autenticación de usuarios, verificar la autenticidad de tokens JWT Y procesar transacciones de forma segura y eficiente.|-|
 | HU01 |API de Servicios de la Aplicación      | Como desarrollador, deseo integrar la API en Sweet Manager para manejar las transacciones necesarias que permitan que el proyecto funcione correctamente.| -DADO QUE el usuario necesita integrar una API,CUANDO introduce los métodos apropiados para los bounded contexts y establece la conexión con el frontend,ENTONCES se debe mostrar un código de estado exitoso cuando se realicen operaciones CRUD en el frontend.| EP07|
 | HU02   |API de Autenticación     | Como desarrollador, quiero utilizar la API de autenticación en Sweet Manager para gestionar el inicio de sesión de los usuarios de manera eficiente.| -DADO QUE el usuario quiere utilizar la API de autenticación y tiene acceso a su cuenta de empleado,CUANDO ingresa las credenciales necesarias para iniciar sesión y se valida su registro,ENTONCES se debe devolver un código de estado correspondiente Y permitir que el usuario inicie sesión exitosamente.| EP07|
 | HU03  |API de Verificación Clave JWT Gerente      | Como desarrollador, quiero incorporar la API de verificación JWT en Sweet Manager para asegurar que los usuarios sean auténticos al verificar su clave JWT.| -DADO QUE el usuario necesita integrar la API de verificación JWT Y tiene acceso a su cuenta de empleado,CUANDO ingresa sus credenciales de inicio de sesión y se realizan las validaciones pertinentes,ENTONCES se debe ejecutar el proceso de verificación de JWT para garantizar la autenticidad del usuario.| EP07|
-| EP08   |Gestión de Seguridad de Usuarios      | Como administrador o desarrollador de RoomWise, quiero garantizar que los usuarios puedan acceder al sistema de manera segura mediante un proceso de autenticación, para asegurar que solo los usuarios autorizados puedan acceder a sus paneles de control y gestionar su información.| -DADO QUE el sistema debe permitir a los usuarios autenticarse de manera segura,CUANDO un usuario ingresa sus credenciales de login y el sistema verifica su JWT correctamente,ENTONCES el usuario debe iniciar sesión con éxito Y ser redirigido a su dashboard personal.|-|
-| HU01 |Seguridad de Usuario      |Como usuario, quiero poder acceder a RoomWise utilizando mi cuenta personal.| -DADO QUE el usuario se encuentra en la pantalla de inicio de sesión (Sign In),CUANDO introduce sus credenciales correctamente y se valida su token JWT,ENTONCES el usuario puede iniciar sesión de manera exitosa y será dirigido a su dashboard.| EP08|
+| EP08   |Gestión de Seguridad de Usuarios      | Como administrador o desarrollador de Sweet Manager, quiero garantizar que los usuarios puedan acceder al sistema de manera segura mediante un proceso de autenticación, para asegurar que solo los usuarios autorizados puedan acceder a sus paneles de control y gestionar su información.| -DADO QUE el sistema debe permitir a los usuarios autenticarse de manera segura,CUANDO un usuario ingresa sus credenciales de login y el sistema verifica su JWT correctamente,ENTONCES el usuario debe iniciar sesión con éxito Y ser redirigido a su dashboard personal.|-|
+| HU01 |Seguridad de Usuario      |Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal.| -DADO QUE el usuario se encuentra en la pantalla de inicio de sesión (Sign In),CUANDO introduce sus credenciales correctamente y se valida su token JWT,ENTONCES el usuario puede iniciar sesión de manera exitosa y será dirigido a su dashboard.| EP08|
 | EP09 |Gestión de Usuarios      |Como administrador o trabajador, quiero poder gestionar la información de los huéspedes.| -DADO QUE un cliente está a punto de registrarse, CUANDO el recepcionista confirma la reserva del cliente en el sistema,ENTONCES el cliente queda registrado como huésped en el hotel.|-|
 | HU01 |Registro de Clientes (Administrador)     |Como administrador, quiero asegurarme de que los clientes hospedados estén registrados en el sistema para tener un control sobre las reservas.| -DADO QUE un cliente está a punto de registrarse,CUANDO el recepcionista confirma la reserva en el sistema,ENTONCES el cliente se registra como huésped en el hotel.| EP09|
 | HU02 |Registro de Clientes (Trabajador)      |Como trabajador, quiero gestionar el registro de la entrada y salida de los huéspedes en el hotel.| -DADO QUE un cliente está por registrarse,CUANDO el recepcionista cancela la reserva, ENTONCES la información del cliente se registra adecuadamente.| EP09|
@@ -911,7 +904,7 @@ SEGMENTO GERENTE:
 | 21     | HU01-EP07      | API de Servicios de la Aplicación | Como desarrollador, quiero integrar la API en Sweet Manager para manejar las transacciones necesarias que permitan que el proyecto funcione correctamente, para asegurar una integración eficiente entre el frontend y backend. | 5 |
 | 22     | HU02-EP07      | API de Autenticación | Como desarrollador, quiero utilizar la API de autenticación en Sweet Manager para gestionar el inicio de sesión de los usuarios de manera eficiente, para garantizar que solo los usuarios autorizados puedan acceder al sistema. | 5 |
 | 23     | HU03-EP07      | API de Verificación Clave JWT Gerente | Como desarrollador, quiero incorporar la API de verificación JWT en Sweet Manager para asegurar que los usuarios sean auténticos al verificar su clave JWT, para mantener la seguridad del sistema. | 5 |
-| 24     | HU01-EP08      | Seguridad de Usuario | Como usuario, quiero poder acceder a RoomWise utilizando mi cuenta personal, para asegurarme de que mi información esté protegida y pueda acceder al sistema de manera segura. | 3 |
+| 24     | HU01-EP08      | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal, para asegurarme de que mi información esté protegida y pueda acceder al sistema de manera segura. | 3 |
 | 25     | HU01-EP09      | Registro de Clientes (Administrador) | Como administrador, quiero asegurarme de que los clientes hospedados estén registrados en el sistema, para tener un control sobre las reservas y la gestión de huéspedes. | 5 |
 | 26     | HU02-EP09      | Registro de Clientes (Trabajador) | Como trabajador, quiero gestionar el registro de la entrada y salida de los huéspedes en el hotel, para asegurarme de que la información esté actualizada y no haya errores en los registros. | 3 |
 | 27     | HU03-EP09      | Retiro de Clientes (Trabajador) | Como trabajador, quiero gestionar la salida de los huéspedes del hotel, para asegurarme de que los registros se actualicen correctamente y no haya duplicidad de reservas. | 3 |
@@ -984,7 +977,7 @@ En el siguiente diagrama se puede apreciar el funcionamiento que la aplicación 
 </div>
 
 ### 4.8.3. Software Architecture Components Diagrams
-A contuniación, se muestra las relaciones entre los bounded context que trabajan en el servicio de RoomWise
+A contuniación, se muestra las relaciones entre los bounded context que trabajan en el servicio de Sweet Manager
 <div style="text-align: center;">
   <img src="https://i.imgur.com/5gOn3Bk.png" alt="Imagen del container diagram" width="50%" />
 </div>
@@ -1080,7 +1073,7 @@ A contuniación, se muestra las relaciones entre los bounded context que trabaja
 
 
 ## 4.10. Database Design
-Para RoomWise, se ha implementado una base de datos relacional que garantiza la integridad y consistencia de los datos mediante relaciones bien definidas entre entidades como habitaciones, clientes, reservas y pagos, permitiendo consultas complejas con alto rendimiento para gestionar disponibilidad, historiales y transacciones, mientras que su estructura normalizada elimina redundancias y facilita la escalabilidad para incorporar futuras funcionalidades sin comprometer la organización existente, todo ello asegurando la coherencia de las operaciones mediante claves primarias y foráneas.
+Para Sweet Manager, se ha implementado una base de datos relacional que garantiza la integridad y consistencia de los datos mediante relaciones bien definidas entre entidades como habitaciones, clientes, reservas y pagos, permitiendo consultas complejas con alto rendimiento para gestionar disponibilidad, historiales y transacciones, mientras que su estructura normalizada elimina redundancias y facilita la escalabilidad para incorporar futuras funcionalidades sin comprometer la organización existente, todo ello asegurando la coherencia de las operaciones mediante claves primarias y foráneas.
 ### 4.10.1. Relational/Non-Relational Database Diagram
 <div style="text-align: center;">
   <img src="https://i.imgur.com/QPeNpMH.png" alt="Imagen del db diagram" width="90%" />
