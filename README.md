@@ -292,34 +292,68 @@ El mock-up muestra cómo se verá realmente la landing, ya con los colores, tipo
 
 ### 4.4.1. Mobile Applications Wireframes
 
+Son los primeros bocetos de las pantallas de la app. Nos ayudan a definir la estructura de cada vista sin meternos aún con los colores o estilos. Es una guía visual para ver cómo se distribuye todo.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/e4GOmc0.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/c5P0wpj.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/sKfwEkA.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
 Aquí mostramos cómo se conectan entre sí las pantallas de la app. Sirve para entender el recorrido que hace el usuario desde que entra hasta que realiza una acción específica.
+
+**Creación de usuario y compra de membresía**
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/ZvQllH2.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
+**Pantallas Principales**
+
 <div style="text-align: center;">
   <img src="https://i.imgur.com/9q1Uec6.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
+**Creación de trabajador**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/zH2UCtE.png" alt="Landing Page Wireframe" width="70%" />
+</div>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
 Estos son los diseños ya con colores, íconos, tipografías y estilos aplicados. Representan cómo se verá la app en su versión final, tanto en Android como en iOS.
 
+**Creación de trabajador y compra membresía**
+
 <div style="text-align: center;">
   <img src="https://i.imgur.com/dnAQFIn.png" alt="Landing Page Wireframe" width="70%" />
 </div>
+
+**Pantallas principales**
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/7YSvo13.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
+**Vistas Mobile - iOS**
+
 <div style="text-align: center;">
   <img src="https://i.imgur.com/I9YRNQi.png" alt="Landing Page Wireframe" width="70%" />
 </div>
+
+**Vistas Mobile - Android**
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/LqYPKni.png" alt="Landing Page Wireframe" width="70%" />
@@ -329,9 +363,13 @@ Estos son los diseños ya con colores, íconos, tipografías y estilos aplicados
 
 Mostramos los pasos que sigue el usuario para completar tareas dentro de la app. Esto nos permite validar si la experiencia es clara o si hay puntos que podrían confundir.
 
+**Flujo creación de trabajador**
+
 <div style="text-align: center;">
   <img src="https://i.imgur.com/t4FuCze.png" alt="Landing Page Wireframe" width="70%" />
 </div>
+
+**Compra de membresía**
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/nXgA78C.png" alt="Landing Page Wireframe" width="70%" />
