@@ -177,6 +177,12 @@ SEGMENTO TRABAJADOR:
   <img src="https://i.imgur.com/wThvLlw.png" alt="to be scenario maping trabajador" width="70%" />
 </div>
 
+SEGMENTO ADMINISTRADOR:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/KaOigqr.png" alt="to be scenario maping administrador" width="70%" />
+</div>
+
 SEGMENTO GERENTE:
 
 <div style="text-align: center;">
@@ -273,11 +279,13 @@ En esta sección se describen y muestran los Impact Mappings, los cuales fueron 
   <img src="https://imgur.com/2lY2qvQ.png" alt="impact map gerente" width="70%" />
 </div>
 
+<div style="text-align: center;">
+  <img src="https://imgur.com/OTJCXhk.png" alt="impact map administrador" width="70%" />
+</div>
 
 <div style="text-align: center;">
   <img src="https://imgur.com/uHk2kQo.png" alt="impact map empleado" width="70%" />
 </div>
-
 
 # Capítulo IV: Product Design
 
