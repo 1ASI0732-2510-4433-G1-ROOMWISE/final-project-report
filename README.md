@@ -296,6 +296,24 @@ El mock-up muestra cómo se verá realmente la landing, ya con los colores, tipo
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+Estos son los diseños ya con colores, íconos, tipografías y estilos aplicados. Representan cómo se verá la app en su versión final, tanto en Android como en iOS.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/dnAQFIn.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/7YSvo13.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/I9YRNQi.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LqYPKni.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
 ## 4.5. Mobile Applications Prototyping
