@@ -294,6 +294,17 @@ El mock-up muestra cómo se verá realmente la landing, ya con los colores, tipo
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
+Aquí mostramos cómo se conectan entre sí las pantallas de la app. Sirve para entender el recorrido que hace el usuario desde que entra hasta que realiza una acción específica.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZvQllH2.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/9q1Uec6.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
 ### 4.4.3. Mobile Applications Mock-ups
 
 Estos son los diseños ya con colores, íconos, tipografías y estilos aplicados. Representan cómo se verá la app en su versión final, tanto en Android como en iOS.
