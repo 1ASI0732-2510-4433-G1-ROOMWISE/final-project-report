@@ -379,6 +379,12 @@ Mostramos los pasos que sigue el usuario para completar tareas dentro de la app.
 
 ### 4.5.1. Android Mobile Applications Prototyping
 
+Link: https://www.figma.com/proto/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise?page-id=0%3A1&node-id=2-12476&viewport=99%2C230%2C0.08&t=N0loGqeQmIjNZuxK-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A12476&show-proto-sidebar=1
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/GCsihGx.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
 ### 4.5.2. iOS Mobile Applications Prototyping
 
 ## 4.6. Web Applications UX/UI Design
