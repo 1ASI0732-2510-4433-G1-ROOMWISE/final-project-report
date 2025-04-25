@@ -316,6 +316,16 @@ Estos son los diseños ya con colores, íconos, tipografías y estilos aplicados
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
+Mostramos los pasos que sigue el usuario para completar tareas dentro de la app. Esto nos permite validar si la experiencia es clara o si hay puntos que podrían confundir.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/t4FuCze.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nXgA78C.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
 ## 4.5. Mobile Applications Prototyping
 
 ### 4.5.1. Android Mobile Applications Prototyping
