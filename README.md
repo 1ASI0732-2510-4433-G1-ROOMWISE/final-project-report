@@ -1,6 +1,6 @@
 <hr>
 
-# `<center>`Informe del Trabajo Final`</center>`
+# `<center>`Informe del Trabajo Final `</center>`
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -245,13 +245,48 @@ Se usó un patrón visual en forma de “Z” porque es el que mejor guía la vi
   <img src="https://i.imgur.com/FbzK3HV.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
-
 <div style="text-align: center;">
   <img src="https://i.imgur.com/hnCTEWz.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
 ### 4.3.2. Landing Page Mock-up
 
+El mock-up muestra cómo se verá realmente la landing, ya con los colores, tipografías, íconos, imágenes. Se diseñó pensando tanto en desktop como en móvil, y se hizo usando  **Figma** , respetando el sistema visual del proyecto.
+
+**Mockup Landing Page - Español Web**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/4ZjeJNy.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
+**Mockup Landing Page - Español Mobile**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/3CdDW9N.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/w36fmPq.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+**Mockup Landing Page - Inglés Web**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/a7NFJRU.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
+**Mockup Landing Page - Inglés Mobile**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/7OQRdzy.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/mX279QV.png" alt="Landing Page Wireframe" width="70%" />
+</div>
 
 ## 4.4. Mobile Applications UX/UI Design
 
