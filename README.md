@@ -259,13 +259,11 @@ El mock-up muestra cómo se verá realmente la landing, ya con los colores, tipo
   <img src="https://i.imgur.com/4ZjeJNy.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
-
 **Mockup Landing Page - Español Mobile**
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/3CdDW9N.png" alt="Landing Page Wireframe" width="70%" />
 </div>
-
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/w36fmPq.png" alt="Landing Page Wireframe" width="70%" />
@@ -276,7 +274,6 @@ El mock-up muestra cómo se verá realmente la landing, ya con los colores, tipo
 <div style="text-align: center;">
   <img src="https://i.imgur.com/a7NFJRU.png" alt="Landing Page Wireframe" width="70%" />
 </div>
-
 
 **Mockup Landing Page - Inglés Mobile**
 
@@ -298,16 +295,13 @@ Son los primeros bocetos de las pantallas de la app. Nos ayudan a definir la est
   <img src="https://i.imgur.com/e4GOmc0.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
-
 <div style="text-align: center;">
   <img src="https://i.imgur.com/c5P0wpj.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
-
 <div style="text-align: center;">
   <img src="https://i.imgur.com/sKfwEkA.png" alt="Landing Page Wireframe" width="70%" />
 </div>
-
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
@@ -428,6 +422,32 @@ Representan cómo se conecta cada vista del sistema web. Ayuda a identificar pos
 </div>
 
 ### 4.6.3. Web Applications Mock-ups
+
+Se aplica el diseño visual completo de la versión web.
+
+**Componentes Trabajadores e Inventario**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZGFalim.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+**Componentes Proveedores y Clientes**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/mYZmZvS.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+Componentes Login/Register/Planes/Pasarela de Pago
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/MXxYNn4.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+**Componentes Design System**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/vNqjFyp.png" alt="Landing Page Wireframe" width="70%" />
+</div>
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
