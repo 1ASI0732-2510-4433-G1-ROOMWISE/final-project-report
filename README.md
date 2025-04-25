@@ -451,6 +451,21 @@ Componentes Login/Register/Planes/Pasarela de Pago
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
+Muestra el recorrido que sigue el usuario desde que entra al sistema web hasta que realiza acciones.
+
+**Añadir a un nuevo cliente:**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/5nccaSk.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+**Creación de cuenta y compra de membresía:**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/O5yCAHx.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+
 ## 4.7. Web Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
