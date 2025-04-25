@@ -387,6 +387,12 @@ Link: https://www.figma.com/proto/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise?page-id=0%3A1&
 
 ### 4.5.2. iOS Mobile Applications Prototyping
 
+Link: https://www.figma.com/proto/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise?page-id=0%3A1&node-id=3-25830&viewport=99%2C230%2C0.08&t=N0loGqeQmIjNZuxK-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3%3A25830&show-proto-sidebar=1
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZPvFbBa.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
