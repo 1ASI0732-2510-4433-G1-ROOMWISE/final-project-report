@@ -397,6 +397,20 @@ Link: https://www.figma.com/proto/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise?page-id=0%3A1&
 
 ### 4.6.1. Web Applications Wireframes
 
+Diseñamos la estructura de las páginas web sin detalles visuales. Es útil para tener clara la organización de la información y los elementos.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/n4vSjLJ.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/CcjdMif.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/YAmHbfl.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 ### 4.6.3. Web Applications Mock-ups
