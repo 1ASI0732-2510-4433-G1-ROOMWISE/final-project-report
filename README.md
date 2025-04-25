@@ -682,6 +682,27 @@ Inicio: 0:00 <br><br>
 Fin: 36:51
 
 **Entrevista 01 (Gerentes)**
+URL VIDEO: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118152_upc_edu_pe/ERXn43hIPXRNu2S3c_kBTbsBNSIVeQhL8TFvgxN0O-yzDQ?e=gIatls&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Nombre: Cesar Augusto Rodriguez <br>
+Edad: 44 <br>
+Sexo: Masculino <br>
+Lugar donde vive:Surco - Lima, Perú <br>
+Ocupación: Owner de hotel <br>
+Personalidad: Práctico y poco perfeccionista  <br>
+
+<div style="text-align: center;">
+   <img src="https://imgur.com/J1LJUd1.png" alt="Manuel Chávez Interview"/>
+</div><br>
+
+Cesar Augusto es un owner de un hotel , reside en surco , se describe como una persona práctica y algo perfeccionista , les frustra que el personal no siga las indicaciones o las reglas del trabajo.
+Suele usar su celular para responder a los terabajadores , le gusta un ambiente comprometido y que haya comunicación.
+
+Le gustaría que el hotel funcione igual o mejor que cuando el no esté que no necesariamente esté presente para que las cosas funcionen , para que el personal siga las reglas , sean amables y educados.
+El mayor reto que tiene es que no todas las solicitudes llegan a la persona correcta. A veces el cliente pide algo en recepción, pero no se lo comunican a limpieza o mantenimiento
+Usa un sistema de gestión básico, más algunas hojas de Excel. El problema es que no todo está conectado. Por ejemplo, si alguien reserva en Booking, tenemos que actualizar manualmente en el sistema interno, y a veces eso causa sobreventas.
+
+
 
 **Entrevista 02 (Gerentes)**
 
@@ -730,6 +751,8 @@ Manuel busca una plataforma de gestión hotelera "todo en uno" que incluya una i
 
 Está convencido de que una transformación digital efectiva puede mejorar significativamente la experiencia del cliente y hacer que la gestión hotelera sea más eficiente, profesional y competitiva.
 
+**Entrevista 03 (Administradores)**
+<br>
 <br>
 URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118152_upc_edu_pe/EU9hK-g_KtZHuGYYffuD9goB9SYCjwzsUjK57LATJ7Z8Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZiYFod <br>
 Nombre: CAMILA BUSTAMANTE <br>
@@ -749,7 +772,6 @@ su laptop mayormente usando el navegador de chrome.Laboralmente quiere seguir cr
  Usan un sistema para reservas , factuarición y check-in, le gustaría un interfaz mas agradable y una app que permita gestionar puntos claves. Piensa que las tecnologías bien implementadas reducen el tiempo y errores.
 El principal reto es la coordinación rápida entre el hotel y los huéspedes. Implementando check-in online reduciría el tiempo de espera haciendo colas.
 
-**Entrevista 03 (Administradores)**
 
 
 **Entrevista 01 (Trabajadores)**
