@@ -413,6 +413,20 @@ Diseñamos la estructura de las páginas web sin detalles visuales. Es útil par
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
+Representan cómo se conecta cada vista del sistema web. Ayuda a identificar posibles caminos del usuario y cómo se mueve dentro de la plataforma.
+
+**Creación de cliente:**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ujb0ynL.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
+**Creación de usuario:**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/WfTNwWF.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
 ### 4.6.3. Web Applications Mock-ups
 
 ### 4.6.4. Web Applications User Flow Diagrams
