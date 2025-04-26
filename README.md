@@ -23,104 +23,130 @@
 
 <div align="center">
 
-|               Member                |    Code    |
-| :---------------------------------: | :--------: |
-| |  |
-| |  |
-|  |  |
-|     |  |
-|     |  |
-|     |  |
-
+|               Member                   |    Code    |
+| :---------------------------------:    | :--------: |
+| Escobar Palomino ,Sebastian Matias     | u202125968 |
+| Morales Montalvo,Omar Andrew           | u202212383 |
+| Gutierrez Tume , Stanley Jeremy        | u202118152 |
+| Salgado Luna, Fernando Brian           | u202212023 |
+| Antonio Loayza, Luiggi Jeremy          | u202011431 |
 </div>
 
 # Registro de Versiones del Informe
 
-<table>
-    <thead>
-    <tr>
-        <th>Version</th>
-        <th>Fecha</th>
-        <th>Autor</th>
-        <th>Descripción de modificación</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>TB1</td>
-        <td></td>
-        <td></td>
-        <td>
-        <ul>
-        <li> </li>
-        <li>  </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>TB1</td>
-        <td></td>
-        <td></td>
-        <td>
-        <ul>
-        <li> </li>
-        <li> </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>  
-    </tr>
-    <tr>
-        <td>TB1</td>
-        <td></td>
-        <td></td>
-        <td>
-        <ul>
-        <li>  </li>
-        <li>  </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>TB1</td>
-        <td></td>
-        <td>  </td>
-        <td>
-        <ul>
-        <li>  </li>
-        <li>  </li>
-        <li>  </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>TB1</td>
-        <td></td>
-        <td>  </td>
-        <td>
-        <ul>
-        <li> </li>
-        <li>  </li>
-        <li> </li>
-        </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>TB1</td>
-        <td></td>
-        <td>  </td>
-        <td>
-        <ul>
-        <li>  </li>
-        <li> </li>
-        <li></li>
-        </ul>
-        </td>
-    </tr>
-    </tbody>
-</table>
-
+| Versión | Fecha | Autor                                | Descripción de modificación                                                                 |
+|---------|-------|--------------------------------------|--------------------------------------------------------------------------------------------|
+| TB1     |       | Escobar Palomino, Sebastian Matias   | - 1.1.1. Descripción de la Startup<br>- 1.2.1. Antecedentes y problemática                 |
+| TB1     |       | Morales Montalvo, Omar Andrew        | - 1.2.2. Lean UX Process (todos los subpuntos)<br>- 1.3. Segmentos objetivo<br>- 4.9. Software Object-Oriented Design<br>- 4.10. Database Design                 |
+| TB1     |       | Gutierrez Tume, Stanley Jeremy       | - 2.1. Competidores (todos los subpuntos)<br>- 2.2. Entrevistas (todos los subpuntos)<br>- 3.1. To-Be Scenario Mapping<br>- 3.2. User Stories<br>- 3.3. Product Backlog<br>- 3.4. Impact Mapping<br>- 5.1. Software Configuration Management (todos los subpuntos)         |
+| TB1     |       | Salgado Luna, Fernando Brian         | - 2.3. Needfinding (todos los subpuntos)<br>- 2.4. Ubiquitous Language<br>- 4.1. Style Guidelines (todos los subpuntos)<br>- 4.2. Information Architecture (todos los subpuntos)                     |
+| TB1     |       | Antonio Loayza, Luiggi Jeremy  | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
 ---
+# Project Report Collaboration Insights
+TB1
+La entrega TB1 se completó exitosamente y quedó documentada en el repositorio de GitHub de la organización del equipo: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/final-project-report> Durante la elaboración del informe, se consideraron los siguientes aspectos:
+
+- Cada miembro redactó y estructuró sus secciones asignadas en formato Markdown.
+
+- Se realizaron commits periódicos para registrar los avances en el repositorio.
+
+- Se finalizaron los Capítulos I al IV, junto con las conclusiones y el video de exposición, trabajando en colaboración.
+
+- Se organizaron reuniones semanales para revisar el progreso del equipo y ajustar los contenidos.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/DpVf4gs.png" alt="" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/LMiaTpP.png" alt="" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/y3xZP2R.png" alt="" width="70%" />
+</div>
+
+##  Tabla de Contenidos Interactiva
+
+### [1.1. Startup Profile](#11-startup-profile)  
+- [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
+- [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
+
+### [1.2. Solution Profile](#12-solution-profile)  
+- [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)  
+- [1.2.2. Lean UX Process](#122-lean-ux-process)  
+  - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+  - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
+  - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+  - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
+
+### [1.3. Segmentos objetivo](#13-segmentos-objetivo)  
+
+### [2.1. Competidores](#21-competidores)  
+- [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
+- [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+
+### [2.2. Entrevistas](#22-entrevistas)  
+- [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
+- [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
+- [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
+
+### [2.3. Needfinding](#23-needfinding)  
+- [2.3.1. User Personas](#231-user-personas)  
+- [2.3.2. User Task Matrix](#232-user-task-matrix)  
+- [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
+- [2.3.4. Empathy Mapping](#234-empathy-mapping)  
+- [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+
+### [2.4. Ubiquitous Language](#24-ubiquitous-language)  
+
+### [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+### [3.2. User Stories](#32-user-stories)  
+### [3.3. Product Backlog](#33-product-backlog)  
+### [3.4. Impact Mapping](#34-impact-mapping)  
+
+### [4.1. Style Guidelines](#41-style-guidelines)  
+- [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
+- [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
+- [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
+  - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
+  - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
+
+### [4.2. Information Architecture](#42-information-architecture)  
+- [4.2.1. Organization Systems](#421-organization-systems)  
+- [4.2.2. Labeling Systems](#422-labeling-systems)  
+- [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+- [4.2.4. Searching Systems](#424-searching-systems)  
+- [4.2.5. Navigation Systems](#425-navigation-systems)  
+
+### [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
+- [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
+- [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
+
+## **Capítulo V: Product Implementation**  
+### [5.1. Software Configuration Management](#51-software-configuration-management)  
+- [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
+- [5.1.2. Source Code Management](#512-source-code-management)  
+- [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
+- [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)  
+
+### [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)  
+
+### [5.3. Video About-the-Product](#53-video-about-the-product)  
+
+### [Conclusiones](#conclusiones)  
+### [Bibliografía](#bibliografia)  
+### [Anexos](#anexos)  
+
+# Student Outcome 
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio Específico | Acciones Realizadas (TB1) | Conclusiones |
+|---------------------|---------------------------|-------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Escobar Palomino, Sebastian Matias (u202125968):** Durante el desarrollo del TB1, asumí la responsabilidad de coordinar las sesiones de trabajo y distribuir las tareas de manera equitativa entre los miembros del equipo. Esto incluyó la planificación detallada de reuniones periódicas, la moderación activa de discusiones técnicas y la verificación constante de que cada integrante tuviera claridad absoluta sobre sus objetivos asignados. Mi enfoque buscaba crear un ambiente donde el liderazgo fuera compartido naturalmente, permitiendo que cada miembro aportara desde sus fortalezas particulares.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** En esta primera etapa del proyecto, mi contribución principal se centró en la elaboración meticulosa de la documentación técnica del sistema, así como en la identificación y corrección proactiva de errores durante el proceso de desarrollo. Estas actividades las realicé en constante colaboración con mis compañeros, estableciendo un flujo de trabajo donde el conocimiento técnico se compartía abiertamente para fortalecer nuestro resultado colectivo.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Mi participación en el TB1 se enfocó en liderar el proceso de integración de ideas diversas y en la organización estratégica de nuestras presentaciones. Dediqué especial esfuerzo a facilitar canales de comunicación fluidos entre todos los miembros, motivando la participación activa y asegurando que cada voz fuera escuchada. Este enfoque permitió que nuestro trabajo final reflejara una síntesis coherente de nuestras diversas perspectivas.<br><br>**Salgado Luna, Fernando Brian (u202212023):** Implementé un modelo de liderazgo rotativo durante la ejecución del TB1, donde alternamos responsabilidades clave entre los miembros. Mi aporte específico fue la implementación de un sistema de gestión del tiempo riguroso, con priorización inteligente de tareas críticas y establecimiento de hitos intermedios. Esta metodología demostró ser particularmente efectiva para mantener nuestro progreso constante.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Mi contribución al equipo consistió en el diseño de cronogramas semanales detallados y en la provisión de retroalimentación constructiva sobre los avances individuales. Establecí un sistema de seguimiento que nos permitía identificar oportunamente áreas de mejora, fomentando así un ciclo continuo de aprendizaje grupal y ajuste de nuestras estrategias de trabajo. | La realización del primer entregable (TB1) evidenció el éxito de nuestro modelo de liderazgo compartido y trabajo colaborativo. A través de la distribución estratégica de roles según las competencias individuales, logramos crear una dinámica donde la responsabilidad del éxito era colectiva. La coordinación de esfuerzos permitió no solo cumplir con todos los objetivos técnicos dentro de los plazos establecidos, sino también generar un ambiente de trabajo donde la confianza mutua y el respeto por las diversas formas de contribución se fortalecieron progresivamente. Este enfoque demostró ser particularmente efectivo para manejar la complejidad inherente a proyectos multidisciplinarios, ya que permitió aprovechar al máximo las capacidades individuales mientras se mantenía una visión unificada del objetivo común. La experiencia adquirida en esta primera fase sienta bases sólidas para abordar las próximas etapas del proyecto con mayor eficiencia y cohesión como equipo. |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería** | **Escobar Palomino, Sebastian Matias (u202125968):** Durante la elaboración del informe técnico del TB1, me enfoqué en adaptar el lenguaje según los diferentes destinatarios, utilizando términos técnicos precisos cuando el documento iba dirigido al equipo de desarrollo, y realizando explicaciones más didácticas al redactar secciones para stakeholders no técnicos. Esto requirió investigar formatos estándar de documentación en ingeniería de software y aplicar principios de claridad comunicacional.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Lideré la redacción de los manuales técnicos del proyecto, donde establecí un equilibrio entre el rigor ingenieril y la accesibilidad del contenido. Implementé un sistema de anotaciones jerárquicas que permitía a lectores con distintos niveles de expertise (desarrolladores junior, arquitectos senior y clientes) encontrar rápidamente la información relevante para su rol. Complementé esto con diagramas UML estandarizados para representar aspectos complejos del sistema.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Diseñé la estructura comunicacional de las presentaciones ejecutivas, creando versiones diferenciadas según el público objetivo: una con énfasis en aspectos técnicos para el equipo de ingeniería, otra centrada en ROI y métricas para la dirección, y una versión simplificada con infografías para capacitación de usuarios finales. Cada versión mantenía consistencia en los datos fundamentales pero variaba en profundidad técnica.<br><br>**Salgado Luna, Fernando Brian (u202212023):** Desarrollé protocolos de documentación que integraban notación técnica especializada con glosarios explicativos, permitiendo que un mismo documento fuera útil tanto para expertos como para personal administrativo. Implementé un sistema de codificación por colores para señalar el nivel técnico requerido en cada sección, facilitando la navegación del lector según sus conocimientos.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Establecí un proceso de revisión colaborativa de documentos donde cada miembro evaluaba la claridad comunicacional desde su área de expertise, asegurando que el material final fuera preciso técnicamente pero accesible. Creé plantillas estandarizadas para diferentes tipos de comunicación (informes técnicos, memorandos ejecutivos, guías rápidas) que mantenían coherencia en la marca pero adaptaban el lenguaje. | La experiencia en el TB1 demostró que la comunicación efectiva en ingeniería requiere dominar múltiples registros lingüísticos y formatos expositivos. Logramos producir documentación que mantenía rigor técnico sin sacrificar accesibilidad, mediante estrategias como: estructuración jerárquica de contenidos, uso selectivo de terminología, complementación texto-diagramas y adaptación consciente al público objetivo. Esto permitió que nuestros resultados fueran comprendidos y valorados tanto por el equipo técnico como por partes interesadas no especializadas. Un hallazgo clave fue que la estandarización de formatos (sin rigidizar el contenido) optimizó significativamente el proceso comunicacional, reduciendo malentendidos y preguntas aclaratorias. La capacidad de traducir complejidad técnica en información accionable para diferentes audiencias emergió como competencia fundamental para el éxito del proyecto en sus siguientes fases. |
+
 
 # Capítulo I: Introducción
 
@@ -147,13 +173,14 @@ Entre sus principales características se incluyen:
 Ofrecer a los responsables de la administración hotelera una solución completa y accesible que cubra aspectos clave como la administración de ingresos y egresos, la supervisión de inventarios, y la gestión de relaciones con proveedores y clientes. Buscamos simplificar el manejo del negocio, permitiendo su monitoreo remoto y en tiempo real, apoyando a nuestros usuarios en la toma de decisiones acertadas, optimizando los procesos operativos y maximizando la rentabilidad de sus negocios.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Miembros del equipo                             | Codigo Estudiante | Carrera                | Conocimientos / Habilidades |
-| ----------------------------------------------- | ----------------- | ---------------------- | --------------------------- |
-| |             |  |             |
-| |             |  |             |
-| |             |  |             |
-| |             |  |             |
-| |             |  |             |
+| Miembros del equipo            | Código Estudiante | Carrera                | Conocimientos / Habilidades | Foto |
+|--------------------------------|-------------------|------------------------|----------------------------|------|
+| Escobar Palomino, Sebastian Matias | u202125968       | Ingeniería de Software | **Lenguajes:** Java, JavaScript<br>**Frameworks:** Spring Boot<br>**Bases de datos:** MySQL |  <img src="https://i.imgur.com/tDWIiqt.png" width="80"> |
+| Morales Montalvo, Omar Andrew  | u202212383       | Ingeniería de Software | **Lenguajes:** C#, JavaScript<br>**Frameworks:** .NET Core, Angular<br>**Gestión:** Jira, Trello | <img src="https://i.imgur.com/rV6QLMK.png" width="80"> |
+| Gutierrez Tume, Stanley Jeremy | u202118152       | Ingeniería de Software | **Lenguajes:** Java, Kotlin, Swift<br>**Mobile:** Android Studio, Xcode | <img src="https://i.imgur.com/wH0dfWs.png" width="80"> |
+| Salgado Luna, Fernando Brian   | u202212023       | Ingeniería de Software | **Lenguajes:** Python, JavaScript<br>**Documentación:** Swagger | <img src="https://i.imgur.com/bNNGLG6.png" width="80"> |
+| Antonio Loayza, Luiggi Jeremy  | u202011431       | Ingeniería de Software | **Lenguajes:** JavaScript<br>**Frameworks:** Node.js<br>**UI/UX:** Figma, Sketch | <img src="https://i.imgur.com/rPKbaMd.png" width="80"> |
+
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
