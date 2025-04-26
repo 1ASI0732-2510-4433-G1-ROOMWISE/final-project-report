@@ -833,6 +833,30 @@ El análisis obtenido facilita una comprensión más profunda de las necesidades
 
 
 ### 2.3.3. User Journey Mapping
+
+En esta sección se presentarán los User Journey Mapping para cada user persona, detallando las etapas clave de interacción con RoomWise, sus puntos de contacto, y las experiencias y emociones asociadas en cada paso. El objetivo es identificar oportunidades de mejora y optimizar la experiencia del usuario. A continuación se describen los User Journey Maps para cada perfil de usuario:
+
+ ADMINISTRADOR:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/e39q0mz.png" width="100%" />
+</div>
+
+TRABAJADOR:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/Fsa9KUm.png" width="100%" />
+</div>
+
+GERENTE:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/YNTuzXu.png" width="100%" />
+</div>
+
+
+
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 Esta sección expone los mapeos de escenarios para los segmentos objetivo: Huésped, Administrador y Dueño, los cuales ilustran cómo son actualmente sus experiencias y rutinas diarias como usuarios potenciales.
