@@ -1407,23 +1407,23 @@ __Evidencia del Jira__
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 <div style="text-align: center;">
-   <img src="https://i.imgur.com/hYcn7q9.png" alt="Landing evidence" width = "40%"/>
+   <img src="https://i.imgur.com/hYcn7q9.png" alt="Landing evidence" width = "90%"/>
 </div><br>
 
 <div style="text-align: center;">
-   <img src="https://i.imgur.com/R463vJ9.png" alt="Landing evidence" width = "40%"/>
+   <img src="https://i.imgur.com/R463vJ9.png" alt="Landing evidence" width = "90%"/>
 </div><br>
 
 <div style="text-align: center;">
-   <img src="https://i.imgur.com/aKSW4y8.png" alt="Landing evidence" width = "40%"/>
+   <img src="https://i.imgur.com/aKSW4y8.png" alt="Landing evidence" width = "90%"/>
 </div><br>
 
 <div style="text-align: center;">
-   <img src="https://i.imgur.com/ker53Nl.png" alt="Landing evidence" width = "40%"/>
+   <img src="https://i.imgur.com/ker53Nl.png" alt="Landing evidence" width = "90%"/>
 </div><br>
 
 <div style="text-align: center;">
-   <img src="https://i.imgur.com/gnA9D8y.png" alt="Landing evidence" width = "40%"/>
+   <img src="https://i.imgur.com/gnA9D8y.png" alt="Landing evidence" width = "90%"/>
 </div><br>
 
 
