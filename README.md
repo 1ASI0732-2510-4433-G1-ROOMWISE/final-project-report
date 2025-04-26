@@ -449,6 +449,25 @@ GERENTE:
 
 
 ### 2.3.4. Empathy Mapping
+
+Administrador:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/dZbf6ah.png" width="100%" />
+</div>
+
+Gerente:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/6BpZa1F.png" width="100%" />
+</div>
+
+Trabajador:
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/XEIK6Tv.png" width="100%" />
+</div>
+
 ### 2.3.5. As-is Scenario Mapping
 Esta sección expone los mapeos de escenarios para los segmentos objetivo: Huésped, Administrador y Dueño, los cuales ilustran cómo son actualmente sus experiencias y rutinas diarias como usuarios potenciales.
 
