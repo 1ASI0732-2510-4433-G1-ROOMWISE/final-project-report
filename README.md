@@ -1383,6 +1383,7 @@ __Evidencia del Jira__
    <img src="https://i.imgur.com/393hd8t.png" alt="Landing evidence"/>
 </div><br>
 
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
@@ -1439,6 +1440,28 @@ Los tokens JWT permiten autenticar y autorizar a los usuarios sin necesidad de m
 Se recomienda el uso de herramientas como Swagger (OpenAPI) o Postman para documentar y probar la API de manera interactiva. Esto mejora la experiencia de los desarrolladores y facilita la integración con otras aplicaciones.
 
 ### 5.2.7. Team Collaboration Insights
+
+#### Document Report 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/EYzqJ9h.png" alt="document report insights" width = "95%"/>
+</div><br>
+
+#### Web Service 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/uoyxkMa.png" alt="web service insights" width = "95%"/>
+</div><br>
+
+#### Frontend 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/gLQqAnm.png" alt="frontend insights" width = "95%"/>
+</div><br>
+
+#### Mobile Aplication 
+<div style="text-align: center;">
+   <img src="" alt="mobile application insights" width = "95%"/>
+</div><br>
+
+
 
 
 
