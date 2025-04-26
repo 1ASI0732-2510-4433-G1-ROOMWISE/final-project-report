@@ -13,9 +13,9 @@
 
 <center>
 
-#### Startup: ** Nombre **
+#### Startup: **RoomWise**
 
-#### Product: ** Nombre **
+#### Product: **Sweet Manager**
 
 </center>
 
