@@ -465,8 +465,15 @@ Muestra el recorrido que sigue el usuario desde que entra al sistema web hasta q
   <img src="https://i.imgur.com/O5yCAHx.png" alt="Landing Page Wireframe" width="70%" />
 </div>
 
-
 ## 4.7. Web Applications Prototyping
+
+Creamos un prototipo navegable de la versión web, con interacciones simuladas. Esto nos sirve para probar la experiencia completa antes de pasar al desarrollo real.
+Link del prototipo: https://www.figma.com/proto/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise?page-id=10%3A27888&node-id=111-5594&viewport=655%2C-536%2C0.07&t=Tx3sXW59IhsNi3BM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=111%3A5594
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/BWarI1n.png" alt="Landing Page Wireframe" width="70%" />
+</div>
+
 
 ## 4.8. Domain-Driven Software Architecture
 
