@@ -887,9 +887,9 @@ El análisis obtenido facilita una comprensión más profunda de las necesidades
 ### 2.3.5. As-is Scenario Mapping
 Esta sección expone los mapeos de escenarios para los segmentos objetivo: Huésped, Administrador y Dueño, los cuales ilustran cómo son actualmente sus experiencias y rutinas diarias como usuarios potenciales.
 
-**As-is Scenario Mapping Huésped:**
+**As-is Scenario Mapping Trabajador:**
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/Pu1CCf7.png" width="100%" />
+  <img src="https://i.imgur.com/IWYO0Cp.png" width="100%" />
 </div>
 
 **As-is Scenario Mapping Administrador:**
