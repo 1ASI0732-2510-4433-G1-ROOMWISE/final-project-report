@@ -796,8 +796,47 @@ Joseph imagina un sistema ideal donde las tareas se asignen en tiempo real, pued
 Finalmente, se muestra abierto al uso de nuevas tecnologías, siempre que vengan acompañadas de una adecuada capacitación. Considera que la digitalización no solo mejoraría el flujo de trabajo, sino que también elevaría la calidad del servicio ofrecido, beneficiando a todos los actores del entorno hotelero.
 
 **Entrevista 02 (Trabajadores)**
+Nombre: Marcela
+Edad: 26
+Sexo: Femenino
+Lugar donde vive: Jesús María, Lima, Perú
+Ocupación: Jefa de cocina en hotel
+Personalidad: Dinámica y enfocada en la organización
+Minuto de la entrevista:
+URL:
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/yQoqea1.png" alt="Joseph Cubas Interview"/>
+</div><br>
+
+Marcela lidera el área de cocina en un hotel ubicado en Jesús María, desempeñándose como jefa de cocina y supervisando tanto al personal fijo como a los practicantes en formación. Durante la entrevista, resaltó que una de las actividades más demandantes en su día a día es la capacitación de los nuevos practicantes, ya que su falta de experiencia genera confusión y requiere un acompañamiento constante.
+
+Actualmente, utiliza una ticketera  para gestionar los pedidos de los huéspedes. Sin embargo, Marcela señaló que durante las horas pico, como a las seis o siete de la tarde, el volumen de pedidos puede resultar abrumador, sobre todo para los practicantes, lo que ralentiza la operación.
+
+Respecto a la comunicación interna, mencionó que existe un flujo dinámico y constante de información entre las áreas, aunque reconoció que en ocasiones la organización de los comunicados podría mejorar para evitar confusiones. A Marcela le gustaría un sistema más robusto que incluya un chat interno para todos los colaboradores y un módulo de control de inventario para su área, cree que esto mejoraría la comunicación y le permitiría una gestión más eficiente de los insumos.
+
+Finalmente, indicó que uno de los principales desafíos es atender adecuadamente los pedidos especiales de los huéspedes, como aquellos relacionados con alergias alimentarias ya que requieren una comunicación precisa a todo el equipo para evitar errores que comprometan la seguridad de los clientes.
 
 **Entrevista 03 (Trabajadores)**
+
+Nombre: Jesús Pérez
+Edad: 23
+Sexo: Masculino
+Lugar donde vive: Cercado de Lima, Lima, Perú
+Ocupación: Recepcionista de hotel
+Personalidad: Proactivo y receptivo a nuevas tecnologías
+Minuto de la entrevista:
+URL: 
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/hecaQOP.png" alt="Joseph Cubas Interview"/>
+</div><br>
+
+Jesús Pérez es recepcionista en un hotel de Cercado de Lima. Identifica como tareas más tediosas la actualización manual del inventario de habitaciones y la coordinación con limpieza, especialmente en eventos grandes.
+
+Aunque utilizan un sistema de gestión hotelera, Jesús señala que es poco eficiente para cambios rápidos de reserva y generación de reportes. La comunicación interna es dinámica, pero presenta fallas de coordinación entre recepción, limpieza y alimentos.
+
+Sugiere incorporar una gestión de inventario en tiempo real con alertas automáticas para optimizar el flujo de trabajo. Se muestra a favor de la implementación de tecnologías como la inteligencia artificial para automatizar areas repetitivas. Entre sus principales desafíos destaca gestionar las solicitudes urgentes de huéspedes en situaciones de alta ocupación.
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -1156,6 +1195,7 @@ La navegación de **Sweet Manager** ha sido desarrollada siguiendo un enfoque ce
 - **Botones de acción flotantes:** Para realizar tareas comunes como añadir, editar o eliminar elementos, visibles en todas las vistas operativas.
 
 Además, la navegación es completamente **responsive**, adaptándose a cualquier tamaño de pantalla y manteniendo la coherencia visual y funcional en todos los dispositivos.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
