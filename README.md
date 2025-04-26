@@ -1544,9 +1544,25 @@ https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 ### Vídeos de Exposición (Anexo 1)
 
+- Repositorio GitHub de la Organización: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
+
+- Repositorio GitHub del Informe: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/final-project-report>
+
+- Repositorio GitHub del Backend:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/web-services>
+
+- Repositorio GitHub de la Aplicación Web:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/frontend>
+
+- Repositorio GitHub de la Aplicación Móvil:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/mobile-app>
+
+- Repositorio GitHub de la Landing Page:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/landing-page>
+
+- Entrevistas: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=lE8RTc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+
 | Contenido | URL del Vídeo |
 |--------------|--------------|
 | Vídeo de Exposición TB1    | Link del Vídeo: |  
 | VÍdeo de Exposición TP1    | Link del Vídeo: |
 | Vídeo de Exposición TB2    | Link del Vídeo: | 
 | Vídeo de Exposición TF1    | Link del Vídeo: | 
+ 
