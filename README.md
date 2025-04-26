@@ -801,6 +801,56 @@ Finalmente, se muestra abierto al uso de nuevas tecnologías, siempre que vengan
 
 ### 2.2.3. Análisis de entrevistas
 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/tNa6xYM.png" alt=""/>
+</div><br>
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/0bEaJdt.png" alt=""/>
+</div><br>
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/Gjv7vD8.png" alt=""/>
+</div><br>
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/ObXTOpk.png" alt=""/>
+</div><br>
+
+# Hallazgos Clave de las Entrevistas
+
+## Necesidades de los Trabajadores del Hotel
+- **Factores valorados**: Ubicación, precio, comodidades y servicios del hotel.
+- **Comparación y filtrado**: Desean poder comparar opciones fácilmente y filtrar según sus necesidades.
+- **Tecnología utilizada**: Todos usan Google como principal buscador y dispositivos móviles (celular y laptop).
+- **Recepción a la aplicación**: Muy receptivos ante la idea de una aplicación para:
+  - Registrar reservas.
+  - Cancelar reservas.
+  - Administrar preferencias.
+  - Comunicarse con el personal del hotel.
+
+## Necesidades del Staff del Hotel
+- **Herramientas actuales**: 
+  - Uso de herramientas manuales como Excel.
+  - Software limitado que no cubre toda la operación.
+- **Objetivos del staff**: Buscan soluciones que:
+  - Reduzcan la carga operativa.
+  - Eviten errores humanos.
+  - Permitan una gestión integral de:
+    - Reservas.
+    - Housekeeping.
+    - Inventario.
+    - Comunicación interna.
+    - Reportes.
+
+## Conclusión
+Los tres segmentos objetivo coinciden en la necesidad de una **plataforma centralizada, intuitiva y automatizada** que:
+- Mejore la gestión hotelera.
+- Mejore la experiencia del trabajador.
+
+**Staff del hotel**:  
+La comunicación interna y la gestión de recursos son aspectos clave para el éxito de la operación hotelera.
+
+**Trabajadores**:  
+Buscan una experiencia personalizada y fluida al interactuar con el hotel, desde la reserva hasta el check-out.
+
 ## 2.3. Needfinding
 Para comprender mejor cómo será la experiencia del usuario con nuestro producto, emplearemos herramientas como User Persona, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping. 
 ### 2.3.1. User Personas
