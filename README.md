@@ -867,6 +867,56 @@ Sugiere incorporar una gestión de inventario en tiempo real con alertas automá
 
 ### 2.2.3. Análisis de entrevistas
 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/tNa6xYM.png" alt=""/>
+</div><br>
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/0bEaJdt.png" alt=""/>
+</div><br>
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/Gjv7vD8.png" alt=""/>
+</div><br>
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/ObXTOpk.png" alt=""/>
+</div><br>
+
+# Hallazgos Clave de las Entrevistas
+
+## Necesidades de los Trabajadores del Hotel
+- **Factores valorados**: Ubicación, precio, comodidades y servicios del hotel.
+- **Comparación y filtrado**: Desean poder comparar opciones fácilmente y filtrar según sus necesidades.
+- **Tecnología utilizada**: Todos usan Google como principal buscador y dispositivos móviles (celular y laptop).
+- **Recepción a la aplicación**: Muy receptivos ante la idea de una aplicación para:
+  - Registrar reservas.
+  - Cancelar reservas.
+  - Administrar preferencias.
+  - Comunicarse con el personal del hotel.
+
+## Necesidades del Staff del Hotel
+- **Herramientas actuales**: 
+  - Uso de herramientas manuales como Excel.
+  - Software limitado que no cubre toda la operación.
+- **Objetivos del staff**: Buscan soluciones que:
+  - Reduzcan la carga operativa.
+  - Eviten errores humanos.
+  - Permitan una gestión integral de:
+    - Reservas.
+    - Housekeeping.
+    - Inventario.
+    - Comunicación interna.
+    - Reportes.
+
+## Conclusión
+Los tres segmentos objetivo coinciden en la necesidad de una **plataforma centralizada, intuitiva y automatizada** que:
+- Mejore la gestión hotelera.
+- Mejore la experiencia del trabajador.
+
+**Staff del hotel**:  
+La comunicación interna y la gestión de recursos son aspectos clave para el éxito de la operación hotelera.
+
+**Trabajadores**:  
+Buscan una experiencia personalizada y fluida al interactuar con el hotel, desde la reserva hasta el check-out.
+
 ## 2.3. Needfinding
 Para comprender mejor cómo será la experiencia del usuario con nuestro producto, emplearemos herramientas como User Persona, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping. 
 ### 2.3.1. User Personas
@@ -946,9 +996,9 @@ Trabajador:
 ### 2.3.5. As-is Scenario Mapping
 Esta sección expone los mapeos de escenarios para los segmentos objetivo: Huésped, Administrador y Dueño, los cuales ilustran cómo son actualmente sus experiencias y rutinas diarias como usuarios potenciales.
 
-**As-is Scenario Mapping Huésped:**
+**As-is Scenario Mapping Trabajador:**
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/Pu1CCf7.png" width="100%" />
+  <img src="https://i.imgur.com/IWYO0Cp.png" width="100%" />
 </div>
 
 **As-is Scenario Mapping Administrador:**
@@ -1635,7 +1685,7 @@ Para Sweet Manager, se ha implementado una base de datos relacional que garantiz
 ### 5.1.2. Source Code Management
 A continuación, se describe cómo se gestionará el código fuente en este proyecto, lo cual permitirá monitorear y controlar los cambios realizados por cualquier integrante del equipo durante el proceso de desarrollo. Además, se utilizará un repositorio en GitHub para administrar las distintas versiones del código a lo largo del proyecto.
 
-*REPOSITORIO DE GITHUB: https://github.com/1ASI0732-2510-4433-G1-ROOMWISE
+*REPOSITORIO DE GITHUB: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
 
 *LANDING PAGE:
 
@@ -1674,12 +1724,237 @@ CSS: Se aplicará este lenguaje de estilos para definir la presentación visual 
 
 
 ## 5.2. Product Implementation & Deployment
+
 ### 5.2.1. Sprint Backlogs
+Esta sección presenta las tareas completadas en cada sprint correspondiente, junto con una captura de Jira que muestra el progreso alcanzado hasta ese punto y el enlace al tablero
+
+<https://jeremyantonio.atlassian.net/jira/software/projects/EDS/boards/34?atlOrigin=eyJpIjoiMzBhYWNkZWVjZGIxNDczNjlmNGZiMzlmNjgzMzEzMzgiLCJwIjoiaiJ9>
+
+
+__Sprint 01__
+
+__Evidencia del Jira__
+
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/BT7BE15.png" alt="Jira tasks"/>
+</div><br>
+
+# Sprint Backlog 02 (Completed):
+
+| Sprint # | User Story | Work-item Task | Estimation (In hours) | Assigned To | Status |
+|----------|------------|----------------|-----------------------|-------------|--------|
+| **Landing Page** | | | | | |
+| Sprint 1 | HU03: Consultar los planes de precios del producto | W06: Mostrar planes de precios en la landing page | 2 | XXXX | Done |
+| **Web Service** | | | | | |
+| Sprint 1 | HU02: Registro de cuenta para gerente | W07: Formulario de registro para gerentes | 4 | XXXX | Done |
+| Sprint 1 | HU03: Actualizar información personal | W08: Funcionalidad de edición de perfil | 3 | XXXX | Done |
+| Sprint 1 | HU01: Agregar un nuevo ítem al inventario | W09: Formulario para añadir ítems al inventario | 3 | XXXX | Done |
+| Sprint 1 | HU02: Actualizar la información de un ítem en el inventario | W10: Funcionalidad de edición de ítems | 3 | XXXX | Done |
+| Sprint 1 | HU03: Eliminar un ítem del inventario | W11: Funcionalidad de eliminación de ítems | 2 | XXXX | Done |
+| Sprint 1 | HU03: Eliminar una tarea no necesaria | W12: Funcionalidad de eliminación de tareas | 2 | XXXX | Done |
+| Sprint 1 | HU06: Asignar una tarea a un empleado específico | W13: Funcionalidad de asignación de tareas | 3 | XXXX | Done |
+| Sprint 1 | HU02: API de Autenticación | W14: Implementación de API de autenticación | 5 | XXXX | Done |
+| Sprint 1 | HU01: Seguridad de Usuario | W15: Integración de JWT para login | 4 | XXXX | Done |
+| Sprint 1 | HU04: Registro de Proveedores | W16: Formulario de registro de proveedores | 3 | XXXX | Done |
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+<p>Evidencias del avance de la implemmentación de la Landing Page</p>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/gL6uj1N.png" alt="Landing evidence"/>
+</div><br>
+
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/6TA4DdJ.png" alt="Landing evidence"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/393hd8t.png" alt="Landing evidence"/>
+</div><br>
+
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/UHoWDTK.jpeg" alt="Landing evidence" width = "40%"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/U4oQl6F.jpeg" alt="Landing evidence" width = "40%"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/rY2SvVt.jpeg" alt="Landing evidence" width = "40%" />
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/Qm0qIGt.jpeg" alt="Landing evidence" width = "40%"/>
+</div><br>
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/hYcn7q9.png" alt="Landing evidence" width = "90%"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/R463vJ9.png" alt="Landing evidence" width = "90%"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/aKSW4y8.png" alt="Landing evidence" width = "90%"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/ker53Nl.png" alt="Landing evidence" width = "90%"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/gnA9D8y.png" alt="Landing evidence" width = "90%"/>
+</div><br>
+
+
 ### 5.2.6. RESTful API documentation
+
+
+A continuación, se presenta una descripción detallada de la documentación de la RESTful API desarrollada para este sistema. Esta interfaz de programación de aplicaciones permite la comunicación entre clientes (tanto web como móviles) y el servidor backend, utilizando el paradigma REST (Representational State Transfer), ampliamente adoptado por su simplicidad, escalabilidad y separación de responsabilidades.
+
+## Principios RESTful
+
+Una API RESTful se basa en los siguientes principios fundamentales:
+
+- **Recursos como entidades centrales**: Cada recurso (por ejemplo, usuarios, espacios, reservas) se representa mediante una URI única.
+
+- **Operaciones a través de verbos HTTP**: Las operaciones sobre los recursos se realizan mediante los verbos HTTP estándar:
+  - `GET`: Recuperar información.
+  - `POST`: Crear un nuevo recurso.
+  - `PUT`: Actualizar un recurso existente.
+  - `DELETE`: Eliminar un recurso.
+
+- **Sin estado (stateless)**: Cada solicitud debe contener toda la información necesaria para ser procesada. El servidor no almacena estado entre peticiones.
+
+- **Uso de hipermedios (opcional - HATEOAS)**: Aunque no se implementa siempre, REST permite que las respuestas incluyan enlaces para navegar entre recursos relacionados.
+
+## Autenticación
+
+- **Método utilizado**: JWT (JSON Web Token), una forma segura y compacta de transmitir información entre partes.
+
+- **Formato del encabezado requerido**: 
+Los tokens JWT permiten autenticar y autorizar a los usuarios sin necesidad de mantener sesiones en el servidor, lo cual es coherente con el principio stateless.
+
+## Convenciones y Buenas Prácticas
+
+- **Nombres de recursos en plural**: Para mantener la coherencia y claridad, los endpoints usan sustantivos en plural (e.g., `/users`, `/spaces`, `/reservations`).
+
+- **Versionamiento de la API**: Aunque no siempre es necesario, es recomendable incluir una versión en la URI (e.g., `/api/v1/users`) para facilitar futuras actualizaciones sin romper la compatibilidad.
+
+- **Códigos de estado HTTP**: La API utiliza códigos de estado HTTP estándar para indicar el resultado de cada operación:
+- `200 OK`: Solicitud exitosa.
+- `201 Created`: Recurso creado correctamente.
+- `400 Bad Request`: Error en los datos enviados.
+- `401 Unauthorized`: Falta de autenticación o token inválido.
+- `404 Not Found`: Recurso no encontrado.
+- `500 Internal Server Error`: Error inesperado en el servidor.
+
+
+## Documentación Interactiva
+
+Se recomienda el uso de herramientas como Swagger (OpenAPI) o Postman para documentar y probar la API de manera interactiva. Esto mejora la experiencia de los desarrolladores y facilita la integración con otras aplicaciones.
+
 ### 5.2.7. Team Collaboration Insights
 
+#### Document Report 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/EYzqJ9h.png" alt="document report insights" width = "95%"/>
+</div><br>
+
+#### Web Service 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/uoyxkMa.png" alt="web service insights" width = "95%"/>
+</div><br>
+
+#### Frontend 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/gLQqAnm.png" alt="frontend insights" width = "95%"/>
+</div><br>
+
+#### Mobile Aplication 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/ke2RqBc.png" alt="mobile application insights" width = "95%"/>
+</div><br>
+
 ## 5.3. Video About-the-Product
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/FUZX03I.png" alt="Landing evidence"/>
+</div><br>
+
+Enlace del video: <https://youtu.be/T92OwQTaaeg>
+
+# Conclusiones
+
+Nuestro proyecto de gestión hotelera esta siendo una experiencia gratificante y enriquecedora. Estamos diseñando y desarrollando una solución que aborda las necesidades de los gerentes, administradores y trabajadores de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, y mucho más.
+
+Nuestros *Problem Statements* identificaban una gestión fragmentada y poco eficiente en los procesos hoteleros diarios, desde el seguimiento de ingresos y egresos, la administración de reservas, hasta la comunicación con proveedores y huéspedes. Para abordar estos retos, asumimos que los usuarios valoran la automatización, visibilidad en tiempo real y centralización de las operaciones como elementos fundamentales para mejorar su experiencia y eficiencia.
+
+Para continuar con el desarrollo estratégico de SweetManager, recomendamos:
+
+Validar mediante prototipos de alta fidelidad las funcionalidades priorizadas para cada segmento, enfocándonos especialmente en las vistas operativas de administración y control de huéspedes activos.
+
+
+# Bibliografía
+- Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+
+- Progressa Lean. (2014). 5W+2H Técnica de análisis de problemas - Progressa Lean. Progressa Lean. https://www.progressalean.com/
+5w2h-tecnica-de-analisis-de-problemas/
+
+- UX Planet. (2017). Information Architecture. Basics for Designers. - UX Planet. Medium; UX Planet. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
+
+- Gothelf, J. (2024). Leanux Sampler. https://es.scribd.com/document/655516553/Leanux-Sampler
+
+- ¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero? (2021, febrero 10). Ostelea.com.
+https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
+
+- Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s/f). Solucionex. Recuperado el 29 de abril de 2024.
+https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+
+- Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta®; Kinsta.
+https://kinsta.com/es/blog/vue-js/
+
+- de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de
+https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+
+- Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia.
+https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+
+# Anexos
+
+### Vídeos de Exposición (Anexo 1)
+
+- Repositorio GitHub de la Organización: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
+
+- Repositorio GitHub del Informe: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/final-project-report>
+
+- Repositorio GitHub del Backend:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/web-services>
+
+- Repositorio GitHub de la Aplicación Web:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/frontend>
+
+- Repositorio GitHub de la Aplicación Móvil:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/mobile-app>
+
+- Repositorio GitHub de la Landing Page:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/landing-page>
+
+- Entrevistas: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=lE8RTc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+
+| Contenido | URL del Vídeo |
+|--------------|--------------|
+| Vídeo de Exposición TB1    | Link del Vídeo: |  
+| VÍdeo de Exposición TP1    | Link del Vídeo: |
+| Vídeo de Exposición TB2    | Link del Vídeo: | 
+| Vídeo de Exposición TF1    | Link del Vídeo: | 
+ 
