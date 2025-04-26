@@ -1293,7 +1293,7 @@ Para Sweet Manager, se ha implementado una base de datos relacional que garantiz
 ### 5.1.2. Source Code Management
 A continuación, se describe cómo se gestionará el código fuente en este proyecto, lo cual permitirá monitorear y controlar los cambios realizados por cualquier integrante del equipo durante el proceso de desarrollo. Además, se utilizará un repositorio en GitHub para administrar las distintas versiones del código a lo largo del proyecto.
 
-*REPOSITORIO DE GITHUB: https://github.com/1ASI0732-2510-4433-G1-ROOMWISE
+*REPOSITORIO DE GITHUB: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
 
 *LANDING PAGE:
 
@@ -1332,12 +1332,167 @@ CSS: Se aplicará este lenguaje de estilos para definir la presentación visual 
 
 
 ## 5.2. Product Implementation & Deployment
+
 ### 5.2.1. Sprint Backlogs
+Esta sección presenta las tareas completadas en cada sprint correspondiente, junto con una captura de Jira que muestra el progreso alcanzado hasta ese punto y el enlace al tablero
+
+<https://jeremyantonio.atlassian.net/jira/software/projects/EDS/boards/34?atlOrigin=eyJpIjoiMzBhYWNkZWVjZGIxNDczNjlmNGZiMzlmNjgzMzEzMzgiLCJwIjoiaiJ9>
+
+
+__Sprint 01__
+
+__Evidencia del Jira__
+
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/BT7BE15.png" alt="Jira tasks"/>
+</div><br>
+
+# Sprint Backlog 02 (Completed):
+
+| Sprint # | User Story | Work-item Task | Estimation (In hours) | Assigned To | Status |
+|----------|------------|----------------|-----------------------|-------------|--------|
+| **Landing Page** | | | | | |
+| Sprint 1 | HU03: Consultar los planes de precios del producto | W06: Mostrar planes de precios en la landing page | 2 | XXXX | Done |
+| **Web Service** | | | | | |
+| Sprint 1 | HU02: Registro de cuenta para gerente | W07: Formulario de registro para gerentes | 4 | XXXX | Done |
+| Sprint 1 | HU03: Actualizar información personal | W08: Funcionalidad de edición de perfil | 3 | XXXX | Done |
+| Sprint 1 | HU01: Agregar un nuevo ítem al inventario | W09: Formulario para añadir ítems al inventario | 3 | XXXX | Done |
+| Sprint 1 | HU02: Actualizar la información de un ítem en el inventario | W10: Funcionalidad de edición de ítems | 3 | XXXX | Done |
+| Sprint 1 | HU03: Eliminar un ítem del inventario | W11: Funcionalidad de eliminación de ítems | 2 | XXXX | Done |
+| Sprint 1 | HU03: Eliminar una tarea no necesaria | W12: Funcionalidad de eliminación de tareas | 2 | XXXX | Done |
+| Sprint 1 | HU06: Asignar una tarea a un empleado específico | W13: Funcionalidad de asignación de tareas | 3 | XXXX | Done |
+| Sprint 1 | HU02: API de Autenticación | W14: Implementación de API de autenticación | 5 | XXXX | Done |
+| Sprint 1 | HU01: Seguridad de Usuario | W15: Integración de JWT para login | 4 | XXXX | Done |
+| Sprint 1 | HU04: Registro de Proveedores | W16: Formulario de registro de proveedores | 3 | XXXX | Done |
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+<p>Evidencias del avance de la implemmentación de la Landing Page</p>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/gL6uj1N.png" alt="Landing evidence"/>
+</div><br>
+
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/6TA4DdJ.png" alt="Landing evidence"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/393hd8t.png" alt="Landing evidence"/>
+</div><br>
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+
 ### 5.2.6. RESTful API documentation
+
+
+A continuación, se presenta una descripción detallada de la documentación de la RESTful API desarrollada para este sistema. Esta interfaz de programación de aplicaciones permite la comunicación entre clientes (tanto web como móviles) y el servidor backend, utilizando el paradigma REST (Representational State Transfer), ampliamente adoptado por su simplicidad, escalabilidad y separación de responsabilidades.
+
+## Principios RESTful
+
+Una API RESTful se basa en los siguientes principios fundamentales:
+
+- **Recursos como entidades centrales**: Cada recurso (por ejemplo, usuarios, espacios, reservas) se representa mediante una URI única.
+
+- **Operaciones a través de verbos HTTP**: Las operaciones sobre los recursos se realizan mediante los verbos HTTP estándar:
+  - `GET`: Recuperar información.
+  - `POST`: Crear un nuevo recurso.
+  - `PUT`: Actualizar un recurso existente.
+  - `DELETE`: Eliminar un recurso.
+
+- **Sin estado (stateless)**: Cada solicitud debe contener toda la información necesaria para ser procesada. El servidor no almacena estado entre peticiones.
+
+- **Uso de hipermedios (opcional - HATEOAS)**: Aunque no se implementa siempre, REST permite que las respuestas incluyan enlaces para navegar entre recursos relacionados.
+
+## Autenticación
+
+- **Método utilizado**: JWT (JSON Web Token), una forma segura y compacta de transmitir información entre partes.
+
+- **Formato del encabezado requerido**: 
+Los tokens JWT permiten autenticar y autorizar a los usuarios sin necesidad de mantener sesiones en el servidor, lo cual es coherente con el principio stateless.
+
+## Convenciones y Buenas Prácticas
+
+- **Nombres de recursos en plural**: Para mantener la coherencia y claridad, los endpoints usan sustantivos en plural (e.g., `/users`, `/spaces`, `/reservations`).
+
+- **Versionamiento de la API**: Aunque no siempre es necesario, es recomendable incluir una versión en la URI (e.g., `/api/v1/users`) para facilitar futuras actualizaciones sin romper la compatibilidad.
+
+- **Códigos de estado HTTP**: La API utiliza códigos de estado HTTP estándar para indicar el resultado de cada operación:
+- `200 OK`: Solicitud exitosa.
+- `201 Created`: Recurso creado correctamente.
+- `400 Bad Request`: Error en los datos enviados.
+- `401 Unauthorized`: Falta de autenticación o token inválido.
+- `404 Not Found`: Recurso no encontrado.
+- `500 Internal Server Error`: Error inesperado en el servidor.
+
+
+## Documentación Interactiva
+
+Se recomienda el uso de herramientas como Swagger (OpenAPI) o Postman para documentar y probar la API de manera interactiva. Esto mejora la experiencia de los desarrolladores y facilita la integración con otras aplicaciones.
+
 ### 5.2.7. Team Collaboration Insights
 
+
+
 ## 5.3. Video About-the-Product
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/FUZX03I.png" alt="Landing evidence"/>
+</div><br>
+
+Enlace del video: <https://youtu.be/T92OwQTaaeg>
+
+# Conclusiones
+
+Nuestro proyecto de gestión hotelera esta siendo una experiencia gratificante y enriquecedora. Estamos diseñando y desarrollando una solución IoT que aborda las necesidades de los gerentes, administradores y huéspedes de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, y mucho más.
+
+Nuestros *Problem Statements* identificaban una gestión fragmentada y poco eficiente en los procesos hoteleros diarios, desde el seguimiento de ingresos y egresos, la administración de reservas, hasta la comunicación con proveedores y huéspedes. Para abordar estos retos, asumimos que los usuarios valoran la automatización, visibilidad en tiempo real y centralización de las operaciones como elementos fundamentales para mejorar su experiencia y eficiencia.
+
+Para continuar con el desarrollo estratégico de SweetManager, recomendamos:
+
+Validar mediante prototipos de alta fidelidad las funcionalidades priorizadas para cada segmento, enfocándonos especialmente en las vistas operativas de administración y control de huéspedes activos.
+
+
+# Bibliografía
+- Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+
+- Progressa Lean. (2014). 5W+2H Técnica de análisis de problemas - Progressa Lean. Progressa Lean. https://www.progressalean.com/
+5w2h-tecnica-de-analisis-de-problemas/
+
+- UX Planet. (2017). Information Architecture. Basics for Designers. - UX Planet. Medium; UX Planet. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
+
+- Gothelf, J. (2024). Leanux Sampler. https://es.scribd.com/document/655516553/Leanux-Sampler
+
+- ¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero? (2021, febrero 10). Ostelea.com.
+https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
+
+- Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s/f). Solucionex. Recuperado el 29 de abril de 2024.
+https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+
+- Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta®; Kinsta.
+https://kinsta.com/es/blog/vue-js/
+
+- de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de
+https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+
+- Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia.
+https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+
+# Anexos
+
+### Vídeos de Exposición (Anexo 1)
+
+| Contenido | URL del Vídeo |
+|--------------|--------------|
+| Vídeo de Exposición TB1    | Link del Vídeo: |  
+| VÍdeo de Exposición TP1    | Link del Vídeo: |
+| Vídeo de Exposición TB2    | Link del Vídeo: | 
+| Vídeo de Exposición TF1    | Link del Vídeo: | 
