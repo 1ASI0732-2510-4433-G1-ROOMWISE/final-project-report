@@ -1010,7 +1010,7 @@ El análisis obtenido facilita una comprensión más profunda de las necesidades
 
 **Tabla de Actividades por Usuario**
 
-| **Tarea** | **Huésped (Frecuencia/Importancia)** | **Administrador (Frecuencia/Importancia)** | **Dueño (Frecuencia/Importancia)** |
+| **Tarea** | **Trabajador (Frecuencia/Importancia)** | **Administrador (Frecuencia/Importancia)** | **Dueño (Frecuencia/Importancia)** |
 |----------|----------------------------------------|---------------------------------------------|--------------------------------------|
 | Reserva de habitaciones | Alta/Alta | Baja/Baja | Baja/Baja |
 | Gestión de reservas | Alta/Alta | Alta/Alta | Media/Media |
