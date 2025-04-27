@@ -858,7 +858,7 @@ Para comprender mejor cómo será la experiencia del usuario con nuestro product
 **User Persona Owner**
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/PiF2qgU.png"  width="70%" />
+  <img src="https://i.imgur.com/PiF2qgU.png"  width="100%" />
 </div>
 
 **User Persona Admin**
