@@ -705,18 +705,16 @@ En esta sección se documentarán las preguntas que se utilizaron en nuestras en
 
 A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
 
-Inicio: 0:00 <br><br>
-Fin: 36:51
-
 **Entrevista 01 (Gerentes)**
-URL VIDEO: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118152_upc_edu_pe/ERXn43hIPXRNu2S3c_kBTbsBNSIVeQhL8TFvgxN0O-yzDQ?e=gIatls&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+<br>
 Nombre: Cesar Augusto Rodriguez <br>
 Edad: 44 <br>
 Sexo: Masculino <br>
 Lugar donde vive:Surco - Lima, Perú <br>
+Duración de la entrevista: 06:00 - 12:50 <br>
 Ocupación: Owner de hotel <br>
 Personalidad: Práctico y poco perfeccionista  <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 <div style="text-align: center;">
    <img src="https://imgur.com/J1LJUd1.png" alt="Manuel Chávez Interview"/>
@@ -732,19 +730,51 @@ Usa un sistema de gestión básico, más algunas hojas de Excel. El problema es 
 
 
 **Entrevista 02 (Gerentes)**
+<br>
+Nombre: Diego Bastidas<br>
+Edad: 28<br>
+Sexo: Masculino<br>
+Lugar donde vive: San Miguel, Lima, Perú<br>
+Ocupación: Gerente de hotel<br>
+Duración de la entrevista: 00:00 - 06:00 <br>
+Personalidad: Innovador<br>
+Minuto de la entrevista: <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/4qIERTB.png" alt="Diego Bastidas Interview" width="80%" />
+ </div><br>
+
+Diego Bastidas dueño de un hotel que recibe tanto turistas locales como internacionales. Día a día enfrenta los retos de gestionar manualmente las reservas, pagos y preferencias de los huéspedes, lo que implica una alta carga operativa y riesgo de errores. Con una fuerte dedicación al servicio y buscando siempre mejorar la experiencia de sus clientes, está en busca de una solución tecnológica que optimice la administración del hotel. Su meta es centralizar la gestión de reservas, personalizar la atención a los huéspedes y modernizar los procesos internos, impulsando así la eficiencia y la competitividad del establecimiento.
+
 
 **Entrevista 03 (Gerentes)**
+<br>
+Nombre: Sebastian Silva<br>
+Edad: 23<br>
+Sexo: Masculino<br>
+Lugar donde vive: Cercado de Lima, Lima, Perú<br>
+Ocupación: Dueño de hotel<br>
+Personalidad: Proactivo y receptivo a nuevas tecnologías<br>
+Duración de la entrevista: 28:23 - 37:00 <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/mmqqRu3.png" alt="Sebastian Silva Interview" width="80%" />
+ </div><br>
+
+Sebastian Silva dueño de un hotel y está acostumbrado a manejar personalmente las reservas, pagos y solicitudes de los huéspedes, lo que genera una alta carga de trabajo y posibles errores en la operación diaria. Comprometido con brindar un servicio de calidad y mejorar la experiencia de quienes se hospedan, busca una solución digital que le permita automatizar la gestión, registrar preferencias de los clientes y facilitar las tareas administrativas. Su objetivo es modernizar los procesos internos, optimizar el tiempo de trabajo y ofrecer una atención más personalizada y eficiente.
 
 **Entrevista 01 (Administradores)**
 <br>
-URL del vídeo: <br>
 Nombre: Sergio Renard <br>
 Edad: 21 <br>
 Sexo: Masculino <br>
 Lugar donde vive: La Plata - Argentina <br>
 Ocupación: Administrador de hotel <br>
-Duración de la entrevista: 00:00 - 00:00 <br>
+Duración de la entrevista: 48:20 - 52:39 <br>
 Personalidad: Alegre <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/sKGvt61.png" alt="Sergio Renard Interview" width="80%" />
@@ -764,7 +794,9 @@ Edad: 23 <br>
 Sexo: Masculino <br>
 Lugar donde vive: San Borja - Lima, Perú <br>
 Ocupación: Administrador de hotel <br>
+Duración de la entrevista: 20:36 - 28:23 <br>
 Personalidad: Práctico, organizado y resolutivo <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/L3xAeOf.png" alt="Manuel Chávez Interview"/>
@@ -780,14 +812,14 @@ Está convencido de que una transformación digital efectiva puede mejorar signi
 
 **Entrevista 03 (Administradores)**
 <br>
-<br>
-URL del vídeo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202118152_upc_edu_pe/EU9hK-g_KtZHuGYYffuD9goB9SYCjwzsUjK57LATJ7Z8Kw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZiYFod <br>
 Nombre: CAMILA BUSTAMANTE <br>
 Edad: 25 <br>
 Sexo: FEMENINO <br>
 Lugar donde vive: Miraflores - Perú <br>
 Ocupación: Administradora de hotel <br>
+Duración de la entrevista: 37:00 - 43:04 <br>
 Personalidad: Proactiva <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 <div style="text-align: center;">
    <img src="https://imgur.com/8y2Uu33.png" alt="Camila Bustamante Interview" width="80%" />
@@ -799,8 +831,6 @@ su laptop mayormente usando el navegador de chrome.Laboralmente quiere seguir cr
  Usan un sistema para reservas , factuarición y check-in, le gustaría un interfaz mas agradable y una app que permita gestionar puntos claves. Piensa que las tecnologías bien implementadas reducen el tiempo y errores.
 El principal reto es la coordinación rápida entre el hotel y los huéspedes. Implementando check-in online reduciría el tiempo de espera haciendo colas.
 
-
-
 **Entrevista 01 (Trabajadores)**
 <br>
 Nombre: Joseph Cubas <br>
@@ -808,7 +838,9 @@ Edad: 21 <br>
 Sexo: Masculino <br>
 Lugar donde vive: Pueblo Libre, Lima, Perú <br>
 Ocupación: Trabajador del sector hotelero <br>
+Duración de la entrevista: 43:05 - 48:20 <br>
 Personalidad: Comprometido y receptivo al cambio <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/Km9qFjd.png" alt="Joseph Cubas Interview"/>
@@ -823,14 +855,17 @@ Joseph imagina un sistema ideal donde las tareas se asignen en tiempo real, pued
 Finalmente, se muestra abierto al uso de nuevas tecnologías, siempre que vengan acompañadas de una adecuada capacitación. Considera que la digitalización no solo mejoraría el flujo de trabajo, sino que también elevaría la calidad del servicio ofrecido, beneficiando a todos los actores del entorno hotelero.
 
 **Entrevista 02 (Trabajadores)**
-Nombre: Marcela
-Edad: 26
-Sexo: Femenino
-Lugar donde vive: Jesús María, Lima, Perú
-Ocupación: Jefa de cocina en hotel
-Personalidad: Dinámica y enfocada en la organización
-Minuto de la entrevista:
-URL:
+<br>
+Nombre: Marcela <br>
+Edad: 26 <br>
+Sexo: Femenino <br>
+Lugar donde vive: Jesús María, Lima, Perú <br>
+Ocupación: Jefa de cocina en hotel <br>
+Duración de la entrevista: 17:26 - 20:36 <br>
+Personalidad: Dinámica y enfocada en la organización <br> 
+Minuto de la entrevista: <br>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/yQoqea1.png" alt="Joseph Cubas Interview"/>
@@ -845,15 +880,16 @@ Respecto a la comunicación interna, mencionó que existe un flujo dinámico y c
 Finalmente, indicó que uno de los principales desafíos es atender adecuadamente los pedidos especiales de los huéspedes, como aquellos relacionados con alergias alimentarias ya que requieren una comunicación precisa a todo el equipo para evitar errores que comprometan la seguridad de los clientes.
 
 **Entrevista 03 (Trabajadores)**
-
+<br>
 Nombre: Jesús Pérez
-Edad: 23
-Sexo: Masculino
-Lugar donde vive: Cercado de Lima, Lima, Perú
-Ocupación: Recepcionista de hotel
-Personalidad: Proactivo y receptivo a nuevas tecnologías
-Minuto de la entrevista:
-URL: 
+Edad: 23 <br>
+Sexo: Masculino <br>
+Lugar donde vive: Cercado de Lima, Lima, Perú <br>
+Ocupación: Recepcionista de hotel <br>
+Duración de la entrevista: 12:50 - 17:26 <br>
+Personalidad: Proactivo y receptivo a nuevas tecnologías <br>
+Minuto de la entrevista:<br> 
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=ycIgsi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/hecaQOP.png" alt="Joseph Cubas Interview"/>
