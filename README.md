@@ -1856,6 +1856,23 @@ __Evidencia del Jira__
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/GQSSFZw.png" alt="Landing evidence"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/umWVqae.png" alt="Landing evidence"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/SVMqRYp.png" alt="Landing evidence"/>
+</div><br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/4tKsDgy.png" alt="Landing evidence"/>
+</div><br>
+
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
 <div style="text-align: center;">
