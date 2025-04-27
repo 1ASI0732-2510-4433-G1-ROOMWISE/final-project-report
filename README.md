@@ -999,6 +999,24 @@ Buscan una experiencia personalizada y fluida al interactuar con el hotel, desde
 Para comprender mejor cómo será la experiencia del usuario con nuestro producto, emplearemos herramientas como User Persona, User Task Matrix, User Journey Mapping, Empathy Mapping y As-is Scenario Mapping. 
 ### 2.3.1. User Personas
 
+**User Persona Owner**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PiF2qgU.png"  width="100%" />
+</div>
+
+**User Persona Admin**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/zfG6bqy.png"  width="100%" />
+</div>
+
+**User Persona Worker**
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/zumaQ9w.png" width="100%" />
+</div>
+
 ### 2.3.2. User Task Matrix
 **Descripción**
 
