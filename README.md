@@ -41,6 +41,11 @@
 | TB1     |       | Gutierrez Tume, Stanley Jeremy       | - 2.1. Competidores (todos los subpuntos)<br>- 2.2. Entrevistas (todos los subpuntos)<br>- 3.1. To-Be Scenario Mapping<br>- 3.2. User Stories<br>- 3.3. Product Backlog<br>- 3.4. Impact Mapping<br>- 5.1. Software Configuration Management (todos los subpuntos)         |
 | TB1     |       | Salgado Luna, Fernando Brian         | - 2.3. Needfinding (todos los subpuntos)<br>- 2.4. Ubiquitous Language<br>- 4.1. Style Guidelines (todos los subpuntos)<br>- 4.2. Information Architecture (todos los subpuntos)                     |
 | TB1     |       | Antonio Loayza, Luiggi Jeremy  | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
+| TP  |       | Escobar Palomino, Sebastian Matias   | - 6.1.3. Core Behavior-Driven Development                |
+| TP     |       | Morales Montalvo, Omar Andrew        | -              |
+| TP    |       | Gutierrez Tume, Stanley Jeremy       | - 
+| TP     |       | Salgado Luna, Fernando Brian         | -                   |
+| TP   |       | Antonio Loayza, Luiggi Jeremy  | -
 ---
 # Project Report Collaboration Insights
 TB1
