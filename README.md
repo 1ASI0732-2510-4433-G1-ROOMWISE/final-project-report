@@ -2009,6 +2009,49 @@ Se recomienda el uso de herramientas como Swagger (OpenAPI) o Postman para docum
 
 Enlace del video: <https://youtu.be/T92OwQTaaeg>
 
+# Capítulo VI:  Product Verification & Validation
+
+
+## 6.1. Product Implementation & Deployment
+
+### 6.1.1. Core Entities Unit Tests.
+
+Las pruebas unitarias de las entidades principales (Core Entities) son fundamentales en el desarrollo de software, ya que aseguran la calidad y el funcionamiento adecuado de los componentes clave, ayudando a prevenir errores y a mantener el código de forma más sencilla.
+
+__Bookign Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/M6GLbTV.png" alt="Landing evidence"/>
+</div><br>
+
+__Notification Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/mRXZWyp.png" alt="Landing evidence"/>
+</div><br>
+
+
+__Report Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/RswEY24.png" alt="Landing evidence"/>
+</div><br>
+
+__Room Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/2szS89u.png" alt="Landing evidence"/>
+</div><br>
+
+__Supply Request Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/NmbWc2j.png" alt="Landing evidence"/>
+</div><br>
+
+__Supply Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/dBVEtum.png" alt="Landing evidence"/>
+</div><br>
+
+### 6.1.2. Core Integration Tests.
+
+
 # Conclusiones
 
 Nuestro proyecto de gestión hotelera esta siendo una experiencia gratificante y enriquecedora. Estamos diseñando y desarrollando una solución que aborda las necesidades de los gerentes, administradores y trabajadores de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, y mucho más.
