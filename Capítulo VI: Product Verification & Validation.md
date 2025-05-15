@@ -1,10 +1,12 @@
 Capítulo VI: Product Verification & Validation
 
 6.1. Testing Suites & Validation
-
 6.1.1. Core Entities Unit Tests
 
+Los Core Entities son fundamentales en el desarrollo de software, ya que aseguran la calidad y el buen desempeño de estas entidades clave, ayudando a detectar errores a tiempo y a simplificar el mantenimiento del código.
+
 6.1.2. Core Integration Tests
+Los Core Integration Tests son clave para verificar que los controladores se comuniquen correctamente con otros elementos del sistema, como los servicios y las bases de datos. Al incluir escenarios de error, estas pruebas aseguran que el sistema responda adecuadamente ante situaciones imprevistas, utilizando los códigos de estado apropiados. Esto no solo mejora la experiencia del usuario, sino que también facilita la depuración y contribuye al desarrollo de un software robusto y de calidad.
 
 6.1.3. Core Behavior-Driven Development
 
