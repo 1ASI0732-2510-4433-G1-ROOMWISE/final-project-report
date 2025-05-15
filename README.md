@@ -2066,8 +2066,145 @@ __Supply Tests__
    <img src="https://i.imgur.com/dBVEtum.png" alt="Landing evidence"/>
 </div><br>
 
-### 6.1.2. Core Integration Tests.
+### 6.1.2. Core Integration Tests
 
+Las pruebas de integración son esenciales para verificar que los controladores funcionen correctamente al interactuar con otros módulos del sistema, como servicios y bases de datos. Estas pruebas aseguran que la aplicación gestione adecuadamente casos excepcionales, devolviendo los códigos de estado HTTP correspondientes. Esto no solo optimiza la experiencia del usuario, sino que también simplifica el diagnóstico de fallos y ayuda a construir un software robusto y confiable.
+
+__Contracts Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/G543PD9.png" alt="Contracts Controller Tests"/>
+</div><br>
+
+__Payment Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/ENKFwzh.png" alt="Payment Controller Tests"/>
+</div><br>
+
+__Subscription Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/cow0Q04.png" alt="Subscription Controller Tests"/>
+</div><br>
+
+__Notifications Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/S9zHYtb.png" alt="Notifications Controller Tests"/>
+</div><br>
+
+__Types Notifications Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/iCqzW94.png" alt="Types Notifications Controller Tests"/>
+</div><br>
+
+__Assignment Worker Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/A8orZJe.png" alt="Assignment Worker Controller Tests"/>
+</div><br>
+
+__Authentication Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/VqbsEbB.png" alt="Authentication Controller Tests"/>
+</div><br>
+
+__User Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/dwBBBiA.png" alt="UserController Tests"/>
+</div><br>
+
+__Worker Area Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/MnxbbGq.png" alt="WorkerAreaController Tests"/>
+</div><br>
+
+__Bookings Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/pW4IcHW.png" alt="BookingsController Tests"/>
+</div><br>
+
+__Rooms Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/FXBzFMC.png" alt="Rooms Controller Tests"/>
+</div><br>
+
+__Types Rooms Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/5lpV5p8.png" alt="TypesRoomsController Tests"/>
+</div><br>
+
+__Customer Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/C9k9OGr.png" alt="Customer Controller Tests"/>
+</div><br>
+
+__Hotel Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/55OaMJl.png" alt="Hotel Controller Tests"/>
+</div><br>
+
+__Provider Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/lmzF6Mg.png" alt="Provider Controller Tests"/>
+</div><br>
+
+__Reports Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/WIRLVNM.png" alt="Reports Controller Tests"/>
+</div><br>
+
+__Types Reports Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/wOqOYVx.png" alt="Types Reports Controller Tests"/>
+</div><br>
+
+__Supplies Request Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/cCt1CfX.png" alt="Supplies Request Controller Tests"/>
+</div><br>
+
+__Supply Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/nzErJn7.png" alt="Supply Controller Tests"/>
+</div><br>
+
+6.1.3. Core Behavior-Driven Development
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/NzqXZsG.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/CTfsIYB.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/wOz6LMh.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/G9ataNX.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/RXi6uY2.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/0URell0.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/B2i3nHR.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/uToacHC.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/NptFxf8.png[/img]"  width="70%" />
+</div>
+
+
+6.1.4. Core System Tests
 
 # Conclusiones
 
