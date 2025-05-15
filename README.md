@@ -41,6 +41,11 @@
 | TB1     |       | Gutierrez Tume, Stanley Jeremy       | - 2.1. Competidores (todos los subpuntos)<br>- 2.2. Entrevistas (todos los subpuntos)<br>- 3.1. To-Be Scenario Mapping<br>- 3.2. User Stories<br>- 3.3. Product Backlog<br>- 3.4. Impact Mapping<br>- 5.1. Software Configuration Management (todos los subpuntos)         |
 | TB1     |       | Salgado Luna, Fernando Brian         | - 2.3. Needfinding (todos los subpuntos)<br>- 2.4. Ubiquitous Language<br>- 4.1. Style Guidelines (todos los subpuntos)<br>- 4.2. Information Architecture (todos los subpuntos)                     |
 | TB1     |       | Antonio Loayza, Luiggi Jeremy  | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
+| TP  |       | Escobar Palomino, Sebastian Matias   | - 6.1.3. Core Behavior-Driven Development                |
+| TP     |       | Morales Montalvo, Omar Andrew        | -              |
+| TP    |       | Gutierrez Tume, Stanley Jeremy       | - 
+| TP     |       | Salgado Luna, Fernando Brian         | -                   |
+| TP   |       | Antonio Loayza, Luiggi Jeremy  | -
 ---
 # Project Report Collaboration Insights
 TB1
@@ -2049,8 +2054,104 @@ __Supply Tests__
    <img src="https://i.imgur.com/dBVEtum.png" alt="Landing evidence"/>
 </div><br>
 
-### 6.1.2. Core Integration Tests.
+### 6.1.2. Core Integration Tests
 
+Las pruebas de integración son esenciales para verificar que los controladores funcionen correctamente al interactuar con otros módulos del sistema, como servicios y bases de datos. Estas pruebas aseguran que la aplicación gestione adecuadamente casos excepcionales, devolviendo los códigos de estado HTTP correspondientes. Esto no solo optimiza la experiencia del usuario, sino que también simplifica el diagnóstico de fallos y ayuda a construir un software robusto y confiable.
+
+__Contracts Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/G543PD9.png" alt="Contracts Controller Tests"/>
+</div><br>
+
+__Payment Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/ENKFwzh.png" alt="Payment Controller Tests"/>
+</div><br>
+
+__Subscription Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/cow0Q04.png" alt="Subscription Controller Tests"/>
+</div><br>
+
+__Notifications Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/S9zHYtb.png" alt="Notifications Controller Tests"/>
+</div><br>
+
+__Types Notifications Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/iCqzW94.png" alt="Types Notifications Controller Tests"/>
+</div><br>
+
+__Assignment Worker Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/A8orZJe.png" alt="Assignment Worker Controller Tests"/>
+</div><br>
+
+__Authentication Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/VqbsEbB.png" alt="Authentication Controller Tests"/>
+</div><br>
+
+__User Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/dwBBBiA.png" alt="UserController Tests"/>
+</div><br>
+
+__Worker Area Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/MnxbbGq.png" alt="WorkerAreaController Tests"/>
+</div><br>
+
+__Bookings Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/pW4IcHW.png" alt="BookingsController Tests"/>
+</div><br>
+
+__Rooms Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/FXBzFMC.png" alt="Rooms Controller Tests"/>
+</div><br>
+
+__Types Rooms Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/5lpV5p8.png" alt="TypesRoomsController Tests"/>
+</div><br>
+
+__Customer Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/C9k9OGr.png" alt="Customer Controller Tests"/>
+</div><br>
+
+__Hotel Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/55OaMJl.png" alt="Hotel Controller Tests"/>
+</div><br>
+
+__Provider Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/lmzF6Mg.png" alt="Provider Controller Tests"/>
+</div><br>
+
+__Reports Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/WIRLVNM.png" alt="Reports Controller Tests"/>
+</div><br>
+
+__Types Reports Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/wOqOYVx.png" alt="Types Reports Controller Tests"/>
+</div><br>
+
+__Supplies Request Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/cCt1CfX.png" alt="Supplies Request Controller Tests"/>
+</div><br>
+
+__Supply Controller Tests__
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/nzErJn7.png" alt="Supply Controller Tests"/>
+</div><br>
 
 # Conclusiones
 
