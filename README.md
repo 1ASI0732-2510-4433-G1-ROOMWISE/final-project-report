@@ -209,9 +209,9 @@ En esta entrega del trabajo parcial se completó de manera exitosa. Durante la e
 - [7.3.1. Tools and Practices](#731-tools-and-practices)
 - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
 
-## [Conclusiones](#conclusiones)
-## [Bibliografía](#bibliografía)
-## [Anexos](#anexos)
+## [Conclusiones](#conclusiones-1)
+## [Bibliografía](#bibliografía-1)
+## [Anexos](#anexos-1)
 
 
 # Student Outcome 
