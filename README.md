@@ -2223,6 +2223,36 @@ __Supply Controller Tests__
 
 ### 6.1.4. Core System Tests
 
+| ID   | TÍTULO                               | DESCRIPCIÓN                                                                                          |
+|------|--------------------------------------|------------------------------------------------------------------------------------------------------|
+| HU01 | Acceder a la información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto.       |
+                                         
+<div style="text-align: center;">
+  <img src="https://imgur.com/eMNQtaE.png[/img]"  width="70%" />
+</div>
+
+| ID   | TÍTULO                             | DESCRIPCIÓN                                                                                      |
+|------|------------------------------------|--------------------------------------------------------------------------------------------------|
+| HU02 | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto.                |
+<div style="text-align: center;">
+  <img src="https://imgur.com/zfpXGB4.png[/img]"  width="70%" />
+</div>
+
+| ID   | TÍTULO                                 | DESCRIPCIÓN                                                                                                      |
+|------|----------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| HU03 | Consultar los planes de precios del producto | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto.     |
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/XvuhBsR.png[/img]"  width="70%" />
+</div>
+
+| ID   | TÍTULO                             | DESCRIPCIÓN                                                                                                              |
+|------|------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| HU04 | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. |
+<div style="text-align: center;">
+  <img src="https://imgur.com/UjUchIX.png[/img]"  width="70%" />
+</div>
+
 # Capítulo VII:  DevOps Practices
 
 ## 7.1 Continous Integration
