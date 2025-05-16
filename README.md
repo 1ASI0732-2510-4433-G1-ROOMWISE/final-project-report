@@ -2221,7 +2221,25 @@ __Supply Controller Tests__
 ## 7.3 Continous Deployment
 
 ### 7.3.1. Tools and Practices
-### 7.2.2. Production Deployment Pipeline Components
+El objetivo del Continuous Deployment (CD) es automatizar el despliegue continuo de la aplicación en producción sin intervención manual, siempre que las pruebas sean exitosas.Se utilizó Render para el despliegue del backend. Jenkins Pipeline se utiliza para automatizar el flujo de trabajo, definiendo las etapas de construcción, prueba y despliegue, y asegurando que el código aprobado se despliegue automáticamente en producción.
+
+### 7.3.2. Production Deployment Pipeline Components
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/BsZRbMl.jpeg[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PF02C6H.jpeg[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/yZS8gtA.png[/img]"  width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/yvCe9zW.jpeg[/img]"  width="70%" />
+</div>
 
 # Conclusiones
 
