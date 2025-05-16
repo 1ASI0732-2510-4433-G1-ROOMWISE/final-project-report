@@ -43,7 +43,7 @@
 | TB1     |       | Antonio Loayza, Luiggi Jeremy  | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
 | TP1  |       | Escobar Palomino, Sebastian Matias   | - 6.1.3. Core Behavior-Driven Development                |
 | TP1     |       | Morales Montalvo, Omar Andrew        | -  6.1.1. Core Entities Unit Tests.            |
-| TP1   |       | Gutierrez Tume, Stanley Jeremy       | -6.1. Testing Suites & Validation <br>- 6.1.1. Core Entities Unit Tests.<br> -6.1.2. Core Integration Tests
+| TP1   |       | Gutierrez Tume, Stanley Jeremy       | -6.1.4.Core System Tests|
 | TP1     |       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
 | TP1  |       | Antonio Loayza, Luiggi Jeremy  | - 7.3 Continous Deployment  |
 ---
