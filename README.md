@@ -2251,6 +2251,11 @@ Para continuar con el desarrollo estratégico de SweetManager, recomendamos:
 
 Validar mediante prototipos de alta fidelidad las funcionalidades priorizadas para cada segmento, enfocándonos especialmente en las vistas operativas de administración y control de huéspedes activos.
 
+Se agregaron las pruebas unitarias de las entidades principales y las pruebas de integración ya que son fundamentales para garantizar que cada componente del sistema funcione de manera correcta y en conjunto con los demás módulos. Estas pruebas no solo ayudan a identificar errores temprano en el proceso de desarrollo, sino que también optimizan la experiencia del usuario, asegurando una aplicación más robusta y fiable.
+
+También, el uso de técnicas de desarrollo basado en comportamiento (BDD) facilita una mejor alineación entre los requisitos del negocio y las pruebas técnicas, permitiendo una comprensión clara de los flujos de trabajo y escenarios del sistema. Además, mejora la colaboración entre los desarrolladores y los equipos no técnicos, asegurando que el software cumpla con las expectativas del usuario final.
+
+La implementación de prácticas de integración continua (CI) y despliegue continuo (CD) permite una mayor eficiencia y fiabilidad en el ciclo de vida del software. Al automatizar el flujo de trabajo desde la construcción hasta el despliegue, se reduce la intervención manual, lo que minimiza el riesgo de errores humanos y acelera el tiempo de entrega del software a producción.
 
 # Bibliografía
 - Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
