@@ -2165,7 +2165,7 @@ __Supply Controller Tests__
    <img src="https://i.imgur.com/nzErJn7.png" alt="Supply Controller Tests"/>
 </div><br>
 
-6.1.3. Core Behavior-Driven Development
+### 6.1.3. Core Behavior-Driven Development
 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/NzqXZsG.png[/img]"  width="70%" />
@@ -2204,7 +2204,24 @@ __Supply Controller Tests__
 </div>
 
 
-6.1.4. Core System Tests
+### 6.1.4. Core System Tests
+
+# Capítulo VII:  DevOps Practices
+
+## 7.1 Continous Integration
+
+### 7.1.1. Tools and Practices
+### 7.1.2. Build & Test Suite Pipeline Components
+
+## 7.2 Continous Delivery
+
+### 7.2.1. Tools and Practices
+### 7.2.2. Stages Deployment Pipeline Components
+
+## 7.3 Continous Deployment
+
+### 7.3.1. Tools and Practices
+### 7.2.2. Production Deployment Pipeline Components
 
 # Conclusiones
 
