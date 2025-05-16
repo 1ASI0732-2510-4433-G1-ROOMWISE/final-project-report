@@ -2263,7 +2263,67 @@ __Supply Controller Tests__
 ## 7.2 Continous Delivery
 
 ### 7.2.1. Tools and Practices
+
+En Sweet Manager, nuestro pipeline de deployment se basa en herramientas esenciales que garantizan un proceso de despliegue confiable y eficiente. Utilizamos **GitHub** como repositorio principal para gestionar el código fuente y coordinar el flujo de deployment. Utilizamos **Selenium**  para ejecutar pruebas automatizadas end-to-end en cada stage antes del deployment, validando funcionalidades críticas como autenticación, gestión de habitaciones e inventario. Esta combinación nos permite mantener un control estricto sobre la calidad del código que se despliega, asegurando que cada versión de Sweet Manager pase por rigurosas validaciones antes de llegar a los usuarios finales.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+En esta sección se presenta la implementación de las historias de usuario más críticas del sistema Sweet Manager a través de diferentes etapas del pipeline de despliegue. Cada componente incluye evidencia visual de la funcionalidad desarrollada, mostrando desde la creación de cuentas y gestión de usuarios hasta la administración de habitaciones, inventario y registro de huéspedes. La siguiente tabla detalla las historias de usuario implementadas junto con sus respectivas capturas de pantalla que demuestran el funcionamiento exitoso de cada característica en el entorno de desarrollo.
+
+| EP02 | Crear cuenta | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación Sweet Manager |
+| ---- | ------------ | --------------------------------------------------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/JPPBxcO.png" alt="Landing evidence"/>
+</div><br>
+
+| HU01 | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión |
+| ---- | --------------------------------- | ---------------------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/8NvVsuw.png" alt="Landing evidence"/>
+</div><br>
+
+
+| HU02 | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo |
+| ---- | ------------------------------- | --------------------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/iE7IrC2.png" alt="Landing evidence"/>
+</div><br>
+
+
+| HU03 | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión |
+| ---- | -------------------------------------- | ----------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/bb8wsWN.png" alt="Landing evidence"/>
+</div><br>
+
+
+| HU01 - EP04 | Agregar un nuevo item al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel |
+| ----------- | ----------------------------------- | ----------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/cfMoXhy.png" alt="Landing evidence"/>
+</div><br>
+
+
+| HU01 - EP09 | Registro de cuenta para administrador | Como administrador, quiero asegurarme de que los clientes hospedados estén registrados en el sistema para tener un control sobre las reservas. |
+| ----------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/0m0VoIX.png" alt="Landing evidence"/>
+</div><br>
+
+
+| HU02 - EP09 | Retiro de Clientes (Trabajador) | Como trabajador, quiero gestionar la salida de los huéspedes del hotel. |
+| ----------- | ------------------------------- | ------------------------------------------------------------------------ |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/qkmWMHN.png" alt="Landing evidence"/>
+</div><br>
+
 
 ## 7.3 Continous Deployment
 
