@@ -192,6 +192,24 @@ En esta entrega del trabajo parcial se completó de manera exitosa. Durante la e
 
 ### [5.3. Video About-the-Product](#53-video-about-the-product)
 
+## Capítulo VI:  Product Verification & Validation
+### [6.1. Testing Suites & Validation](#51-software-configuration-management)
+- [6.1.1. Core Entities Unit Tests](#)
+- [6.1.2. Core Integration Tests](#)
+- [6.1.3. Core Behavior-Driven Development](#)
+- [6.1.4. Core System Tests](#)
+## Capítulo VII: DevOps Practices
+### [7.1. Continuous Integration](#) 
+- [7.1.1. Tools and Practices](#)
+- [7.1.2. Build & Test Suite Pipeline Components](#)
+### [7.2. Continuous Delivery](#51-software-configuration-management) 
+- [7.2.1. Tools and Practices](#)
+- [7.2.2. Stages Deployment Pipeline Components](#)
+### [7.3. Continuous Deployment](#51-software-configuration-management) 
+- [7.3.1. Tools and Practices](#)
+- [7.3.2. Production Deployment Pipeline Components](#)
+
+
 ## [Conclusiones](#conclusiones)
 ## [Bibliografía](#bibliografía)
 ## [Anexos](#anexos)
