@@ -185,10 +185,11 @@ En esta entrega del trabajo parcial se completó de manera exitosa. Durante la e
 - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
 - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
 - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-- [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-- [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-- [5.2.6. RESTful API Documentation](#526-restful-api-documentation)
-- [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+- [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+- [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+- [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+- [5.2.7. RESTful API Documentation](#527-restful-api-documentation)
+- [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
 
 ### [5.3. Video About-the-Product](#53-video-about-the-product-1)
 
@@ -1900,8 +1901,32 @@ __Evidencia del Jira__
    <img src="https://i.imgur.com/4tKsDgy.png" alt="Landing evidence"/>
 </div><br>
 
+### 5.2.4. Acuerdo de Servicio - SaaS
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+Al utilizar la aplicación web *Sweet Manager* (en adelante, "la Aplicación"), el usuario acepta los términos del presente Acuerdo de Servicio bajo el modelo *Software as a Service* (SaaS). Este acuerdo establece las condiciones bajo las cuales *SweetSolutions* (en adelante, "la Empresa") proporciona el acceso y uso de la Aplicación a través de internet.
+
+#### Alcance del Servicio
+La Aplicación permite la gestión integral de hoteles, incluyendo el registro de clientes, administración de habitaciones, gestión de incidencias, notificaciones, administración de suministros y proveedores, entre otras funcionalidades orientadas a la mejora operativa del negocio hotelero.
+
+#### Registro y Cuenta de Usuario
+Para acceder a todas las funcionalidades de la Aplicación, el usuario deberá registrarse proporcionando información personal válida, como nombre completo, correo electrónico y número de celular. La Empresa garantiza que esta información será utilizada exclusivamente con fines operativos y de prestación del servicio.
+
+#### Protección de Datos y Seguridad
+La Empresa se compromete a proteger los datos personales de los usuarios mediante medidas de seguridad técnicas y organizativas. Se emplean prácticas como el uso de tokens de autenticación en el backend para prevenir accesos no autorizados.
+
+#### Modelos de Suscripción
+El uso de la Aplicación está sujeto a la adquisición de un plan de suscripción. El pago se realiza exclusivamente mediante tarjeta de crédito o débito. Los planes, junto con sus precios y características, estarán claramente descritos en la plataforma.
+
+#### Derechos de Propiedad Intelectual
+Todos los derechos sobre la Aplicación, incluyendo el software, diseño, funcionalidades y contenido, son propiedad exclusiva de *SweetSolutions*. El usuario no adquiere ningún derecho de propiedad intelectual por el uso de la Aplicación.
+
+#### Legislación Aplicable
+Este Acuerdo de Servicio se rige por las leyes de la República del Perú. En caso de controversia, ambas partes acuerdan someterse a la jurisdicción exclusiva de los tribunales peruanos.
+
+#### Contacto
+Para consultas, quejas o solicitudes relacionadas con el presente acuerdo, el usuario puede comunicarse al correo electrónico: roomwise@gmail.com.
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/UHoWDTK.jpeg" alt="Landing evidence" width = "40%"/>
@@ -1919,7 +1944,7 @@ __Evidencia del Jira__
    <img src="https://i.imgur.com/Qm0qIGt.jpeg" alt="Landing evidence" width = "40%"/>
 </div><br>
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/hYcn7q9.png" alt="Landing evidence" width = "90%"/>
@@ -1942,7 +1967,7 @@ __Evidencia del Jira__
 </div><br>
 
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 
 A continuación, se presenta una descripción detallada de la documentación de la RESTful API desarrollada para este sistema. Esta interfaz de programación de aplicaciones permite la comunicación entre clientes (tanto web como móviles) y el servidor backend, utilizando el paradigma REST (Representational State Transfer), ampliamente adoptado por su simplicidad, escalabilidad y separación de responsabilidades.
@@ -1989,7 +2014,7 @@ Los tokens JWT permiten autenticar y autorizar a los usuarios sin necesidad de m
 
 Se recomienda el uso de herramientas como Swagger (OpenAPI) o Postman para documentar y probar la API de manera interactiva. Esto mejora la experiencia de los desarrolladores y facilita la integración con otras aplicaciones.
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 #### Document Report 
 <div style="text-align: center;">
