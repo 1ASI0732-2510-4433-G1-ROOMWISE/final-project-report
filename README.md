@@ -1187,84 +1187,58 @@ SEGMENTO GERENTE:
 
 ## 3.2. User Stories
 
-| EPIC/STORY ID | TÍTULO                        | Descripción                                                                 | Criterios de Aceptación                                                                                                                                                    | Relacionado con (Epic ID) |
-|---------------|-------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
-| EP01          | Información del Producto       | Como visitante, quiero ver información clara del producto, para comprender sus beneficios. | - DADO QUE el visitante se encuentra en la página de inicio,CUANDO observa los detalles sobre el producto ofrecido,ENTONCES obtiene una visión más clara de lo que la empresa tiene para ofrecer,Y decide registrarse o considerar la opción de registrarse como usuario.| - |
-| HU01  | Acceder a la información de la empresa        | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | - DADO QUE el visitante navega en la sección "Nosotros",CUANDO revisa la información relevante sobre la compañía,ENTONCES se genera un mayor interés por el producto,Y opta por registrarse como usuario.| EP01 |
-| HU02       | Conocer los beneficios del producto    | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | - DADO QUE el visitante está en la sección de beneficios,CUANDOrevisa las ventajas asociadas al uso de nuestra solución,ENTONCES aumenta su interés por el producto,Y decide registrarse como usuario. | EP01 |
-| HU03       | Consultar los planes de precios del producto |Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto | -DADO QUE el visitante se encuentra en la sección de planes de precios,CUANDO examina las diferentes alternativas ofrecidas,ENTONCES puede comprender mejor las opciones disponibles y tomar una decisión informada,Y optar por registrarse como usuario.  | EP01 |
-| HU04       | Establecer contacto con la empresa           |Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | - DADO QUE el visitante se encuentra en la página principal,CUANDO busca una opción de contacto accesible,ENTONCES puede establecer comunicación de forma rápida Y sencilla con la empresa.                | EP01 |
-| EP02          |Crear cuenta       | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación Sweet Manager | - DADO QUE el usuario está en la pantalla de inicio de sesión, CUANDO hace clic en el botón "Sign Up" e ingresa su información, ENTONCES se le mostrará el plan más adecuado según las necesidades de su negocio,Y tras realizar el pago, podrá crear su cuenta como gerente| - |
-| HU01       | Activación de cuenta de empleado                | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión            | - DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema. | EP02 |
-| HU02       | Registro de cuenta para gerente                   | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo.     | - DADO QUE ya se ha realizado el pago del plan,CUANDO el usuario completa el formulario con los datos del hotel y su información como gerente,ENTONCES se muestra un mensaje de bienvenidaY se accede al panel principal del gerente.                          | EP02 |
-| HU03       | Actualizar información personal     | Como usuario, quiero actualizar mis datos personales.                        | - DADO QUE estoy en mi perfil, CUANDO edito mis datos y guardo, ENTONCES la información debe actualizarse correctamente.                                                      | EP02 |
-| EP03          | Gestión de habitaciones en el área de Housekeeping            | Como gerente o trabajador, deseo consultar y modificar el estado de las habitaciones del hotel       | -DADO QUE el usuario navega a la sección de habitaciones,CUANDO visualiza las habitaciones registradas,ENTONCES puede acceder a información como el estado actual, las reservaciones, el tipo y número de habitación, así como el nombre del cliente asociado,Y además, se muestra un botón que permite la creación de nuevas habitaciones | - |
-| HU01       | Modificar el estado de una habitación           | Como gerente, deseo cambiar el estado de una habitación del hotel             | - DADO QUE el usuario accede a la sección de Habitaciones,CUANDO hace clic en el botón de ediciónY selecciona un nuevo estado desde la ventana emergente (popup),ENTONCES el estado de la habitación se actualiza correctamente.                         | EP03 |
-| HU02       |Actualizar el estado de la habitación (Empleado)         | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | - DADO QUE el usuario se encuentra en la sección de Habitaciones, CUANDO el usuario finaliza su tarea de limpieza o mantenimiento, Y hace clic en el botón para actualizar el estado de la habitación, ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
-| HU03       | Agregar nuevas habitaciones al sistema |Como gerente, deseo crear nuevas habitaciones en el sistema de gestión.     | -DADO QUE el usuario tiene permisos para agregar habitaciones en la sección de Habitaciones,CUANDOingresa los detalles de la habitación (tipo, número, etc.),ENTONCES la nueva habitación se registra en el sistema Y aparece en la lista de habitaciones.| EP03 |
-| EP04          | Administrar el inventario del hotel               | Como gerente, deseo gestionar el inventario del hotel para asegurarme de que los suministros estén siempre disponibles. | - DADO QUE el usuario tiene acceso al sistema de gestión de inventario en la sección correspondiente,CUANDO revisa los niveles de inventario,ENTONCES puede agregar, actualizar o eliminar elementos del inventario,Y los cambios se reflejan en tiempo real. | - |
-| HU01       | Agregar un nuevo ítem al inventario       | Como gestor, deseo agregar un nuevo ítem al inventario del hotel      | -DADO QUE el usuario tiene acceso para añadir ítems en la sección de Inventario,CUANDO ingresa los detalles del nuevo ítem (nombre, cantidad, etc.),ENTONCES el ítem se añade al inventario correctamente,Y se muestra en la sección de Inventario.| EP04 |
-| HU02       |Actualizar la información de un ítem en el inventario        | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados.   | - DADO QUE el usuario tiene acceso para modificar los detalles de un ítem,CUANDO selecciona el ítem que desea actualizarY modifica sus detalles (cantidad, descripción, etc.),ENTONCES los cambios se reflejan correctamente en el inventario.| EP04 |
-| HU03       | Eliminar un ítem del inventario    | Como gestor, deseo eliminar un ítem del inventario cuando ya no sea necesario     | - DADO QUE el usuario tiene acceso para eliminar ítems del inventario,CUANDO selecciona el ítem que desea eliminarY confirma la eliminación del ítem,ENTONCES el ítem se elimina del inventario correctamente.| EP04 |
-| EP05     | Administrar las tareas asignadas a los empleados      | Como gerente, deseo gestionar las tareas asignadas a los empleados para asegurarme de que todo esté en orden. | - DADO QUE el usuario tiene acceso para crear, editar, finalizar o eliminar tareas,CUANDO accede a la sección de tareas,ENTONCES puede realizar las acciones necesarias para gestionar las tareas de forma efectiva| - |
-| HU01      |Crear una nueva tarea para asignar a un empleado      | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo.| -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO presiona el botón para agregar una nueva tareaY define los detalles de la tarea (descripción, empleado asignado, fecha límite, etc.),ENTONCES la tarea se añade a la lista de tareas y se muestra en la sección correspondiente. | EP05 |
-| HU02       | Marcar una tarea como completada      | Como empleado, deseo marcar una tarea como completada una vez que la haya finalizado. | - DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona una tarea específica Y cambia su estado a "DONE", ENTONCES la tarea se actualiza correctamente en la lista de tareas.| EP05 |
-| HU03     |Eliminar una tarea no necesaria     |Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización.| -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona la tarea que desea eliminar Y presiona el botón para eliminarla,ENTONCES la tarea se elimina correctamente de la lista de tareas. | EP05 |
-| HU04  |Asignar o editar tareas      | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados.|-DADO QUE el usuario tiene acceso para asignar o editar tareas en la sección de tareas,CUANDO selecciona una tarea existente o crea una nueva tarea Y ingresa o modifica los detalles (empleado asignado, descripción, fecha límite, etc.),ENTONCES la tarea se actualiza o se asigna correctamente al empleado correspondiente.| EP05 |
-| HU05      |Actualizar el estado de una tarea asignada      | Como empleado, deseo cambiar el estado de una tarea asignada para reflejar su progreso.| -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona una tarea asignadaY cambia el estado de la tarea a "In Progress" o "Completed",ENTONCES la tarea se actualiza correctamente en la lista de tareas.| EP05 |
-| HU06   |Asignar una tarea a un empleado específico      | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras.| -DADO QUE el usuario tiene acceso para asignar tareas,CUANDO selecciona una tarea Y especifica el empleado asignado en el diálogo correspondiente,ENTONCES la tarea se asigna al empleado seleccionado y los detalles se actualizan correctamente| EP05 |
-| EP06      |Gestionar los mensajes entre empleados    | Como gerente, quiero gestionar los mensajes enviados entre empleados para mantener una comunicación eficiente.| -DADO QUE el usuario tiene acceso para crear,revisar o eliminar mensajes,CUANDO accede a la sección de mensajes,ENTONCES puede realizar las acciones necesarias para gestionar los mensajes de manera adecuada.|-|
-| HU01      |Enviar un mensaje a un empleado     | Como gerente, deseo enviar un mensaje a un empleado para mantener una comunicación fluida.| -DADO QUE el usuario tiene acceso para redactar mensajes en la sección de mensajes,CUANDO redacta el mensajeY lo envía,ENTONCES el mensaje se envía correctamente y se muestra en la ruta de mensajes del remitente | EP06 |
-| HU02   |Enviar reportes al gerente      | Como empleado, deseo enviar reportes al gerente para mantenerlo informado sobre mi trabajo.| -DADO QUE el usuario tiene acceso para redactar mensajes en la sección de mensajes,CUANDO redacta el reporte y lo envía,ENTONCES el mensaje se envía correctamente Y se muestra en la ruta de mensajes del remitente | EP06|
-| HU03     |Revisar los reportes recibidos de los empleados     | Como gerente, quiero revisar los reportes recibidos de los empleados para estar al tanto de su desempeño.| -DADO QUE e el usuario tiene acceso a la ruta de mensajes,CUANDO presiona el ícono de la campana,ENTONCES puede ver los mensajes recibidos Y sus detalles filtrados.| EP06|
-| HU04     |Revisar los mensajes enviados por el gerente      |Como empleado, quiero revisar los mensajes enviados por el gerente para estar al tanto de las instrucciones o actualizaciones importantes.| -DADO QUE el usuario tiene acceso a la ruta de mensajes,CUANDO presiona en eliminar un mensaje,ENTONCES el mensaje se elimina correctamente. | EP06 |
-| HU05   |Eliminar un mensaje      | Como gerente, quiero eliminar un mensaje específico para mantener el sistema organizado.| -DADO QUE el usuario tiene acceso a la ruta de mensajes,CUANDO presiona en eliminar un mensaje,ENTONCES el mensaje se elimina correctamente.| EP06|
-| HU06 |Recibir alertas de emergencia de seguridad     | Como trabajador de seguridad, quiero recibir alertas de emergencia para poder actuar de inmediato.| -DADO QUE el usuario es trabajador de seguridad,CUANDO un administrador envía una alerta de seguridad,ENTONCES recibe la alerta inmediatamente.| EP06|
-| HU07  |Envío de Alertas de Seguridad (Administrador)     | Como administrador, quiero poder enviar notificaciones de emergencia a los agentes de seguridad para que puedan actuar rápidamente.| -DADO QUE el usuario tiene el rol de administrador,CUANDO se produce un incidente,ENTONCES se enviará una alerta de seguridad a los agentes encargados.| EP06|
-| EP07   |Integración de APIs y Gestión de Seguridad      | Como desarrollador, quiero incorporar la API de verificación JWT en Sweet Manager para asegurar la autenticidad de los usuarios al ingresar la clave JWT.| -DADO QUE el sistema necesita integrar múltiples APIs (como la de servicios, autenticación y verificación JWT) para garantizar un funcionamiento seguro y eficiente,CUANDO se implementen estas APIs en el backend y se conecten correctamente con el frontend,ENTONCES el sistema debe permitir realizar operaciones de autenticación de usuarios, verificar la autenticidad de tokens JWT Y procesar transacciones de forma segura y eficiente.|-|
-| HU01 |API de Servicios de la Aplicación      | Como desarrollador, deseo integrar la API en Sweet Manager para manejar las transacciones necesarias que permitan que el proyecto funcione correctamente.| -DADO QUE el usuario necesita integrar una API,CUANDO introduce los métodos apropiados para los bounded contexts y establece la conexión con el frontend,ENTONCES se debe mostrar un código de estado exitoso cuando se realicen operaciones CRUD en el frontend.| EP07|
-| HU02   |API de Autenticación     | Como desarrollador, quiero utilizar la API de autenticación en Sweet Manager para gestionar el inicio de sesión de los usuarios de manera eficiente.| -DADO QUE el usuario quiere utilizar la API de autenticación y tiene acceso a su cuenta de empleado,CUANDO ingresa las credenciales necesarias para iniciar sesión y se valida su registro,ENTONCES se debe devolver un código de estado correspondiente Y permitir que el usuario inicie sesión exitosamente.| EP07|
-| HU03  |API de Verificación Clave JWT Gerente      | Como desarrollador, quiero incorporar la API de verificación JWT en Sweet Manager para asegurar que los usuarios sean auténticos al verificar su clave JWT.| -DADO QUE el usuario necesita integrar la API de verificación JWT Y tiene acceso a su cuenta de empleado,CUANDO ingresa sus credenciales de inicio de sesión y se realizan las validaciones pertinentes,ENTONCES se debe ejecutar el proceso de verificación de JWT para garantizar la autenticidad del usuario.| EP07|
-| EP08   |Gestión de Seguridad de Usuarios      | Como administrador o desarrollador de Sweet Manager, quiero garantizar que los usuarios puedan acceder al sistema de manera segura mediante un proceso de autenticación, para asegurar que solo los usuarios autorizados puedan acceder a sus paneles de control y gestionar su información.| -DADO QUE el sistema debe permitir a los usuarios autenticarse de manera segura,CUANDO un usuario ingresa sus credenciales de login y el sistema verifica su JWT correctamente,ENTONCES el usuario debe iniciar sesión con éxito Y ser redirigido a su dashboard personal.|-|
-| HU01 |Seguridad de Usuario      |Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal.| -DADO QUE el usuario se encuentra en la pantalla de inicio de sesión (Sign In),CUANDO introduce sus credenciales correctamente y se valida su token JWT,ENTONCES el usuario puede iniciar sesión de manera exitosa y será dirigido a su dashboard.| EP08|
-| EP09 |Gestión de Usuarios      |Como administrador o trabajador, quiero poder gestionar la información de los huéspedes.| -DADO QUE un cliente está a punto de registrarse, CUANDO el recepcionista confirma la reserva del cliente en el sistema,ENTONCES el cliente queda registrado como huésped en el hotel.|-|
-| HU01 |Registro de Clientes (Administrador)     |Como administrador, quiero asegurarme de que los clientes hospedados estén registrados en el sistema para tener un control sobre las reservas.| -DADO QUE un cliente está a punto de registrarse,CUANDO el recepcionista confirma la reserva en el sistema,ENTONCES el cliente se registra como huésped en el hotel.| EP09|
-| HU02 |Registro de Clientes (Trabajador)      |Como trabajador, quiero gestionar el registro de la entrada y salida de los huéspedes en el hotel.| -DADO QUE un cliente está por registrarse,CUANDO el recepcionista cancela la reserva, ENTONCES la información del cliente se registra adecuadamente.| EP09|
-| HU03|Retiro de Clientes (Trabajador)      |Como trabajador, quiero gestionar la salida de los huéspedes del hotel.| -DADO QUE un cliente está por retirarse, CUANDO el recepcionista procesa el check-out,ENTONCES la información del cliente se elimina del sistema.| EP09|
-| HU04|Registro de Proveedores (Administrador)      |Como administrador, quiero poder gestionar la información de los proveedores del hotel.| -DADO QUE un proveedor es un contacto registrado,CUANDO el administrador hace clic en el botón para registrar un nuevo proveedor,ENTONCES los datos del proveedor se guardan correctamente en el sistema.| EP09|
+| EPIC ID | TÍTULO                        | Descripción                                                                 |
+|---------|-------------------------------|-----------------------------------------------------------------------------|
+| EP01    | Información del Producto       | Como visitante, quiero ver información clara del producto, para comprender sus beneficios. |
+| EP02    | Crear cuenta                   | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación Sweet Manager |
+| EP03    | Gestión de habitaciones en el área de Housekeeping | Como gerente o trabajador, deseo consultar y modificar el estado de las habitaciones del hotel |
+| EP04    | Administrar el inventario del hotel | Como gerente, deseo gestionar el inventario del hotel para asegurarme de que los suministros estén siempre disponibles. |
+| EP05    | Administrar las tareas asignadas a los empleados | Como gerente, deseo gestionar las tareas asignadas a los empleados para asegurarme de que todo esté en orden. |
+| EP06    | Gestión de Seguridad de Usuarios | Como administrador o desarrollador de Sweet Manager, quiero garantizar que los usuarios puedan acceder al sistema de manera segura mediante un proceso de autenticación. |
+
+
+| US ID | TÍTULO | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|-------|--------|-------------|--------------------------|--------------------------|
+| US01 | Acceder a la información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | - DADO QUE el visitante navega en la sección "Nosotros",CUANDO revisa la información relevante sobre la compañía,ENTONCES se genera un mayor interés por el producto,Y opta por registrarse como usuario. | EP01 |
+| US02 | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | - DADO QUE el visitante está en la sección de beneficios,CUANDOrevisa las ventajas asociadas al uso de nuestra solución,ENTONCES aumenta su interés por el producto,Y decide registrarse como usuario. | EP01 |
+| US03 | Consultar los planes de precios del producto | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto | -DADO QUE el visitante se encuentra en la sección de planes de precios,CUANDO examina las diferentes alternativas ofrecidas,ENTONCES puede comprender mejor las opciones disponibles y tomar una decisión informada,Y optar por registrarse como usuario. | EP01 |
+| US04 | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | - DADO QUE el visitante se encuentra en la página principal,CUANDO busca una opción de contacto accesible,ENTONCES puede establecer comunicación de forma rápida Y sencilla con la empresa. | EP01 |
+| US05 | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión | - DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema. | EP02 |
+| US06 | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo. | - DADO QUE ya se ha realizado el pago del plan,CUANDO el usuario completa el formulario con los datos del hotel y su información como gerente,ENTONCES se muestra un mensaje de bienvenidaY se accede al panel principal del gerente. | EP02 |
+| US07 | Modificar el estado de una habitación | Como gerente, deseo cambiar el estado de una habitación del hotel | - DADO QUE el usuario accede a la sección de Habitaciones,CUANDO hace clic en el botón de ediciónY selecciona un nuevo estado desde la ventana emergente (popup),ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
+| US08 | Actualizar el estado de la habitación (Empleado) | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | - DADO QUE el usuario se encuentra en la sección de Habitaciones, CUANDO el usuario finaliza su tarea de limpieza o mantenimiento, Y hace clic en el botón para actualizar el estado de la habitación, ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
+| US09 | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión. | -DADO QUE el usuario tiene permisos para agregar habitaciones en la sección de Habitaciones,CUANDOingresa los detalles de la habitación (tipo, número, etc.),ENTONCES la nueva habitación se registra en el sistema Y aparece en la lista de habitaciones. | EP03 |
+| US10 | Agregar un nuevo ítem al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel | -DADO QUE el usuario tiene acceso para añadir ítems en la sección de Inventario,CUANDO ingresa los detalles del nuevo ítem (nombre, cantidad, etc.),ENTONCES el ítem se añade al inventario correctamente,Y se muestra en la sección de Inventario. | EP04 |
+| US11 | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | - DADO QUE el usuario tiene acceso para modificar los detalles de un ítem,CUANDO selecciona el ítem que desea actualizarY modifica sus detalles (cantidad, descripción, etc.),ENTONCES los cambios se reflejan correctamente en el inventario. | EP04 |
+| US12 | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO presiona el botón para agregar una nueva tareaY define los detalles de la tarea (descripción, empleado asignado, fecha límite, etc.),ENTONCES la tarea se añade a la lista de tareas y se muestra en la sección correspondiente. | EP05 |
+| US13 | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona la tarea que desea eliminar Y presiona el botón para eliminarla,ENTONCES la tarea se elimina correctamente de la lista de tareas. | EP05 |
+| US14 | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | -DADO QUE el usuario tiene acceso para asignar o editar tareas en la sección de tareas,CUANDO selecciona una tarea existente o crea una nueva tarea Y ingresa o modifica los detalles (empleado asignado, descripción, fecha límite, etc.),ENTONCES la tarea se actualiza o se asigna correctamente al empleado correspondiente. | EP05 |
+| US15 | Actualizar el estado de una tarea asignada | Como empleado, deseo cambiar el estado de una tarea asignada para reflejar su progreso. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona una tarea asignadaY cambia el estado de la tarea a "In Progress" o "Completed",ENTONCES la tarea se actualiza correctamente en la lista de tareas. | EP05 |
+| US16 | Asignar una tarea a un empleado específico | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras. | -DADO QUE el usuario tiene acceso para asignar tareas,CUANDO selecciona una tarea Y especifica el empleado asignado en el diálogo correspondiente,ENTONCES la tarea se asigna al empleado seleccionado y los detalles se actualizan correctamente | EP05 |
+| US17 | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | -DADO QUE el usuario se encuentra en la pantalla de inicio de sesión (Sign In),CUANDO introduce sus credenciales correctamente y se valida su token JWT,ENTONCES el usuario puede iniciar sesión de manera exitosa y será dirigido a su dashboard. | EP06 |
+
 
 ## 3.3. Product Backlog
 
 | #ORDEN | USER STORY ID | TÍTULO                                  | DESCRIPCIÓN | STORY POINTS(1/2/3/5/8/13) |
-|--------|----------------|------------------------------------------|-------------|----------------------------|
-| 1      | HU01 - EP01    | Acceder a la información de la empresa | Como visitante del sitio web, quiero conocer más acerca de la empresa responsable del producto, para generar un mayor interés por el producto y optar por registrarme como usuario. | 3 |
-| 2      | HU02 - EP01    | Conocer los beneficios del producto | Como visitante del sitio web, quiero conocer las ventajas que ofrece el producto, para aumentar mi interés por el producto y decidir registrarme como usuario. | 3 |
-| 3      | HU03 - EP01    | Consultar los planes de precios del producto | Como visitante del sitio web, quiero conocer las distintas opciones de precios disponibles para el producto, para tomar una decisión informada y optar por registrarme como usuario. | 3 |
-| 4      | HU04 - EP01    | Establecer contacto con la empresa | Como visitante del sitio web, quiero poder comunicarme fácilmente con la empresa directamente desde la página de inicio, para resolver dudas o solicitar más información. | 2 |
-| 5      | HU01 - EP02    | Activación de cuenta de empleado | Como empleado, quiero verificar mi cuenta para poder acceder al sistema de gestión, para poder comenzar a utilizar las herramientas y recursos proporcionados. | 2 |
-| 6      | HU06 - EP02    | Registro de cuenta para gerente | Como gerente, quiero crear mi cuenta para poder administrar al personal a mi cargo, para gestionar las tareas, habitaciones e inventario del hotel. | 5 |
-| 7      | HU01 - EP03    | Modificar el estado de una habitación | Como gerente, quiero cambiar el estado de una habitación del hotel, para mantener un registro actualizado de las habitaciones disponibles y en uso. | 3 |
-| 8      | HU02- EP03     | Actualizar el estado de la habitación (Empleado) | Como empleado, quiero cambiar el estado de la habitación asignada, para notificar que he terminado mi tarea de limpieza o mantenimiento. | 2 |
-| 9      | HU03 - EP03    | Agregar nuevas habitaciones al sistema | Como gerente, quiero crear nuevas habitaciones en el sistema de gestión, para expandir la capacidad del hotel y tener un registro actualizado de las habitaciones disponibles. | 5 |
-| 10     | HU01 - EP04    | Agregar un nuevo ítem al inventario | Como gestor, quiero agregar un nuevo ítem al inventario del hotel, para asegurarme de que los suministros estén disponibles cuando sea necesario. | 3 |
-| 11     | HU02- EP04     | Actualizar la información de un ítem en el inventario | Como gestor, quiero actualizar la información de un ítem en el inventario, para mantener un control preciso sobre los suministros. | 3 |
-| 12     | HU03- EP04     | Eliminar un ítem del inventario | Como gestor, quiero eliminar un ítem del inventario cuando ya no sea necesario, para mantener el inventario actualizado y evitar errores de registro. | 2 |
-| 13     | HU01-EP05      | Crear una nueva tarea para asignar a un empleado | Como gerente, quiero crear una nueva tarea para asignar a un empleado y organizar el trabajo, para mantener una buena distribución de responsabilidades. | 3 |
-| 14     | HU02-EP05      | Marcar una tarea como completada | Como empleado, quiero marcar una tarea como completada una vez que la haya finalizado, para notificar al gerente que la tarea ha sido realizada. | 2 |
-| 15     | HU03-EP05      | Eliminar una tarea no necesaria | Como gerente, quiero eliminar una tarea que ya no sea necesaria, para mantener la organización y no sobrecargar a los empleados con tareas innecesarias. | 2 |
-| 16     | HU04-EP05      | Asignar o editar tareas | Como gerente, quiero asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados, para mejorar la eficiencia del equipo. | 3 |
-| 17     | HU01-EP06      | Enviar un mensaje a un empleado | Como gerente, quiero enviar un mensaje a un empleado para mantener una comunicación fluida, para asegurarme de que todos estén al tanto de las instrucciones y cambios. | 3 |
-| 18     | HU02-EP06      | Enviar reportes al gerente | Como empleado, quiero enviar reportes al gerente para mantenerlo informado sobre mi trabajo, para asegurarme de que el trabajo se está realizando de acuerdo con los estándares. | 3 |
-| 19     | HU03-EP06      | Revisar los reportes recibidos de los empleados | Como gerente, quiero revisar los reportes recibidos de los empleados, para estar al tanto de su desempeño y tomar decisiones informadas. | 3 |
-| 20     | HU04-EP06      | Revisar los mensajes enviados por el gerente | Como empleado, quiero revisar los mensajes enviados por el gerente, para estar al tanto de las instrucciones o actualizaciones importantes. | 2 |
-| 21     | HU01-EP07      | API de Servicios de la Aplicación | Como desarrollador, quiero integrar la API en Sweet Manager para manejar las transacciones necesarias que permitan que el proyecto funcione correctamente, para asegurar una integración eficiente entre el frontend y backend. | 5 |
-| 22     | HU02-EP07      | API de Autenticación | Como desarrollador, quiero utilizar la API de autenticación en Sweet Manager para gestionar el inicio de sesión de los usuarios de manera eficiente, para garantizar que solo los usuarios autorizados puedan acceder al sistema. | 5 |
-| 23     | HU03-EP07      | API de Verificación Clave JWT Gerente | Como desarrollador, quiero incorporar la API de verificación JWT en Sweet Manager para asegurar que los usuarios sean auténticos al verificar su clave JWT, para mantener la seguridad del sistema. | 5 |
-| 24     | HU01-EP08      | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal, para asegurarme de que mi información esté protegida y pueda acceder al sistema de manera segura. | 3 |
-| 25     | HU01-EP09      | Registro de Clientes (Administrador) | Como administrador, quiero asegurarme de que los clientes hospedados estén registrados en el sistema, para tener un control sobre las reservas y la gestión de huéspedes. | 5 |
-| 26     | HU02-EP09      | Registro de Clientes (Trabajador) | Como trabajador, quiero gestionar el registro de la entrada y salida de los huéspedes en el hotel, para asegurarme de que la información esté actualizada y no haya errores en los registros. | 3 |
-| 27     | HU03-EP09      | Retiro de Clientes (Trabajador) | Como trabajador, quiero gestionar la salida de los huéspedes del hotel, para asegurarme de que los registros se actualicen correctamente y no haya duplicidad de reservas. | 3 |
-| 28     | HU04-EP09      | Registro de Proveedores (Administrador) | Como administrador, quiero poder gestionar la información de los proveedores del hotel, para mantener un control adecuado sobre los suministros y servicios proporcionados. | 3 |
+|--------|--------------|----------------------------------------|-------------|---------------------------|
+| 1      | US01 - EP01  | Acceder a la información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | 3 |
+| 2      | US02 - EP01  | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | 3 |
+| 3      | US03 - EP01  | Consultar los planes de precios del producto | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto. | 3 |
+| 4      | US04 - EP01  | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | 2 |
+| 5      | US05 - EP02  | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión. | 2 |
+| 6      | US06 - EP02  | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo. | 5 |
+| 7      | US07 - EP03  | Modificar el estado de una habitación | Como gerente, deseo cambiar el estado de una habitación del hotel. | 3 |
+| 8      | US08 - EP03  | Actualizar el estado de la habitación (Empleado) | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | 2 |
+| 9      | US09 - EP03  | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión. | 5 |
+| 10     | US10 - EP04  | Agregar un nuevo ítem al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel. | 3 |
+| 11     | US11 - EP04  | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | 3 |
+| 12     | US12 - EP05  | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | 3 |
+| 13     | US13 - EP05  | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | 2 |
+| 14     | US14 - EP05  | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | 3 |
+| 15     | US15 - EP05  | Actualizar el estado de una tarea asignada | Como empleado, deseo cambiar el estado de una tarea asignada para reflejar su progreso. | 2 |
+| 16     | US16 - EP05  | Asignar una tarea a un empleado específico | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras. | 3 |
+| 17     | US17 - EP08  | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | 3 |
 
 ## 3.4. Impact Mapping
 
@@ -1870,23 +1844,25 @@ __Evidencia del Jira__
    <img src="https://i.imgur.com/BT7BE15.png" alt="Jira tasks"/>
 </div><br>
 
-# Sprint Backlog 02 (Completed):
+# Sprint Backlog 02 (Completed)
 
-| Sprint # | User Story | Work-item Task | Estimation (In hours) | Assigned To | Status |
-|----------|------------|----------------|-----------------------|-------------|--------|
-| **Landing Page** | | | | | |
-| Sprint 1 | HU03: Consultar los planes de precios del producto | W06: Mostrar planes de precios en la landing page | 2 | XXXX | Done |
-| **Web Service** | | | | | |
-| Sprint 1 | HU02: Registro de cuenta para gerente | W07: Formulario de registro para gerentes | 4 | XXXX | Done |
-| Sprint 1 | HU03: Actualizar información personal | W08: Funcionalidad de edición de perfil | 3 | XXXX | Done |
-| Sprint 1 | HU01: Agregar un nuevo ítem al inventario | W09: Formulario para añadir ítems al inventario | 3 | XXXX | Done |
-| Sprint 1 | HU02: Actualizar la información de un ítem en el inventario | W10: Funcionalidad de edición de ítems | 3 | XXXX | Done |
-| Sprint 1 | HU03: Eliminar un ítem del inventario | W11: Funcionalidad de eliminación de ítems | 2 | XXXX | Done |
-| Sprint 1 | HU03: Eliminar una tarea no necesaria | W12: Funcionalidad de eliminación de tareas | 2 | XXXX | Done |
-| Sprint 1 | HU06: Asignar una tarea a un empleado específico | W13: Funcionalidad de asignación de tareas | 3 | XXXX | Done |
-| Sprint 1 | HU02: API de Autenticación | W14: Implementación de API de autenticación | 5 | XXXX | Done |
-| Sprint 1 | HU01: Seguridad de Usuario | W15: Integración de JWT para login | 4 | XXXX | Done |
-| Sprint 1 | HU04: Registro de Proveedores | W16: Formulario de registro de proveedores | 3 | XXXX | Done |
+| Module                | Sprint # | User Story ID | User Story Description                      | Work-item Task                         | Estimation (hours) | Assigned To | Status |
+|-----------------------|----------|---------------|--------------------------------------------|----------------------------------------|--------------------|-------------|--------|
+| Landing Page          | Sprint 1 | US03 - EP01   | Consultar planes de precios                | Mostrar planes de precios en landing page | 2                | XXXX        | Done   |
+|                       | Sprint 1 | US04 - EP01   | Establecer contacto                        | Implementar formulario de contacto        | 2                | XXXX        | Done   |
+| Autenticación         | Sprint 1 | US05 - EP02   | Activación de cuenta empleado              | Implementar verificación de cuentas      | 3                | XXXX        | Done   |
+|                       | Sprint 1 | US06 - EP02   | Registro cuenta gerente                    | Formulario registro gerentes             | 4                | XXXX        | Done   |
+|                       | Sprint 1 | US17 - EP08   | Seguridad de Usuario                       | Integración JWT para login               | 4                | XXXX        | Done   |
+| Gestión Habitaciones  | Sprint 1 | US07 - EP03   | Modificar estado habitación                | UI para cambiar estados                  | 3                | XXXX        | Done   |
+|                       | Sprint 1 | US08 - EP03   | Actualizar estado (empleado)               | Botón "Tarea completada"                 | 2                | XXXX        | Done   |
+|                       | Sprint 1 | US09 - EP03   | Agregar habitaciones                       | Formulario nueva habitación              | 3                | XXXX        | Done   |
+| Gestión Inventario    | Sprint 1 | US10 - EP04   | Agregar ítem inventario                   | Formulario añadir ítems                  | 3                | XXXX        | Done   |
+|                       | Sprint 1 | US11 - EP04   | Actualizar ítem inventario                | Funcionalidad edición ítems              | 3                | XXXX        | Done   |
+| Gestión Tareas        | Sprint 1 | US12 - EP05   | Crear nueva tarea                          | Formulario creación tareas               | 3                | XXXX        | Done   |
+|                       | Sprint 1 | US13 - EP05   | Eliminar tarea                             | Funcionalidad eliminación                | 2                | XXXX        | Done   |
+|                       | Sprint 1 | US14 - EP05   | Asignar/editar tareas                      | UI asignación tareas                     | 3                | XXXX        | Done   |
+|                       | Sprint 1 | US15 - EP05   | Actualizar estado tarea                    | Selector estados tareas                  | 2                | XXXX        | Done   |
+|                       | Sprint 1 | US16 - EP05   | Asignar a empleado específico              | Dropdown selección empleado              | 2                | XXXX        | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -2253,100 +2229,145 @@ __Supply Controller Tests__
   <img src="https://imgur.com/UjUchIX.png[/img]"  width="70%" />
 </div>
 
+
+
+
 # Capítulo VII:  DevOps Practices
 
 ## 7.1 Continous Integration
 
 ### 7.1.1. Tools and Practices
+
+En el ámbito del desarrollo y pruebas de software, es esencial contar con herramientas y métodos que aseguren tanto la calidad del código como la productividad del equipo. En nuestro proceso de trabajo, empleamos una variedad de herramientas que optimizan tanto la creación como la validación de la funcionalidad y el comportamiento previsto de la aplicación. Estas herramientas abarcan distintas fases del ciclo de vida del software, desde la escritura del código hasta la ejecución de pruebas y la automatización de tareas.
+
+Seguimos las metodologías de **Desarrollo Orientado por Comportamiento (BDD)** y **Desarrollo Orientado por Pruebas (TDD)** para asegurar que nuestras soluciones no solo cumplan con los requerimientos del cliente, sino que también mantengan altos niveles de calidad técnica. Algunas de las herramientas principales que utilizamos son:
+
+| Herramienta | Tipo                         | Descripción                                                                                         | Propósito                                                                                   |
+|-------------|------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **NUnit**   | Herramienta para pruebas (TDD) | Es un framework para pruebas en .NET que permite probar unidades individuales del código.           | Facilita la creación y ejecución de pruebas automatizadas para validar el comportamiento del código. |
+| **Moq**     | Herramienta de simulaciones (TDD) | Permite crear objetos simulados (mocks) de dependencias para pruebas unitarias en .NET.             | Simula el comportamiento de objetos externos para facilitar pruebas aisladas.              |
+| **Cucumber**| Herramienta de BDD             | Ayuda a desarrollar programas centrándose en el comportamiento, usando un lenguaje simple (Gherkin). | Permite definir y verificar escenarios de uso reales, alineando el desarrollo con los requerimientos del negocio. |
+
 ### 7.1.2. Build & Test Suite Pipeline Components
 
 ## 7.2 Continous Delivery
 
+Su propósito es automatizar tanto la integración como las pruebas del código, garantizando que todo esté preparado para su implementación en cualquier momento.
+
 ### 7.2.1. Tools and Practices
 
-En Sweet Manager, nuestro pipeline de deployment se basa en herramientas esenciales que garantizan un proceso de despliegue confiable y eficiente. Utilizamos **GitHub** como repositorio principal para gestionar el código fuente y coordinar el flujo de deployment. Utilizamos **Selenium**  para ejecutar pruebas automatizadas end-to-end en cada stage antes del deployment, validando funcionalidades críticas como autenticación, gestión de habitaciones e inventario. Esta combinación nos permite mantener un control estricto sobre la calidad del código que se despliega, asegurando que cada versión de Sweet Manager pase por rigurosas validaciones antes de llegar a los usuarios finales.
+__Tools:__
+
+- Utilizamos **GitHub** como repositorio principal para gestionar el código fuente y coordinar el flujo de deployment.
+- Usamos **Selenium** para ejecutar pruebas automatizadas end-to-end en cada stage antes del deployment, validando funcionalidades críticas como autenticación, gestión de habitaciones e inventario. Esto nos permite mantener un control estricto sobre la calidad del código que se despliega.
+- Integramos **Jira** para gestionar las tareas de desarrollo y el proceso de aprobación del despliegue. Después de validar el pipeline, un administrador o gerente de proyecto puede revisar y aprobar manualmente el paso a producción, asegurando una supervisión clara del proceso.
+
+__Practices:__
+
+- **Despliegue automático a staging y producción:**  
+  Cada vez que se realiza un cambio en la rama `main` y supera todas las pruebas con éxito, Render se encarga de desplegar automáticamente la aplicación. Esto garantiza que la versión más reciente esté siempre activa y disponible. Render monitorea continuamente el repositorio y lanza el despliegue en cuanto detecta nuevas actualizaciones.
+
+- **Control de calidad antes del despliegue:**  
+  Aunque el despliegue está automatizado, este no se ejecuta si alguna prueba falla. De esta manera, se asegura que solo el código que ha sido validado correctamente llegue al entorno de producción, preservando la estabilidad y confiabilidad del sistema.
+
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/IyxGRVq.png" alt="Landing evidence"  width="80%" />
+</div><br>
+
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
-En esta sección se presenta la implementación de las historias de usuario más críticas del sistema Sweet Manager a través de diferentes etapas del pipeline de despliegue. Cada componente incluye evidencia visual de la funcionalidad desarrollada, mostrando desde la creación de cuentas y gestión de usuarios hasta la administración de habitaciones, inventario y registro de huéspedes. La siguiente tabla detalla las historias de usuario implementadas junto con sus respectivas capturas de pantalla que demuestran el funcionamiento exitoso de cada característica en el entorno de desarrollo.
+- **Integración Continua (CI):**  
+  Cada vez que se realiza un commit en una rama de desarrollo, el pipeline inicia automáticamente una serie de pruebas para verificar que la aplicación esté en condiciones óptimas para ser desplegada. Esto asegura que el código se mantenga en un estado funcional y listo para producción.
 
-| EP02 | Crear cuenta | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación Sweet Manager |
-| ---- | ------------ | --------------------------------------------------------------------------------------------------------------- |
+- **Validación en entorno de Staging:**  
+  Antes de avanzar al entorno productivo, el código se valida en un entorno de *staging*, donde se recrean condiciones similares a las de producción. En esta etapa se pueden ejecutar pruebas adicionales como pruebas manuales, de carga o de seguridad, con el fin de detectar posibles problemas antes del despliegue definitivo.
 
-<div style="text-align: center;">
-   <img src="https://i.imgur.com/JPPBxcO.png" alt="Landing evidence"/>
-</div><br>
+- **Despliegue con aprobación manual:**  
+  Aunque el pipeline puede preparar automáticamente el código para su despliegue, el paso final hacia producción requiere la autorización de un responsable. Esta validación manual permite mayor control y evita que cambios no verificados lleguen a los usuarios finales.
 
-| HU01 | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión |
-| ---- | --------------------------------- | ---------------------------------------------------------------------------------- |
+- **Monitoreo y retroalimentación:**  
+  El pipeline incorpora herramientas de monitoreo y análisis para observar el impacto del nuevo código en el rendimiento del sistema. Esto permite detectar posibles problemas de manera temprana y realizar ajustes antes del despliegue total.
 
-<div style="text-align: center;">
-   <img src="https://i.imgur.com/8NvVsuw.png" alt="Landing evidence"/>
-</div><br>
-
-
-| HU02 | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo |
-| ---- | ------------------------------- | --------------------------------------------------------------------------------- |
-
-<div style="text-align: center;">
-   <img src="https://i.imgur.com/iE7IrC2.png" alt="Landing evidence"/>
-</div><br>
-
-
-| HU03 | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión |
-| ---- | -------------------------------------- | ----------------------------------------------------------------------- |
-
-<div style="text-align: center;">
-   <img src="https://i.imgur.com/bb8wsWN.png" alt="Landing evidence"/>
-</div><br>
-
-
-| HU01 - EP04 | Agregar un nuevo item al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel |
-| ----------- | ----------------------------------- | ----------------------------------------------------------------- |
-
-<div style="text-align: center;">
-   <img src="https://i.imgur.com/cfMoXhy.png" alt="Landing evidence"/>
-</div><br>
-
-
-| HU01 - EP09 | Registro de cuenta para administrador | Como administrador, quiero asegurarme de que los clientes hospedados estén registrados en el sistema para tener un control sobre las reservas. |
-| ----------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-
-<div style="text-align: center;">
-   <img src="https://i.imgur.com/0m0VoIX.png" alt="Landing evidence"/>
-</div><br>
-
-
-| HU02 - EP09 | Retiro de Clientes (Trabajador) | Como trabajador, quiero gestionar la salida de los huéspedes del hotel. |
-| ----------- | ------------------------------- | ------------------------------------------------------------------------ |
-
-<div style="text-align: center;">
-   <img src="https://i.imgur.com/qkmWMHN.png" alt="Landing evidence"/>
-</div><br>
-
+- **Confirmación del despliegue:**  
+  En este punto del pipeline, el proceso queda pausado a la espera de que un desarrollador, administrador o miembro del equipo de operaciones apruebe el despliegue a producción. Esta etapa es crucial para validar que todos los criterios han sido cumplidos antes de liberar la versión final.
 
 ## 7.3 Continous Deployment
 
+El propósito del Continuous Deployment (CD) es asegurar que los cambios en el código que hayan sido validados se desplieguen automáticamente desde el entorno de desarrollo hasta producción. Esto permite que cada nueva versión se libere sin necesidad de intervención humana, siempre que supere todas las pruebas establecidas en el pipeline.
+
+
 ### 7.3.1. Tools and Practices
-El objetivo del Continuous Deployment (CD) es automatizar el despliegue continuo de la aplicación en producción sin intervención manual, siempre que las pruebas sean exitosas.Se utilizó Render para el despliegue del backend. Jenkins Pipeline se utiliza para automatizar el flujo de trabajo, definiendo las etapas de construcción, prueba y despliegue, y asegurando que el código aprobado se despliegue automáticamente en producción.
+El proceso de despliegue continuo en **Sweet Manager** se sustenta en una serie de herramientas modernas que permiten automatizar y simplificar el flujo de trabajo del sistema. Cada una de estas herramientas está integrada dentro del pipeline CI/CD y cumple un rol definido para asegurar un despliegue eficiente y confiable.
+
+### `Vercel` (Frontend - Vue.js)
+
+- **Función:**  
+  Vercel es la plataforma encargada del despliegue automático del frontend de Sweet Manager, desarrollado en Vue.js. Cada vez que se realiza un commit en la rama `main` o se fusiona un *pull request* exitoso, Vercel reconstruye y publica la aplicación.
+
+- **Automatización:**  
+  Vercel gestiona el proceso completo de construcción del frontend. Una vez subido el nuevo código, la aplicación se actualiza automáticamente en producción, sin requerir pasos manuales por parte del equipo de desarrollo.
+
+### `Render` (Backend - `ASP.NET Core`)
+
+- **Función:**  
+  Render gestiona el despliegue del backend de Sweet Manager, desarrollado en `ASP.NET Core`. Esta plataforma garantiza que los servicios del backend estén siempre disponibles y actualizados en el entorno de producción.
+
+- **Automatización:**  
+  Render está configurado para detectar cambios en el repositorio del backend y realizar un despliegue automático. El proceso incluye la construcción del servicio y su despliegue directo al entorno productivo.
+
+### `Railway` (Base de Datos - MySQL)
+
+- **Función:**  
+  Railway administra la base de datos MySQL que da soporte a la aplicación. Asegura que los datos estén siempre alineados con las versiones actuales del sistema.
+
+- **Automatización:**  
+  Railway se integra con el entorno backend y permite que cualquier cambio en la estructura de la base de datos se aplique automáticamente durante el despliegue. Esto garantiza que el esquema de datos esté sincronizado en todo momento con la lógica de la aplicación.
 
 ### 7.3.2. Production Deployment Pipeline Components
 
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/BsZRbMl.jpeg[/img]"  width="70%" />
-</div>
 
+El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas etapas clave, cada una respaldada por herramientas especializadas que automatizan y controlan el flujo de entrega en producción.
+
+### Despliegue del Frontend con Vercel
+
+- **Herramienta:** `Vercel`
+- **Funcionamiento:**  
+  Cada vez que se detecta una modificación en la rama `main` del repositorio frontend, Vercel ejecuta automáticamente el proceso de construcción del proyecto y despliega la versión actualizada en producción.
+- **Características:**  
+  Vercel facilita la entrega continua del frontend al encargarse del proceso de *build*, gestión de caché, distribución mediante CDN y protección del entorno mediante HTTPS.
+
+  <div style="text-align: center;">
+  <img src="https://i.imgur.com/WqHxiID.png"  width="70%" />
+  </div>
+
+
+### Despliegue del Backend con Render
+
+- **Herramienta:** `Render`
+- **Funcionamiento:**  
+  Cuando se realiza un *push* a la rama `main` del repositorio backend, Render inicia la construcción del proyecto `ASP.NET Core` y, una vez finalizada, despliega la nueva versión directamente en el entorno productivo.
+- **Características:**  
+  Render automatiza el despliegue del backend, proporciona monitoreo de servicios, escalabilidad y asegura que la API de Sweet Manager esté disponible de forma constante.
+ 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/PF02C6H.jpeg[/img]"  width="70%" />
 </div>
 
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/yZS8gtA.png[/img]"  width="70%" />
-</div>
+### Gestión de la Base de Datos con Railway
+
+- **Herramienta:** `Railway`
+- **Funcionamiento:**  
+  Railway se integra al pipeline para administrar la base de datos MySQL que respalda a Sweet Manager. En cada despliegue del backend, Railway garantiza que los cambios en la estructura de datos (como migraciones o ajustes de esquema) se apliquen correctamente y estén sincronizados.
+- **Características:**  
+  Railway permite una gestión ágil y automatizada de la base de datos, asegurando disponibilidad, compatibilidad y facilidad para escalar o ajustar la infraestructura de datos cuando sea necesario.
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/yvCe9zW.jpeg[/img]"  width="70%" />
+  <img src="https://i.imgur.com/bZD5MKW.png"  width="70%" />
 </div>
+
+
 
 # Conclusiones
 
