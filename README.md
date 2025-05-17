@@ -2161,40 +2161,30 @@ __Supply Controller Tests__
 ### 6.1.3. Core Behavior-Driven Development
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/NzqXZsG.png[/img]"  width="70%" />
+  <img src="https://i.imgur.com/luXLX7w.png"  width="70%" />
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/CTfsIYB.png[/img]"  width="70%" />
+  <img src="https://i.imgur.com/3FiYhVk.png"  width="70%" />
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/wOz6LMh.png[/img]"  width="70%" />
+  <img src="https://i.imgur.com/CeEZogh.png"  width="70%" />
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/G9ataNX.png[/img]"  width="70%" />
+  <img src="https://i.imgur.com/rRpQgeC.png"  width="70%" />
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/RXi6uY2.png[/img]"  width="70%" />
+  <img src="https://i.imgur.com/Ps9ylm0.png"  width="70%" />
 </div>
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/0URell0.png[/img]"  width="70%" />
+  <img src="https://i.imgur.com/wXbtZYl.png"  width="70%" />
 </div>
 
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/B2i3nHR.png[/img]"  width="70%" />
-</div>
 
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/uToacHC.png[/img]"  width="70%" />
-</div>
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/NptFxf8.png[/img]"  width="70%" />
-</div>
 
 
 ### 6.1.4. Core System Tests
@@ -2286,6 +2276,10 @@ Seguimos las metodologías de **Desarrollo Orientado por Comportamiento (BDD)** 
 | **Cucumber**| Herramienta de BDD             | Ayuda a desarrollar programas centrándose en el comportamiento, usando un lenguaje simple (Gherkin). | Permite definir y verificar escenarios de uso reales, alineando el desarrollo con los requerimientos del negocio. |
 
 ### 7.1.2. Build & Test Suite Pipeline Components
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/8vsM65l.png" alt="Landing evidence"  width="80%" />
+</div><br>
 
 ## 7.2 Continous Delivery
 
