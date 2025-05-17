@@ -2459,3 +2459,4 @@ https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 - Entrevistas: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=lE8RTc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
+- Expo tp1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EaY-6yBQ9phPrMgOXhjPG0IB5ddE7CzGnNGbG-alzz7BKg?e=3bvM0p&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
