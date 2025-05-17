@@ -1209,11 +1209,11 @@ SEGMENTO GERENTE:
 | US08 | Actualizar el estado de la habitación (Empleado) | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | - DADO QUE el usuario se encuentra en la sección de Habitaciones, CUANDO el usuario finaliza su tarea de limpieza o mantenimiento, Y hace clic en el botón para actualizar el estado de la habitación, ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
 | US09 | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión. | -DADO QUE el usuario tiene permisos para agregar habitaciones en la sección de Habitaciones,CUANDOingresa los detalles de la habitación (tipo, número, etc.),ENTONCES la nueva habitación se registra en el sistema Y aparece en la lista de habitaciones. | EP03 |
 | US10 | Agregar un nuevo ítem al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel | -DADO QUE el usuario tiene acceso para añadir ítems en la sección de Inventario,CUANDO ingresa los detalles del nuevo ítem (nombre, cantidad, etc.),ENTONCES el ítem se añade al inventario correctamente,Y se muestra en la sección de Inventario. | EP04 |
-| US11 | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | - DADO QUE el usuario tiene acceso para modificar los detalles de un ítem,CUANDO selecciona el ítem que desea actualizarY modifica sus detalles (cantidad, descripción, etc.),ENTONCES los cambios se reflejan correctamente en el inventario. | EP04 |
-| US12 | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO presiona el botón para agregar una nueva tareaY define los detalles de la tarea (descripción, empleado asignado, fecha límite, etc.),ENTONCES la tarea se añade a la lista de tareas y se muestra en la sección correspondiente. | EP05 |
-| US13 | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona la tarea que desea eliminar Y presiona el botón para eliminarla,ENTONCES la tarea se elimina correctamente de la lista de tareas. | EP05 |
-| US14 | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | -DADO QUE el usuario tiene acceso para asignar o editar tareas en la sección de tareas,CUANDO selecciona una tarea existente o crea una nueva tarea Y ingresa o modifica los detalles (empleado asignado, descripción, fecha límite, etc.),ENTONCES la tarea se actualiza o se asigna correctamente al empleado correspondiente. | EP05 |
-| US15 | Actualizar el estado de una tarea asignada | Como empleado, deseo cambiar el estado de una tarea asignada para reflejar su progreso. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona una tarea asignadaY cambia el estado de la tarea a "In Progress" o "Completed",ENTONCES la tarea se actualiza correctamente en la lista de tareas. | EP05 |
+| US11 | Registro de cuenta para administrador | Como gerente quiero agregar a un nuevo administrador a mi hotel para su correcto servicio|- DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema.  | EP02 |
+| US12 | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | - DADO QUE el usuario tiene acceso para modificar los detalles de un ítem,CUANDO selecciona el ítem que desea actualizarY modifica sus detalles (cantidad, descripción, etc.),ENTONCES los cambios se reflejan correctamente en el inventario. | EP04 |
+| US13 | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO presiona el botón para agregar una nueva tareaY define los detalles de la tarea (descripción, empleado asignado, fecha límite, etc.),ENTONCES la tarea se añade a la lista de tareas y se muestra en la sección correspondiente. | EP05 |
+| US14 | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona la tarea que desea eliminar Y presiona el botón para eliminarla,ENTONCES la tarea se elimina correctamente de la lista de tareas. | EP05 |
+| US15 | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | -DADO QUE el usuario tiene acceso para asignar o editar tareas en la sección de tareas,CUANDO selecciona una tarea existente o crea una nueva tarea Y ingresa o modifica los detalles (empleado asignado, descripción, fecha límite, etc.),ENTONCES la tarea se actualiza o se asigna correctamente al empleado correspondiente. | EP05 |
 | US16 | Asignar una tarea a un empleado específico | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras. | -DADO QUE el usuario tiene acceso para asignar tareas,CUANDO selecciona una tarea Y especifica el empleado asignado en el diálogo correspondiente,ENTONCES la tarea se asigna al empleado seleccionado y los detalles se actualizan correctamente | EP05 |
 | US17 | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | -DADO QUE el usuario se encuentra en la pantalla de inicio de sesión (Sign In),CUANDO introduce sus credenciales correctamente y se valida su token JWT,ENTONCES el usuario puede iniciar sesión de manera exitosa y será dirigido a su dashboard. | EP06 |
 
@@ -2229,7 +2229,44 @@ __Supply Controller Tests__
   <img src="https://imgur.com/UjUchIX.png[/img]"  width="70%" />
 </div>
 
+| US05 | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión |
+| ---- | --------------------------------- | ---------------------------------------------------------------------------------- |
 
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/8NvVsuw.png" alt="Landing evidence"/>
+</div><br>
+
+
+| US06 | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo |
+| ---- | ------------------------------- | --------------------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/iE7IrC2.png" alt="Landing evidence"/>
+</div><br>
+
+
+| US09 | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión |
+| ---- | -------------------------------------- | ----------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/bb8wsWN.png" alt="Landing evidence"/>
+</div><br>
+
+
+| US10 | Agregar un nuevo item al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel |
+| ---- | ----------------------------------- | ----------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/cfMoXhy.png" alt="Landing evidence"/>
+</div><br>
+
+
+| US11 | Registro de cuenta para administrador | Como administrador, quiero asegurarme de que los clientes hospedados estén registrados en el sistema para tener un control sobre las reservas. |
+| ----- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/0m0VoIX.png" alt="Landing evidence"/>
+</div><br>
 
 
 # Capítulo VII:  DevOps Practices
