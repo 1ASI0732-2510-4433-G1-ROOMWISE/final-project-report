@@ -2423,7 +2423,110 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
   <img src="https://i.imgur.com/bZD5MKW.png"  width="70%" />
 </div>
 
+# 8.1.5. Experiment Cards
 
+| **Question** | ¿Mejorará la eficiencia del housekeeping implementando un sistema digital de gestión de estados de habitaciones? |
+|--------------|------------------------------------------------------------------------------------------------------------------------|
+| **Why** | Actualmente los gerentes y empleados de housekeeping dependen de métodos manuales o sistemas desactualizados para consultar y modificar el estado de las habitaciones. Un sistema digital centralizado permitirá una comunicación más eficiente entre el personal y una mejor coordinación de las tareas de limpieza y mantenimiento. |
+| **What** | Desarrollar una interfaz donde gerentes puedan modificar estados de habitaciones mediante botones de edición y ventanas emergentes, mientras que empleados puedan actualizar el estado de habitaciones asignadas al completar sus tareas de limpieza o mantenimiento. |
+| **Hypothesis** | Se espera que, con la implementación del sistema digital de habitaciones, el tiempo de comunicación entre housekeeping se reduzca en un 40% y la precisión en el seguimiento de estados aumente en un 35%. |
+
+| **Question** | ¿Reducirá el desabastecimiento implementando un sistema digital de gestión de inventario con alertas automáticas? |
+|--------------|-------------------------------------------------------------------------------------------------------------------|
+| **Why** | Los hoteles frecuentemente enfrentan problemas de desabastecimiento de suministros esenciales debido a la falta de un sistema centralizado que permita agregar, actualizar y monitorear ítems del inventario. Un sistema digital evitará la escasez de productos y optimizará la gestión de suministros. |
+| **What** | Implementar un módulo que permita a los gestores agregar nuevos ítems al inventario con detalles como nombre y cantidad, actualizar información existente y recibir alertas cuando los suministros estén por agotarse. |
+| **Hypothesis** | Se espera que, tras la implementación del sistema de inventario digital, los casos de desabastecimiento se reduzcan en un 50% y el tiempo dedicado a gestión manual de inventario disminuya en un 30%. |
+
+| **Question** | ¿Aumentará la productividad del personal implementando un sistema centralizado de asignación y seguimiento de tareas? |
+|--------------|------------------------------------------------------------------------------------------------------------------------|
+| **Why** | La coordinación manual de tareas entre gerentes y empleados genera confusión, duplicación de esfuerzos y pérdida de tiempo. Un sistema centralizado donde se puedan crear, asignar, editar y eliminar tareas mejorará la organización del trabajo y la claridad en las responsabilidades. |
+| **What** | Crear un módulo que permita a los gerentes crear nuevas tareas definiendo descripción, empleado asignado y fecha límite, editar tareas existentes, eliminar tareas no necesarias y asignar tareas a empleados específicos mediante diálogos intuitivos. |
+| **Hypothesis** | Se espera que, con la implementación del sistema de gestión de tareas, la productividad del personal aumente en un 25% y el tiempo que gerentes dedican a coordinación se reduzca en un 40%. |
+
+| **Question** | ¿Mejorará la adopción del sistema implementando interfaces diferenciadas por rol (gerente vs. empleado)? |
+|--------------|----------------------------------------------------------------------------------------------------------|
+| **Why** | Diferentes roles requieren acceso a funcionalidades específicas. Los gerentes necesitan capacidades completas de gestión mientras que los empleados solo requieren acceso a sus tareas asignadas. Interfaces diferenciadas por rol reducirán la complejidad y mejorarán la experiencia de usuario. |
+| **What** | Desarrollar perfiles de acceso donde gerentes tengan acceso completo a gestión de habitaciones, inventario y tareas, mientras que empleados accedan únicamente a actualización de estados de habitaciones asignadas y visualización de sus tareas específicas. |
+| **Hypothesis** | Se espera que, con las interfaces diferenciadas por rol, el tiempo de capacitación se reduzca en un 45% y la tasa de adopción del sistema alcance el 95% del personal en el primer mes. |
+
+| **Question** | ¿Aumentará la conversión implementando un landing page informativo con proceso de registro simplificado? |
+|--------------|----------------------------------------------------------------------------------------------------------|
+| **Why** | Los visitantes necesitan comprender claramente los beneficios del producto, conocer los planes de precios y tener un proceso de registro sencillo. Un landing page bien estructurado con información clara sobre la empresa, beneficios y contacto aumentará la conversión de visitantes a usuarios registrados. |
+| **What** | Desarrollar secciones de "Nosotros", beneficios del producto, planes de precios y contacto fácil desde la página principal, junto con un proceso simplificado de registro para gerentes que incluya activación automática de cuentas de empleados. |
+| **Hypothesis** | Se espera que, con el landing page optimizado y proceso de registro simplificado, la tasa de conversión de visitantes a usuarios registrados aumente en un 35% y el tiempo de setup inicial se reduzca en un 50%. |
+
+---
+
+# 8.2. Experiment Design
+
+## 8.2.1. Hipótesis
+
+### Hipótesis 1: Gestión Digital de Estados de Habitaciones
+
+| Aspecto | Descripción |
+|---------|-------------|
+| **Pregunta** | ¿Mejorará la eficiencia del housekeeping implementando un sistema digital de gestión de estados de habitaciones? |
+| **Creencia** | Los hoteles que utilizan métodos manuales para gestionar estados de habitaciones experimentan retrasos en comunicación y errores en coordinación. Un sistema digital donde gerentes y empleados puedan consultar y modificar estados en tiempo real mejorará significativamente la eficiencia operativa del área de housekeeping. |
+| **Hipótesis** | La implementación del sistema digital de gestión de habitaciones reducirá el tiempo de comunicación entre personal de housekeeping en un 40% y aumentará la precisión en el seguimiento de estados en un 35%. |
+| **Hipótesis Nula** | La implementación del sistema digital de gestión de habitaciones no tendrá un impacto significativo en el tiempo de comunicación ni en la precisión del seguimiento de estados. |
+
+### Hipótesis 2: Gestión Digital de Inventario
+
+| Aspecto | Descripción |
+|---------|-------------|
+| **Pregunta** | ¿Reducirá el desabastecimiento implementando un sistema digital de gestión de inventario con capacidades de agregar y actualizar ítems? |
+| **Creencia** | Los hoteles enfrentan problemas recurrentes de desabastecimiento debido a la falta de sistemas centralizados para gestionar inventario. Un sistema que permita agregar nuevos ítems con detalles específicos y actualizar información existente proporcionará mejor control sobre los suministros disponibles. |
+| **Hipótesis** | La implementación del sistema digital de inventario reducirá los casos de desabastecimiento en un 50% y disminuirá el tiempo dedicado a gestión manual de inventario en un 30%. |
+| **Hipótesis Nula** | La implementación del sistema digital de inventario no tendrá un efecto significativo en la reducción del desabastecimiento ni en el tiempo de gestión manual. |
+
+### Hipótesis 3: Gestión Centralizada de Tareas
+
+| Aspecto | Descripción |
+|---------|-------------|
+| **Pregunta** | ¿Aumentará la productividad implementando un sistema centralizado donde gerentes puedan crear, asignar, editar y eliminar tareas? |
+| **Creencia** | La gestión manual de tareas genera confusión sobre responsabilidades y duplicación de esfuerzos. Un sistema centralizado que permita a gerentes gestionar completamente el ciclo de vida de las tareas (crear, asignar, editar, eliminar) mejorará la organización del trabajo y clarificará las responsabilidades del personal. |
+| **Hipótesis** | La implementación del sistema centralizado de gestión de tareas aumentará la productividad del personal en un 25% y reducirá el tiempo de coordinación gerencial en un 40%. |
+| **Hipótesis Nula** | La implementación del sistema centralizado de gestión de tareas no tendrá un impacto significativo en la productividad del personal ni en el tiempo de coordinación gerencial. |
+
+### Hipótesis 4: Controles de Acceso por Rol
+
+| Aspecto | Descripción |
+|---------|-------------|
+| **Pregunta** | ¿Mejorará la adopción del sistema implementando controles de acceso diferenciados por rol específico? |
+| **Creencia** | Proporcionar acceso completo a gerentes (gestión de habitaciones, inventario y tareas) mientras se limita el acceso de empleados a sus funciones específicas (actualizar estados de habitaciones asignadas) reducirá la complejidad percibida y mejorará la experiencia de usuario para cada rol. |
+| **Hipótesis** | La implementación de controles de acceso diferenciados por rol reducirá el tiempo de capacitación en un 45% y logrará una tasa de adopción del 95% del personal en el primer mes. |
+| **Hipótesis Nula** | Los controles de acceso diferenciados por rol no tendrán un efecto significativo en el tiempo de capacitación ni en la tasa de adopción del sistema. |
+
+### Hipótesis 5: Landing Page y Proceso de Registro
+
+| Aspecto | Descripción |
+|---------|-------------|
+| **Pregunta** | ¿Aumentará la conversión de visitantes implementando un landing page con información clara y proceso de registro simplificado? |
+| **Creencia** | Los visitantes necesitan comprender los beneficios del producto y tener un proceso de registro sin fricciones. Un landing page con secciones claras sobre la empresa, beneficios, precios y contacto, combinado con un proceso simplificado de registro para gerentes y activación automática para empleados, aumentará la conversión. |
+| **Hipótesis** | La implementación del landing page optimizado y proceso de registro simplificado aumentará la tasa de conversión de visitantes a usuarios registrados en un 35% y reducirá el tiempo de setup inicial en un 50%. |
+| **Hipótesis Nula** | El landing page optimizado y proceso de registro simplificado no tendrán un impacto significativo en la tasa de conversión ni en el tiempo de setup inicial. |
+
+## 8.2.2. Measures
+
+| **Question** | ¿Mejorará la eficiencia del housekeeping implementando un sistema digital de gestión de estados de habitaciones? |
+|--------------|------------------------------------------------------------------------------------------------------------------------|
+| **Measure** | Medir el tiempo promedio que toma comunicar cambios de estado entre personal de housekeeping antes y después de la implementación. Analizar la frecuencia de errores en coordinación de limpieza y mantenimiento. Evaluar el tiempo que gerentes y empleados dedican a consultar y actualizar estados de habitaciones mediante cronometraje de tareas específicas. |
+
+| **Question** | ¿Reducirá el desabastecimiento implementando un sistema digital de gestión de inventario? |
+|--------------|-------------------------------------------------------------------------------------------|
+| **Measure** | Contar los casos de desabastecimiento de suministros críticos mensualmente antes y después de la implementación. Medir el tiempo que gestores dedican a tareas manuales de inventario como conteo físico y actualización de registros. Analizar la precisión en el control de stock comparando registros del sistema con inventario físico real. |
+
+| **Question** | ¿Aumentará la productividad implementando un sistema centralizado de gestión de tareas? |
+|--------------|-----------------------------------------------------------------------------------------|
+| **Measure** | Evaluar métricas de productividad como número de tareas completadas por empleado por día y tiempo promedio para completar tareas específicas. Medir el tiempo que gerentes dedican semanalmente a coordinación de tareas (reuniones, llamadas, seguimiento). Analizar la claridad en asignación de responsabilidades mediante encuestas al personal sobre comprensión de sus tareas asignadas. |
+
+| **Question** | ¿Mejorará la adopción del sistema implementando controles de acceso diferenciados por rol? |
+|--------------|--------------------------------------------------------------------------------------------|
+| **Measure** | Medir el tiempo requerido para capacitar a gerentes y empleados en el uso del sistema mediante cronometraje de sesiones de entrenamiento. Evaluar la tasa de adopción mediante el porcentaje de personal que utiliza activamente el sistema después de períodos específicos (1 semana, 1 mes). Analizar la frecuencia de errores en el uso del sistema por tipo de usuario. |
+
+| **Question** | ¿Aumentará la conversión implementando un landing page con información clara y proceso de registro simplificado? |
+|--------------|------------------------------------------------------------------------------------------------------------------|
+| **Measure** | Calcular la tasa de conversión midiendo el porcentaje de visitantes únicos que completan el proceso de registro como gerentes. Medir el tiempo promedio que toman los gerentes en completar el proceso de registro desde el inicio hasta acceder al panel principal. Analizar el engagement en el landing page mediante métricas como tiempo en página, páginas vistas por sesión y tasa de rebote en las secciones de información. |
 
 # Conclusiones
 
