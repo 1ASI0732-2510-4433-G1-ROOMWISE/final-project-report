@@ -2528,6 +2528,54 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 |--------------|------------------------------------------------------------------------------------------------------------------|
 | **Measure** | Calcular la tasa de conversión midiendo el porcentaje de visitantes únicos que completan el proceso de registro como gerentes. Medir el tiempo promedio que toman los gerentes en completar el proceso de registro desde el inicio hasta acceder al panel principal. Analizar el engagement en el landing page mediante métricas como tiempo en página, páginas vistas por sesión y tasa de rebote en las secciones de información. |
 
+## 8.2.3. Conditions
+
+| Question | ¿Mejorará la eficiencia del housekeeping implementando un sistema digital de gestión de estados de habitaciones? |
+|----------|----------------------------------------------------------------------------------------------------------------|
+| **Condición Experimental** | La eficiencia del housekeeping aumentará en un 40% en tiempo de comunicación y 35% en precisión de seguimiento después de implementar el sistema digital de gestión de habitaciones, medido a través del cronometraje de tareas y análisis de errores de coordinación. |
+| **Condición de Control** | No habrá un aumento significativo en la eficiencia del housekeeping tras la implementación del sistema digital de gestión de habitaciones. |
+
+| Question | ¿Reducirá el desabastecimiento implementando un sistema digital de gestión de inventario? |
+|----------|-------------------------------------------------------------------------------------------|
+| **Condición Experimental** | Se espera una reducción del 50% en casos de desabastecimiento y 30% en tiempo de gestión manual después de implementar el sistema digital de inventario, medido mediante conteo de casos mensuales y cronometraje de tareas. |
+| **Condición de Control** | No habrá una reducción significativa en casos de desabastecimiento ni en tiempo de gestión manual tras la implementación del sistema digital de inventario. |
+
+| Question | ¿Aumentará la productividad implementando un sistema centralizado de gestión de tareas? |
+|----------|-----------------------------------------------------------------------------------------|
+| **Condición Experimental** | La productividad del personal aumentará en un 25% y el tiempo de coordinación gerencial se reducirá en un 40% después de implementar el sistema centralizado de tareas, medido por número de tareas completadas y tiempo de coordinación semanal. |
+| **Condición de Control** | No habrá un aumento significativo en la productividad del personal ni reducción en tiempo de coordinación gerencial tras la implementación del sistema centralizado. |
+
+| Question | ¿Mejorará la adopción del sistema implementando controles de acceso diferenciados por rol? |
+|----------|----------------------------------------------------------------------------------------------|
+| **Condición Experimental** | El tiempo de capacitación se reducirá en un 45% y se alcanzará una tasa de adopción del 95% del personal en el primer mes después de implementar controles de acceso diferenciados por rol. |
+| **Condición de Control** | No habrá una reducción significativa en tiempo de capacitación ni mejora en tasa de adopción tras implementar controles de acceso diferenciados. |
+
+| Question | ¿Aumentará la conversión implementando un landing page con información clara y proceso de registro simplificado? |
+|----------|-------------------------------------------------------------------------------------------------------------------|
+| **Condición Experimental** | Se espera un aumento del 35% en la tasa de conversión de visitantes a usuarios registrados y una reducción del 50% en tiempo de setup inicial después de implementar el landing page optimizado. |
+| **Condición de Control** | No habrá un aumento significativo en la tasa de conversión ni reducción en tiempo de setup inicial tras la implementación del landing page optimizado. |
+
+## 8.2.4. Scale Calculations and Decisions
+
+Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en Sweet Manager. Cada hipótesis se asocia con un indicador de éxito: se considera ideal cuando la métrica alcanza plenamente el objetivo, aceptable cuando está entre el mínimo y el ideal, y desfavorable si queda por debajo del mínimo, requiriendo así una revisión. Un nivel excelente se define como cuando el valor supera el ideal en un 25% o más, indicando un éxito significativo. Este enfoque permite tomar decisiones fundamentadas en métricas para validar o ajustar las hipótesis del proyecto.
+
+| Scale Calculation | Decision Factor | Desfavorable | Aceptable | Ideal | Excelente |
+|-------------------|-----------------|--------------|-----------|--------|-----------|
+| Creemos que al implementar un sistema digital de gestión de habitaciones, mejoraremos la eficiencia del housekeeping reduciendo el tiempo de comunicación en un 40% y aumentando la precisión en un 35%. Sabremos que esto es cierto cuando observemos estas mejoras en las métricas de comunicación y precisión. | Implementar un sistema digital donde gerentes puedan modificar estados mediante botones de edición y empleados puedan actualizar estados de habitaciones asignadas al completar tareas. | | | X | |
+| Creemos que al implementar un sistema digital de inventario, reduciremos el desabastecimiento en un 50% y el tiempo de gestión manual en un 30%. Sabremos que esto es cierto cuando observemos una reducción significativa en casos de desabastecimiento y tiempo dedicado a gestión manual. | Implementar un módulo que permita agregar nuevos ítems con detalles específicos, actualizar información existente y recibir alertas automáticas de stock bajo. | | | | X |
+| Creemos que al implementar un sistema centralizado de gestión de tareas, aumentaremos la productividad del personal en un 25% y reduciremos el tiempo de coordinación gerencial en un 40%. Sabremos que esto es cierto cuando observemos mejoras en estas métricas operativas. | Crear un módulo donde gerentes puedan crear, asignar, editar y eliminar tareas con descripción, empleado asignado y fecha límite mediante diálogos intuitivos. | | X | | |
+| Creemos que al implementar controles de acceso diferenciados por rol, reduciremos el tiempo de capacitación en un 45% y alcanzaremos una tasa de adopción del 95% en el primer mes. Sabremos que esto es cierto cuando observemos estas mejoras en capacitación y adopción. | Desarrollar perfiles donde gerentes tengan acceso completo a gestión mientras empleados accedan solo a funciones específicas de sus roles asignados. | | | X | |
+| Creemos que al implementar un landing page optimizado con proceso de registro simplificado, aumentaremos la conversión en un 35% y reduciremos el tiempo de setup en un 50%. Sabremos que esto es cierto cuando observemos mejoras en conversión y tiempo de configuración. | Desarrollar secciones informativas claras sobre empresa, beneficios y precios, junto con proceso simplificado de registro para gerentes y activación automática para empleados. | | X | | |
+
+## 8.2.5. Methods Selection
+
+| Herramienta | Google Analytics | Hotjar | Mixpanel | Firebase Analytics |
+|-------------|------------------|---------|-----------|-------------------|
+| **Precio** | Plan gratuito/premium disponible | Basado en suscripción con plan gratuito limitado | Freemium con limitaciones en eventos | Plan gratuito con límites generosos |
+| **Capacidad de Análisis** | Análisis exhaustivo de tráfico web, conversiones y comportamiento de usuarios en landing page | Análisis de comportamiento de usuario con heatmaps, grabaciones de sesión y encuestas de feedback | Análisis avanzado de eventos en aplicación, funnels de conversión y retención de usuarios | Análisis de eventos de aplicación móvil y web, audiencias y rendimiento en tiempo real |
+| **Sencillez** | Curva de aprendizaje moderada, interfaz familiar para marketing digital | Muy intuitivo con visualizaciones claras de comportamiento de usuario | Interfaz potente pero requiere configuración técnica de eventos | Integración sencilla con productos Google, interfaz simplificada |
+| **Ventajas** | Excelente para análisis de conversión en landing page, integración con Google Ads y Search Console | Ideal para entender experiencia de usuario real mediante heatmaps y grabaciones de sesión | Perfecto para tracking de acciones específicas en aplicación como gestión de habitaciones y tareas | Análisis en tiempo real, integración nativa con plataformas de desarrollo, segmentación avanzada de usuarios |
+
 # Conclusiones
 
 Nuestro proyecto de gestión hotelera esta siendo una experiencia gratificante y enriquecedora. Estamos diseñando y desarrollando una solución que aborda las necesidades de los gerentes, administradores y trabajadores de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, y mucho más.
