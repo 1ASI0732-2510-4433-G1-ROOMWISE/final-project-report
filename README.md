@@ -30,6 +30,7 @@
 | Gutierrez Tume , Stanley Jeremy        | u202118152 |
 | Salgado Luna, Fernando Brian           | u202212023 |
 | Antonio Loayza, Luiggi Jeremy          | u202011431 |
+| Arana Ramos, Jack                      | u202121875 |
 </div>
 
 # Registro de Versiones del Informe
@@ -46,6 +47,7 @@
 | TP1   |       | Gutierrez Tume, Stanley Jeremy       | -6.1.4.Core System Tests|
 | TP1     |       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
 | TP1  |       | Antonio Loayza, Luiggi Jeremy  | - 7.3 Continous Deployment  |
+| TB2  |       | Arana Ramos, Jack  | - 7.4 Continous Monitoring  |
 ---
 # Project Report Collaboration Insights
 TB1
@@ -2422,6 +2424,55 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/bZD5MKW.png"  width="70%" />
 </div>
+
+# 7.4. Continuous Monitoring
+
+## 7.4.1 Tools and Practices
+
+Para implementar un sistema de monitoreo continuo eficiente en nuestra solución, se proponen las siguientes herramientas y prácticas adaptadas al stack tecnológico del proyecto (C# .NET y Vue.js):
+
+- **App Metrics (.NET)**: Biblioteca para exponer métricas de rendimiento y uso desde el backend desarrollado en .NET. Permite registrar datos como latencia de endpoints, uso de CPU y memoria, cantidad de solicitudes, entre otros.
+- **Prometheus**: Sistema de recopilación de métricas que consume los datos expuestos por el backend (por ejemplo, en `/metrics`) y los almacena para posterior análisis.
+- **Grafana**: Herramienta de visualización que se integra con Prometheus para generar dashboards en tiempo real con métricas relevantes del backend.
+- **Google Analytics**: Utilizado para monitorear la interacción del usuario con el frontend en Vue.js, brindando información sobre navegación, tiempos de carga, tasa de rebote y comportamiento general de los usuarios.
+- **Pruebas de carga (k6)**: Herramienta para simular múltiples usuarios concurrentes y analizar el rendimiento del sistema ante alta demanda.
+- **Auditorías de calidad web (Lighthouse)**: Evaluación del rendimiento, accesibilidad, SEO y buenas prácticas en el frontend. Permite asegurar una experiencia de usuario óptima.
+
+---
+
+## 7.4.2 Monitoring Pipeline Components
+
+El pipeline de monitoreo propuesto sigue una estructura de etapas que permiten capturar, procesar y visualizar información crítica para asegurar la salud del sistema:
+
+1. **Recolección de métricas**: A través de App Metrics en el backend y Google Analytics en el frontend.
+2. **Exposición de métricas**: El backend expone los datos en un endpoint `/metrics` compatible con Prometheus.
+3. **Scraping y almacenamiento**: Prometheus consulta periódicamente el endpoint y guarda las métricas recolectadas.
+4. **Visualización**: Grafana presenta las métricas en dashboards personalizables, permitiendo detectar patrones anómalos y realizar seguimiento a KPIs.
+5. **Evaluación de experiencia de usuario**: Lighthouse y Google Analytics se usan para auditar la calidad de la interfaz, tiempos de carga y navegación del usuario.
+
+---
+
+## 7.4.3 Alerting Pipeline Components
+
+La detección oportuna de fallos o comportamientos anómalos es clave. Para ello, se plantea un sistema de alertas basado en:
+
+- **Prometheus + Alertmanager**: Se definen reglas de alerta (por ejemplo, alta latencia, aumento de errores 5xx o caída del servicio). Cuando se incumple una condición, Prometheus genera una alerta que es gestionada por Alertmanager.
+- **Alertmanager**: Permite configurar rutas de notificación según tipo de alerta (crítica, advertencia, info), destinatarios y canales de comunicación.
+- **Grafana Alerts**: Configuración de alertas visuales directamente desde los dashboards para facilitar la detección temprana de eventos fuera de lo normal.
+
+Las alertas pueden incluir escalamiento automático, silenciamiento durante mantenimiento programado o reintentos automáticos.
+
+---
+
+## 7.4.4 Notification Pipeline Components
+
+Para asegurar la comunicación inmediata ante cualquier problema en el sistema, el pipeline de notificaciones incluye:
+
+- **Canales de comunicación**: Las alertas generadas por Alertmanager pueden enviarse a correo electrónico, Slack, Microsoft Teams u otras plataformas de mensajería.
+- **Integración con CI/CD (GitHub Actions o Azure DevOps)**: En cada ejecución del pipeline de despliegue, se pueden configurar notificaciones automáticas al completar las etapas, indicando éxito, fallo, o problemas en pruebas.
+- **Reportes automatizados**: Se pueden generar resúmenes periódicos del estado del sistema, uptime, métricas críticas y resultados de auditorías.
+
+Este esquema garantiza que el equipo esté informado en tiempo real sobre cualquier incidente o evento relevante, lo cual permite una rápida respuesta y reduce el impacto sobre los usuarios.
 
 
 
