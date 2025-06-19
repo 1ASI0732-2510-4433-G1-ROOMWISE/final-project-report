@@ -2576,6 +2576,14 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 | **Sencillez** | Curva de aprendizaje moderada, interfaz familiar para marketing digital | Muy intuitivo con visualizaciones claras de comportamiento de usuario | Interfaz potente pero requiere configuración técnica de eventos | Integración sencilla con productos Google, interfaz simplificada |
 | **Ventajas** | Excelente para análisis de conversión en landing page, integración con Google Ads y Search Console | Ideal para entender experiencia de usuario real mediante heatmaps y grabaciones de sesión | Perfecto para tracking de acciones específicas en aplicación como gestión de habitaciones y tareas | Análisis en tiempo real, integración nativa con plataformas de desarrollo, segmentación avanzada de usuarios |
 
+# 8.3. Experimentation
+
+## 8.3.1. To-Be User Stories
+
+
+## 8.3.2. To-Be Product Backlog
+
+
 # Conclusiones
 
 Nuestro proyecto de gestión hotelera esta siendo una experiencia gratificante y enriquecedora. Estamos diseñando y desarrollando una solución que aborda las necesidades de los gerentes, administradores y trabajadores de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, y mucho más.
