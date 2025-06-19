@@ -2450,6 +2450,11 @@ El pipeline de monitoreo propuesto sigue una estructura de etapas que permiten c
 4. **Visualización**: Grafana presenta las métricas en dashboards personalizables, permitiendo detectar patrones anómalos y realizar seguimiento a KPIs.
 5. **Evaluación de experiencia de usuario**: Lighthouse y Google Analytics se usan para auditar la calidad de la interfaz, tiempos de carga y navegación del usuario.
 
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://i.imgur.com/DpkmcHv.png" alt="Image" width="50%" />
+    <img src="https://i.imgur.com/lUXDqIa.png" alt="Image" width="50%" />
+</div>
+
 ---
 
 ## 7.4.3 Alerting Pipeline Components
@@ -2461,6 +2466,11 @@ La detección oportuna de fallos o comportamientos anómalos es clave. Para ello
 - **Grafana Alerts**: Configuración de alertas visuales directamente desde los dashboards para facilitar la detección temprana de eventos fuera de lo normal.
 
 Las alertas pueden incluir escalamiento automático, silenciamiento durante mantenimiento programado o reintentos automáticos.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://i.imgur.com/xgDGti7.jpeg" alt="Image" width="50%" />
+    <img src="https://i.imgur.com/ztyi3U5.png" alt="Image" width="50%" />
+</div>
 
 ---
 
@@ -2474,6 +2484,10 @@ Para asegurar la comunicación inmediata ante cualquier problema en el sistema, 
 
 Este esquema garantiza que el equipo esté informado en tiempo real sobre cualquier incidente o evento relevante, lo cual permite una rápida respuesta y reduce el impacto sobre los usuarios.
 
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://i.imgur.com/DY2eSP3.png" alt="Image" width="50%" />
+    <img src="https://i.imgur.com/x5GQPfZ.jpeg" alt="Image" width="50%" />
+</div>
 
 
 # Conclusiones
