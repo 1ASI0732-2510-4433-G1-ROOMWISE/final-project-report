@@ -2578,11 +2578,84 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 
 #8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
+En esta sección, se establecen los objetivos de análisis de datos y se seleccionan los indicadores clave de desempeño (KPIs) y métricas relevantes para medir el rendimiento de la plataforma Sweet Manager. Estos indicadores permiten validar el impacto del producto en el proceso de gestión 
 
+hotelera y respaldar decisiones basadas en datos.
+
+## Objetivos de Analítica de Datos
+
+-Mejorar la eficiencia operativa del hotel.
+
+-Optimizar la gestión de inventario y proveedores.
+
+-Incrementar la satisfacción de los huéspedes.
+
+-Aumentar la rentabilidad del negocio.
+
+-Monitorear el comportamiento del usuario en la plataforma.
+
+**KPIs y Métricas Seleccionadas
+
+| Objetivo Estratégico               | KPI                                        | Métricas Específicas                                                                     |
+| :--------------------------------- | :----------------------------------------- | :--------------------------------------------------------------------------------------- |
+| **Eficiencia operativa** | Tasa de uso de módulos administrativos     | % de accesos al módulo financiero, inventario y RRHH                                     |
+| **Gestión de inventario y proveedores** | Tiempo medio de reposición de stock        | Días promedio entre solicitud y entrega de productos                                     |
+| **Satisfacción de los huéspedes** | NPS (Net Promoter Score)                   | Valoración promedio de encuestas de satisfacción (>7: promotores)                        |
+| **Rentabilidad del negocio** | Margen de ganancia mensual                 | (Ingresos - Gastos) / Ingresos * 100                                                     |
+| **Uso de la plataforma** | Retención mensual de usuarios              | % de usuarios activos mensuales en comparación con el mes anterior                        |
+| **Comportamiento de usuarios** | Interacciones por sesión                   | Número promedio de clics por sesión (navegación web/móvil)                               |
+| **Toma de decisiones basada en datos** | Reportes generados por usuario             | Nº promedio de reportes descargados por mes por usuario                                  |
+
+---
 #8.2.7. Web and Mobile Tracking Plan
+
+El siguiente plan de seguimiento define los eventos clave que serán monitoreados tanto en la versión web como móvil de la plataforma Sweet Manager. El objetivo es entender mejor la interacción de los usuarios, identificar puntos de fricción y tomar decisiones basadas en evidencia para 
+
+mejorar la experiencia del usuario.
+
+## Herramientas de Tracking Utilizadas
+
+-Google Analytics 4 (GA4): Para seguimiento de eventos y análisis de comportamiento.
+
+-Firebase Analytics: Para análisis de la app móvil Android/iOS.
+
+-Hotjar: Para mapas de calor y grabaciones de sesiones en la versión web.
+
+-Tag Manager: Para gestión de etiquetas sin necesidad de desplegar nuevo código.
+
+
+## Propuestas de Eventos y Propiedades para Captura de Datos
+
+Aquí tienes la información organizada en una tabla Markdown, ideal para visualizar en plataformas como GitHub:
+
+| Plataforma   | Evento                     | Propiedades a Capturar                       | Objetivo                                                |
+| :----------- | :------------------------- | :------------------------------------------- | :------------------------------------------------------ |
+| **Web** | `login_success`            | `user_id`, `role`, `device`                  | Medir el acceso exitoso y distribución de roles         |
+| **Web/Mobile** | `module_opened`            | `module_name`, `timestamp`                   | Identificar los módulos más utilizados                  |
+| **Web** | `inventory_update`         | `item_id`, `change_type`, `quantity`         | Analizar cambios en inventario                          |
+| **Mobile** | `check_in_guest`           | `guest_id`, `room_id`, `timestamp`           | Medir eficiencia del personal en registros de entrada   |
+| **Web/Mobile** | `report_generated`         | `report_type`, `user_id`, `download`         | Cuantificar el uso de reportes para toma de decisiones  |
+| **Web** | `form_error`               | `form_id`, `error_type`                      | Identificar errores que impiden acciones clave          |
+| **Mobile** | `push_notification_opened` | `campaign_id`, `user_id`, `open_time`        | Evaluar efectividad de comunicaciones internas          |
+| **Web/Mobile** | `logout`                   | `user_id`, `session_duration`                | Medir duración media de sesiones                        |
+
+
+## Conversion Funnels a Analizar
+
+-Reserva → Confirmación → Check-in digital
+
+-Inicio de sesión → Navegación por módulo → Generación de reporte
+
+-Notificación → Acción en app → Satisfacción reportada (NPS)
+
+-Este plan de tracking servirá como base para realizar mejoras continuas en la experiencia del usuario y validar hipótesis de negocio mediante datos reales.
+
 
 
 # 8.3. Experimentation
+La experimentación es una etapa fundamental para validar hipótesis de producto mediante pruebas controladas con usuarios reales. En esta fase se busca medir el impacto de funcionalidades clave, recolectar evidencia sobre su utilidad y orientar futuras mejoras con base en datos.En esta 
+
+versión del proyecto, aún no se han desarrollado experimentos formales, pero se proyecta su ejecución en la siguiente iteración del producto para validar módulos como gestión de reservas, reportes financieros y tareas del personal.
 
 ## 8.3.1. To-Be User Stories
 
