@@ -2576,6 +2576,12 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 | **Sencillez** | Curva de aprendizaje moderada, interfaz familiar para marketing digital | Muy intuitivo con visualizaciones claras de comportamiento de usuario | Interfaz potente pero requiere configuración técnica de eventos | Integración sencilla con productos Google, interfaz simplificada |
 | **Ventajas** | Excelente para análisis de conversión en landing page, integración con Google Ads y Search Console | Ideal para entender experiencia de usuario real mediante heatmaps y grabaciones de sesión | Perfecto para tracking de acciones específicas en aplicación como gestión de habitaciones y tareas | Análisis en tiempo real, integración nativa con plataformas de desarrollo, segmentación avanzada de usuarios |
 
+#8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+
+#8.2.7. Web and Mobile Tracking Plan
+
+
 # 8.3. Experimentation
 
 ## 8.3.1. To-Be User Stories
