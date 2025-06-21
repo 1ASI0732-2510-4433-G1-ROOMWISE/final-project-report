@@ -2286,15 +2286,15 @@ __Supply Controller Tests__
    <img src="https://i.imgur.com/0m0VoIX.png" alt="Landing evidence"/>
 </div><br>
 
-6.2. Static testing & Verification
+## 6.2. Static testing & Verification
 
 La verificación estática del software permite identificar errores, malas prácticas y posibles vulnerabilidades sin necesidad de ejecutar el código. Esta etapa se centra en revisar el cumplimiento de estándares de codificación, calidad estructural y seguridad del código fuente, apoyándose en herramientas automatizadas.
 
-6.2.1. Static Code Analysis
+### 6.2.1. Static Code Analysis
 
 Se utilizó análisis estático de código para detectar errores comunes, duplicaciones, violaciones a las convenciones de estilo, posibles vulnerabilidades de seguridad y otros problemas que pueden afectar la mantenibilidad del proyecto.
 
-6.2.1.1. Coding standard & Code conventions.
+#### 6.2.1.1. Coding standard & Code conventions.
 
 El equipo adoptó convenciones de codificación específicas para cada tecnología usada:
 
@@ -2309,7 +2309,7 @@ Se utilizaron lineamientos oficiales de Android Developers, enfocados en clarida
 
 - El análisis estático incluyó reglas personalizadas para validar la indentación, nombres de variables, complejidad ciclomática y funciones con demasiadas líneas.
 
-6.2.1.2. Code Quality & Code Security.
+#### 6.2.1.2. Code Quality & Code Security.
 
 Para asegurar la calidad y seguridad del código se aplicaron las siguientes herramientas:
 
@@ -2330,7 +2330,7 @@ Para asegurar la calidad y seguridad del código se aplicaron las siguientes her
 
 - Advertencias por complejidad alta en funciones específicas.
 
-6.2.2. Reviews
+### 6.2.2. Reviews
 
 Durante el desarrollo de Sweet Manager se llevaron a cabo revisiones periódicas entre los miembros del equipo para asegurar la calidad y coherencia del producto. Estas revisiones se centraron en:
 
@@ -2342,7 +2342,7 @@ Durante el desarrollo de Sweet Manager se llevaron a cabo revisiones periódicas
 
 - Las revisiones permitieron detectar errores antes de pasar a pruebas funcionales y mejorar la colaboración entre frontend, backend y diseño.
 
-6.3. Validation Interviews.
+## 6.3. Validation Interviews.
 
 Con el objetivo de validar la experiencia del usuario y la propuesta de valor de Sweet Manager, se llevaron a cabo entrevistas de validación mostrando el Landing Page y una versión funcional de la aplicación móvil.
 
@@ -2374,7 +2374,7 @@ Estas entrevistas permitieron obtener retroalimentación directa de usuarios rep
 
 - Se registraron observaciones, reacciones y sugerencias de mejora.
 
-6.3.1. Diseño de Entrevistas.
+### 6.3.1. Diseño de Entrevistas.
 
 En esta sección se documentarán las preguntas que se utilizaron en nuestras entrevistas, conteniendo las preguntas generales que se comparten entre los segmentos objetivos, y las preguntas que fueron creadas específicamente para cada una.
 
@@ -2428,7 +2428,7 @@ En esta sección se documentarán las preguntas que se utilizaron en nuestras en
 
 
 
-6.3.2. Registro de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
 
 A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
 
@@ -2445,27 +2445,27 @@ Ocupación: Administradora de hotel
 
 URL VIDEO: https://drive.google.com/file/d/1gSYkfx4vyNKxv-FQPsK0C4nI1-LNNp8m/view?usp=sharing
 
-6.3.3. Evaluaciones según heurísticas
+### 6.3.3. Evaluaciones según heurísticas
 
-6.4. Auditoría de Experiencias de Usuario.
+## 6.4. Auditoría de Experiencias de Usuario.
 
-6.4.1. Auditoría realizada.
+### 6.4.1. Auditoría realizada.
 
-6.4.1.1. Información del grupo auditado.
+#### 6.4.1.1. Información del grupo auditado.
 
-6.4.1.2. Cronograma de auditoría realizada.
+#### 6.4.1.2. Cronograma de auditoría realizada.
 
-6.4.1.3. Contenido de auditoría realizada.
+#### 6.4.1.3. Contenido de auditoría realizada.
 
-6.4.2. Auditoría recibida.
+### 6.4.2. Auditoría recibida.
 
-6.4.2.1. Información del grupo auditor.
+#### 6.4.2.1. Información del grupo auditor.
 
-6.4.2.2. Cronograma de auditoría recibida.
+#### 6.4.2.2. Cronograma de auditoría recibida.
 
-6.4.2.3. Contenido de auditoría recibida.
+#### 6.4.2.3. Contenido de auditoría recibida.
 
-6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 # Capítulo VII:  DevOps Practices
 
@@ -2606,9 +2606,77 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
   <img src="https://i.imgur.com/bZD5MKW.png"  width="70%" />
 </div>
   
-  
+## 7.4. Continuous Monitoring
 
-# 8.1.5. Experiment Cards
+### 7.4.1 Tools and Practices
+
+Para implementar un sistema de monitoreo continuo eficiente en nuestra solución, se proponen las siguientes herramientas y prácticas adaptadas al stack tecnológico del proyecto (C# .NET y Vue.js):
+
+- **App Metrics (.NET)**: Biblioteca para exponer métricas de rendimiento y uso desde el backend desarrollado en .NET. Permite registrar datos como latencia de endpoints, uso de CPU y memoria, cantidad de solicitudes, entre otros.
+- **Prometheus**: Sistema de recopilación de métricas que consume los datos expuestos por el backend (por ejemplo, en `/metrics`) y los almacena para posterior análisis.
+- **Grafana**: Herramienta de visualización que se integra con Prometheus para generar dashboards en tiempo real con métricas relevantes del backend.
+- **Google Analytics**: Utilizado para monitorear la interacción del usuario con el frontend en Vue.js, brindando información sobre navegación, tiempos de carga, tasa de rebote y comportamiento general de los usuarios.
+- **Pruebas de carga (k6)**: Herramienta para simular múltiples usuarios concurrentes y analizar el rendimiento del sistema ante alta demanda.
+- **Auditorías de calidad web (Lighthouse)**: Evaluación del rendimiento, accesibilidad, SEO y buenas prácticas en el frontend. Permite asegurar una experiencia de usuario óptima.
+
+---
+
+### 7.4.2 Monitoring Pipeline Components
+
+El pipeline de monitoreo propuesto sigue una estructura de etapas que permiten capturar, procesar y visualizar información crítica para asegurar la salud del sistema:
+
+1. **Recolección de métricas**: A través de App Metrics en el backend y Google Analytics en el frontend.
+2. **Exposición de métricas**: El backend expone los datos en un endpoint `/metrics` compatible con Prometheus.
+3. **Scraping y almacenamiento**: Prometheus consulta periódicamente el endpoint y guarda las métricas recolectadas.
+4. **Visualización**: Grafana presenta las métricas en dashboards personalizables, permitiendo detectar patrones anómalos y realizar seguimiento a KPIs.
+5. **Evaluación de experiencia de usuario**: Lighthouse y Google Analytics se usan para auditar la calidad de la interfaz, tiempos de carga y navegación del usuario.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://i.imgur.com/DpkmcHv.png" alt="Image" width="50%" />
+    <img src="https://i.imgur.com/lUXDqIa.png" alt="Image" width="50%" />
+</div>
+
+---
+
+### 7.4.3 Alerting Pipeline Components
+
+La detección oportuna de fallos o comportamientos anómalos es clave. Para ello, se plantea un sistema de alertas basado en:
+
+- **Prometheus + Alertmanager**: Se definen reglas de alerta (por ejemplo, alta latencia, aumento de errores 5xx o caída del servicio). Cuando se incumple una condición, Prometheus genera una alerta que es gestionada por Alertmanager.
+- **Alertmanager**: Permite configurar rutas de notificación según tipo de alerta (crítica, advertencia, info), destinatarios y canales de comunicación.
+- **Grafana Alerts**: Configuración de alertas visuales directamente desde los dashboards para facilitar la detección temprana de eventos fuera de lo normal.
+
+Las alertas pueden incluir escalamiento automático, silenciamiento durante mantenimiento programado o reintentos automáticos.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://i.imgur.com/xgDGti7.jpeg" alt="Image" width="50%" />
+    <img src="https://i.imgur.com/ztyi3U5.png" alt="Image" width="50%" />
+</div>
+
+---
+
+### 7.4.4 Notification Pipeline Components
+
+Para asegurar la comunicación inmediata ante cualquier problema en el sistema, el pipeline de notificaciones incluye:
+
+- **Canales de comunicación**: Las alertas generadas por Alertmanager pueden enviarse a correo electrónico, Slack, Microsoft Teams u otras plataformas de mensajería.
+- **Integración con CI/CD (GitHub Actions o Azure DevOps)**: En cada ejecución del pipeline de despliegue, se pueden configurar notificaciones automáticas al completar las etapas, indicando éxito, fallo, o problemas en pruebas.
+- **Reportes automatizados**: Se pueden generar resúmenes periódicos del estado del sistema, uptime, métricas críticas y resultados de auditorías.
+
+Este esquema garantiza que el equipo esté informado en tiempo real sobre cualquier incidente o evento relevante, lo cual permite una rápida respuesta y reduce el impacto sobre los usuarios.
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://i.imgur.com/DY2eSP3.png" alt="Image" width="50%" />
+    <img src="https://i.imgur.com/x5GQPfZ.jpeg" alt="Image" width="50%" />
+</div>
+
+## 8.1. Experiment Planning
+### 8.1.1. As-Is Summary.
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+### 8.1.3. Experiment-Ready Questions.
+### 8.1.4. Question Backlog.
+
+### 8.1.5. Experiment Cards
 
 | **Question** | ¿Mejorará la eficiencia del housekeeping implementando un sistema digital de gestión de estados de habitaciones? |
 |--------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2642,9 +2710,9 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 
 ---
 
-# 8.2. Experiment Design
+## 8.2. Experiment Design
 
-## 8.2.1. Hypotheses
+### 8.2.1. Hypotheses
 
 ### Hipótesis 1: Gestión Digital de Estados de Habitaciones
 
@@ -2691,7 +2759,7 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 | **Hipótesis** | La implementación del landing page optimizado y proceso de registro simplificado aumentará la tasa de conversión de visitantes a usuarios registrados en un 35% y reducirá el tiempo de setup inicial en un 50%. |
 | **Hipótesis Nula** | El landing page optimizado y proceso de registro simplificado no tendrán un impacto significativo en la tasa de conversión ni en el tiempo de setup inicial. |
 
-## 8.2.2. Measures
+### 8.2.2. Measures
 
 | **Question** | ¿Mejorará la eficiencia del housekeeping implementando un sistema digital de gestión de estados de habitaciones? |
 |--------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2713,7 +2781,7 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 |--------------|------------------------------------------------------------------------------------------------------------------|
 | **Measure** | Calcular la tasa de conversión midiendo el porcentaje de visitantes únicos que completan el proceso de registro como gerentes. Medir el tiempo promedio que toman los gerentes en completar el proceso de registro desde el inicio hasta acceder al panel principal. Analizar el engagement en el landing page mediante métricas como tiempo en página, páginas vistas por sesión y tasa de rebote en las secciones de información. |
 
-## 8.2.3. Conditions
+### 8.2.3. Conditions
 
 | Question | ¿Mejorará la eficiencia del housekeeping implementando un sistema digital de gestión de estados de habitaciones? |
 |----------|----------------------------------------------------------------------------------------------------------------|
@@ -2740,7 +2808,7 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 | **Condición Experimental** | Se espera un aumento del 35% en la tasa de conversión de visitantes a usuarios registrados y una reducción del 50% en tiempo de setup inicial después de implementar el landing page optimizado. |
 | **Condición de Control** | No habrá un aumento significativo en la tasa de conversión ni reducción en tiempo de setup inicial tras la implementación del landing page optimizado. |
 
-## 8.2.4. Scale Calculations and Decisions
+### 8.2.4. Scale Calculations and Decisions
 
 Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en Sweet Manager. Cada hipótesis se asocia con un indicador de éxito: se considera ideal cuando la métrica alcanza plenamente el objetivo, aceptable cuando está entre el mínimo y el ideal, y desfavorable si queda por debajo del mínimo, requiriendo así una revisión. Un nivel excelente se define como cuando el valor supera el ideal en un 25% o más, indicando un éxito significativo. Este enfoque permite tomar decisiones fundamentadas en métricas para validar o ajustar las hipótesis del proyecto.
 
@@ -2752,7 +2820,7 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 | Creemos que al implementar controles de acceso diferenciados por rol, reduciremos el tiempo de capacitación en un 45% y alcanzaremos una tasa de adopción del 95% en el primer mes. Sabremos que esto es cierto cuando observemos estas mejoras en capacitación y adopción. | Desarrollar perfiles donde gerentes tengan acceso completo a gestión mientras empleados accedan solo a funciones específicas de sus roles asignados. | | | X | |
 | Creemos que al implementar un landing page optimizado con proceso de registro simplificado, aumentaremos la conversión en un 35% y reduciremos el tiempo de setup en un 50%. Sabremos que esto es cierto cuando observemos mejoras en conversión y tiempo de configuración. | Desarrollar secciones informativas claras sobre empresa, beneficios y precios, junto con proceso simplificado de registro para gerentes y activación automática para empleados. | | X | | |
 
-## 8.2.5. Methods Selection
+### 8.2.5. Methods Selection
 
 | Herramienta | Google Analytics | Hotjar | Mixpanel | Firebase Analytics |
 |-------------|------------------|---------|-----------|-------------------|
@@ -2761,7 +2829,7 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 | **Sencillez** | Curva de aprendizaje moderada, interfaz familiar para marketing digital | Muy intuitivo con visualizaciones claras de comportamiento de usuario | Interfaz potente pero requiere configuración técnica de eventos | Integración sencilla con productos Google, interfaz simplificada |
 | **Ventajas** | Excelente para análisis de conversión en landing page, integración con Google Ads y Search Console | Ideal para entender experiencia de usuario real mediante heatmaps y grabaciones de sesión | Perfecto para tracking de acciones específicas en aplicación como gestión de habitaciones y tareas | Análisis en tiempo real, integración nativa con plataformas de desarrollo, segmentación avanzada de usuarios |
 
-## 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
 En esta sección, se establecen los objetivos de análisis de datos y se seleccionan los indicadores clave de desempeño (KPIs) y métricas relevantes para medir el rendimiento de la plataforma Sweet Manager.Estos indicadores permiten validar el impacto del producto en el proceso de gestión 
 
@@ -2792,7 +2860,7 @@ hotelera y respaldar decisiones basadas en datos.
 | **Toma de decisiones basada en datos** | Reportes generados por usuario             | Nº promedio de reportes descargados por mes por usuario                                  |
 
 ---
-## 8.2.7. Web and Mobile Tracking Plan
+### 8.2.7. Web and Mobile Tracking Plan
 
 El siguiente plan de seguimiento define los eventos clave que serán monitoreados tanto en la versión web como móvil de la plataforma Sweet Manager. El objetivo es entender mejor la interacción de los usuarios, identificar puntos de fricción y tomar decisiones basadas en evidencia para 
 mejorar la experiencia del usuario.
@@ -2832,13 +2900,14 @@ mejorar la experiencia del usuario.
 - Notificación → Acción en app → Satisfacción reportada (NPS)
 
 
-# 8.3. Experimentation
+## 8.3. Experimentation
 
 La experimentación es una etapa fundamental para validar hipótesis de producto mediante pruebas controladas con usuarios reales.En esta fase se busca medir el impacto de funcionalidades clave, recolectar evidencia sobre su utilidad y orientar futuras mejoras con base en datos.En esta 
 versión del proyecto, aún no se han desarrollado experimentos formales, pero se proyecta su ejecución en la siguiente iteración del producto para validar módulos como gestión de reservas, reportes financieros y tareas del personal.
-## 8.3.1. To-Be User Stories
 
-## 8.3.2. To-Be Product Backlog
+### 8.3.1. To-Be User Stories
+
+### 8.3.2. To-Be Product Backlog
 
 # Conclusiones
 
