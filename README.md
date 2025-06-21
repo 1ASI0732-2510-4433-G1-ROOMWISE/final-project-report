@@ -2704,8 +2704,24 @@ Recomendación: Mostrar un mensaje simple y entendible para el usuario
    <img src="https://i.imgur.com/5VdyqrE.png" alt="Landing evidence"  width="80%" />
 </div><br>
 
-#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+##### 6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos
 
+###### Resumen de Modificaciones para Subsanar Hallazgos
+
+###### Resumen de Modificaciones Prioritarias
+
+###### Problemas Críticos (Severidad 5)
+
+| # | Problema | Solución Propuesta | Heurística Afectada |
+|---|----------|-------------------|-------------------|
+| 1 | Mensaje de error confuso al crear un trabajador | Mostrar mensajes simples y entendibles para el usuario | Diagnóstico de errores |
+
+###### Problemas Críticos (Severidad 4)
+
+| # | Problema | Solución Propuesta | Heurística Afectada |
+|---|----------|-------------------|-------------------|
+| 1 | El aforo de las habitaciones no tiene un campo dedicado | Añadir un campo numérico obligatorio etiquetado como "Aforo máximo" | Consistencia y estándares |
+| 2 | Falta un botón específico para regresar a la vista anterior en "Agregar" | Incluir un botón para regresar a la pantalla anterior a "Agregar" | Control y libertad
 # Capítulo VII:  DevOps Practices
 
 ## 7.1 Continous Integration
