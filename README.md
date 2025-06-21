@@ -2955,6 +2955,12 @@ También, el uso de técnicas de desarrollo basado en comportamiento (BDD) facil
 
 La implementación de prácticas de integración continua (CI) y despliegue continuo (CD) permite una mayor eficiencia y fiabilidad en el ciclo de vida del software. Al automatizar el flujo de trabajo desde la construcción hasta el despliegue, se reduce la intervención manual, lo que minimiza el riesgo de errores humanos y acelera el tiempo de entrega del software a producción.
 
+La digitalización de la gestión de habitaciones, inventarios y tareas reducirá tiempos de comunicación y coordinación, mejorando la productividad y precisión en un 25-40%.
+
+Implementar un sistema de inventario digital con alertas reducirá los casos de desabastecimiento en un 50%, mejorando el control de suministros.
+
+Un landing page optimizado y roles diferenciados para gerentes y empleados aumentarán la conversión en un 35% y la adopción del sistema al 95% en el primer mes.
+
 # Bibliografía
 - Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
 
