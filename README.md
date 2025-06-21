@@ -2447,23 +2447,262 @@ URL VIDEO: https://drive.google.com/file/d/1gSYkfx4vyNKxv-FQPsK0C4nI1-LNNp8m/vie
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+A continuación se presentan las evaluaciones aplicadas a partir de los problemas encontrados en el sistema de gestión de proyectos ágiles.
+
+#### 1. Heurística: Prevención de errores
+
+* **Descripción de la heurística:** Diseñar de modo que evite situaciones propensas a errores o proporcione información clara para su resolución.
+* **Observaciones:** 
+  * Los usuarios experimentan confusión al acceder a rutas inexistentes sin retroalimentación del sistema.
+  * El sistema no maneja adecuadamente las páginas no encontradas, generando una experiencia poco profesional.
+* **Evidencia:**
+  * Los usuarios pueden encontrar pantallas en blanco o errores del navegador al acceder a URLs incorrectas.
+  * La ausencia de manejo de errores 404 genera sensación de fallo del sistema.
+* **Nivel de severidad:** 4 (Crítico)
+* **Recomendaciones:**
+  * Implementar una ruta catch-all (*) que redirija a una página de error 404 informativa.
+  * Incluir mensaje claro con botón de navegación para volver al inicio o dashboard.
+
+#### 2. Heurística: Control y libertad del usuario
+
+* **Descripción de la heurística:** Los usuarios necesitan sentir que controlan el sistema y pueden navegar libremente.
+* **Observaciones:**
+  * El logo de la plataforma no funciona como elemento de navegación.
+  * Los usuarios esperan poder regresar al inicio haciendo clic en el logo según convenciones web.
+* **Evidencia:**
+  * Los usuarios intentan hacer clic en el logo esperando regresar a la página principal.
+  * La falta de esta funcionalidad reduce la eficiencia de navegación.
+* **Nivel de severidad:** 3 (Alto)
+* **Recomendaciones:**
+  * Habilitar el logo como enlace interactivo que redirija a la página principal.
+  * Añadir cursor pointer y efecto hover para indicar interactividad.
+
+#### 3. Heurística: Diagnóstico y recuperación de errores
+
+* **Descripción de la heurística:** Los mensajes de error deben expresarse en lenguaje sencillo, indicar el problema y sugerir soluciones.
+* **Observaciones:**
+  * Al agregar nuevos miembros, el sistema no proporciona retroalimentación específica sobre errores.
+  * Los usuarios no pueden identificar qué información es incorrecta o faltante.
+* **Evidencia:**
+  * Los usuarios reportan frustración al no saber por qué falla el proceso de agregar miembros.
+  * La ausencia de mensajes específicos impide la corrección efectiva de errores.
+* **Nivel de severidad:** 4 (Crítico)
+* **Recomendaciones:**
+  * Implementar validaciones en tiempo real con mensajes específicos de error.
+  * Mostrar mensajes como "El correo ya está registrado" o "Complete todos los campos obligatorios".
+
+#### 4. Heurística: Flexibilidad y eficiencia de uso
+
+* **Descripción de la heurística:** El sistema debe permitir adaptar flujos a las necesidades del usuario y acelerar tareas frecuentes.
+* **Observaciones:**
+  * Una vez creado un sprint, no existe opción para modificar su información.
+  * Los usuarios deben eliminar y recrear sprints para hacer cambios, reduciendo la eficiencia.
+* **Evidencia:**
+  * Los usuarios expresan la necesidad de editar sprints existentes para ajustar fechas o información.
+  * La falta de flexibilidad no se adapta a las necesidades de entornos ágiles donde los cambios son frecuentes.
+* **Nivel de severidad:** 3 (Alto)
+* **Recomendaciones:**
+  * Añadir funcionalidad de edición accesible desde la vista de sprint.
+  * Permitir modificación de campos relevantes manteniendo la integridad de datos.
+
+#### 5. Heurística: Consistencia y estándares
+
+* **Descripción de la heurística:** La interfaz debe seguir patrones reconocibles y uniformes en todos sus elementos.
+* **Observaciones:**
+  * Algunos elementos de la interfaz no siguen las convenciones web establecidas.
+  * La falta de consistencia en comportamientos esperados puede confundir a los usuarios.
+* **Evidencia:**
+  * El logo no cumple con el estándar de ser un elemento de navegación.
+  * Los formularios no proporcionan feedback consistente en caso de errores.
+* **Nivel de severidad:** 2 (Moderado)
+* **Recomendaciones:**
+  * Establecer un sistema de diseño que defina comportamientos estándar.
+  * Documentar y aplicar consistentemente patrones de interacción en toda la aplicación.
+
 ## 6.4. Auditoría de Experiencias de Usuario.
 
 ### 6.4.1. Auditoría realizada.
 
 #### 6.4.1.1. Información del grupo auditado.
 
+| Member | Roles |
+|--------|--------|
+| Joaquín Alonso Carbajal Pozzo | Developer |
+| Joaquin David Rivadeneyra Ramos | Developer |
+| Nelson Elías Serrano Ircañaupa | Scrum Master |
+| Sergio André Gómez Vallejos | Developer |
+| Diego Miguel Ramirez Ortega | Product Owner |
+| Josue Omar Hidalgo Bustamante | Developer |
+
 #### 6.4.1.2. Cronograma de auditoría realizada.
 
+| Fase | Actividades | Fecha Inicio | Fecha Fin | Responsable |
+|------|-------------|--------------|-----------|-------------|
+| Recepción | • Solicitud formal de auditoría<br>• Recopilación de documentación<br>• Acceso a sistemas/producto | 16/05/2025 | 20/05/2025 | Omar Morales |
+| Planificación | • Revisión de requisitos<br>• Definición de heurísticas<br>• Elaboración de checklist | 23/05/2025 | 27/05/2025 | Omar Morales |
+| Ejecución | • Evaluación heurística<br>• Pruebas de usabilidad<br>• Análisis de accesibilidad<br>• Registro de os | 01/06/2025 | 03/06/2025 | Omar Morales |
+| Reporte | • Redacción de informe<br>• Diseño de recomendaciones<br>• Revisión final | 04/06/2025 | 10/06/2025 | Omar Morales |
+
 #### 6.4.1.3. Contenido de auditoría realizada.
+
+TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Registro de un usuario nuevo
+- Edición de perfil
+- Navegación en la interfaz
+- Visualización de proyectos
+- Creación de proyectos
+- Validación de formularios
+- Interacción con botones
+- Responsive design
+
+__Escala de severidad__
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: ocurre con mayor frecuencia o es un poco más difícil de superar para el usuario. Prioridad baja para su corrección. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Prioridad alta para su corrección. |
+| 4 | Problema muy grave: error de gran impacto que impide al usuario continuar. Debe ser corregido antes del lanzamiento. |
+
+__Tabla resumen__
+
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|----------|-------------------|---------------------------|
+| 1 | No hay una ruta base para manejar páginas no encontradas | 4 | Usability: Prevención de errores |
+| 2 | El logo no redirige a la página principal | 3 | Usability: Control y libertad del usuario |
+| 3 | No se muestra el motivo del fallo al agregar un nuevo miembro | 4 | Usability: Diagnóstico y recuperación de errores |
+| 4 | No existe una opción para editar un sprint existente | 3 | Usability: Flexibilidad y eficiencia de uso |
+
+__Descripción de problemas__
+
+No hay una ruta base para manejar páginas no encontradas. (nivel – 4)
+Heurística violada: Prevención de errores y ayuda al usuario.
+Actualmente, cuando los usuarios acceden a una ruta incorrecta o inexistente, el sistema no redirige a una página de error personalizada. Esto puede causar confusión, sensación de fallo y una experiencia poco profesional.
+Recomendación: Implementar una ruta base de tipo catch-all (*) que redirija a una página de error 404 informativa. Esta debe incluir un mensaje claro, un botón para volver al inicio y mantener el diseño visual de la plataforma.
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/9xtxmOD.png" alt="Landing evidence"  width="80%" />
+</div><br>
+
+
+El logo no redirige a la página principal. (nivel – 3)
+Heurística violada: Control y libertad del usuario.
+Actualmente, al hacer clic en el logo de la plataforma, no se realiza ninguna acción o no se redirige al usuario a la página principal. Esto va en contra del comportamiento esperado por los estándares de usabilidad web, donde el logo funciona como un acceso rápido a la pantalla de inicio.
+Recomendación: Habilitar el logo como un enlace interactivo que redirija automáticamente al usuario a la página principal del sistema o al dashboard correspondiente según su rol.
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/wXaB3fQ.png" alt="Landing evidence"  width="80%" />
+</div><br>
+
+No se muestra el motivo del fallo al agregar un nuevo miembro. (nivel – 4)
+Heurística violada: Diagnóstico y recuperación de errores.
+Actualmente, al intentar agregar un nuevo miembro, el sistema no indica la causa del error. Esto incluye situaciones como campos inválidos, usuario ya existente o fallos de red. La falta de retroalimentación clara impide que el usuario entienda qué debe corregir y dificulta completar la acción.
+Recomendación: Implementar validaciones visibles tanto en el frontend como en el backend. Mostrar mensajes de error específicos como “El correo ya está registrado” o “Debe completar todos los campos obligatorios” para guiar al usuario de forma efectiva durante el proceso.
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/YntXaid.png" alt="Landing evidence"  width="80%" />
+</div><br>
+
+No existe una opción para editar un sprint existente. (nivel – 3)
+Heurística violada: Flexibilidad y eficiencia de uso.
+Actualmente, una vez creado un sprint, no se ofrece ninguna opción en la interfaz para modificar su información (como nombre, fechas o tareas asociadas). Esto limita la capacidad del usuario para corregir errores o ajustar la planificación, lo cual es común en entornos ágiles.
+Recomendación: Añadir una funcionalidad que permita editar los detalles del sprint. Esta opción debe ser fácilmente accesible desde la vista de resumen del sprint o en su detalle, permitiendo actualizar campos relevantes sin necesidad de eliminar y volver a crear el sprint
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/6hvbMs5.png" alt="Landing evidence"  width="80%" />
+</div><br>
+
 
 ### 6.4.2. Auditoría recibida.
 
 #### 6.4.2.1. Información del grupo auditor.
 
+| Member | Roles |
+|--------|--------|
+| Joaquín Alonso Carbajal Pozzo | Developer |
+| Joaquin David Rivadeneyra Ramos | Developer |
+| Nelson Elías Serrano Ircañaupa | Scrum Master |
+| Sergio André Gómez Vallejos | Developer |
+| Diego Miguel Ramirez Ortega | Product Owner |
+| Josue Omar Hidalgo Bustamante | Developer |
+
 #### 6.4.2.2. Cronograma de auditoría recibida.
 
+| Fase | Actividades | Fecha Inicio | Fecha Fin | Responsable |
+|------|-------------|--------------|-----------|-------------|
+| Recepción | • Solicitud formal de auditoría<br>• Recopilación de documentación<br>• Acceso a sistemas/producto | 16/05/2025 | 20/05/2025 | Diego Ramirez |
+| Planificación | • Revisión de requisitos<br>• Definición de heurísticas<br>• Elaboración de checklist | 23/05/2025 | 27/05/2025 | Diego Ramirez |
+| Ejecución | • Evaluación heurística<br>• Pruebas de usabilidad<br>• Análisis de accesibilidad<br>• Registro de os | 01/06/2025 | 03/06/2025 | Diego Ramirez |
+| Reporte | • Redacción de informe<br>• Diseño de recomendaciones<br>• Revisión final | 04/06/2025 | 10/06/2025 | Diego Ramirez |
+
 #### 6.4.2.3. Contenido de auditoría recibida.
+
+TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Registro de un usuario nuevo
+- Edición de perfil
+- Navegación en la interfaz
+- Visualización de proyectos
+- Creación de proyectos
+- Validación de formularios
+- Interacción con botones
+- Responsive design
+
+__Escala de severidad__
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: ocurre con mayor frecuencia o es un poco más difícil de superar para el usuario. Prioridad baja para su corrección. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Prioridad alta para su corrección. |
+| 4 | Problema muy grave: error de gran impacto que impide al usuario continuar. Debe ser corregido antes del lanzamiento. |
+
+__Tabla resumen__
+
+
+# TABLA RESUMEN
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|----------|-------------------|---------------------------|
+| 1 | El aforo de las habitaciones no tiene un campo dedicado y se oculta en la descripción | 4 | Usability: Consistencia y estándares |
+| 2 | Falta un botón específico para regresar a la vista anterior en "Agregar" | 4 | Usability: Control y libertad del usuario |
+| 3 | Mensaje de error confuso al crear un trabajador | 5 | Usability: Diagnóstico y recuperación de errores |
+
+__Descripción de problemas__
+
+El aforo de las habitaciones no tiene un campo dedicado y se oculta en la descripción. (nivel – 4)
+Heuristica violada: Consistencia y estándares.
+Actualmente, los owners deben escribir el aforo manualmente en la descripción, lo que genera inconsistencia en el formato. Dificulta la validación automática y rompe con los estándares de plataformas similares
+Recomendación: Añadir un campo numérico obligatorio etiquetado como "Aforo máximo"
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/ItS4TZe.png" alt="Landing evidence"  width="80%" />
+</div><br>
+
+Falta un botón específico para regresar a la vista anterior en "Agregar” (4)
+Heurística violada: Control y libertad del usuario
+Descripción del problema: Solo existe un botón que regresa a la pantalla principal, lo que obliga al usuario a perder el contexto de su flujo de trabajo (ej: si estaba editando múltiples habitaciones) y navegar manualmente desde el inicio para continuar tareas relacionadas, aumentando la fricción.
+Recomendación: Incluir un botón para regresar a la pantalla anterior a “Agregar”  
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/V25qh3p.png" alt="Landing evidence"  width="80%" />
+</div><br>
+
+Mensaje de error confuso al crear un trabajador. 5
+Heurística violada: Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores (Heurística #9 de Nielsen)
+Descripción del problema:
+El mensaje de error muestra códigos técnicos irrelevantes para el usuario final. Además, no indica claramente qué campo falló ni cómo corregirlo.
+Recomendación: Mostrar un mensaje simple y entendible para el usuario
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/5VdyqrE.png" alt="Landing evidence"  width="80%" />
+</div><br>
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
