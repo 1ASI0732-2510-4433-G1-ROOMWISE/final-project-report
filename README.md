@@ -30,6 +30,7 @@
 | Gutierrez Tume , Stanley Jeremy        | u202118152 |
 | Salgado Luna, Fernando Brian           | u202212023 |
 | Antonio Loayza, Luiggi Jeremy          | u202011431 |
+| Arana Ramos, Jack                      | u202121875 |
 </div>
 
 # Registro de Versiones del Informe
@@ -46,6 +47,8 @@
 | TP1   |       | Gutierrez Tume, Stanley Jeremy       | -6.1.4.Core System Tests|
 | TP1     |       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
 | TP1  |       | Antonio Loayza, Luiggi Jeremy  | - 7.3 Continous Deployment  |
+| TB2  |       | Arana Ramos, Jack  | - 7.4 Continous Monitoring  |
+| TB2  |       | Gutierrez Tume,Stanley Jeremy  | -8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br> -8.2.7. Web and Mobile Tracking Plan<br> -8.3. Experimentation|
 ---
 # Project Report Collaboration Insights
 TB1
@@ -2283,6 +2286,186 @@ __Supply Controller Tests__
    <img src="https://i.imgur.com/0m0VoIX.png" alt="Landing evidence"/>
 </div><br>
 
+6.2. Static testing & Verification
+
+La verificación estática del software permite identificar errores, malas prácticas y posibles vulnerabilidades sin necesidad de ejecutar el código. Esta etapa se centra en revisar el cumplimiento de estándares de codificación, calidad estructural y seguridad del código fuente, apoyándose en herramientas automatizadas.
+
+6.2.1. Static Code Analysis
+
+Se utilizó análisis estático de código para detectar errores comunes, duplicaciones, violaciones a las convenciones de estilo, posibles vulnerabilidades de seguridad y otros problemas que pueden afectar la mantenibilidad del proyecto.
+
+6.2.1.1. Coding standard & Code conventions.
+
+El equipo adoptó convenciones de codificación específicas para cada tecnología usada:
+
+- Frontend (Vue.js / JavaScript):
+Se siguieron las reglas de estilo recomendadas por ESLint con el preset de AirBnB, asegurando legibilidad, consistencia y buenas prácticas.
+
+- Backend (.NET / C#):
+Se aplicaron convenciones como PascalCase para clases y métodos, camelCase para variables locales, comentarios XML para métodos públicos y separación lógica por capas.
+
+- Mobile (Kotlin):
+Se utilizaron lineamientos oficiales de Android Developers, enfocados en claridad y arquitectura limpia (MVVM).
+
+- El análisis estático incluyó reglas personalizadas para validar la indentación, nombres de variables, complejidad ciclomática y funciones con demasiadas líneas.
+
+6.2.1.2. Code Quality & Code Security.
+
+Para asegurar la calidad y seguridad del código se aplicaron las siguientes herramientas:
+
+| Herramienta    | Lenguaje | Propósito principal                                                   |
+| -------------- | -------- | --------------------------------------------------------------------- |
+| **SonarQube**  | JS, C#   | Detección de bugs, code smells, vulnerabilidades y cobertura de tests |
+| **ESLint**     | JS       | Estilo de código y errores comunes en JavaScript                      |
+| **Detekt**     | Kotlin   | Análisis de calidad en código Android                                 |
+| **Dependabot** | GitHub   | Verificación de dependencias inseguras                                |
+
+**Los resultados del análisis ayudaron a identificar:**
+
+- Duplicación de funciones en componentes frontend.
+
+- Posibles excepciones no controladas en controladores del backend.
+
+- Variables no utilizadas.
+
+- Advertencias por complejidad alta en funciones específicas.
+
+6.2.2. Reviews
+
+Durante el desarrollo de Sweet Manager se llevaron a cabo revisiones periódicas entre los miembros del equipo para asegurar la calidad y coherencia del producto. Estas revisiones se centraron en:
+
+- Revisión de código: Los Pull Requests en GitHub fueron evaluados por al menos un miembro del equipo antes de ser integrados a la rama develop. Se revisaron aspectos como estructura del código, reutilización, cumplimiento de convenciones y claridad en los comentarios.
+
+- Revisión de diseño de interfaces: Se realizaron sesiones en Figma donde se validaron los flujos de usuario, consistencia visual y accesibilidad. Estas sesiones sirvieron para detectar botones redundantes o secciones poco intuitivas.
+
+- Revisión de requisitos: El equipo revisó los criterios de aceptación de cada historia de usuario antes de iniciar el desarrollo, asegurando el alineamiento con los objetivos del cliente.
+
+- Las revisiones permitieron detectar errores antes de pasar a pruebas funcionales y mejorar la colaboración entre frontend, backend y diseño.
+
+6.3. Validation Interviews.
+
+Con el objetivo de validar la experiencia del usuario y la propuesta de valor de Sweet Manager, se llevaron a cabo entrevistas de validación mostrando el Landing Page y una versión funcional de la aplicación móvil.
+
+Estas entrevistas permitieron obtener retroalimentación directa de usuarios representativos de los tres segmentos clave, evaluar la claridad del mensaje, la facilidad de uso de la app y detectar oportunidades de mejora en la propuesta de producto.
+
+**Segmentos entrevistados**
+
+- Gerentes de hotel: Interesados en paneles de control, reportes financieros y toma de decisiones.
+
+- Administradores operativos: Encargados de inventario, reservas y recursos humanos.
+
+- Trabajadores l del hotel: Usuarios de la app móvil para registro de tareas, check-in, limpieza, etc.
+
+**Metodología aplicada** 
+
+- Se mostró el Landing Page desde un navegador (web) y la app desde un dispositivo móvil.
+
+**Se realizaron preguntas de validación centradas en:**
+
+- Claridad del mensaje del Landing Page
+
+- Expectativas funcionales
+
+- Facilidad de navegación
+
+- Valor percibido del producto
+
+- Preferencias de uso entre web y móvil
+
+- Se registraron observaciones, reacciones y sugerencias de mejora.
+
+6.3.1. Diseño de Entrevistas.
+
+En esta sección se documentarán las preguntas que se utilizaron en nuestras entrevistas, conteniendo las preguntas generales que se comparten entre los segmentos objetivos, y las preguntas que fueron creadas específicamente para cada una.
+
+**Preguntas generales**
+
+- ¿Qué crees que hace esta plataforma con solo ver esta página?
+
+- ¿Te resulta claro el propósito del producto?
+
+- ¿Qué parte de la página te llamó más la atención?
+
+- ¿Cambiarías algo del diseño o del contenido?
+
+- ¿Te sentirías motivado/a a registrarte o saber más?
+
+**Segmentos: Gerentes**
+
+- ¿Sientes que esta plataforma te ayudaría a tener mayor control sobre las operaciones del hotel?
+
+- ¿Qué opinas del enfoque que se le da a los reportes y panel de control?
+
+- ¿Confías en esta solución con base solo en lo que ves?
+
+- ¿Qué información esperas ver destacada como gerente en el Landing Page?
+
+- ¿Te genera suficiente credibilidad para probarla o compartirla con tu equipo?
+
+**Segmento: Administradores**
+
+- ¿Logras identificar que la plataforma te ayudaría con la gestión diaria del hotel?
+
+- ¿Qué parte del Landing Page te parece más útil o relevante para ti?
+
+- ¿Crees que el diseño facilita entender lo que podrías hacer dentro del sistema?
+
+- ¿Hay funciones que esperas ver mencionadas pero no aparecen?
+
+- ¿La página transmite eficiencia o te deja dudas?
+
+**Segmento: Trabajadores**
+
+- ¿Te parece amigable la plataforma para alguien sin experiencia técnica?
+
+- ¿Crees que podrías usar esta app en tu día a día solo viendo esta página?
+
+- ¿Sientes que está pensada para ayudarte o más para los jefes?
+
+ - ¿Qué dudas te surgen al ver esta página?
+
+- ¿Qué sección te gustaría que se explique mejor?
+
+
+
+6.3.2. Registro de Entrevistas.
+
+A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
+
+
+Nombre: CAMILA BUSTAMANTE
+Edad: 25
+Sexo: FEMENINO
+Lugar donde vive: Miraflores - Perú
+Ocupación: Administradora de hotel
+
+<div style="text-align: center;">
+   <img src="https://imgur.com/8y2Uu33.png" alt="Camila Bustamante Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: https://drive.google.com/file/d/1gSYkfx4vyNKxv-FQPsK0C4nI1-LNNp8m/view?usp=sharing
+
+6.3.3. Evaluaciones según heurísticas
+
+6.4. Auditoría de Experiencias de Usuario.
+
+6.4.1. Auditoría realizada.
+
+6.4.1.1. Información del grupo auditado.
+
+6.4.1.2. Cronograma de auditoría realizada.
+
+6.4.1.3. Contenido de auditoría realizada.
+
+6.4.2. Auditoría recibida.
+
+6.4.2.1. Información del grupo auditor.
+
+6.4.2.2. Cronograma de auditoría recibida.
+
+6.4.2.3. Contenido de auditoría recibida.
+
+6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 # Capítulo VII:  DevOps Practices
 
@@ -2422,6 +2605,8 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 <div style="text-align: center;">
   <img src="https://i.imgur.com/bZD5MKW.png"  width="70%" />
 </div>
+  
+  
 
 # 8.1.5. Experiment Cards
 
@@ -2459,7 +2644,7 @@ El pipeline de despliegue continuo de **Sweet Manager** se compone de distintas 
 
 # 8.2. Experiment Design
 
-## 8.2.1. Hipótesis
+## 8.2.1. Hypotheses
 
 ### Hipótesis 1: Gestión Digital de Estados de Habitaciones
 
@@ -2647,17 +2832,13 @@ mejorar la experiencia del usuario.
 - Notificación → Acción en app → Satisfacción reportada (NPS)
 
 
-
-
 # 8.3. Experimentation
 
 La experimentación es una etapa fundamental para validar hipótesis de producto mediante pruebas controladas con usuarios reales.En esta fase se busca medir el impacto de funcionalidades clave, recolectar evidencia sobre su utilidad y orientar futuras mejoras con base en datos.En esta 
 versión del proyecto, aún no se han desarrollado experimentos formales, pero se proyecta su ejecución en la siguiente iteración del producto para validar módulos como gestión de reservas, reportes financieros y tareas del personal.
 ## 8.3.1. To-Be User Stories
 
-
 ## 8.3.2. To-Be Product Backlog
-
 
 # Conclusiones
 
