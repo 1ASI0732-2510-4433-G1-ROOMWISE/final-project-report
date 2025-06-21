@@ -2444,6 +2444,7 @@ Ocupación: Administradora de hotel
  </div><br>
 
 URL VIDEO: https://drive.google.com/file/d/1gSYkfx4vyNKxv-FQPsK0C4nI1-LNNp8m/view?usp=sharing
+
 6.3.3. Evaluaciones según heurísticas
 
 6.4. Auditoría de Experiencias de Usuario.
