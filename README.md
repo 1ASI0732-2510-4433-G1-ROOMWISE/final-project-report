@@ -48,6 +48,7 @@
 | TP1     |       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
 | TP1  |       | Antonio Loayza, Luiggi Jeremy  | - 7.3 Continous Deployment  |
 | TB2  |       | Arana Ramos, Jack  | - 7.4 Continous Monitoring  |
+| TB2  |       | Gutierrez Tume,Stanley Jeremy  | -8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br> -8.2.7. Web and Mobile Tracking Plan<br> -8.3. Experimentation|
 ---
 # Project Report Collaboration Insights
 TB1
