@@ -2576,7 +2576,7 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 | **Sencillez** | Curva de aprendizaje moderada, interfaz familiar para marketing digital | Muy intuitivo con visualizaciones claras de comportamiento de usuario | Interfaz potente pero requiere configuración técnica de eventos | Integración sencilla con productos Google, interfaz simplificada |
 | **Ventajas** | Excelente para análisis de conversión en landing page, integración con Google Ads y Search Console | Ideal para entender experiencia de usuario real mediante heatmaps y grabaciones de sesión | Perfecto para tracking de acciones específicas en aplicación como gestión de habitaciones y tareas | Análisis en tiempo real, integración nativa con plataformas de desarrollo, segmentación avanzada de usuarios |
 
-#8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+## 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
 En esta sección, se establecen los objetivos de análisis de datos y se seleccionan los indicadores clave de desempeño (KPIs) y métricas relevantes para medir el rendimiento de la plataforma Sweet Manager.Estos indicadores permiten validar el impacto del producto en el proceso de gestión 
 
@@ -2594,7 +2594,7 @@ hotelera y respaldar decisiones basadas en datos.
 
 - Monitorear el comportamiento del usuario en la plataforma.
 
-**KPIs y Métricas Seleccionadas
+**KPIs y Métricas Seleccionadas**
 
 | Objetivo Estratégico               | KPI                                        | Métricas Específicas                                                                     |
 | :--------------------------------- | :----------------------------------------- | :--------------------------------------------------------------------------------------- |
@@ -2607,7 +2607,7 @@ hotelera y respaldar decisiones basadas en datos.
 | **Toma de decisiones basada en datos** | Reportes generados por usuario             | Nº promedio de reportes descargados por mes por usuario                                  |
 
 ---
-#8.2.7. Web and Mobile Tracking Plan
+## 8.2.7. Web and Mobile Tracking Plan
 
 El siguiente plan de seguimiento define los eventos clave que serán monitoreados tanto en la versión web como móvil de la plataforma Sweet Manager. El objetivo es entender mejor la interacción de los usuarios, identificar puntos de fricción y tomar decisiones basadas en evidencia para 
 mejorar la experiencia del usuario.
