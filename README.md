@@ -2285,6 +2285,97 @@ __Supply Controller Tests__
    <img src="https://i.imgur.com/0m0VoIX.png" alt="Landing evidence"/>
 </div><br>
 
+6.2. Static testing & Verification
+
+6.2.1. Static Code Analysis
+
+6.2.1.1. Coding standard & Code conventions.
+
+6.2.1.2. Code Quality & Code Security.
+
+6.2.2. Reviews
+
+6.3. Validation Interviews.
+
+6.3.1. Diseño de Entrevistas.
+
+En esta sección se documentarán las preguntas que se utilizaron en nuestras entrevistas, conteniendo las preguntas generales que se comparten entre los segmentos objetivos, y las preguntas que fueron creadas específicamente para cada una.
+
+**Preguntas generales**
+
+- ¿Qué crees que hace esta plataforma con solo ver esta página?
+
+- ¿Te resulta claro el propósito del producto?
+
+- ¿Qué parte de la página te llamó más la atención?
+
+- ¿Cambiarías algo del diseño o del contenido?
+
+- ¿Te sentirías motivado/a a registrarte o saber más?
+
+**Segmentos: Gerentes**
+
+- ¿Sientes que esta plataforma te ayudaría a tener mayor control sobre las operaciones del hotel?
+
+- ¿Qué opinas del enfoque que se le da a los reportes y panel de control?
+
+- ¿Confías en esta solución con base solo en lo que ves?
+
+- ¿Qué información esperas ver destacada como gerente en el Landing Page?
+
+- ¿Te genera suficiente credibilidad para probarla o compartirla con tu equipo?
+
+**Segmento: Administradores**
+
+- ¿Logras identificar que la plataforma te ayudaría con la gestión diaria del hotel?
+
+- ¿Qué parte del Landing Page te parece más útil o relevante para ti?
+
+- ¿Crees que el diseño facilita entender lo que podrías hacer dentro del sistema?
+
+- ¿Hay funciones que esperas ver mencionadas pero no aparecen?
+
+- ¿La página transmite eficiencia o te deja dudas?
+
+**Segmento: Trabajadores**
+
+- ¿Te parece amigable la plataforma para alguien sin experiencia técnica?
+
+- ¿Crees que podrías usar esta app en tu día a día solo viendo esta página?
+
+- ¿Sientes que está pensada para ayudarte o más para los jefes?
+
+ - ¿Qué dudas te surgen al ver esta página?
+
+- ¿Qué sección te gustaría que se explique mejor?
+
+
+
+6.3.2. Registro de Entrevistas.
+
+A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
+
+6.3.3. Evaluaciones según heurísticas
+
+6.4. Auditoría de Experiencias de Usuario.
+
+6.4.1. Auditoría realizada.
+
+6.4.1.1. Información del grupo auditado.
+
+6.4.1.2. Cronograma de auditoría realizada.
+
+6.4.1.3. Contenido de auditoría realizada.
+
+6.4.2. Auditoría recibida.
+
+6.4.2.1. Información del grupo auditor.
+
+6.4.2.2. Cronograma de auditoría recibida.
+
+6.4.2.3. Contenido de auditoría recibida.
+
+6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 
 # Capítulo VII:  DevOps Practices
 
