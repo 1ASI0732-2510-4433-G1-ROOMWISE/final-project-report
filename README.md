@@ -2578,7 +2578,7 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 
 #8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
-En esta sección, se establecen los objetivos de análisis de datos y se seleccionan los indicadores clave de desempeño (KPIs) y métricas relevantes para medir el rendimiento de la plataforma Sweet Manager. Estos indicadores permiten validar el impacto del producto en el proceso de gestión 
+En esta sección, se establecen los objetivos de análisis de datos y se seleccionan los indicadores clave de desempeño (KPIs) y métricas relevantes para medir el rendimiento de la plataforma Sweet Manager.Estos indicadores permiten validar el impacto del producto en el proceso de gestión 
 
 hotelera y respaldar decisiones basadas en datos.
 
@@ -2610,7 +2610,6 @@ hotelera y respaldar decisiones basadas en datos.
 #8.2.7. Web and Mobile Tracking Plan
 
 El siguiente plan de seguimiento define los eventos clave que serán monitoreados tanto en la versión web como móvil de la plataforma Sweet Manager. El objetivo es entender mejor la interacción de los usuarios, identificar puntos de fricción y tomar decisiones basadas en evidencia para 
-
 mejorar la experiencia del usuario.
 
 ## Herramientas de Tracking Utilizadas
@@ -2653,10 +2652,9 @@ Aquí tienes la información organizada en una tabla Markdown, ideal para visual
 
 
 # 8.3. Experimentation
-La experimentación es una etapa fundamental para validar hipótesis de producto mediante pruebas controladas con usuarios reales. En esta fase se busca medir el impacto de funcionalidades clave, recolectar evidencia sobre su utilidad y orientar futuras mejoras con base en datos.En esta 
 
+La experimentación es una etapa fundamental para validar hipótesis de producto mediante pruebas controladas con usuarios reales.En esta fase se busca medir el impacto de funcionalidades clave, recolectar evidencia sobre su utilidad y orientar futuras mejoras con base en datos.En esta 
 versión del proyecto, aún no se han desarrollado experimentos formales, pero se proyecta su ejecución en la siguiente iteración del producto para validar módulos como gestión de reservas, reportes financieros y tareas del personal.
-
 ## 8.3.1. To-Be User Stories
 
 
