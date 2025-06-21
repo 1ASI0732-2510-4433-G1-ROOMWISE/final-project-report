@@ -2050,7 +2050,7 @@ Enlace del video: <https://youtu.be/T92OwQTaaeg>
 # Capítulo VI:  Product Verification & Validation
 
 
-## 6.1. Product Implementation & Deployment
+## 6.1. Testing Suites & Validation
 
 ### 6.1.1. Core Entities Unit Tests.
 
