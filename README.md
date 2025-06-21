@@ -49,6 +49,7 @@
 | TP1  |       | Antonio Loayza, Luiggi Jeremy  | - 7.3 Continous Deployment  |
 | TB2  |       | Arana Ramos, Jack  | - 7.4 Continous Monitoring  |
 | TB2  |       | Gutierrez Tume,Stanley Jeremy  | -8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br> -8.2.7. Web and Mobile Tracking Plan<br> -8.3. Experimentation|
+| TB2  |       | Escobar Palomino,Sebastian Matias  | -8.3.1. To-Be User Stories.<br> -8.3.2. To-Be Product Backlog<br> -Avance de Conclusiones, Bibliografía y Anexos|
 ---
 # Project Report Collaboration Insights
 TB1
