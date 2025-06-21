@@ -2287,15 +2287,91 @@ __Supply Controller Tests__
 
 6.2. Static testing & Verification
 
+La verificación estática del software permite identificar errores, malas prácticas y posibles vulnerabilidades sin necesidad de ejecutar el código. Esta etapa se centra en revisar el cumplimiento de estándares de codificación, calidad estructural y seguridad del código fuente, apoyándose en herramientas automatizadas.
+
 6.2.1. Static Code Analysis
+
+Se utilizó análisis estático de código para detectar errores comunes, duplicaciones, violaciones a las convenciones de estilo, posibles vulnerabilidades de seguridad y otros problemas que pueden afectar la mantenibilidad del proyecto.
 
 6.2.1.1. Coding standard & Code conventions.
 
+El equipo adoptó convenciones de codificación específicas para cada tecnología usada:
+
+- Frontend (Vue.js / JavaScript):
+Se siguieron las reglas de estilo recomendadas por ESLint con el preset de AirBnB, asegurando legibilidad, consistencia y buenas prácticas.
+
+- Backend (.NET / C#):
+Se aplicaron convenciones como PascalCase para clases y métodos, camelCase para variables locales, comentarios XML para métodos públicos y separación lógica por capas.
+
+- Mobile (Kotlin):
+Se utilizaron lineamientos oficiales de Android Developers, enfocados en claridad y arquitectura limpia (MVVM).
+
+- El análisis estático incluyó reglas personalizadas para validar la indentación, nombres de variables, complejidad ciclomática y funciones con demasiadas líneas.
+
 6.2.1.2. Code Quality & Code Security.
+
+Para asegurar la calidad y seguridad del código se aplicaron las siguientes herramientas:
+
+| Herramienta    | Lenguaje | Propósito principal                                                   |
+| -------------- | -------- | --------------------------------------------------------------------- |
+| **SonarQube**  | JS, C#   | Detección de bugs, code smells, vulnerabilidades y cobertura de tests |
+| **ESLint**     | JS       | Estilo de código y errores comunes en JavaScript                      |
+| **Detekt**     | Kotlin   | Análisis de calidad en código Android                                 |
+| **Dependabot** | GitHub   | Verificación de dependencias inseguras                                |
+
+**Los resultados del análisis ayudaron a identificar:**
+
+- Duplicación de funciones en componentes frontend.
+
+- Posibles excepciones no controladas en controladores del backend.
+
+- Variables no utilizadas.
+
+- Advertencias por complejidad alta en funciones específicas.
 
 6.2.2. Reviews
 
+Durante el desarrollo de Sweet Manager se llevaron a cabo revisiones periódicas entre los miembros del equipo para asegurar la calidad y coherencia del producto. Estas revisiones se centraron en:
+
+- Revisión de código: Los Pull Requests en GitHub fueron evaluados por al menos un miembro del equipo antes de ser integrados a la rama develop. Se revisaron aspectos como estructura del código, reutilización, cumplimiento de convenciones y claridad en los comentarios.
+
+- Revisión de diseño de interfaces: Se realizaron sesiones en Figma donde se validaron los flujos de usuario, consistencia visual y accesibilidad. Estas sesiones sirvieron para detectar botones redundantes o secciones poco intuitivas.
+
+- Revisión de requisitos: El equipo revisó los criterios de aceptación de cada historia de usuario antes de iniciar el desarrollo, asegurando el alineamiento con los objetivos del cliente.
+
+- Las revisiones permitieron detectar errores antes de pasar a pruebas funcionales y mejorar la colaboración entre frontend, backend y diseño.
+
 6.3. Validation Interviews.
+
+Con el objetivo de validar la experiencia del usuario y la propuesta de valor de Sweet Manager, se llevaron a cabo entrevistas de validación mostrando el Landing Page y una versión funcional de la aplicación móvil.
+
+Estas entrevistas permitieron obtener retroalimentación directa de usuarios representativos de los tres segmentos clave, evaluar la claridad del mensaje, la facilidad de uso de la app y detectar oportunidades de mejora en la propuesta de producto.
+
+**Segmentos entrevistados**
+
+- Gerentes de hotel: Interesados en paneles de control, reportes financieros y toma de decisiones.
+
+- Administradores operativos: Encargados de inventario, reservas y recursos humanos.
+
+- Trabajadores l del hotel: Usuarios de la app móvil para registro de tareas, check-in, limpieza, etc.
+
+**Metodología aplicada** 
+
+- Se mostró el Landing Page desde un navegador (web) y la app desde un dispositivo móvil.
+
+**Se realizaron preguntas de validación centradas en:**
+
+- Claridad del mensaje del Landing Page
+
+- Expectativas funcionales
+
+- Facilidad de navegación
+
+- Valor percibido del producto
+
+- Preferencias de uso entre web y móvil
+
+- Se registraron observaciones, reacciones y sugerencias de mejora.
 
 6.3.1. Diseño de Entrevistas.
 
