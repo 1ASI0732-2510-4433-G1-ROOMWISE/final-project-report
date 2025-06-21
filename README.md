@@ -2707,8 +2707,6 @@ Recomendación: Mostrar un mensaje simple y entendible para el usuario
 
 ##### 6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos
 
-###### Resumen de Modificaciones para Subsanar Hallazgos
-
 ###### Resumen de Modificaciones Prioritarias
 
 ###### Problemas Críticos (Severidad 5)
