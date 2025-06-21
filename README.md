@@ -2584,15 +2584,15 @@ hotelera y respaldar decisiones basadas en datos.
 
 ## Objetivos de Analítica de Datos
 
--Mejorar la eficiencia operativa del hotel.
+- Mejorar la eficiencia operativa del hotel.
 
--Optimizar la gestión de inventario y proveedores.
+- Optimizar la gestión de inventario y proveedores.
 
--Incrementar la satisfacción de los huéspedes.
+- Incrementar la satisfacción de los huéspedes.
 
--Aumentar la rentabilidad del negocio.
+- Aumentar la rentabilidad del negocio.
 
--Monitorear el comportamiento del usuario en la plataforma.
+- Monitorear el comportamiento del usuario en la plataforma.
 
 **KPIs y Métricas Seleccionadas
 
@@ -2614,18 +2614,17 @@ mejorar la experiencia del usuario.
 
 ## Herramientas de Tracking Utilizadas
 
--Google Analytics 4 (GA4): Para seguimiento de eventos y análisis de comportamiento.
+- Google Analytics 4 (GA4): Para seguimiento de eventos y análisis de comportamiento.
 
--Firebase Analytics: Para análisis de la app móvil Android/iOS.
+- Firebase Analytics: Para análisis de la app móvil Android/iOS.
 
--Hotjar: Para mapas de calor y grabaciones de sesiones en la versión web.
+- Hotjar: Para mapas de calor y grabaciones de sesiones en la versión web.
 
--Tag Manager: Para gestión de etiquetas sin necesidad de desplegar nuevo código.
+- Tag Manager: Para gestión de etiquetas sin necesidad de desplegar nuevo código.
 
 
 ## Propuestas de Eventos y Propiedades para Captura de Datos
 
-Aquí tienes la información organizada en una tabla Markdown, ideal para visualizar en plataformas como GitHub:
 
 | Plataforma   | Evento                     | Propiedades a Capturar                       | Objetivo                                                |
 | :----------- | :------------------------- | :------------------------------------------- | :------------------------------------------------------ |
@@ -2641,13 +2640,12 @@ Aquí tienes la información organizada en una tabla Markdown, ideal para visual
 
 ## Conversion Funnels a Analizar
 
--Reserva → Confirmación → Check-in digital
+- Reserva → Confirmación → Check-in digital
 
--Inicio de sesión → Navegación por módulo → Generación de reporte
+- Inicio de sesión → Navegación por módulo → Generación de reporte
 
--Notificación → Acción en app → Satisfacción reportada (NPS)
+- Notificación → Acción en app → Satisfacción reportada (NPS)
 
--Este plan de tracking servirá como base para realizar mejoras continuas en la experiencia del usuario y validar hipótesis de negocio mediante datos reales.
 
 
 
