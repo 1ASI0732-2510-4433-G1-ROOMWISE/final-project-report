@@ -2432,6 +2432,18 @@ En esta sección se documentarán las preguntas que se utilizaron en nuestras en
 
 A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
 
+
+Nombre: CAMILA BUSTAMANTE
+Edad: 25
+Sexo: FEMENINO
+Lugar donde vive: Miraflores - Perú
+Ocupación: Administradora de hotel
+
+<div style="text-align: center;">
+   <img src="https://imgur.com/8y2Uu33.png" alt="Camila Bustamante Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: https://drive.google.com/file/d/1gSYkfx4vyNKxv-FQPsK0C4nI1-LNNp8m/view?usp=sharing
 6.3.3. Evaluaciones según heurísticas
 
 6.4. Auditoría de Experiencias de Usuario.
