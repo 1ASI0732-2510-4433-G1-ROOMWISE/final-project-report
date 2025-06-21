@@ -2673,9 +2673,76 @@ Este esquema garantiza que el equipo esté informado en tiempo real sobre cualqu
 
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary.
-### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+La plataforma Sweet Manager se encuentra actualmente en una etapa de desarrollo intermedia con módulos core implementados para la gestión integral de establecimientos hoteleros. El sistema permite la supervisión de habitaciones, control de inventarios, administración del personal y coordinación con proveedores mediante interfaces web y móviles. Sin embargo, el desempeño muestra variaciones significativas, con tiempos de respuesta que frecuentemente exceden los 3.5 segundos, impactando la fluidez operativa y la experiencia del usuario final.
+
+**Desafíos identificados:**
+
+* **Desempeño del sistema** : La plataforma presenta ralentizaciones durante períodos de alta demanda operativa, especialmente en funciones críticas como check-in/check-out simultáneos y actualización masiva de estados de habitaciones.
+* **Usabilidad** : La interfaz actual carece de personalización avanzada, y algunos usuarios reportan dificultades para adaptar el sistema a sus flujos de trabajo específicos.
+* **Coherencia multiplataforma** : La aplicación no está completamente optimizada para diferentes dispositivos y roles de usuario, resultando en una experiencia inconsistente entre gerentes, administradores y trabajadores.
+* **Capacidades avanzadas** : El sistema carece de características avanzadas como análisis predictivo, integración con sistemas de terceros y automatización inteligente de tareas.
+
+**Metas de mejora:**
+
+Para transformar Sweet Manager en una solución líder del mercado hotelero, se han definido los siguientes objetivos estratégicos:
+
+* **Optimización técnica** : Alcanzar tiempos de respuesta inferiores a 1.5 segundos mediante refactorización de la arquitectura backend y implementación de técnicas de caching inteligente.
+* **Personalización avanzada** : Desarrollar interfaces adaptativas que permitan configuraciones granulares según el tipo de establecimiento, tamaño y preferencias operativas específicas.
+* **Ampliación funcional** : Incorporar módulos de inteligencia artificial, conectores con ecosistemas hoteleros populares y herramientas de automatización que reduzcan la intervención manual.
+* **Arquitectura escalable** : Rediseñar la infraestructura para soportar desde boutique hotels hasta cadenas internacionales con miles de habitaciones distribuidas globalmente.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims. 
+
+**Assumptions:**
+
+* **Personalización de interfaces** : Se asume que los usuarios valoran la capacidad de personalizar sus dashboards y workflows según sus roles específicos, lo que podría incrementar la satisfacción y eficiencia operativa.
+* **Integración con sistemas existentes** : Se asume que la mayoría de hoteles medianos y grandes ya utilizan algún tipo de sistema PMS o contable, por lo que la capacidad de integración sería altamente valorada.
+* **Automatización inteligente** : Se asume que los gerentes y administradores buscan reducir tareas manuales repetitivas mediante automatización, especialmente en áreas como asignación de habitaciones y gestión de inventario.
+* **Analytics y reportes** : Se asume que los propietarios y gerentes necesitan insights más profundos sobre el rendimiento operativo para tomar decisiones estratégicas informadas.
+* **Notificaciones inteligentes** : Se asume que un sistema de alertas proactivas puede prevenir problemas operativos y mejorar la respuesta ante situaciones críticas.
+
+**Knowledge Gaps:**
+
+* **Preferencias de integración** : Falta información específica sobre qué sistemas de terceros son más utilizados por nuestros usuarios objetivo y qué tipo de integraciones priorizan.
+* **Patrones de uso** : Se requiere más datos sobre cómo los diferentes roles utilizan la aplicación durante diferentes períodos del día y temporadas del año.
+* **Tolerancia al cambio** : Necesitamos entender mejor la disposición de los usuarios a adoptar nuevas funcionalidades y procesos automatizados.
+* **Métricas de éxito** : Falta claridad sobre qué indicadores de rendimiento son más importantes para diferentes tipos de establecimientos hoteleros.
+* **Competencia directa** : Se carece de un análisis exhaustivo sobre cómo los competidores directos están abordando problemas similares.
+
+**Ideas:**
+
+* **Dashboard adaptativo** : Crear dashboards que se ajusten automáticamente según el rol del usuario y las métricas más relevantes para su función.
+* **Asistente virtual** : Implementar un chatbot inteligente que pueda responder preguntas comunes y guiar a los usuarios a través de procesos complejos.
+* **Análisis predictivo** : Desarrollar algoritmos que puedan predecir demanda de habitaciones, necesidades de inventario y patrones de mantenimiento.
+* **Modo offline** : Implementar funcionalidades básicas que funcionen sin conexión a internet para situaciones de emergencia.
+
+**Claims:**
+
+* **Mejora de eficiencia** : Se postula que la implementación de dashboards personalizables puede incrementar la eficiencia operativa en un 25% al reducir el tiempo necesario para acceder a información crítica.
+* **Reducción de errores** : Se afirma que la automatización inteligente de tareas rutinarias puede disminuir errores operativos en un 40%, especialmente en áreas como asignación de habitaciones y control de inventario.
+* **Incremento de satisfacción** : Se sostiene que las mejoras en la experiencia del usuario pueden resultar en un incremento del 30% en la satisfacción general, medida a través de encuestas de usabilidad.
+* **ROI mejorado** : Se afirma que las nuevas funcionalidades pueden generar un retorno de inversión del 150% en el primer año a través de eficiencias operativas y reducción de costos.
+
 ### 8.1.3. Experiment-Ready Questions.
+
+| Question | Confidence | Risk | Impact | Interest | Puntaje |
+|----------|------------|------|---------|----------|---------|
+| ¿Aumentará la productividad operativa la implementación de interfaces completamente personalizables por rol y establecimiento? | 7 - Evidencia sólida del valor de personalización en software empresarial. | 3 - Riesgo moderado por complejidad de desarrollo y testing. | 8 - Alto potencial de transformación en eficiencia diaria. | 8 - Fuerte demanda expresada por usuarios actuales. | Puntaje: 26 |
+| ¿Incrementará la retención de clientes la integración nativa con ecosistemas hoteleros populares (PMS, Channel Managers, etc.)? | 8 - Demanda validada en investigación de mercado y feedback directo. | 5 - Riesgo alto debido a complejidad técnica y dependencias externas. | 9 - Impacto crítico en adopción empresarial y expansión de mercado. | 9 - Interés máximo de segmentos enterprise y mid-market. | Puntaje: 31 |
+| ¿Disminuirá significativamente la incidencia de errores críticos la implementación de automatización basada en AI? | 8 - Casos de éxito documentados en industrias similares. | 4 - Riesgo medio-alto por complejidad de algoritmos y datos de entrenamiento. | 9 - Impacto transformacional en calidad operativa y costos. | 7 - Interés considerable, especialmente de gerentes operativos. | Puntaje: 28 |
+| ¿Mejorará la toma de decisiones estratégicas la incorporación de analytics predictivos y dashboards ejecutivos? | 6 - Potencial comprobado pero dependiente de calidad y volumen de datos. | 6 - Riesgo elevado por complejidad algorítmica y expectativas de precisión. | 8 - Impacto sustancial en planificación y revenue optimization. | 8 - Alto interés de propietarios y directores generales. | Puntaje: 28 |
+| ¿Optimizará la respuesta ante situaciones críticas un sistema de alertas predictivas y notificaciones contextuales? | 7 - Tecnologías probadas en otros sectores con resultados positivos. | 2 - Riesgo bajo, tecnología madura y bien establecida. | 7 - Impacto notable en prevención de problemas y tiempo de respuesta. | 6 - Interés moderado-alto, valorado por personal operativo. | Puntaje: 22 |
+
 ### 8.1.4. Question Backlog.
+
+| Prioridad (1,2,3,5,8) | Pregunta |
+|----------------------|----------|
+| 8 | ¿Incrementará la retención de clientes la integración nativa con ecosistemas hoteleros populares (PMS, Channel Managers, etc.)? |
+| 8 | ¿Disminuirá significativamente la incidencia de errores críticos la implementación de automatización basada en AI? |
+| 8 | ¿Mejorará la toma de decisiones estratégicas la incorporación de analytics predictivos y dashboards ejecutivos? |
+| 5 | ¿Aumentará la productividad operativa la implementación de interfaces completamente personalizables por rol y establecimiento? |
+| 3 | ¿Optimizará la respuesta ante situaciones críticas un sistema de alertas predictivas y notificaciones contextuales? |ReintentarClaude puede cometer errores. Verifique las respuestas.
 
 ### 8.1.5. Experiment Cards
 
