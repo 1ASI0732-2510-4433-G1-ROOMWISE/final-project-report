@@ -2588,19 +2588,21 @@ RESUMEN: Manuel expresó interés en contar con una interfaz clara y funcional p
 **Entrevista 03 (Admins)**
 
 <br>
-Nombre:  <br>
-Edad:  <br>
-Sexo:  <br>
-Lugar donde vive:     <br>
-Ocupación:    Administrador de Hotel<br>
-Duración de la entrevista: 00:00 - 00:00 <br>
+Nombre: Sebastian Silva  <br>
+Edad: 25   <br>
+Sexo: masculino  <br>
+Lugar donde vive: San Luis     <br>
+Ocupación: Administrador de Hotel<br>
+Duración de la entrevista: 00:00 - 07:08 <br>
 Personalidad: <br>
 
 <div style="text-align: center;">
-   <img src="" alt="  Interview" width="80%" />
+   <img src="https://i.imgur.com/wfr536z.png" alt="  Interview" width="80%" />
  </div><br>
 
-URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202125968_upc_edu_pe/EcMhtW1zJ7FLhwn8Ll8bpdIB1ERaDVo7NOitzRnK9Mz3LQ?e=Bcau9L&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN:
 
 ### 6.3.3. Evaluaciones según heurísticas
 
