@@ -2490,18 +2490,117 @@ En esta sección se documentarán las preguntas que se utilizaron en nuestras en
 
 A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
 
-
+**Entrevista 01 (Owners)**
+<br>
 Nombre: CAMILA BUSTAMANTE
 Edad: 25
 Sexo: FEMENINO
 Lugar donde vive: Miraflores - Perú
-Ocupación: Administradora de hotel
+Duración de la entrevista: 00:00 - 06:00 
+Ocupación: Dueña de hotel
 
 <div style="text-align: center;">
    <img src="https://imgur.com/8y2Uu33.png" alt="Camila Bustamante Interview" width="80%" />
  </div><br>
 
-URL VIDEO: https://drive.google.com/file/d/1gSYkfx4vyNKxv-FQPsK0C4nI1-LNNp8m/view?usp=sharing
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Camila se mostró comprometida con la mejora constante de su hotel. Destacó la importancia de contar con herramientas digitales que le permitan gestionar reservas, habitaciones y personal de manera más eficiente. Apreció la posibilidad de automatizar procesos que normalmente le demandan mucho tiempo, lo que le permitiría enfocarse más en la experiencia del cliente.
+
+
+**Entrevista 02 (Owners)**
+
+<br>
+Nombre: Sergio Renard <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive: La Plata - Argentina <br>
+Ocupación: Dueño de hotel <br>
+Duración de la entrevista: 06:00 - 12:00 <br>
+Personalidad: Alegre <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/SPB9KYm.png" alt="Sergio Renard  Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Sergio se mostró entusiasta respecto al uso de tecnologías en la administración hotelera. Valora soluciones simples pero funcionales que ayuden a mantener el orden y mejorar la comunicación con los clientes. Mencionó estar abierto a herramientas que optimicen su operación diaria y contribuyan al crecimiento de su negocio.
+
+
+**Entrevista 03 (Owners)**
+<br>
+Nombre:  <br>
+Edad:  <br>
+Sexo:  <br>
+Lugar donde vive:     <br>
+Ocupación: Dueño de hotel <br>
+Duración de la entrevista: 00:00 - 00:00 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="" alt="  Interview" width="80%" />
+ </div><br>
+
+ URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+
+**Entrevista 01 (Admins)**
+<br>
+Nombre: Juan Reyes  <br>
+Edad:  21 <br>
+Sexo:  Masculino <br>
+Lugar donde vive:    Lima <br>
+Ocupación:    Administrador de Hotel<br>
+Duración de la entrevista: 12:00 - 16:30 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/deel97A.png" alt="Juan Reyes Interview" width="80%" />
+ </div><br>
+
+ URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Juan resaltó la necesidad de una plataforma centralizada para manejar tanto la información de los huéspedes como la asignación de habitaciones. Mostró una actitud receptiva hacia soluciones tecnológicas que le faciliten la coordinación con otros miembros del equipo y reduzcan los errores en los registros.
+
+
+**Entrevista 02 (Admins)**
+
+<br>
+Nombre: Manuel Chavez  <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive:  Lima   <br>
+Ocupación:    Administrador de Hotel<br>
+Duración de la entrevista: 16:30 - 31:35 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/VALCtTP.png" alt="Manuel Chavez Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Manuel expresó interés en contar con una interfaz clara y funcional para el control de las operaciones diarias del hotel. Subrayó la importancia de que el sistema sea intuitivo, especialmente para el nuevo personal. Su enfoque estuvo en la eficiencia y en el seguimiento de las tareas administrativas y de mantenimiento.
+
+
+
+**Entrevista 03 (Admins)**
+
+<br>
+Nombre:  <br>
+Edad:  <br>
+Sexo:  <br>
+Lugar donde vive:     <br>
+Ocupación:    Administrador de Hotel<br>
+Duración de la entrevista: 00:00 - 00:00 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="" alt="  Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 ### 6.3.3. Evaluaciones según heurísticas
 
