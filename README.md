@@ -2602,7 +2602,11 @@ Personalidad: <br>
 
 URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202125968_upc_edu_pe/EcMhtW1zJ7FLhwn8Ll8bpdIB1ERaDVo7NOitzRnK9Mz3LQ?e=Bcau9L&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
-RESUMEN:
+RESUMEN:Sebastian Silva, administrador de hotele, ofrece su opinión sobre la Landing Page y la aplicación móvil RoomWise. Menciona que la Landing Page proporciona una descripción clara del producto, beneficios, misión, visión y planes de suscripción, y que la sección de empresas registradas y contacto son útiles.
+
+En relación con la app RoomWise, destaca que permite a los administradores gestionar clientes, proveedores, inventarios y cuartos, y valora la funcionalidad de mensajería interna y reportes. Según su opinión, la plataforma facilita la gestión diaria del hotel, especialmente al proporcionar información en tiempo real sobre clientes e inventarios.
+
+Sin embargo, sugiere mejorar el botón de activar/desactivar inventarios y propone la incorporación de una función de mensajería más ágil para la comunicación entre los trabajadores. En general, considera que el diseño es intuitivo y fácil de usar.
 
 ### 6.3.3. Evaluaciones según heurísticas
 
