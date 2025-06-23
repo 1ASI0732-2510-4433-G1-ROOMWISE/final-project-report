@@ -2608,6 +2608,24 @@ En relación con la app RoomWise, destaca que permite a los administradores gest
 
 Sin embargo, sugiere mejorar el botón de activar/desactivar inventarios y propone la incorporación de una función de mensajería más ágil para la comunicación entre los trabajadores. En general, considera que el diseño es intuitivo y fácil de usar.
 
+**Entrevista 04 (Trabajadores)**
+<br>
+Nombre: Jesús Pérez
+Edad: 23 <br>
+Sexo: Masculino <br>
+Lugar donde vive: Cercado de Lima, Lima, Perú <br>
+Ocupación: Recepcionista de hotel <br>
+Duración de la entrevista: 05:27 minutos <br>
+Personalidad: Proactivo y receptivo a nuevas tecnologías <br>
+Minuto de la entrevista:<br>
+URL VIDEO: 
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/cGcK4GJ.png" alt="Jesus Pérez Interview"/>
+</div><br>
+
+Jesús Pérez es recepcionista en un hotel de Cercado de Lima. Identifica como tareas más tediosas la actualización manual del inventario de habitaciones y la coordinación con limpieza, especialmente en eventos grandes. Jesús se mostró proactivo durante toda la entrevista, nos comenta que le gustó la plataforma, le pareción interactiva y muy cómoda a nivel visual, le gusta que se puedan gestionar los proveedores, trabajadores, notificaciones e inventario. Se muestra contento al visualizar las recomendaciones que en su momento propuso en la primera entrevista: gestión en base a tableros y control de inventarios.
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 A continuación se presentan las evaluaciones aplicadas a partir de los problemas encontrados en el sistema de gestión de proyectos ágiles.
