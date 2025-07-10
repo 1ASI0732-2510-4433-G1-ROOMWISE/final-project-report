@@ -3444,25 +3444,32 @@ versión del proyecto, aún no se han desarrollado experimentos formales, pero s
 
 # Conclusiones
 
-Nuestro proyecto de gestión hotelera esta siendo una experiencia gratificante y enriquecedora. Estamos diseñando y desarrollando una solución que aborda las necesidades de los gerentes, administradores y trabajadores de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, y mucho más.
+## Conclusiones y Recomendaciones
 
-Nuestros *Problem Statements* identificaban una gestión fragmentada y poco eficiente en los procesos hoteleros diarios, desde el seguimiento de ingresos y egresos, la administración de reservas, hasta la comunicación con proveedores y huéspedes. Para abordar estos retos, asumimos que los usuarios valoran la automatización, visibilidad en tiempo real y centralización de las operaciones como elementos fundamentales para mejorar su experiencia y eficiencia.
+El desarrollo del proyecto **SweetManager** ha representado una experiencia de aprendizaje integral para el equipo, permitiéndonos aplicar metodologías ágiles, herramientas de diseño centradas en el usuario y principios de desarrollo de software de calidad. Desde la etapa de exploración hasta las pruebas técnicas, cada fase ha estado guiada por la necesidad de resolver problemas reales en la gestión operativa de hoteles.
 
-Para continuar con el desarrollo estratégico de SweetManager, recomendamos:
+Partimos de una serie de **Problem Statements** que evidenciaban una gestión fragmentada en aspectos críticos como ingresos y egresos, inventario, tareas operativas y comunicación con proveedores. Para resolver estos desafíos, formulamos **assumptions** clave sobre el comportamiento de nuestros segmentos, como la preferencia por sistemas centralizados, automatizados y accesibles en tiempo real.
 
-Validar mediante prototipos de alta fidelidad las funcionalidades priorizadas para cada segmento, enfocándonos especialmente en las vistas operativas de administración y control de huéspedes activos.
+Con base en ello, elaboramos **Hypothesis Statements** que vinculaban nuestras funcionalidades con criterios de éxito medibles. Por ejemplo:
 
-Se agregaron las pruebas unitarias de las entidades principales y las pruebas de integración ya que son fundamentales para garantizar que cada componente del sistema funcione de manera correcta y en conjunto con los demás módulos. Estas pruebas no solo ayudan a identificar errores temprano en el proceso de desarrollo, sino que también optimizan la experiencia del usuario, asegurando una aplicación más robusta y fiable.
+- Si digitalizamos la gestión de habitaciones, tareas e inventario, entonces se reducirá el tiempo de coordinación entre personal en un 25–40%.
+- Si se implementa un sistema de inventario con alertas, entonces se reducirán los casos de desabastecimiento en al menos un 50%.
+- Si optimizamos la experiencia inicial con un landing page clara y roles diferenciados, entonces se logrará una adopción del sistema de hasta un 95% en el primer mes.
 
-También, el uso de técnicas de desarrollo basado en comportamiento (BDD) facilita una mejor alineación entre los requisitos del negocio y las pruebas técnicas, permitiendo una comprensión clara de los flujos de trabajo y escenarios del sistema. Además, mejora la colaboración entre los desarrolladores y los equipos no técnicos, asegurando que el software cumpla con las expectativas del usuario final.
+Estas hipótesis fueron validadas parcialmente a través de prototipos de media y alta fidelidad, feedback de usuarios y pruebas internas. Los resultados obtenidos nos permiten afirmar que el enfoque funcional propuesto es viable y responde adecuadamente a las necesidades del usuario final.
 
-La implementación de prácticas de integración continua (CI) y despliegue continuo (CD) permite una mayor eficiencia y fiabilidad en el ciclo de vida del software. Al automatizar el flujo de trabajo desde la construcción hasta el despliegue, se reduce la intervención manual, lo que minimiza el riesgo de errores humanos y acelera el tiempo de entrega del software a producción.
+Además, se implementaron **pruebas unitarias** e **integración de módulos** para asegurar la robustez del sistema, así como prácticas de **Behavior-Driven Development (BDD)** para alinear flujos técnicos con los escenarios reales de uso. Todo esto se complementó con la aplicación de **Integración Continua (CI)** y **Despliegue Continuo (CD)**, lo cual optimizó el ciclo de desarrollo y garantizó un flujo más confiable hasta producción.
 
-La digitalización de la gestión de habitaciones, inventarios y tareas reducirá tiempos de comunicación y coordinación, mejorando la productividad y precisión en un 25-40%.
+**Recomendaciones y próximos pasos**
 
-Implementar un sistema de inventario digital con alertas reducirá los casos de desabastecimiento en un 50%, mejorando el control de suministros.
+- Validar funcionalidades clave con usuarios finales mediante prototipos de alta fidelidad e iteraciones centradas en Lean UX.
+- Incluir en el roadmap funcionalidades complementarias como el módulo de reservas, historial de tareas, y visualización de métricas personalizadas por rol.
+- Fortalecer el componente analítico del sistema, permitiendo reportes automatizados de desempeño operativo.
+- Continuar implementando pruebas automatizadas y mantener la cultura DevOps para asegurar calidad y escalabilidad en futuras versiones.
+- Enfocar esfuerzos en la experiencia del usuario (UX), asegurando que tanto gerentes como empleados comprendan y adopten la herramienta de forma efectiva.
 
-Un landing page optimizado y roles diferenciados para gerentes y empleados aumentarán la conversión en un 35% y la adopción del sistema al 95% en el primer mes.
+En conclusión, **SweetManager** es una solución digital con alto potencial de impacto en el sector hotelero. Su diseño responde directamente a los pain points detectados, y su desarrollo refleja buenas prácticas técnicas y estratégicas. Recomendamos continuar con su evolución hacia un producto mínimo viable (MVP) completo, listo para ser probado en entornos reales.
+
 
 # Bibliografía
 - Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
