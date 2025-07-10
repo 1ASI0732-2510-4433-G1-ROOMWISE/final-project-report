@@ -3471,30 +3471,27 @@ Además, se implementaron **pruebas unitarias** e **integración de módulos** p
 En conclusión, **SweetManager** es una solución digital con alto potencial de impacto en el sector hotelero. Su diseño responde directamente a los pain points detectados, y su desarrollo refleja buenas prácticas técnicas y estratégicas. Recomendamos continuar con su evolución hacia un producto mínimo viable (MVP) completo, listo para ser probado en entornos reales.
 
 
-# Bibliografía
-- Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
+## Bibliografía
 
-- Progressa Lean. (2014). 5W+2H Técnica de análisis de problemas - Progressa Lean. Progressa Lean. https://www.progressalean.com/
-5w2h-tecnica-de-analisis-de-problemas/
+- de Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. Recuperado el 29 de abril de 2024, de https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
 
-- UX Planet. (2017). Information Architecture. Basics for Designers. - UX Planet. Medium; UX Planet. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
+- Eseme, S. (2021, agosto 12). *10 cosas que debes saber sobre Vue.js Frontend Framework*. Kinsta. https://kinsta.com/es/blog/vue-js/
 
-- Gothelf, J. (2024). Leanux Sampler. https://es.scribd.com/document/655516553/Leanux-Sampler
+- Gothelf, J., & Seiden, J. (2021). *Lean UX* (3.ª ed.). O’Reilly Media. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
 
-- ¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero? (2021, febrero 10). Ostelea.com.
-https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
+- Gothelf, J. (2024). *LeanUX Sampler*. Scribd. https://es.scribd.com/document/655516553/Leanux-Sampler
 
-- Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s/f). Solucionex. Recuperado el 29 de abril de 2024.
-https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+- Ostelea. (2021, febrero 10). *¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero?* https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
 
-- Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta®; Kinsta.
-https://kinsta.com/es/blog/vue-js/
+- Progressa Lean. (2014). *5W+2H Técnica de análisis de problemas*. https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/
 
-- de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de
-https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+- Solucionex. (s. f.). *Buenas prácticas para el desarrollo de grandes proyectos con Vue.js*. Recuperado el 29 de abril de 2024, de https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
 
-- Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia.
-https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+- Tapia, S. (2021, junio 21). *Arquitectura DDD (Domain Driven Design)*. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+
+- UX Planet. (2017). *Information architecture: Basics for designers*. Medium. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
+
+
 
 # Anexos
 
