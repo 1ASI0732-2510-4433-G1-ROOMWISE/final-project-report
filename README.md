@@ -311,13 +311,16 @@ Entre sus principales características se incluyen:
 Ofrecer a los responsables de la administración hotelera una solución completa y accesible que cubra aspectos clave como la administración de ingresos y egresos, la supervisión de inventarios, y la gestión de relaciones con proveedores y clientes. Buscamos simplificar el manejo del negocio, permitiendo su monitoreo remoto y en tiempo real, apoyando a nuestros usuarios en la toma de decisiones acertadas, optimizando los procesos operativos y maximizando la rentabilidad de sus negocios.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Miembros del equipo            | Código Estudiante | Carrera                | Conocimientos / Habilidades | Foto |
-|--------------------------------|-------------------|------------------------|----------------------------|------|
-| Escobar Palomino, Sebastian Matias | u202125968       | Ingeniería de Software | **Lenguajes:** Java, JavaScript<br>**Frameworks:** Spring Boot<br>**Bases de datos:** MySQL |  <img src="https://i.imgur.com/tDWIiqt.png" width="80"> |
-| Morales Montalvo, Omar Andrew  | u202212383       | Ingeniería de Software | **Lenguajes:** C#, JavaScript<br>**Frameworks:** .NET Core, Angular<br>**Gestión:** Jira, Trello | <img src="https://i.imgur.com/rV6QLMK.png" width="80"> |
-| Gutierrez Tume, Stanley Jeremy | u202118152       | Ingeniería de Software | **Lenguajes:** Java, Kotlin, Swift<br>**Mobile:** Android Studio, Xcode | <img src="https://i.imgur.com/wH0dfWs.png" width="80"> |
-| Salgado Luna, Fernando Brian   | u202212023       | Ingeniería de Software | **Lenguajes:** Python, JavaScript<br>**Documentación:** Swagger | <img src="https://i.imgur.com/bNNGLG6.png" width="80"> |
-| Antonio Loayza, Luiggi Jeremy  | u202011431       | Ingeniería de Software | **Lenguajes:** JavaScript<br>**Frameworks:** Node.js<br>**UI/UX:** Figma, Sketch | <img src="https://i.imgur.com/rPKbaMd.png" width="80"> |
+
+| Miembros del equipo              | Código Estudiante | Carrera                | Conocimientos / Habilidades | Foto |
+|----------------------------------|-------------------|------------------------|------------------------------|------|
+| Escobar Palomino, Sebastian Matias | u202125968       | Ingeniería de Software | **Lenguajes:** Java, JavaScript<br>**Frameworks:** Spring Boot<br>**Bases de datos:** MySQL | <img src="https://i.imgur.com/tDWIiqt.png" width="80"> |
+| Morales Montalvo, Omar Andrew    | u202212383       | Ingeniería de Software | **Lenguajes:** C#, JavaScript<br>**Frameworks:** .NET Core, Angular<br>**Gestión:** Jira, Trello | <img src="https://i.imgur.com/rV6QLMK.png" width="80"> |
+| Gutierrez Tume, Stanley Jeremy   | u202118152       | Ingeniería de Software | **Lenguajes:** Java, Kotlin, Swift<br>**Mobile:** Android Studio, Xcode | <img src="https://i.imgur.com/wH0dfWs.png" width="80"> |
+| Salgado Luna, Fernando Brian     | u202212023       | Ingeniería de Software | **Lenguajes:** Python, JavaScript<br>**Documentación:** Swagger | <img src="https://i.imgur.com/bNNGLG6.png" width="80"> |
+| Antonio Loayza, Luiggi Jeremy    | u202011431       | Ingeniería de Software | **Lenguajes:** JavaScript<br>**Frameworks:** Node.js<br>**UI/UX:** Figma, Sketch | <img src="https://i.imgur.com/rPKbaMd.png" width="80"> |
+| Arana Ramos, Jack                | u202124503       | Ingeniería de Software | **Lenguajes:** Java, TypeScript<br>**Frameworks:** Vue.js, Spring Boot<br>**DevOps:** Docker, Azure, CI/CD | <img src="https://lh3.googleusercontent.com/a/ACg8ocL39ewBX3TSajOL3ouvj0OuljxzjQBhNbXw3D0nZ5DQog6GfHw=s288-c-no" width="80"> |
+
 
 
 ## 1.2. Solution Profile
