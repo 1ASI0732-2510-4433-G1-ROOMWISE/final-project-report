@@ -3547,6 +3547,26 @@ Enlace: <https://1asi0732-2510-4433-g1-roomwise.github.io/landing-page/>
   <img src="https://i.imgur.com/jjTXIEC.png" alt="" width="70%" />
 </div>
 
+#### 8.3.3.6. Team Collaboration Insights
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas.   
+
+#### 8.3.4.2. Registro de Entrevistas. 
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+## 8.6. To-Be Software Platform Pre-launch
+### 8.6.1. About-the-Product Intro Video
+
+
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
