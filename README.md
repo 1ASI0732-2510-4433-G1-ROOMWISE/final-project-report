@@ -3553,6 +3553,52 @@ Enlace: <https://1asi0732-2510-4433-g1-roomwise.github.io/landing-page/>
 
 #### 8.3.4.1. Diseño de Entrevistas.   
 
+## Segmento 1: Gerentes (Owners)
+
+### Landing Page
+
+- ¿La información en la landing page fue suficiente para entender los beneficios del sistema?
+- ¿Te resultó confiable el diseño y contenido del sitio para decidir registrarte?
+- ¿Qué tanto influyó la presentación de funcionalidades en tu interés por probar la plataforma?
+- ¿Faltó alguna información clave que te hubiera gustado ver antes de registrarte?
+
+### Aplicación Móvil
+
+- ¿Te resultó cómoda la experiencia de usar la app desde tu celular?
+- ¿Te sentiste en control al modificar precios o disponibilidad de habitaciones desde la app?
+- ¿Qué tan útil te pareció gestionar reservas y ver alertas desde tu celular?
+- ¿Cambiarías algo de la app para que se adapte mejor a tus decisiones diarias?
+
+## Segmento 2: Administradores (Admins)
+
+### Landing Page
+
+- ¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?
+- ¿Te sentiste identificado/a con los problemas que la plataforma promete solucionar?
+- ¿Te habría gustado una demo interactiva o más casos de uso concretos?
+- ¿La información fue clara para entender cómo aplicarías esta herramienta en tu rutina diaria?
+
+### Aplicación Móvil
+- ¿Fue fácil acceder a tus tareas desde la app móvil?
+- ¿Te ayudó a resolver incidencias o necesidades urgentes desde tu celular?
+- ¿Cómo calificarías la facilidad para actualizar tareas o estados de habitación desde la app?
+- ¿La aplicación móvil ayudó a reducir tu carga operativa o la mantuvo igual?
+
+## Segmento 3: Trabajadores (Staff Operativo)
+
+### Landing Page
+
+- ¿La información en la landing page te ayudó a entender cómo la plataforma puede ayudarte en tu trabajo diario?
+- ¿Te identificaste con las situaciones que se muestran en la página como problemas comunes?
+- ¿Te pareció fácil entender qué funciones específicas podrías usar tú como trabajador?
+- ¿Agregarías algún ejemplo o información para que se entienda mejor tu rol en la plataforma?
+
+### Aplicación Móvil
+- ¿Fue fácil para ti usar la aplicación desde tu celular?
+- ¿Pudiste cambiar el estado de las habitaciones o tareas sin dificultad?
+- ¿Te ayudó la app a organizar mejor tus tareas durante el día?
+- ¿Te sentiste más conectado o comunicado con tu equipo gracias a la aplicación?
+
 #### 8.3.4.2. Registro de Entrevistas. 
 
 ## 8.4. Experiment Aftermath & Analysis
