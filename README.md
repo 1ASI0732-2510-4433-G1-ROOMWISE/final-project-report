@@ -3564,7 +3564,12 @@ Enlace: <https://1asi0732-2510-4433-g1-roomwise.github.io/landing-page/>
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
+El siguiente video tiene como objetivo presentar SweetManager, una plataforma digital diseñada para facilitar la gestión integral de hoteles, pensada especialmente para propietarios que buscan optimizar la administración de sus establecimientos de forma eficiente y centralizada.
+A través de una interfaz moderna, intuitiva y potenciada por tecnología inteligente, SweetManager permite controlar reservas, gestionar habitaciones, monitorear ingresos y coordinar al personal en tiempo real.
 
+Este contenido destaca cómo la plataforma transforma la experiencia de gestión hotelera al reducir tareas manuales, automatizar procesos clave y ofrecer información valiosa para la toma de decisiones. Con SweetManager, los propietarios pueden enfocarse en brindar una mejor experiencia a sus huéspedes, mientras aprovechan el poder de la digitalización para hacer crecer su negocio en el competitivo sector turístico y urbano.
+
+Link del video: <https://www.youtube.com/watch?v=T92OwQTaaeg>
 
 
 # Conclusiones
