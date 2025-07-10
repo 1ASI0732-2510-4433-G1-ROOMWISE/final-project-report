@@ -3442,6 +3442,49 @@ versión del proyecto, aún no se han desarrollado experimentos formales, pero s
 
 ---
 
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+En esta sección se presenta el ciclo de vida propuesto para el desarrollo de la plataforma digital *SweetManager*, orientado a una estrategia basada en experimentación continua y respaldada por un pipeline de integración. Este enfoque busca validar de manera iterativa las funcionalidades del producto, permitiendo mejorar su calidad, reducir el riesgo de fallos y alinear constantemente el desarrollo con las necesidades reales del usuario.
+
+El ciclo incluye desde la planificación de los Sprint Backlogs y la implementación técnica de los distintos componentes (landing page, aplicación web, aplicación móvil y backend RESTful), hasta la validación mediante entrevistas con usuarios reales. Asimismo, se documentan los aprendizajes, resultados obtenidos, prioridades ajustadas y las actividades clave realizadas antes del lanzamiento.
+
+Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que además proporciona evidencias claras del trabajo colaborativo, de la validación empírica de hipótesis y del aprendizaje continuo durante el proceso.
+
+#### 8.3.3.1. To-Be Sprint Backlog
+
+<table><tr><th valign="top"><b>Sprint #</b></th><th colspan="7" valign="top"><b>Sprint 1</b></th></tr>
+<tr><td colspan="2" valign="top"><b>User Story</b></td><td colspan="6" valign="top"><b>WorkItem/Task</b></td></tr>
+<tr><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Estimation (Story Points)</b></td><td valign="top"><b>Assigned To</b></td><td valign="top"><b>Status</b></td></tr>
+<tr><td rowspan="2">US01 - EP02</td><td rowspan="2">Registro de cuenta para gerente</td><td>T1</td><td>Crear formulario de registro</td><td>Crear formulario de registro para gerente, incluyendo campos requeridos.</td><td>3</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
+<tr><td>T2</td><td>Verificación de correo electrónico</td><td>Implementar lógica para enviar y verificar el correo electrónico del gerente.</td><td>2</td></tr>
+<tr><td rowspan="2">US06 - EP02</td><td rowspan="2">Registro de cuenta para administrador</td><td>T3</td><td>Formulario de nuevo administrador</td><td>Diseñar e implementar formulario para registrar un nuevo administrador.</td><td>3</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
+<tr><td>T4</td><td>Asignar permisos a administrador</td><td>Implementar lógica para asignación de permisos por rol.</td><td>2</td></tr>
+<tr><td rowspan="2">US07 - EP03</td><td rowspan="2">Modificar estado de habitación</td><td>T5</td><td>Vista de gestión de estados</td><td>Crear una ventana emergente con opciones de estado (disponible, mantenimiento, limpio).</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
+<tr><td>T6</td><td>Actualizar estado desde la vista del gerente</td><td>Programar lógica para que el gerente pueda cambiar el estado desde su panel.</td><td>1</td></tr>
+<tr><td rowspan="2">US08 - EP03</td><td rowspan="2">Actualizar estado (Empleado)</td><td>T7</td><td>Botón de actualización rápida</td><td>Crear botón de acción rápida en el panel del empleado para cambiar estado.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
+<tr><td>T8</td><td>Conexión con backend</td><td>Conectar botón de estado con el backend para reflejar cambios.</td><td>1</td></tr>
+<tr><td rowspan="2">US09 - EP03</td><td rowspan="2">Agregar nuevas habitaciones</td><td>T9</td><td>Formulario de nueva habitación</td><td>Crear formulario con campos como número, tipo y capacidad de habitación.</td><td>3</td><td rowspan="2">Sebastian</td><td rowspan="2">Done</td></tr>
+<tr><td>T10</td><td>Validación de datos de habitación</td><td>Validar datos ingresados antes de ser enviados al sistema.</td><td>2</td></tr>
+<tr><td rowspan="2">US10 - EP04</td><td rowspan="2">Agregar ítem al inventario</td><td>T11</td><td>Formulario de nuevo ítem</td><td>Crear formulario para añadir ítems al inventario.</td><td>2</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
+<tr><td>T12</td><td>Lógica de almacenamiento de ítems</td><td>Programar la lógica de almacenamiento en la base de datos.</td><td>1</td></tr>
+<tr><td rowspan="2">US11 - EP04</td><td rowspan="2">Actualizar ítem del inventario</td><td>T13</td><td>Vista editable del ítem</td><td>Habilitar edición directa de datos de un ítem (nombre, cantidad, ubicación).</td><td>2</td><td rowspan="2">Jack</td><td rowspan="2">Done</td></tr>
+<tr><td>T14</td><td>Control de cambios</td><td>Agregar control para registrar modificaciones realizadas.</td><td>1</td></tr>
+<tr><td rowspan="2">US12 - EP05</td><td rowspan="2">Crear tarea para empleado</td><td>T15</td><td>Formulario de nueva tarea</td><td>Crear formulario para agregar tareas con campos como descripción y fecha límite.</td><td>2</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
+<tr><td>T16</td><td>Lógica para asignación de tarea</td><td>Programar asignación de tarea a un empleado seleccionado.</td><td>1</td></tr>
+<tr><td rowspan="2">US13 - EP05</td><td rowspan="2">Eliminar tarea no necesaria</td><td>T17</td><td>Botón para eliminar tareas</td><td>Implementar botón de eliminación en listado de tareas.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
+<tr><td>T18</td><td>Confirmación de eliminación</td><td>Agregar ventana de confirmación para eliminar una tarea.</td><td>1</td></tr>
+<tr><td valign="top">US14 - EP05</td><td rowspan="2">Asignar o editar tareas</td><td>T19</td><td>Asignar tareas</td><td>Crear componente para asignar tareas existentes a empleados.</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
+<tr><td valign="top">US14 - EP05</td><td>T20</td><td>Editar tareas existentes</td><td>Implementar funcionalidad para modificar tareas ya asignadas.</td><td>1</td></tr>
+<tr><td rowspan="2" valign="top">US15 - EP05</td><td rowspan="2" valign="top">Actualizar estado de tarea</td><td valign="top">T21</td><td valign="top">Botón de estado en panel de tareas</td><td valign="top">Crear botón que permita cambiar entre estados: pendiente, en progreso, completada.</td><td valign="top">1</td><td rowspan="2" valign="top">Jack</td><td rowspan="2" valign="top">Done</td></tr>
+<tr><td valign="top">T22</td><td valign="top">Reflejar estado actualizado en backend</td><td valign="top">Programar envío del nuevo estado al backend y actualizar lista automáticamente.</td><td valign="top">1</td></tr>
+<tr><td rowspan="2" valign="top">US16 - EP05</td><td rowspan="2" valign="top">Asignar tarea a empleado específico</td><td valign="top">T23</td><td valign="top">Selector de empleados</td><td valign="top">Crear selector con lista de empleados para asignar una tarea.</td><td valign="top">2</td><td rowspan="2" valign="top">Sebastian</td><td rowspan="2" valign="top">Done</td></tr>
+<tr><td valign="top">T24</td><td valign="top">Validación de asignación</td><td valign="top">Validar que la tarea haya sido correctamente asignada y notificar.</td><td valign="top">1</td></tr>
+<tr><td rowspan="2" valign="top">US17 - EP06</td><td rowspan="2" valign="top">Seguridad de usuario</td><td valign="top">T25</td><td valign="top">Formulario de login</td><td valign="top">Crear pantalla de login con campos usuario y contraseña.</td><td valign="top">2</td><td rowspan="2" valign="top">Omar</td><td rowspan="2" valign="top">Done</td></tr>
+<tr><td valign="top">T26</td><td valign="top">Validación y autenticación</td><td valign="top">Implementar autenticación segura con validaciones y acceso a dashboard.</td><td valign="top">1</td></tr>
+</table>
+
+---
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
@@ -3490,7 +3533,6 @@ En conclusión, **SweetManager** es una solución digital con alto potencial de 
 - Tapia, S. (2021, junio 21). *Arquitectura DDD (Domain Driven Design)*. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 - UX Planet. (2017). *Information architecture: Basics for designers*. Medium. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
-
 
 
 ## Anexos
