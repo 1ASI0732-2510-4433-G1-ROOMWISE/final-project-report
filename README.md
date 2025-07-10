@@ -311,13 +311,16 @@ Entre sus principales características se incluyen:
 Ofrecer a los responsables de la administración hotelera una solución completa y accesible que cubra aspectos clave como la administración de ingresos y egresos, la supervisión de inventarios, y la gestión de relaciones con proveedores y clientes. Buscamos simplificar el manejo del negocio, permitiendo su monitoreo remoto y en tiempo real, apoyando a nuestros usuarios en la toma de decisiones acertadas, optimizando los procesos operativos y maximizando la rentabilidad de sus negocios.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Miembros del equipo            | Código Estudiante | Carrera                | Conocimientos / Habilidades | Foto |
-|--------------------------------|-------------------|------------------------|----------------------------|------|
-| Escobar Palomino, Sebastian Matias | u202125968       | Ingeniería de Software | **Lenguajes:** Java, JavaScript<br>**Frameworks:** Spring Boot<br>**Bases de datos:** MySQL |  <img src="https://i.imgur.com/tDWIiqt.png" width="80"> |
-| Morales Montalvo, Omar Andrew  | u202212383       | Ingeniería de Software | **Lenguajes:** C#, JavaScript<br>**Frameworks:** .NET Core, Angular<br>**Gestión:** Jira, Trello | <img src="https://i.imgur.com/rV6QLMK.png" width="80"> |
-| Gutierrez Tume, Stanley Jeremy | u202118152       | Ingeniería de Software | **Lenguajes:** Java, Kotlin, Swift<br>**Mobile:** Android Studio, Xcode | <img src="https://i.imgur.com/wH0dfWs.png" width="80"> |
-| Salgado Luna, Fernando Brian   | u202212023       | Ingeniería de Software | **Lenguajes:** Python, JavaScript<br>**Documentación:** Swagger | <img src="https://i.imgur.com/bNNGLG6.png" width="80"> |
-| Antonio Loayza, Luiggi Jeremy  | u202011431       | Ingeniería de Software | **Lenguajes:** JavaScript<br>**Frameworks:** Node.js<br>**UI/UX:** Figma, Sketch | <img src="https://i.imgur.com/rPKbaMd.png" width="80"> |
+
+| Miembros del equipo              | Código Estudiante | Carrera                | Conocimientos / Habilidades | Foto |
+|----------------------------------|-------------------|------------------------|------------------------------|------|
+| Escobar Palomino, Sebastian Matias | u202125968       | Ingeniería de Software | **Lenguajes:** Java, JavaScript<br>**Frameworks:** Spring Boot<br>**Bases de datos:** MySQL | <img src="https://i.imgur.com/tDWIiqt.png" width="80"> |
+| Morales Montalvo, Omar Andrew    | u202212383       | Ingeniería de Software | **Lenguajes:** C#, JavaScript<br>**Frameworks:** .NET Core, Angular<br>**Gestión:** Jira, Trello | <img src="https://i.imgur.com/rV6QLMK.png" width="80"> |
+| Gutierrez Tume, Stanley Jeremy   | u202118152       | Ingeniería de Software | **Lenguajes:** Java, Kotlin, Swift<br>**Mobile:** Android Studio, Xcode | <img src="https://i.imgur.com/wH0dfWs.png" width="80"> |
+| Salgado Luna, Fernando Brian     | u202212023       | Ingeniería de Software | **Lenguajes:** Python, JavaScript<br>**Documentación:** Swagger | <img src="https://i.imgur.com/bNNGLG6.png" width="80"> |
+| Antonio Loayza, Luiggi Jeremy    | u202011431       | Ingeniería de Software | **Lenguajes:** JavaScript<br>**Frameworks:** Node.js<br>**UI/UX:** Figma, Sketch | <img src="https://i.imgur.com/rPKbaMd.png" width="80"> |
+| Arana Ramos, Jack                | u202124503       | Ingeniería de Software | **Lenguajes:** Java, TypeScript<br>**Frameworks:** Vue.js, Spring Boot<br>**DevOps:** Docker, Azure, CI/CD | <img src="https://lh3.googleusercontent.com/a/ACg8ocL39ewBX3TSajOL3ouvj0OuljxzjQBhNbXw3D0nZ5DQog6GfHw=s288-c-no" width="80"> |
+
 
 
 ## 1.2. Solution Profile
@@ -3442,71 +3445,130 @@ versión del proyecto, aún no se han desarrollado experimentos formales, pero s
 
 ---
 
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+En esta sección se presenta el ciclo de vida propuesto para el desarrollo de la plataforma digital *SweetManager*, orientado a una estrategia basada en experimentación continua y respaldada por un pipeline de integración. Este enfoque busca validar de manera iterativa las funcionalidades del producto, permitiendo mejorar su calidad, reducir el riesgo de fallos y alinear constantemente el desarrollo con las necesidades reales del usuario.
+
+El ciclo incluye desde la planificación de los Sprint Backlogs y la implementación técnica de los distintos componentes (landing page, aplicación web, aplicación móvil y backend RESTful), hasta la validación mediante entrevistas con usuarios reales. Asimismo, se documentan los aprendizajes, resultados obtenidos, prioridades ajustadas y las actividades clave realizadas antes del lanzamiento.
+
+Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que además proporciona evidencias claras del trabajo colaborativo, de la validación empírica de hipótesis y del aprendizaje continuo durante el proceso.
+
+#### 8.3.3.1. To-Be Sprint Backlog
+
+<table><tr><th valign="top"><b>Sprint #</b></th><th colspan="7" valign="top"><b>Sprint 1</b></th></tr>
+<tr><td colspan="2" valign="top"><b>User Story</b></td><td colspan="6" valign="top"><b>WorkItem/Task</b></td></tr>
+<tr><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Estimation (Story Points)</b></td><td valign="top"><b>Assigned To</b></td><td valign="top"><b>Status</b></td></tr>
+<tr><td rowspan="2">US01 - EP02</td><td rowspan="2">Registro de cuenta para gerente</td><td>T1</td><td>Crear formulario de registro</td><td>Crear formulario de registro para gerente, incluyendo campos requeridos.</td><td>3</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
+<tr><td>T2</td><td>Verificación de correo electrónico</td><td>Implementar lógica para enviar y verificar el correo electrónico del gerente.</td><td>2</td></tr>
+<tr><td rowspan="2">US06 - EP02</td><td rowspan="2">Registro de cuenta para administrador</td><td>T3</td><td>Formulario de nuevo administrador</td><td>Diseñar e implementar formulario para registrar un nuevo administrador.</td><td>3</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
+<tr><td>T4</td><td>Asignar permisos a administrador</td><td>Implementar lógica para asignación de permisos por rol.</td><td>2</td></tr>
+<tr><td rowspan="2">US07 - EP03</td><td rowspan="2">Modificar estado de habitación</td><td>T5</td><td>Vista de gestión de estados</td><td>Crear una ventana emergente con opciones de estado (disponible, mantenimiento, limpio).</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
+<tr><td>T6</td><td>Actualizar estado desde la vista del gerente</td><td>Programar lógica para que el gerente pueda cambiar el estado desde su panel.</td><td>1</td></tr>
+<tr><td rowspan="2">US08 - EP03</td><td rowspan="2">Actualizar estado (Empleado)</td><td>T7</td><td>Botón de actualización rápida</td><td>Crear botón de acción rápida en el panel del empleado para cambiar estado.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
+<tr><td>T8</td><td>Conexión con backend</td><td>Conectar botón de estado con el backend para reflejar cambios.</td><td>1</td></tr>
+<tr><td rowspan="2">US09 - EP03</td><td rowspan="2">Agregar nuevas habitaciones</td><td>T9</td><td>Formulario de nueva habitación</td><td>Crear formulario con campos como número, tipo y capacidad de habitación.</td><td>3</td><td rowspan="2">Sebastian</td><td rowspan="2">Done</td></tr>
+<tr><td>T10</td><td>Validación de datos de habitación</td><td>Validar datos ingresados antes de ser enviados al sistema.</td><td>2</td></tr>
+<tr><td rowspan="2">US10 - EP04</td><td rowspan="2">Agregar ítem al inventario</td><td>T11</td><td>Formulario de nuevo ítem</td><td>Crear formulario para añadir ítems al inventario.</td><td>2</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
+<tr><td>T12</td><td>Lógica de almacenamiento de ítems</td><td>Programar la lógica de almacenamiento en la base de datos.</td><td>1</td></tr>
+<tr><td rowspan="2">US11 - EP04</td><td rowspan="2">Actualizar ítem del inventario</td><td>T13</td><td>Vista editable del ítem</td><td>Habilitar edición directa de datos de un ítem (nombre, cantidad, ubicación).</td><td>2</td><td rowspan="2">Jack</td><td rowspan="2">Done</td></tr>
+<tr><td>T14</td><td>Control de cambios</td><td>Agregar control para registrar modificaciones realizadas.</td><td>1</td></tr>
+<tr><td rowspan="2">US12 - EP05</td><td rowspan="2">Crear tarea para empleado</td><td>T15</td><td>Formulario de nueva tarea</td><td>Crear formulario para agregar tareas con campos como descripción y fecha límite.</td><td>2</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
+<tr><td>T16</td><td>Lógica para asignación de tarea</td><td>Programar asignación de tarea a un empleado seleccionado.</td><td>1</td></tr>
+<tr><td rowspan="2">US13 - EP05</td><td rowspan="2">Eliminar tarea no necesaria</td><td>T17</td><td>Botón para eliminar tareas</td><td>Implementar botón de eliminación en listado de tareas.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
+<tr><td>T18</td><td>Confirmación de eliminación</td><td>Agregar ventana de confirmación para eliminar una tarea.</td><td>1</td></tr>
+<tr><td valign="top">US14 - EP05</td><td rowspan="2">Asignar o editar tareas</td><td>T19</td><td>Asignar tareas</td><td>Crear componente para asignar tareas existentes a empleados.</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
+<tr><td valign="top">US14 - EP05</td><td>T20</td><td>Editar tareas existentes</td><td>Implementar funcionalidad para modificar tareas ya asignadas.</td><td>1</td></tr>
+<tr><td rowspan="2" valign="top">US15 - EP05</td><td rowspan="2" valign="top">Actualizar estado de tarea</td><td valign="top">T21</td><td valign="top">Botón de estado en panel de tareas</td><td valign="top">Crear botón que permita cambiar entre estados: pendiente, en progreso, completada.</td><td valign="top">1</td><td rowspan="2" valign="top">Jack</td><td rowspan="2" valign="top">Done</td></tr>
+<tr><td valign="top">T22</td><td valign="top">Reflejar estado actualizado en backend</td><td valign="top">Programar envío del nuevo estado al backend y actualizar lista automáticamente.</td><td valign="top">1</td></tr>
+<tr><td rowspan="2" valign="top">US16 - EP05</td><td rowspan="2" valign="top">Asignar tarea a empleado específico</td><td valign="top">T23</td><td valign="top">Selector de empleados</td><td valign="top">Crear selector con lista de empleados para asignar una tarea.</td><td valign="top">2</td><td rowspan="2" valign="top">Sebastian</td><td rowspan="2" valign="top">Done</td></tr>
+<tr><td valign="top">T24</td><td valign="top">Validación de asignación</td><td valign="top">Validar que la tarea haya sido correctamente asignada y notificar.</td><td valign="top">1</td></tr>
+<tr><td rowspan="2" valign="top">US17 - EP06</td><td rowspan="2" valign="top">Seguridad de usuario</td><td valign="top">T25</td><td valign="top">Formulario de login</td><td valign="top">Crear pantalla de login con campos usuario y contraseña.</td><td valign="top">2</td><td rowspan="2" valign="top">Omar</td><td rowspan="2" valign="top">Done</td></tr>
+<tr><td valign="top">T26</td><td valign="top">Validación y autenticación</td><td valign="top">Implementar autenticación segura con validaciones y acceso a dashboard.</td><td valign="top">1</td></tr>
+</table>
+
+---
+
 # Conclusiones
 
-Nuestro proyecto de gestión hotelera esta siendo una experiencia gratificante y enriquecedora. Estamos diseñando y desarrollando una solución que aborda las necesidades de los gerentes, administradores y trabajadores de hoteles, facilitando la gestión diaria, el seguimiento de ingresos y egresos, la administración de recursos, el contacto con proveedores, y mucho más.
+## Conclusiones y Recomendaciones
 
-Nuestros *Problem Statements* identificaban una gestión fragmentada y poco eficiente en los procesos hoteleros diarios, desde el seguimiento de ingresos y egresos, la administración de reservas, hasta la comunicación con proveedores y huéspedes. Para abordar estos retos, asumimos que los usuarios valoran la automatización, visibilidad en tiempo real y centralización de las operaciones como elementos fundamentales para mejorar su experiencia y eficiencia.
+El desarrollo del proyecto **SweetManager** ha representado una experiencia de aprendizaje integral para el equipo, permitiéndonos aplicar metodologías ágiles, herramientas de diseño centradas en el usuario y principios de desarrollo de software de calidad. Desde la etapa de exploración hasta las pruebas técnicas, cada fase ha estado guiada por la necesidad de resolver problemas reales en la gestión operativa de hoteles.
 
-Para continuar con el desarrollo estratégico de SweetManager, recomendamos:
+Partimos de una serie de **Problem Statements** que evidenciaban una gestión fragmentada en aspectos críticos como ingresos y egresos, inventario, tareas operativas y comunicación con proveedores. Para resolver estos desafíos, formulamos **assumptions** clave sobre el comportamiento de nuestros segmentos, como la preferencia por sistemas centralizados, automatizados y accesibles en tiempo real.
 
-Validar mediante prototipos de alta fidelidad las funcionalidades priorizadas para cada segmento, enfocándonos especialmente en las vistas operativas de administración y control de huéspedes activos.
+Con base en ello, elaboramos **Hypothesis Statements** que vinculaban nuestras funcionalidades con criterios de éxito medibles. Por ejemplo:
 
-Se agregaron las pruebas unitarias de las entidades principales y las pruebas de integración ya que son fundamentales para garantizar que cada componente del sistema funcione de manera correcta y en conjunto con los demás módulos. Estas pruebas no solo ayudan a identificar errores temprano en el proceso de desarrollo, sino que también optimizan la experiencia del usuario, asegurando una aplicación más robusta y fiable.
+- Si digitalizamos la gestión de habitaciones, tareas e inventario, entonces se reducirá el tiempo de coordinación entre personal en un 25–40%.
+- Si se implementa un sistema de inventario con alertas, entonces se reducirán los casos de desabastecimiento en al menos un 50%.
+- Si optimizamos la experiencia inicial con un landing page clara y roles diferenciados, entonces se logrará una adopción del sistema de hasta un 95% en el primer mes.
 
-También, el uso de técnicas de desarrollo basado en comportamiento (BDD) facilita una mejor alineación entre los requisitos del negocio y las pruebas técnicas, permitiendo una comprensión clara de los flujos de trabajo y escenarios del sistema. Además, mejora la colaboración entre los desarrolladores y los equipos no técnicos, asegurando que el software cumpla con las expectativas del usuario final.
+Estas hipótesis fueron validadas parcialmente a través de prototipos de media y alta fidelidad, feedback de usuarios y pruebas internas. Los resultados obtenidos nos permiten afirmar que el enfoque funcional propuesto es viable y responde adecuadamente a las necesidades del usuario final.
 
-La implementación de prácticas de integración continua (CI) y despliegue continuo (CD) permite una mayor eficiencia y fiabilidad en el ciclo de vida del software. Al automatizar el flujo de trabajo desde la construcción hasta el despliegue, se reduce la intervención manual, lo que minimiza el riesgo de errores humanos y acelera el tiempo de entrega del software a producción.
+Además, se implementaron **pruebas unitarias** e **integración de módulos** para asegurar la robustez del sistema, así como prácticas de **Behavior-Driven Development (BDD)** para alinear flujos técnicos con los escenarios reales de uso. Todo esto se complementó con la aplicación de **Integración Continua (CI)** y **Despliegue Continuo (CD)**, lo cual optimizó el ciclo de desarrollo y garantizó un flujo más confiable hasta producción.
 
-La digitalización de la gestión de habitaciones, inventarios y tareas reducirá tiempos de comunicación y coordinación, mejorando la productividad y precisión en un 25-40%.
+**Recomendaciones y próximos pasos**
 
-Implementar un sistema de inventario digital con alertas reducirá los casos de desabastecimiento en un 50%, mejorando el control de suministros.
+- Validar funcionalidades clave con usuarios finales mediante prototipos de alta fidelidad e iteraciones centradas en Lean UX.
+- Incluir en el roadmap funcionalidades complementarias como el módulo de reservas, historial de tareas, y visualización de métricas personalizadas por rol.
+- Fortalecer el componente analítico del sistema, permitiendo reportes automatizados de desempeño operativo.
+- Continuar implementando pruebas automatizadas y mantener la cultura DevOps para asegurar calidad y escalabilidad en futuras versiones.
+- Enfocar esfuerzos en la experiencia del usuario (UX), asegurando que tanto gerentes como empleados comprendan y adopten la herramienta de forma efectiva.
 
-Un landing page optimizado y roles diferenciados para gerentes y empleados aumentarán la conversión en un 35% y la adopción del sistema al 95% en el primer mes.
+En conclusión, **SweetManager** es una solución digital con alto potencial de impacto en el sector hotelero. Su diseño responde directamente a los pain points detectados, y su desarrollo refleja buenas prácticas técnicas y estratégicas. Recomendamos continuar con su evolución hacia un producto mínimo viable (MVP) completo, listo para ser probado en entornos reales.
 
-# Bibliografía
-- Gothelf, J., & Seiden, J. (2021). Lean UX, 3rd Edition. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
 
-- Progressa Lean. (2014). 5W+2H Técnica de análisis de problemas - Progressa Lean. Progressa Lean. https://www.progressalean.com/
-5w2h-tecnica-de-analisis-de-problemas/
+## Bibliografía
 
-- UX Planet. (2017). Information Architecture. Basics for Designers. - UX Planet. Medium; UX Planet. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
+- de Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. Recuperado el 29 de abril de 2024, de https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
 
-- Gothelf, J. (2024). Leanux Sampler. https://es.scribd.com/document/655516553/Leanux-Sampler
+- Eseme, S. (2021, agosto 12). *10 cosas que debes saber sobre Vue.js Frontend Framework*. Kinsta. https://kinsta.com/es/blog/vue-js/
 
-- ¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero? (2021, febrero 10). Ostelea.com.
-https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
+- Gothelf, J., & Seiden, J. (2021). *Lean UX* (3.ª ed.). O’Reilly Media. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
 
-- Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s/f). Solucionex. Recuperado el 29 de abril de 2024.
-https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+- Gothelf, J. (2024). *LeanUX Sampler*. Scribd. https://es.scribd.com/document/655516553/Leanux-Sampler
 
-- Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta®; Kinsta.
-https://kinsta.com/es/blog/vue-js/
+- Ostelea. (2021, febrero 10). *¿Qué es la gestión hotelera y cuál es su importancia en el sector hotelero?* https://www.ostelea.com/actualidad/blog-turismo/direccion-hotelera/que-es-la-gestion-hotelera-y-cual-es-su-importancia-en-el-sector-hotelero
 
-- de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de
-https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+- Progressa Lean. (2014). *5W+2H Técnica de análisis de problemas*. https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/
 
-- Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia.
-https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+- Solucionex. (s. f.). *Buenas prácticas para el desarrollo de grandes proyectos con Vue.js*. Recuperado el 29 de abril de 2024, de https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
 
-# Anexos
+- Tapia, S. (2021, junio 21). *Arquitectura DDD (Domain Driven Design)*. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
-### Vídeos de Exposición (Anexo 1)
+- UX Planet. (2017). *Information architecture: Basics for designers*. Medium. https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
 
-- Repositorio GitHub de la Organización: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
 
-- Repositorio GitHub del Informe: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/final-project-report>
+## Anexos
 
-- Repositorio GitHub del Backend:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/web-services>
+### Anexo A. Videos de exposición y validaciones
 
-- Repositorio GitHub de la Aplicación Web:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/frontend>
+- **Entrevistas a usuarios (Video):**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=lE8RTc>
 
-- Repositorio GitHub de la Aplicación Móvil:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/mobile-app>
+- **Exposición TP1 (Video):**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EaY-6yBQ9phPrMgOXhjPG0IB5ddE7CzGnNGbG-alzz7BKg?e=3bvM0p>
 
-- Repositorio GitHub de la Landing Page:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/landing-page>
+- **Exposición TB2 (Video):**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EXFDnB3n-OdEoK-Zr1gtahsBk5lVK3dmkrzBKiK_Bgf9oA?e=tHa6KX>
 
-- Entrevistas: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=lE8RTc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+---
 
-- Expo tp1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EaY-6yBQ9phPrMgOXhjPG0IB5ddE7CzGnNGbG-alzz7BKg?e=3bvM0p&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
-  
-- Expo tb2: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EXFDnB3n-OdEoK-Zr1gtahsBk5lVK3dmkrzBKiK_Bgf9oA?e=tHa6KX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+### Anexo B. Repositorios de la solución digital
+
+- **Repositorio general (Organización GitHub):**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
+
+- **Repositorio del informe final:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/final-project-report>
+
+- **Repositorio del backend (web services):**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/web-services>
+
+- **Repositorio de la aplicación web:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/frontend>
+
+- **Repositorio de la aplicación móvil:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/mobile-app>
+
+- **Repositorio de la landing page:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/landing-page>
