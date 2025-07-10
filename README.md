@@ -37,22 +37,29 @@
 
 | Versión | Fecha | Autor                                | Descripción de modificación                                                                 |
 |---------|-------|--------------------------------------|--------------------------------------------------------------------------------------------|
-| TB1     |       | Escobar Palomino, Sebastian Matias   | - 1.1.1. Descripción de la Startup<br>- 1.2.1. Antecedentes y problemática                 |
-| TB1     |       | Morales Montalvo, Omar Andrew        | - 1.2.2. Lean UX Process (todos los subpuntos)<br>- 1.3. Segmentos objetivo<br>- 4.9. Software Object-Oriented Design<br>- 4.10. Database Design                 |
-| TB1     |       | Gutierrez Tume, Stanley Jeremy       | - 2.1. Competidores (todos los subpuntos)<br>- 2.2. Entrevistas (todos los subpuntos)<br>- 3.1. To-Be Scenario Mapping<br>- 3.2. User Stories<br>- 3.3. Product Backlog<br>- 3.4. Impact Mapping<br>- 5.1. Software Configuration Management (todos los subpuntos)         |
-| TB1     |       | Salgado Luna, Fernando Brian         | - 2.3. Needfinding (todos los subpuntos)<br>- 2.4. Ubiquitous Language<br>- 4.1. Style Guidelines (todos los subpuntos)<br>- 4.2. Information Architecture (todos los subpuntos)                     |
-| TB1     |       | Antonio Loayza, Luiggi Jeremy        | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
-| TP1     |       | Escobar Palomino, Sebastian Matias   | - 6.1.3. Core Behavior-Driven Development                |
-| TP1     |       | Morales Montalvo, Omar Andrew        | - 6.1.1. Core Entities Unit Tests            |
-| TP1     |       | Gutierrez Tume, Stanley Jeremy       | - 6.1.4. Core System Tests |
-| TP1     |       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
-| TP1     |       | Antonio Loayza, Luiggi Jeremy        | - 7.3. Continuous Deployment  |
-| TB2     |       | Arana Ramos, Jack                    | - 7.4. Continuous Monitoring<br>- 7.4.1. Tools and Practices<br>- 7.4.2. Monitoring Pipeline Components<br>- 7.4.3. Alerting Pipeline Components<br>- 7.4.4. Notification Pipeline Components  |
-| TB2     |       | Gutierrez Tume, Stanley Jeremy       | - 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br>- 8.2.7. Web and Mobile Tracking Plan<br>- 8.3. Experimentation |
-| TB2     |       | Escobar Palomino, Sebastian Matias   | - 8.3.1. To-Be User Stories<br>- 8.3.2. To-Be Product Backlog<br>- Avance de Conclusiones, Bibliografía y Anexos<br>- Outcomes |
-| TB2     |       | Morales Montalvo, Omar Andrew        | - 6.3.3. Evaluaciones según heurísticas<br>- 6.4. Auditoría de Experiencias de Usuario<br>- 6.4.1. Auditoría realizada<br>- 6.4.1.1. Información del grupo auditado<br>- 6.4.1.2. Cronograma de auditoría realizada<br>- 6.4.1.3. Contenido de auditoría realizada<br>- 6.4.2. Auditoría recibida<br>- 6.4.2.1. Información del grupo auditor<br>- 6.4.2.2. Cronograma de auditoría recibida<br>- 6.4.2.3. Contenido de auditoría recibida<br>- 6.4.2.4. Resumen de modificaciones para subsanar hallazgos<br>- 8.1.5. Experiment Cards<br>- 8.2. Experiment Design<br>- 8.2.1. Hypotheses<br>- 8.2.2. Measures |
-| TB2     |       | Antonio Loayza, Luiggi Jeremy        | - 8.1.1. As-Is Summary<br>- 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims<br>- 8.1.3. Experiment-Ready Questions<br>- 8.1.4. Question Backlog |
-| TB2     |       | Salgado Luna, Fernando Brian         | - 8.2.3. Conditions<br>- 8.2.4. Scale Calculations and Decisions<br>- 8.2.5. Methods Selection |
+| TB1     |27/4/25       | Escobar Palomino, Sebastian Matias   | - 1.1.1. Descripción de la Startup<br>- 1.2.1. Antecedentes y problemática                 |
+| TB1     |27/4/25       | Morales Montalvo, Omar Andrew        | - 1.2.2. Lean UX Process (todos los subpuntos)<br>- 1.3. Segmentos objetivo<br>- 4.9. Software Object-Oriented Design<br>- 4.10. Database Design                 |
+| TB1     |27/4/25       | Gutierrez Tume, Stanley Jeremy       | - 2.1. Competidores (todos los subpuntos)<br>- 2.2. Entrevistas (todos los subpuntos)<br>- 3.1. To-Be Scenario Mapping<br>- 3.2. User Stories<br>- 3.3. Product Backlog<br>- 3.4. Impact Mapping<br>- 5.1. Software Configuration Management (todos los subpuntos)         |
+| TB1     |27/4/25       | Salgado Luna, Fernando Brian         | - 2.3. Needfinding (todos los subpuntos)<br>- 2.4. Ubiquitous Language<br>- 4.1. Style Guidelines (todos los subpuntos)<br>- 4.2. Information Architecture (todos los subpuntos)                     |
+| TB1     |27/4/25       | Antonio Loayza, Luiggi Jeremy        | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
+| TP1     |17/5/25       | Escobar Palomino, Sebastian Matias   | - 6.1.3. Core Behavior-Driven Development                |
+| TP1     |17/5/25       | Morales Montalvo, Omar Andrew        | - 6.1.1. Core Entities Unit Tests            |
+| TP1     |17/5/25       | Gutierrez Tume, Stanley Jeremy       | - 6.1.4. Core System Tests |
+| TP1     |17/5/25       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
+| TP1     |17/5/25       | Antonio Loayza, Luiggi Jeremy        | - 7.3. Continuous Deployment  |
+| TB2     |21/6/25       | Arana Ramos, Jack                    | - 7.4. Continuous Monitoring<br>- 7.4.1. Tools and Practices<br>- 7.4.2. Monitoring Pipeline Components<br>- 7.4.3. Alerting Pipeline Components<br>- 7.4.4. Notification Pipeline Components  |
+| TB2     |21/6/25       | Gutierrez Tume, Stanley Jeremy       | - 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br>- 8.2.7. Web and Mobile Tracking Plan<br>- 8.3. Experimentation |
+| TB2     |21/6/25       | Escobar Palomino, Sebastian Matias   | - 8.3.1. To-Be User Stories<br>- 8.3.2. To-Be Product Backlog<br>- Avance de Conclusiones, Bibliografía y Anexos<br>- Outcomes |
+| TB2     |21/6/25       | Morales Montalvo, Omar Andrew        | - 6.3.3. Evaluaciones según heurísticas<br>- 6.4. Auditoría de Experiencias de Usuario<br>- 6.4.1. Auditoría realizada<br>- 6.4.1.1. Información del grupo auditado<br>- 6.4.1.2. Cronograma de auditoría realizada<br>- 6.4.1.3. Contenido de auditoría realizada<br>- 6.4.2. Auditoría recibida<br>- 6.4.2.1. Información del grupo auditor<br>- 6.4.2.2. Cronograma de auditoría recibida<br>- 6.4.2.3. Contenido de auditoría recibida<br>- 6.4.2.4. Resumen de modificaciones para subsanar hallazgos<br>- 8.1.5. Experiment Cards<br>- 8.2. Experiment Design<br>- 8.2.1. Hypotheses<br>- 8.2.2. Measures |
+| TB2     |21/6/25       | Antonio Loayza, Luiggi Jeremy        | - 8.1.1. As-Is Summary<br>- 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims<br>- 8.1.3. Experiment-Ready Questions<br>- 8.1.4. Question Backlog |
+| TB2     |21/6/25       | Salgado Luna, Fernando Brian         | - 8.2.3. Conditions<br>- 8.2.4. Scale Calculations and Decisions<br>- 8.2.5. Methods Selection |
+| TF      |       | Arana Ramos, Jack                    | - 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle<br>- 8.3.3.1. To-Be Sprint Backlogs<br>- Conclusiones<br>- Conclusiones y recomendaciones<br>- Bibliografía<br>- Anexos |
+| TF      |11/7/25       | Gutierrez Tume, Stanley Jeremy       | - 8.3.3.2. Implemented To-Be Landing Page Evidence<br>- 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence |
+| TF      |11/7/25       | Morales Montalvo, Omar Andrew        | - 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence<br>- 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence |
+| TF      |11/7/25       | Salgado Luna, Fernando Brian         | - 8.3.3.6. Team Collaboration Insights<br>- 8.3.4. To-Be Validation Interviews<br>- 8.3.4.1. Diseño de Entrevistas |
+| TF      |11/7/25       | Escobar Palomino, Sebastian Matias   | - 8.3.4.2. Registro de Entrevistas<br>- 8.4. Experiment Aftermath & Analysis<br>- 8.4.1. Analysis and Interpretation of Results<br>- 8.4.2. Re-scored and Re-prioritized Question Backlog |
+| TF      |11/7/25       | Antonio Loayza, Luiggi Jeremy        | - 8.5. Continuous Learning<br>- 8.5.1. Shareback Session Artifacts: Learning Workflow<br>- 8.6. To-Be Software Platform Pre-launch<br>- 8.6.1. About-the-Product Intro Video |
+| TF      |11/7/25       | Todos los participantes              | - Video About-The-Team |
 
 ---
 # Project Report Collaboration Insights
