@@ -3493,24 +3493,37 @@ En conclusión, **SweetManager** es una solución digital con alto potencial de 
 
 
 
-# Anexos
+## Anexos
 
-### Vídeos de Exposición (Anexo 1)
+### Anexo A. Videos de exposición y validaciones
 
-- Repositorio GitHub de la Organización: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
+- **Entrevistas a usuarios (Video):**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=lE8RTc>
 
-- Repositorio GitHub del Informe: <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/final-project-report>
+- **Exposición TP1 (Video):**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EaY-6yBQ9phPrMgOXhjPG0IB5ddE7CzGnNGbG-alzz7BKg?e=3bvM0p>
 
-- Repositorio GitHub del Backend:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/web-services>
+- **Exposición TB2 (Video):**  
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EXFDnB3n-OdEoK-Zr1gtahsBk5lVK3dmkrzBKiK_Bgf9oA?e=tHa6KX>
 
-- Repositorio GitHub de la Aplicación Web:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/frontend>
+---
 
-- Repositorio GitHub de la Aplicación Móvil:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/mobile-app>
+### Anexo B. Repositorios de la solución digital
 
-- Repositorio GitHub de la Landing Page:  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/landing-page>
+- **Repositorio general (Organización GitHub):**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE>
 
-- Entrevistas: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EQhyagVIyztBjx-XqvwF4OIB-jQ172VjzyCBXXasMZIIjg?e=lE8RTc&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+- **Repositorio del informe final:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/final-project-report>
 
-- Expo tp1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EaY-6yBQ9phPrMgOXhjPG0IB5ddE7CzGnNGbG-alzz7BKg?e=3bvM0p&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
-  
-- Expo tb2: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EXFDnB3n-OdEoK-Zr1gtahsBk5lVK3dmkrzBKiK_Bgf9oA?e=tHa6KX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+- **Repositorio del backend (web services):**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/web-services>
+
+- **Repositorio de la aplicación web:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/frontend>
+
+- **Repositorio de la aplicación móvil:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/mobile-app>
+
+- **Repositorio de la landing page:**  
+  <https://github.com/1ASI0732-2510-4433-G1-ROOMWISE/landing-page>
