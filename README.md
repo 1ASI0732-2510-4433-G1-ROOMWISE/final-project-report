@@ -3571,6 +3571,9 @@ Este contenido destaca cómo la plataforma transforma la experiencia de gestión
 
 Link del video: <https://www.youtube.com/watch?v=T92OwQTaaeg>
 
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/NKa8wbB.png" alt="" width="70%" />
+</div>
 
 # Conclusiones
 
