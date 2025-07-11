@@ -3560,6 +3560,24 @@ Enlace: <https://1asi0732-2510-4433-g1-roomwise.github.io/landing-page/>
 
 #### 8.3.3.6. Team Collaboration Insights
 
+Durante el desarrollo de los nuevos puntos a trabajar, el equipo adoptó un enfoque colaborativo y enfocado en la especialización de tareas, logrando una implementación eficiente y organizada de la plataforma.
+
+### Flujo de trabajo
+
+- Uso de **GitHub** con ramas por feature siguiendo el modelo **GitFlow**.
+- Gestión de tareas mediante **GitHub Projects** con tableros tipo **Kanban/Scrum**.
+- Validaciones y revisiones constantes a través de **Pull Requests**.
+
+###  Comunicación
+
+- Reuniones de sincronización por **Google meet**.
+- Coordinación ágil para resolver bloqueos y alinear criterios de implementación.
+
+### Validación y evidencias
+
+- Cada entregable fue documentado con capturas, pruebas funcionales y evidencia en los issues de GitHub.
+- Se utilizó Swagger para documentar la API y facilitar su consumo por parte del frontend y mobile.
+
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas.   
