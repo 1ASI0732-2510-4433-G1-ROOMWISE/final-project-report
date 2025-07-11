@@ -1286,8 +1286,6 @@ SEGMENTO GERENTE:
 | US18 | Reportes estadísticos | Como administrador, deseo visualizar reportes estadísticos y analíticos del hotel. | DADO QUE el usuario accede a reportes, CUANDO selecciona el tipo de reporte, ENTONCES se generan gráficos y estadísticas detalladas del rendimiento del hotel. | EP05 |
 
 
-
-
 ## 3.3. Product Backlog
 
 | #ORDEN | USER STORY ID | TÍTULO                                  | DESCRIPCIÓN | STORY POINTS(1/2/3/5/8/13) |
@@ -1921,21 +1919,19 @@ __Evidencia del Jira__
 
 | Module                | Sprint # | User Story ID | User Story Description                      | Work-item Task                         | Estimation (hours) | Assigned To | Status |
 |-----------------------|----------|---------------|--------------------------------------------|----------------------------------------|--------------------|-------------|--------|
-| Landing Page          | Sprint 1 | US03 - EP01   | Consultar planes de precios                | Mostrar planes de precios en landing page | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US04 - EP01   | Establecer contacto                        | Implementar formulario de contacto        | 2                | XXXX        | Done   |
-| Autenticación         | Sprint 1 | US05 - EP02   | Activación de cuenta empleado              | Implementar verificación de cuentas      | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US06 - EP02   | Registro cuenta gerente                    | Formulario registro gerentes             | 4                | XXXX        | Done   |
-|                       | Sprint 1 | US17 - EP08   | Seguridad de Usuario                       | Integración JWT para login               | 4                | XXXX        | Done   |
-| Gestión Habitaciones  | Sprint 1 | US07 - EP03   | Modificar estado habitación                | UI para cambiar estados                  | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US08 - EP03   | Actualizar estado (empleado)               | Botón "Tarea completada"                 | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US09 - EP03   | Agregar habitaciones                       | Formulario nueva habitación              | 3                | XXXX        | Done   |
-| Gestión Inventario    | Sprint 1 | US10 - EP04   | Agregar ítem inventario                   | Formulario añadir ítems                  | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US11 - EP04   | Actualizar ítem inventario                | Funcionalidad edición ítems              | 3                | XXXX        | Done   |
-| Gestión Tareas        | Sprint 1 | US12 - EP05   | Crear nueva tarea                          | Formulario creación tareas               | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US13 - EP05   | Eliminar tarea                             | Funcionalidad eliminación                | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US14 - EP05   | Asignar/editar tareas                      | UI asignación tareas                     | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US15 - EP05   | Actualizar estado tarea                    | Selector estados tareas                  | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US16 - EP05   | Asignar a empleado específico              | Dropdown selección empleado              | 2                | XXXX        | Done   |
+| Landing Page          | Sprint 1 | US03 - EP01   | Consultar planes de precios                | Mostrar planes de precios en landing page | 2                | Omar        | Done   |
+|                       | Sprint 1 | US04 - EP01   | Establecer contacto con la empresa         | Implementar formulario de contacto        | 2                | Jeremy A         | Done   |
+| Autenticación         | Sprint 1 | US05 - EP02   | Iniciar sesión en el sistema               | Implementar login con JWT                | 4                | Jeremy G        | Done   |
+|                       | Sprint 1 | US06 - EP02   | Registro de cuenta                         | Formulario registro gerentes             | 4                | Jeremy A        | Done   |
+| Gestión Operativa     | Sprint 1 | US08 - EP03   | Gestión de trabajadores                    | CRUD básico de trabajadores              | 5                | Fernando        | Done   |
+|                       | Sprint 1 | US09 - EP03   | Gestión de habitaciones                    | CRUD habitaciones y tipos                | 5                | Jack        | Done   |
+|                       | Sprint 1 | US10 - EP03   | Gestión de proveedores                     | CRUD básico de proveedores               | 4                | Sebastian        | Done   |
+|                       | Sprint 1 | US11 - EP03   | Gestión de inventario                      | Agregar suministros y solicitudes       | 5                | Omar        | Done   |
+|                       | Sprint 1 | US12 - EP03   | Gestión de administradores                 | CRUD básico de administradores           | 4                | Sebastian        | Done   |
+|                       | Sprint 1 | US13 - EP03   | Gestión de información del hotel           | Formulario información del hotel         | 3                | Jack        | Done   |
+| Gestión Reservas      | Sprint 1 | US14 - EP04   | Gestión de reservas                        | CRUD básico de reservas                  | 6                | Fernando        | Done   |
+| Comunicación          | Sprint 1 | US15 - EP04   | Sistema de notificaciones                  | Crear alertas y mensajes                 | 4                | Omar        | Done   |
+|                       | Sprint 1 | US16 - EP04   | Visualizar notificaciones                  | Lista de notificaciones recibidas       | 3                | Jack        | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -3424,32 +3420,29 @@ versión del proyecto, aún no se han desarrollado experimentos formales, pero s
 
 # User Stories (To-Be)
 
-| **User Story ID** | **Título**                                      | **Descripción**                                                                                     | **Criterios de Aceptación**                                                                                                                                  | **Relacionado con (Epic ID)** |
-|-------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| **US01 - EP02**   | Registro de cuenta para gerente                 | Como gerente, deseo crear mi cuenta para poder administrar el personal a mi cargo.                   | **Given** que el usuario ha completado el proceso de registro, <br> **When** ingresa sus credenciales (correo electrónico, contraseña, y rol), <br> **Then** el usuario puede acceder al sistema y gestionar el panel de administración. | EP02                          |
-| **US06 - EP03**   | Modificar el estado de una habitación (Administrador y Empleado) | Como gerente o trabajador, deseo consultar y modificar el estado de las habitaciones del hotel.      | **Given** que el usuario accede a la sección de habitaciones, <br> **When** selecciona una habitación y cambia su estado (Ej. Limpia, En mantenimiento), <br> **Then** el estado de la habitación se actualiza correctamente. | EP03                          |
-| **US10 - EP04**   | Agregar un nuevo ítem al inventario              | Como gestor, deseo agregar un nuevo ítem al inventario del hotel.                                    | **Given** que el usuario tiene acceso para añadir ítems en la sección de inventario, <br> **When** ingresa los detalles del nuevo ítem (nombre, cantidad, etc.), <br> **Then** el ítem se añade al inventario y se muestra en la lista. | EP04                          |
-| **US12 - EP05**   | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo.         | **Given** que el usuario se encuentra en la sección de tareas, <br> **When** presiona el botón para agregar una nueva tarea, <br> **Then** la tarea se añade a la lista de tareas y se asigna al empleado correspondiente. | EP05                          |
-| **US17 - EP06**   | Seguridad de Usuario                            | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal.                   | **Given** que el usuario está en la pantalla de inicio de sesión, <br> **When** introduce correctamente sus credenciales y se valida, <br> **Then** el usuario tiene acceso a su dashboard y puede continuar. | EP06                          |
-
+| **User Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
+|-------------------|------------|-----------------|----------------------------|-------------------------------|
+| **US05** | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | **Given** que el usuario se encuentra en la pantalla de inicio de sesión, **When** introduce sus credenciales correctamente, **Then** puede iniciar sesión de manera exitosa Y será dirigido a su dashboard. | EP02 |
+| **US06** | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | **Given** que el usuario completa el formulario de registro, **When** ingresa los datos del hotel y su información personal, **Then** se crea la cuenta correctamente Y accede al panel principal. | EP02 |
+| **US08** | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | **Given** que el usuario tiene permisos administrativos, **When** accede a la sección de trabajadores, **Then** puede agregar nuevos trabajadores Y visualizar la lista completa del personal. | EP03 |
+| **US09** | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | **Given** que el usuario gestiona habitaciones, **When** crea nuevas habitaciones o tipos, **Then** se registran correctamente Y aparecen en la lista de habitaciones. | EP03 |
+| **US11** | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | **Given** que el usuario gestiona inventario, **When** agrega suministros o crea solicitudes, **Then** se registran correctamente en el sistema de inventario. | EP03 |
+| **US14** | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | **Given** que el usuario gestiona reservas, **When** crea una nueva reserva, **Then** se registra correctamente Y aparece en la tabla de reservas. | EP04 |
+| **US15** | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | **Given** que el usuario gestiona notificaciones, **When** crea alertas o mensajes, **Then** se envían correctamente Y los usuarios pueden visualizar sus notificaciones. | EP04 |
+| **US17** | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | **Given** que el usuario accede al dashboard, **When** la página se carga, **Then** se muestra un resumen personalizado con estadísticas relevantes para su rol (admin, worker). | EP05 |
 
 ### 8.3.2. To-Be Product Backlog
 
-| **#ORDEN** | **USER STORY ID** | **TÍTULO**                                      | **DESCRIPCIÓN**                                                                                     | **STORY POINTS (1/2/3/5/8/13)** |
-|------------|-------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------|
-| **1**      | **US01 - EP02**   | Registro de cuenta para gerente                 | Como gerente, deseo crear mi cuenta para poder administrar el personal a mi cargo. Esto incluirá la verificación de mi correo electrónico y la selección del rol para acceder al sistema. | 5 |
-| **2**      | **US06 - EP02**   | Registro de cuenta para administrador            | Como administrador, quiero poder agregar un nuevo administrador para que se pueda gestionar el hotel adecuadamente. Esto incluye la creación del perfil y asignación de permisos. | 5 |
-| **3**      | **US07 - EP03**   | Modificar el estado de una habitación            | Como gerente, quiero poder cambiar el estado de las habitaciones del hotel para reflejar si están disponibles, en mantenimiento, o ya limpiadas. Esto incluirá un cambio dinámico del estado a través de una ventana emergente. | 3 |
-| **4**      | **US08 - EP03**   | Actualizar el estado de la habitación (Empleado) | Como empleado, quiero actualizar el estado de la habitación para reflejar que he terminado con mi tarea de limpieza o mantenimiento. Esto incluye una acción de actualización rápida desde el panel de habitaciones. | 2 |
-| **5**      | **US09 - EP03**   | Agregar nuevas habitaciones al sistema           | Como gerente, quiero agregar nuevas habitaciones al sistema de gestión para mantener el inventario del hotel actualizado. Esto incluirá un formulario para ingresar detalles como el número de la habitación, tipo, y capacidad. | 5 |
-| **6**      | **US10 - EP04**   | Agregar un nuevo ítem al inventario              | Como gestor, quiero agregar nuevos ítems al inventario del hotel para asegurarme de que siempre haya suministros disponibles para el personal. Esto implicará la actualización de la lista de inventario y su cantidad. | 3 |
-| **7**      | **US11 - EP04**   | Actualizar la información de un ítem en el inventario | Como gestor, quiero actualizar los detalles de un ítem ya existente en el inventario (como nombre, cantidad, o ubicación) para mantener la información precisa y actualizada. Esto implicará una acción de edición directa en el sistema. | 3 |
-| **8**      | **US12 - EP05**   | Crear una nueva tarea para asignar a un empleado | Como gerente, quiero crear tareas para asignar a los empleados y organizar el flujo de trabajo. Esto incluirá definir tareas específicas y asignarlas a un empleado, así como establecer fechas límite. | 3 |
-| **9**      | **US13 - EP05**   | Eliminar una tarea no necesaria                  | Como gerente, quiero eliminar las tareas que ya no sean necesarias para optimizar la carga de trabajo y mantener las tareas relevantes en la lista de pendientes. | 2 |
-| **10**     | **US14 - EP05**   | Asignar o editar tareas                          | Como gerente, quiero asignar tareas a empleados específicos o editar las tareas existentes para asegurarme de que se cumplan las responsabilidades de manera eficiente. | 3 |
-| **11**     | **US15 - EP05**   | Actualizar el estado de una tarea asignada       | Como empleado, quiero actualizar el estado de una tarea asignada para reflejar si está en progreso, completada o pendiente. Esto incluirá un cambio de estado rápido desde el panel de tareas. | 2 |
-| **12**     | **US16 - EP05**   | Asignar una tarea a un empleado específico       | Como gerente, quiero asignar tareas a un empleado específico, asegurando que las responsabilidades sean claras para cada miembro del equipo. Esto incluirá la selección de un empleado y la asignación directa de la tarea. | 3 |
-| **13**     | **US17 - EP06**   | Seguridad de Usuario                            | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal de manera segura. Esto incluirá autenticación mediante un nombre de usuario y contraseña, y acceso a mi dashboard una vez autenticado. | 3 |
+| **#ORDEN** | **USER STORY ID** | **TÍTULO** | **DESCRIPCIÓN** | **SUBTAREAS** | **STORY POINTS (1/2/3/5/8/13)** |
+|------------|-------------------|------------|-----------------|---------------|--------------------------------|
+| **1** | **US05** | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | **ST01:** Diseñar interfaz de login<br>**ST02:** Implementar validación de credenciales<br>**ST03:** Crear redirección a dashboard<br>**ST04:** Manejar errores de autenticación | 5 |
+| **2** | **US06** | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | **ST01:** Diseñar formulario de registro<br>**ST02:** Implementar validación de datos<br>**ST03:** Crear proceso de verificación<br>**ST04:** Configurar cuenta inicial | 8 |
+| **3** | **US17** | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | **ST01:** Diseñar layout del dashboard<br>**ST02:** Implementar widgets por rol<br>**ST03:** Crear métricas en tiempo real<br>**ST04:** Optimizar rendimiento | 8 |
+| **4** | **US08** | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | **ST01:** Crear lista de trabajadores<br>**ST02:** Implementar formulario de registro<br>**ST03:** Asignar roles y permisos<br>**ST04:** Gestionar estados de empleados | 5 |
+| **5** | **US09** | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | **ST01:** Crear catálogo de habitaciones<br>**ST02:** Implementar tipos de habitación<br>**ST03:** Gestionar estados<br>**ST04:** Configurar características | 5 |
+| **6** | **US11** | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | **ST01:** Crear catálogo de suministros<br>**ST02:** Implementar solicitudes<br>**ST03:** Gestionar stock<br>**ST04:** Generar alertas de inventario | 8 |
+| **7** | **US14** | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | **ST01:** Crear sistema de reservas<br>**ST02:** Implementar calendario<br>**ST03:** Gestionar disponibilidad<br>**ST04:** Procesar pagos | 8 |
+| **8** | **US15** | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | **ST01:** Crear sistema de alertas<br>**ST02:** Implementar envío de mensajes<br>**ST03:** Configurar tipos de notificación<br>**ST04:** Gestionar preferencias | 5 |
 
 ---
 
@@ -3463,38 +3456,49 @@ Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que
 
 #### 8.3.3.1. To-Be Sprint Backlog
 
-<table><tr><th valign="top"><b>Sprint #</b></th><th colspan="7" valign="top"><b>Sprint 1</b></th></tr>
-<tr><td colspan="2" valign="top"><b>User Story</b></td><td colspan="6" valign="top"><b>WorkItem/Task</b></td></tr>
-<tr><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Estimation (Story Points)</b></td><td valign="top"><b>Assigned To</b></td><td valign="top"><b>Status</b></td></tr>
-<tr><td rowspan="2">US01 - EP02</td><td rowspan="2">Registro de cuenta para gerente</td><td>T1</td><td>Crear formulario de registro</td><td>Crear formulario de registro para gerente, incluyendo campos requeridos.</td><td>3</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
-<tr><td>T2</td><td>Verificación de correo electrónico</td><td>Implementar lógica para enviar y verificar el correo electrónico del gerente.</td><td>2</td></tr>
-<tr><td rowspan="2">US06 - EP02</td><td rowspan="2">Registro de cuenta para administrador</td><td>T3</td><td>Formulario de nuevo administrador</td><td>Diseñar e implementar formulario para registrar un nuevo administrador.</td><td>3</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
-<tr><td>T4</td><td>Asignar permisos a administrador</td><td>Implementar lógica para asignación de permisos por rol.</td><td>2</td></tr>
-<tr><td rowspan="2">US07 - EP03</td><td rowspan="2">Modificar estado de habitación</td><td>T5</td><td>Vista de gestión de estados</td><td>Crear una ventana emergente con opciones de estado (disponible, mantenimiento, limpio).</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
-<tr><td>T6</td><td>Actualizar estado desde la vista del gerente</td><td>Programar lógica para que el gerente pueda cambiar el estado desde su panel.</td><td>1</td></tr>
-<tr><td rowspan="2">US08 - EP03</td><td rowspan="2">Actualizar estado (Empleado)</td><td>T7</td><td>Botón de actualización rápida</td><td>Crear botón de acción rápida en el panel del empleado para cambiar estado.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
-<tr><td>T8</td><td>Conexión con backend</td><td>Conectar botón de estado con el backend para reflejar cambios.</td><td>1</td></tr>
-<tr><td rowspan="2">US09 - EP03</td><td rowspan="2">Agregar nuevas habitaciones</td><td>T9</td><td>Formulario de nueva habitación</td><td>Crear formulario con campos como número, tipo y capacidad de habitación.</td><td>3</td><td rowspan="2">Sebastian</td><td rowspan="2">Done</td></tr>
-<tr><td>T10</td><td>Validación de datos de habitación</td><td>Validar datos ingresados antes de ser enviados al sistema.</td><td>2</td></tr>
-<tr><td rowspan="2">US10 - EP04</td><td rowspan="2">Agregar ítem al inventario</td><td>T11</td><td>Formulario de nuevo ítem</td><td>Crear formulario para añadir ítems al inventario.</td><td>2</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
-<tr><td>T12</td><td>Lógica de almacenamiento de ítems</td><td>Programar la lógica de almacenamiento en la base de datos.</td><td>1</td></tr>
-<tr><td rowspan="2">US11 - EP04</td><td rowspan="2">Actualizar ítem del inventario</td><td>T13</td><td>Vista editable del ítem</td><td>Habilitar edición directa de datos de un ítem (nombre, cantidad, ubicación).</td><td>2</td><td rowspan="2">Jack</td><td rowspan="2">Done</td></tr>
-<tr><td>T14</td><td>Control de cambios</td><td>Agregar control para registrar modificaciones realizadas.</td><td>1</td></tr>
-<tr><td rowspan="2">US12 - EP05</td><td rowspan="2">Crear tarea para empleado</td><td>T15</td><td>Formulario de nueva tarea</td><td>Crear formulario para agregar tareas con campos como descripción y fecha límite.</td><td>2</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
-<tr><td>T16</td><td>Lógica para asignación de tarea</td><td>Programar asignación de tarea a un empleado seleccionado.</td><td>1</td></tr>
-<tr><td rowspan="2">US13 - EP05</td><td rowspan="2">Eliminar tarea no necesaria</td><td>T17</td><td>Botón para eliminar tareas</td><td>Implementar botón de eliminación en listado de tareas.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
-<tr><td>T18</td><td>Confirmación de eliminación</td><td>Agregar ventana de confirmación para eliminar una tarea.</td><td>1</td></tr>
-<tr><td valign="top">US14 - EP05</td><td rowspan="2">Asignar o editar tareas</td><td>T19</td><td>Asignar tareas</td><td>Crear componente para asignar tareas existentes a empleados.</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
-<tr><td valign="top">US14 - EP05</td><td>T20</td><td>Editar tareas existentes</td><td>Implementar funcionalidad para modificar tareas ya asignadas.</td><td>1</td></tr>
-<tr><td rowspan="2" valign="top">US15 - EP05</td><td rowspan="2" valign="top">Actualizar estado de tarea</td><td valign="top">T21</td><td valign="top">Botón de estado en panel de tareas</td><td valign="top">Crear botón que permita cambiar entre estados: pendiente, en progreso, completada.</td><td valign="top">1</td><td rowspan="2" valign="top">Jack</td><td rowspan="2" valign="top">Done</td></tr>
-<tr><td valign="top">T22</td><td valign="top">Reflejar estado actualizado en backend</td><td valign="top">Programar envío del nuevo estado al backend y actualizar lista automáticamente.</td><td valign="top">1</td></tr>
-<tr><td rowspan="2" valign="top">US16 - EP05</td><td rowspan="2" valign="top">Asignar tarea a empleado específico</td><td valign="top">T23</td><td valign="top">Selector de empleados</td><td valign="top">Crear selector con lista de empleados para asignar una tarea.</td><td valign="top">2</td><td rowspan="2" valign="top">Sebastian</td><td rowspan="2" valign="top">Done</td></tr>
-<tr><td valign="top">T24</td><td valign="top">Validación de asignación</td><td valign="top">Validar que la tarea haya sido correctamente asignada y notificar.</td><td valign="top">1</td></tr>
-<tr><td rowspan="2" valign="top">US17 - EP06</td><td rowspan="2" valign="top">Seguridad de usuario</td><td valign="top">T25</td><td valign="top">Formulario de login</td><td valign="top">Crear pantalla de login con campos usuario y contraseña.</td><td valign="top">2</td><td rowspan="2" valign="top">Omar</td><td rowspan="2" valign="top">Done</td></tr>
-<tr><td valign="top">T26</td><td valign="top">Validación y autenticación</td><td valign="top">Implementar autenticación segura con validaciones y acceso a dashboard.</td><td valign="top">1</td></tr>
-</table>
+| **Sprint #** | **Sprint 3** | | | | | | |
+|--------------|--------------|--|--|--|--|--|--|
+| **User Story** | | **WorkItem/Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Story Points)** | **Assigned To** | **Status** |
+| US01 - EP01 | Acceder a información de la empresa | T1 | Diseñar sección "Nosotros" | Crear wireframe y diseño visual de la sección de información de la empresa | 2 | Omar | To-Do |
+| | | T2 | Implementar página "Nosotros" | Desarrollar la página web con información detallada de la empresa | 3 | Omar | To-Do |
+| US02 - EP01 | Conocer los beneficios del producto | T3 | Diseñar sección de beneficios | Crear wireframe y diseño visual de la sección de beneficios del producto | 2 | Stanley | To-Do |
+| | | T4 | Implementar página de beneficios | Desarrollar la página web con información detallada de las ventajas del producto | 3 | Stanley | To-Do |
+| US03 - EP01 | Consultar planes de precios | T5 | Diseñar tabla de precios | Crear diseño visual de la tabla comparativa de planes de precios | 2 | Fernando | To-Do |
+| | | T6 | Implementar página de precios | Desarrollar la página con información detallada de los diferentes planes | 3 | Fernando | To-Do |
+| US04 - EP01 | Establecer contacto con la empresa | T7 | Crear formulario de contacto | Diseñar e implementar formulario de contacto con validaciones | 2 | Luiggi | To-Do |
+| | | T8 | Implementar envío de mensajes | Programar funcionalidad para envío de mensajes desde el formulario | 2 | Luiggi | To-Do |
+| US05 - EP02 | Iniciar sesión en el sistema | T9 | Crear interfaz de login | Diseñar e implementar pantalla de inicio de sesión | 2 | Sebastian | To-Do |
+| | | T10 | Implementar autenticación | Programar validación de credenciales y redirección al dashboard | 3 | Sebastian | To-Do |
+| US06 - EP02 | Registro de cuenta | T11 | Crear formulario de registro | Diseñar e implementar formulario de registro para gerentes | 3 | Jack | To-Do |
+| | | T12 | Implementar creación de cuenta | Programar lógica de creación de cuenta y datos del hotel | 2 | Jack | To-Do |
+| US07 - EP02 | Gestión de perfil de usuario | T13 | Crear página de perfil | Diseñar e implementar página de perfil de usuario | 2 | Omar | To-Do |
+| | | T14 | Implementar actualización de datos | Programar funcionalidad para modificar información personal | 2 | Omar | To-Do |
+| US08 - EP03 | Gestión de trabajadores | T15 | Crear formulario de trabajador | Diseñar e implementar formulario para agregar trabajadores | 2 | Stanley | To-Do |
+| | | T16 | Implementar lista de trabajadores | Programar visualización y gestión de trabajadores del hotel | 3 | Stanley | To-Do |
+| US09 - EP03 | Gestión de habitaciones | T17 | Crear formulario de habitación | Diseñar e implementar formulario para agregar habitaciones | 2 | Fernando | To-Do |
+| | | T18 | Implementar gestión de habitaciones | Programar creación de habitaciones y tipos de habitaciones | 3 | Fernando | To-Do |
+| US10 - EP03 | Gestión de proveedores | T19 | Crear formulario de proveedor | Diseñar e implementar formulario para registrar proveedores | 2 | Luiggi | To-Do |
+| | | T20 | Implementar lista de proveedores | Programar visualización y gestión de proveedores | 2 | Luiggi | To-Do |
+| US11 - EP03 | Gestión de inventario | T21 | Crear formulario de inventario | Diseñar e implementar formulario para agregar suministros | 2 | Sebastian | To-Do |
+| | | T22 | Implementar solicitudes de inventario | Programar creación y gestión de solicitudes de inventario | 3 | Sebastian | To-Do |
+| US12 - EP03 | Gestión de administradores | T23 | Crear formulario de administrador | Diseñar e implementar formulario para agregar administradores | 2 | Jack | To-Do |
+| | | T24 | Implementar lista de administradores | Programar visualización y gestión de administradores | 2 | Jack | To-Do |
+| US13 - EP03 | Gestión de información del hotel | T25 | Crear formulario de información del hotel | Diseñar e implementar formulario para datos del hotel | 2 | Omar | To-Do |
+| | | T26 | Implementar visualización de información | Programar consulta y visualización de información del hotel | 2 | Omar | To-Do |
+| US14 - EP04 | Gestión de reservas | T27 | Crear formulario de reserva | Diseñar e implementar formulario para crear reservas | 3 | Stanley | To-Do |
+| | | T28 | Implementar tabla de reservas | Programar visualización y gestión de reservas | 2 | Stanley | To-Do |
+| US15 - EP04 | Sistema de notificaciones | T29 | Crear sistema de alertas | Implementar funcionalidad para crear y enviar alertas | 3 | Fernando | To-Do |
+| | | T30 | Implementar envío de mensajes | Programar funcionalidad para enviar mensajes a usuarios | 2 | Fernando | To-Do |
+| US16 - EP04 | Visualizar notificaciones | T31 | Crear panel de notificaciones | Diseñar e implementar panel para visualizar notificaciones | 2 | Luiggi | To-Do |
+| | | T32 | Implementar lista de notificaciones | Programar carga y visualización de notificaciones recibidas | 2 | Luiggi | To-Do |
+| US17 - EP05 | Dashboard personalizado | T33 | Crear dashboard base | Diseñar e implementar estructura base del dashboard | 3 | Sebastian | To-Do |
+| | | T34 | Implementar personalización por rol | Programar contenido personalizado según rol del usuario | 2 | Sebastian | To-Do |
+| US18 - EP05 | Reportes estadísticos | T35 | Crear interfaz de reportes | Diseñar e implementar interfaz para visualizar reportes | 3 | Jack | To-Do |
+| | | T36 | Implementar gráficos estadísticos | Programar generación de gráficos y estadísticas del hotel | 4 | Jack | To-Do |
 
 ---
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 En esta parte se expone la evidencia de la implementación de la Landing Page según el modelo To-Be planteado. En esta etapa, se llevaron a cabo mejoras sustanciales en elementos esenciales como la optimización para buscadores (SEO), la velocidad de carga, la estructura semántica del contenido y la adaptabilidad a diversos dispositivos (diseño responsivo). Estos avances no solo refuerzan la presencia digital del producto, sino que también mejoran la experiencia del usuario y aumentan su visibilidad en los motores de búsqueda.
