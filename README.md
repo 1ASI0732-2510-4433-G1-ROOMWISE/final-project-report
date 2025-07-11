@@ -3674,7 +3674,21 @@ Durante el desarrollo de los nuevos puntos a trabajar, el equipo adoptó un enfo
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
 El prototipo interactivo creado en Figma representa las interfaces y soluciones definidas, elaboradas a partir de los requerimientos y preferencias identificadas en los usuarios. Este recurso evidencia cómo el equipo fue refinando tanto los aspectos visuales como funcionales a lo largo del proceso de diseño. 
-Link del figma:
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/uU4KZRK.png" alt="" width="70%" />
+</div>
+
+Link del prototipo: <https://www.figma.com/proto/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise?page-id=10%3A27888&node-id=111-5594&viewport=885%2C-684%2C0.08&t=unY9joNBXN7cw8kD-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=111%3A5594>
+
+Encuesta de Google Forms para RoomWise: Se creó una encuesta específica en Google Forms para recopilar feedback de usuarios hoteleros y validar las hipótesis de diseño de RoomWise. Esta herramienta evaluó la usabilidad de las funcionalidades de gestión hotelera y proporcionó datos que respaldaron las mejoras implementadas en la plataforma.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/tJnOCsW.png" alt="" width="70%" />
+</div>
+
+Link de la encuesta: https://forms.gle/5ENXDJsXHHU7B5m49
+
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
 El siguiente video tiene como objetivo presentar SweetManager, una plataforma digital diseñada para facilitar la gestión integral de hoteles, pensada especialmente para propietarios que buscan optimizar la administración de sus establecimientos de forma eficiente y centralizada.
