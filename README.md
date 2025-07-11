@@ -3582,6 +3582,37 @@ Durante el desarrollo de los nuevos puntos a trabajar, el equipo adoptó un enfo
 - Cada entregable fue documentado con capturas, pruebas funcionales y evidencia en los issues de GitHub.
 - Se utilizó Swagger para documentar la API y facilitar su consumo por parte del frontend y mobile.
 
+### Contribución de los miembros del equipo en el repositorio final-project-report
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/uoMk2F9.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio web-services
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/uAp08rZ.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio landing-page
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ul6PbQ6.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio mobile-app
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/XHZ1bs2.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio frontend
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/O2Bwyvc.png" alt="" width="70%" />
+</div>
+
+
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de Entrevistas.   
