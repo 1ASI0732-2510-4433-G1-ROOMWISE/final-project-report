@@ -3487,6 +3487,108 @@ Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que
 </table>
 
 ---
+#### 8.3.4.2. Registro de Entrevistas
+
+A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
+
+**Entrevista 01 (Owners)**
+<br>
+Nombre: CAMILA BUSTAMANTE
+Edad: 25
+Sexo: FEMENINO
+Lugar donde vive: Miraflores - Perú
+Duración de la entrevista: 00:00 - 06:00 
+Ocupación: Dueña de hotel
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/uIanvK4.png" alt="Camila Bustamante Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Camila expresó su dedicación a la mejora continua de su hotel. Subrayó la relevancia de disponer de herramientas digitales que le ayuden a administrar reservas, habitaciones y personal de manera más eficaz. Valorizó la oportunidad de automatizar procesos que usualmente consumen mucho tiempo, lo que le permitiría concentrarse más en la experiencia del cliente.
+
+**Entrevista 02 (Owners)**
+
+<br>
+Nombre: Sergio Renard <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive: La Plata - Argentina <br>
+Ocupación: Dueño de hotel <br>
+Duración de la entrevista: 06:00 - 12:00 <br>
+Personalidad: Alegre <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/lV0xN0b.png" alt="Sergio Renard  Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Sergio expresó su entusiasmo por la implementación de tecnologías en la gestión hotelera. Aprecia las soluciones sencillas pero efectivas que faciliten el orden y fortalezcan la comunicación con los clientes. Comentó estar dispuesto a adoptar herramientas que mejoren su operación diaria y favorezcan el desarrollo de su negocio.
+
+
+**Entrevista 01 (Admins)**
+<br>
+Nombre: Juan Reyes  <br>
+Edad:  21 <br>
+Sexo:  Masculino <br>
+Lugar donde vive:    Lima <br>
+Ocupación:    Administrador de Hotel<br>
+Duración de la entrevista: 12:00 - 16:30 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/w7vZ0B1.png" alt="Juan Reyes Interview" width="80%" />
+ </div><br>
+
+ URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Juan destacó la importancia de contar con una plataforma unificada para gestionar tanto la información de los huéspedes como la asignación de habitaciones. Mostró disposición hacia soluciones tecnológicas que le permitan coordinarse mejor con el equipo y minimizar los errores en los registros.
+
+
+**Entrevista 02 (Admins)**
+
+<br>
+Nombre: Manuel Chavez  <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive:  Lima   <br>
+Ocupación:    Administrador de Hotel<br>
+Duración de la entrevista: 16:30 - 31:35 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/rbIHSxS.png" alt="Manuel Chavez Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Manuel mostró interés en disponer de una interfaz sencilla y eficaz para gestionar las operaciones diarias del hotel. Resaltó la necesidad de que el sistema sea fácil de usar, sobre todo para el personal recién incorporado. Su enfoque se centró en optimizar la eficiencia y en monitorear las tareas administrativas y de mantenimiento.
+
+
+**Entrevista 03 (Admins)**
+
+<br>
+Nombre: Sebastian Silva  <br>
+Edad: 25   <br>
+Sexo: masculino  <br>
+Lugar donde vive: San Luis     <br>
+Ocupación: Administrador de Hotel<br>
+Duración de la entrevista: 00:00 - 07:08 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/wfr536z.png" alt="  Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202125968_upc_edu_pe/EcMhtW1zJ7FLhwn8Ll8bpdIB1ERaDVo7NOitzRnK9Mz3LQ?e=Bcau9L&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Sebastián Silva, administrador de hotel, comparte su opinión sobre la Landing Page y la aplicación móvil RoomWise. Señala que la Landing Page ofrece una descripción clara del producto, sus beneficios, misión, visión y planes de suscripción, además de que las secciones de empresas registradas y contacto resultan útiles.
+
+En cuanto a la app RoomWise, destaca que permite a los administradores gestionar clientes, proveedores, inventarios y habitaciones, valorando especialmente la funcionalidad de mensajería interna y los reportes. Considera que la plataforma facilita la gestión diaria del hotel, especialmente al ofrecer información en tiempo real sobre clientes e inventarios.
+
+No obstante, sugiere mejorar el botón de activación/desactivación de inventarios y propone incluir una función de mensajería más eficiente para mejorar la comunicación entre los empleados. En general, opina que el diseño es intuitivo y fácil de usar.
 
 # Conclusiones
 
