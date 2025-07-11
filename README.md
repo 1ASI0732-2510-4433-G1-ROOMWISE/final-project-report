@@ -3498,18 +3498,183 @@ Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que
 | | | T36 | Implementar gráficos estadísticos | Programar generación de gráficos y estadísticas del hotel | 4 | Jack | To-Do |
 
 ---
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+En esta parte se expone la evidencia de la implementación de la Landing Page según el modelo To-Be planteado. En esta etapa, se llevaron a cabo mejoras sustanciales en elementos esenciales como la optimización para buscadores (SEO), la velocidad de carga, la estructura semántica del contenido y la adaptabilidad a diversos dispositivos (diseño responsivo). Estos avances no solo refuerzan la presencia digital del producto, sino que también mejoran la experiencia del usuario y aumentan su visibilidad en los motores de búsqueda.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Wuw4e7H.png" alt="" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nkY4YFz.png" alt="" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/5HLiUK4.png" alt="" width="70%" />
+</div>
+
+Enlace: <https://1asi0732-2510-4433-g1-roomwise.github.io/landing-page/>
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/UpZNLw6.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/4HWK3r7.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/VHtiL5y.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZJYUrZY.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ufKjcKU.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/HTH8OkQ.png" alt="" width="70%" />
+</div>
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PhqAq4k.png" alt="" width="40%" />
+</div>
+<br>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZGKWw5W.png" alt="" width="40%" />
+</div>
+<br>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/viIrOpx.png" alt="" width="40%" />
+</div>
+
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/mbkSzQv.png" alt="" width="70%" />
+</div>
+<br>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/jjTXIEC.png" alt="" width="70%" />
+</div>
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Durante el desarrollo de los nuevos puntos a trabajar, el equipo adoptó un enfoque colaborativo y enfocado en la especialización de tareas, logrando una implementación eficiente y organizada de la plataforma.
+
+### Flujo de trabajo
+
+- Uso de **GitHub** con ramas por feature siguiendo el modelo **GitFlow**.
+- Gestión de tareas mediante **GitHub Projects** con tableros tipo **Kanban/Scrum**.
+- Validaciones y revisiones constantes a través de **Pull Requests**.
+
+###  Comunicación
+
+- Reuniones de sincronización por **Google meet**.
+- Coordinación ágil para resolver bloqueos y alinear criterios de implementación.
+
+### Validación y evidencias
+
+- Cada entregable fue documentado con capturas, pruebas funcionales y evidencia en los issues de GitHub.
+- Se utilizó Swagger para documentar la API y facilitar su consumo por parte del frontend y mobile.
+
+### Contribución de los miembros del equipo en el repositorio final-project-report
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/uoMk2F9.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio web-services
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/uAp08rZ.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio landing-page
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ul6PbQ6.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio mobile-app
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/XHZ1bs2.png" alt="" width="70%" />
+</div>
+
+### Contribución de los miembros del equipo en el repositorio frontend
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/O2Bwyvc.png" alt="" width="70%" />
+</div>
+
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas.   
+
+## Segmento 1: Gerentes (Owners)
+
+### Landing Page
+
+- ¿La información en la landing page fue suficiente para entender los beneficios del sistema?
+- ¿Te resultó confiable el diseño y contenido del sitio para decidir registrarte?
+- ¿Qué tanto influyó la presentación de funcionalidades en tu interés por probar la plataforma?
+- ¿Faltó alguna información clave que te hubiera gustado ver antes de registrarte?
+
+### Aplicación Móvil
+
+- ¿Te resultó cómoda la experiencia de usar la app desde tu celular?
+- ¿Te sentiste en control al modificar precios o disponibilidad de habitaciones desde la app?
+- ¿Qué tan útil te pareció gestionar reservas y ver alertas desde tu celular?
+- ¿Cambiarías algo de la app para que se adapte mejor a tus decisiones diarias?
+
+## Segmento 2: Administradores (Admins)
+
+### Landing Page
+
+- ¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?
+- ¿Te sentiste identificado/a con los problemas que la plataforma promete solucionar?
+- ¿Te habría gustado una demo interactiva o más casos de uso concretos?
+- ¿La información fue clara para entender cómo aplicarías esta herramienta en tu rutina diaria?
+
+### Aplicación Móvil
+- ¿Fue fácil acceder a tus tareas desde la app móvil?
+- ¿Te ayudó a resolver incidencias o necesidades urgentes desde tu celular?
+- ¿Cómo calificarías la facilidad para actualizar tareas o estados de habitación desde la app?
+- ¿La aplicación móvil ayudó a reducir tu carga operativa o la mantuvo igual?
+
+## Segmento 3: Trabajadores (Staff Operativo)
+
+### Landing Page
+
+- ¿La información en la landing page te ayudó a entender cómo la plataforma puede ayudarte en tu trabajo diario?
+- ¿Te identificaste con las situaciones que se muestran en la página como problemas comunes?
+- ¿Te pareció fácil entender qué funciones específicas podrías usar tú como trabajador?
+- ¿Agregarías algún ejemplo o información para que se entienda mejor tu rol en la plataforma?
+
+### Aplicación Móvil
+- ¿Fue fácil para ti usar la aplicación desde tu celular?
+- ¿Pudiste cambiar el estado de las habitaciones o tareas sin dificultad?
+- ¿Te ayudó la app a organizar mejor tus tareas durante el día?
+- ¿Te sentiste más conectado o comunicado con tu equipo gracias a la aplicación?
+
 #### 8.3.4.2. Registro de Entrevistas
 
 A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
 
 **Entrevista 01 (Owners)**
 <br>
-Nombre: CAMILA BUSTAMANTE
-Edad: 25
-Sexo: FEMENINO
-Lugar donde vive: Miraflores - Perú
-Duración de la entrevista: 00:00 - 06:00 
-Ocupación: Dueña de hotel
+Nombre: CAMILA BUSTAMANTE<br>
+Edad: 25<br>
+Sexo: FEMENINO<br>
+Lugar donde vive: Miraflores - Perú<br>
+Duración de la entrevista: 00:00 - 06:00 <br>
+Ocupación: Dueña de hotel<br>
 
 <div style="text-align: center;">
    <img src="https://i.imgur.com/uIanvK4.png" alt="Camila Bustamante Interview" width="80%" />
@@ -3692,177 +3857,6 @@ En resumen, aunque los usuarios aprecian las funcionalidades básicas del sistem
 | 8                     | ¿La app ayudó a reducir tu carga operativa o la mantuvo igual?                                        |
 | 1                     | ¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?       |
 
-
-#### 8.3.3.2. Implemented To-Be Landing Page Evidence
-
-En esta parte se expone la evidencia de la implementación de la Landing Page según el modelo To-Be planteado. En esta etapa, se llevaron a cabo mejoras sustanciales en elementos esenciales como la optimización para buscadores (SEO), la velocidad de carga, la estructura semántica del contenido y la adaptabilidad a diversos dispositivos (diseño responsivo). Estos avances no solo refuerzan la presencia digital del producto, sino que también mejoran la experiencia del usuario y aumentan su visibilidad en los motores de búsqueda.
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/Wuw4e7H.png" alt="" width="70%" />
-</div>
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/nkY4YFz.png" alt="" width="70%" />
-</div>
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/5HLiUK4.png" alt="" width="70%" />
-</div>
-
-Enlace: <https://1asi0732-2510-4433-g1-roomwise.github.io/landing-page/>
-
-#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/UpZNLw6.png" alt="" width="70%" />
-</div>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/4HWK3r7.png" alt="" width="70%" />
-</div>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/VHtiL5y.png" alt="" width="70%" />
-</div>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/ZJYUrZY.png" alt="" width="70%" />
-</div>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/ufKjcKU.png" alt="" width="70%" />
-</div>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/HTH8OkQ.png" alt="" width="70%" />
-</div>
-
-#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/PhqAq4k.png" alt="" width="40%" />
-</div>
-<br>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/ZGKWw5W.png" alt="" width="40%" />
-</div>
-<br>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/viIrOpx.png" alt="" width="40%" />
-</div>
-
-
-#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/mbkSzQv.png" alt="" width="70%" />
-</div>
-<br>
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/jjTXIEC.png" alt="" width="70%" />
-</div>
-
-#### 8.3.3.6. Team Collaboration Insights
-
-Durante el desarrollo de los nuevos puntos a trabajar, el equipo adoptó un enfoque colaborativo y enfocado en la especialización de tareas, logrando una implementación eficiente y organizada de la plataforma.
-
-### Flujo de trabajo
-
-- Uso de **GitHub** con ramas por feature siguiendo el modelo **GitFlow**.
-- Gestión de tareas mediante **GitHub Projects** con tableros tipo **Kanban/Scrum**.
-- Validaciones y revisiones constantes a través de **Pull Requests**.
-
-###  Comunicación
-
-- Reuniones de sincronización por **Google meet**.
-- Coordinación ágil para resolver bloqueos y alinear criterios de implementación.
-
-### Validación y evidencias
-
-- Cada entregable fue documentado con capturas, pruebas funcionales y evidencia en los issues de GitHub.
-- Se utilizó Swagger para documentar la API y facilitar su consumo por parte del frontend y mobile.
-
-### Contribución de los miembros del equipo en el repositorio final-project-report
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/uoMk2F9.png" alt="" width="70%" />
-</div>
-
-### Contribución de los miembros del equipo en el repositorio web-services
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/uAp08rZ.png" alt="" width="70%" />
-</div>
-
-### Contribución de los miembros del equipo en el repositorio landing-page
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/ul6PbQ6.png" alt="" width="70%" />
-</div>
-
-### Contribución de los miembros del equipo en el repositorio mobile-app
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/XHZ1bs2.png" alt="" width="70%" />
-</div>
-
-### Contribución de los miembros del equipo en el repositorio frontend
-
-<div style="text-align: center;">
-  <img src="https://i.imgur.com/O2Bwyvc.png" alt="" width="70%" />
-</div>
-
-
-### 8.3.4. To-Be Validation Interviews
-
-#### 8.3.4.1. Diseño de Entrevistas.   
-
-## Segmento 1: Gerentes (Owners)
-
-### Landing Page
-
-- ¿La información en la landing page fue suficiente para entender los beneficios del sistema?
-- ¿Te resultó confiable el diseño y contenido del sitio para decidir registrarte?
-- ¿Qué tanto influyó la presentación de funcionalidades en tu interés por probar la plataforma?
-- ¿Faltó alguna información clave que te hubiera gustado ver antes de registrarte?
-
-### Aplicación Móvil
-
-- ¿Te resultó cómoda la experiencia de usar la app desde tu celular?
-- ¿Te sentiste en control al modificar precios o disponibilidad de habitaciones desde la app?
-- ¿Qué tan útil te pareció gestionar reservas y ver alertas desde tu celular?
-- ¿Cambiarías algo de la app para que se adapte mejor a tus decisiones diarias?
-
-## Segmento 2: Administradores (Admins)
-
-### Landing Page
-
-- ¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?
-- ¿Te sentiste identificado/a con los problemas que la plataforma promete solucionar?
-- ¿Te habría gustado una demo interactiva o más casos de uso concretos?
-- ¿La información fue clara para entender cómo aplicarías esta herramienta en tu rutina diaria?
-
-### Aplicación Móvil
-- ¿Fue fácil acceder a tus tareas desde la app móvil?
-- ¿Te ayudó a resolver incidencias o necesidades urgentes desde tu celular?
-- ¿Cómo calificarías la facilidad para actualizar tareas o estados de habitación desde la app?
-- ¿La aplicación móvil ayudó a reducir tu carga operativa o la mantuvo igual?
-
-## Segmento 3: Trabajadores (Staff Operativo)
-
-### Landing Page
-
-- ¿La información en la landing page te ayudó a entender cómo la plataforma puede ayudarte en tu trabajo diario?
-- ¿Te identificaste con las situaciones que se muestran en la página como problemas comunes?
-- ¿Te pareció fácil entender qué funciones específicas podrías usar tú como trabajador?
-- ¿Agregarías algún ejemplo o información para que se entienda mejor tu rol en la plataforma?
-
-### Aplicación Móvil
-- ¿Fue fácil para ti usar la aplicación desde tu celular?
-- ¿Pudiste cambiar el estado de las habitaciones o tareas sin dificultad?
-- ¿Te ayudó la app a organizar mejor tus tareas durante el día?
-- ¿Te sentiste más conectado o comunicado con tu equipo gracias a la aplicación?
-
-#### 8.3.4.2. Registro de Entrevistas. 
-
-## 8.4. Experiment Aftermath & Analysis
-
-### 8.4.1. Analysis and Interpretation of Results
-### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
