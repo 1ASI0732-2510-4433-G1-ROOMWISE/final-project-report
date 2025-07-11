@@ -37,22 +37,29 @@
 
 | Versión | Fecha | Autor                                | Descripción de modificación                                                                 |
 |---------|-------|--------------------------------------|--------------------------------------------------------------------------------------------|
-| TB1     |       | Escobar Palomino, Sebastian Matias   | - 1.1.1. Descripción de la Startup<br>- 1.2.1. Antecedentes y problemática                 |
-| TB1     |       | Morales Montalvo, Omar Andrew        | - 1.2.2. Lean UX Process (todos los subpuntos)<br>- 1.3. Segmentos objetivo<br>- 4.9. Software Object-Oriented Design<br>- 4.10. Database Design                 |
-| TB1     |       | Gutierrez Tume, Stanley Jeremy       | - 2.1. Competidores (todos los subpuntos)<br>- 2.2. Entrevistas (todos los subpuntos)<br>- 3.1. To-Be Scenario Mapping<br>- 3.2. User Stories<br>- 3.3. Product Backlog<br>- 3.4. Impact Mapping<br>- 5.1. Software Configuration Management (todos los subpuntos)         |
-| TB1     |       | Salgado Luna, Fernando Brian         | - 2.3. Needfinding (todos los subpuntos)<br>- 2.4. Ubiquitous Language<br>- 4.1. Style Guidelines (todos los subpuntos)<br>- 4.2. Information Architecture (todos los subpuntos)                     |
-| TB1     |       | Antonio Loayza, Luiggi Jeremy        | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
-| TP1     |       | Escobar Palomino, Sebastian Matias   | - 6.1.3. Core Behavior-Driven Development                |
-| TP1     |       | Morales Montalvo, Omar Andrew        | - 6.1.1. Core Entities Unit Tests            |
-| TP1     |       | Gutierrez Tume, Stanley Jeremy       | - 6.1.4. Core System Tests |
-| TP1     |       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
-| TP1     |       | Antonio Loayza, Luiggi Jeremy        | - 7.3. Continuous Deployment  |
-| TB2     |       | Arana Ramos, Jack                    | - 7.4. Continuous Monitoring<br>- 7.4.1. Tools and Practices<br>- 7.4.2. Monitoring Pipeline Components<br>- 7.4.3. Alerting Pipeline Components<br>- 7.4.4. Notification Pipeline Components  |
-| TB2     |       | Gutierrez Tume, Stanley Jeremy       | - 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br>- 8.2.7. Web and Mobile Tracking Plan<br>- 8.3. Experimentation |
-| TB2     |       | Escobar Palomino, Sebastian Matias   | - 8.3.1. To-Be User Stories<br>- 8.3.2. To-Be Product Backlog<br>- Avance de Conclusiones, Bibliografía y Anexos<br>- Outcomes |
-| TB2     |       | Morales Montalvo, Omar Andrew        | - 6.3.3. Evaluaciones según heurísticas<br>- 6.4. Auditoría de Experiencias de Usuario<br>- 6.4.1. Auditoría realizada<br>- 6.4.1.1. Información del grupo auditado<br>- 6.4.1.2. Cronograma de auditoría realizada<br>- 6.4.1.3. Contenido de auditoría realizada<br>- 6.4.2. Auditoría recibida<br>- 6.4.2.1. Información del grupo auditor<br>- 6.4.2.2. Cronograma de auditoría recibida<br>- 6.4.2.3. Contenido de auditoría recibida<br>- 6.4.2.4. Resumen de modificaciones para subsanar hallazgos<br>- 8.1.5. Experiment Cards<br>- 8.2. Experiment Design<br>- 8.2.1. Hypotheses<br>- 8.2.2. Measures |
-| TB2     |       | Antonio Loayza, Luiggi Jeremy        | - 8.1.1. As-Is Summary<br>- 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims<br>- 8.1.3. Experiment-Ready Questions<br>- 8.1.4. Question Backlog |
-| TB2     |       | Salgado Luna, Fernando Brian         | - 8.2.3. Conditions<br>- 8.2.4. Scale Calculations and Decisions<br>- 8.2.5. Methods Selection |
+| TB1     |27/4/25       | Escobar Palomino, Sebastian Matias   | - 1.1.1. Descripción de la Startup<br>- 1.2.1. Antecedentes y problemática                 |
+| TB1     |27/4/25       | Morales Montalvo, Omar Andrew        | - 1.2.2. Lean UX Process (todos los subpuntos)<br>- 1.3. Segmentos objetivo<br>- 4.9. Software Object-Oriented Design<br>- 4.10. Database Design                 |
+| TB1     |27/4/25       | Gutierrez Tume, Stanley Jeremy       | - 2.1. Competidores (todos los subpuntos)<br>- 2.2. Entrevistas (todos los subpuntos)<br>- 3.1. To-Be Scenario Mapping<br>- 3.2. User Stories<br>- 3.3. Product Backlog<br>- 3.4. Impact Mapping<br>- 5.1. Software Configuration Management (todos los subpuntos)         |
+| TB1     |27/4/25       | Salgado Luna, Fernando Brian         | - 2.3. Needfinding (todos los subpuntos)<br>- 2.4. Ubiquitous Language<br>- 4.1. Style Guidelines (todos los subpuntos)<br>- 4.2. Information Architecture (todos los subpuntos)                     |
+| TB1     |27/4/25       | Antonio Loayza, Luiggi Jeremy        | - 4.7. Web Applications Prototyping<br>- 4.8. Domain-Driven Software Architecture<br>- 4.5. Mobile Applications Prototyping<br>- 4.6. Web Applications UX/UI Design<br>- 4.3. Landing Page UI Design<br>- 4.4. Mobile Applications UX/UI Design   |
+| TP1     |17/5/25       | Escobar Palomino, Sebastian Matias   | - 6.1.3. Core Behavior-Driven Development                |
+| TP1     |17/5/25       | Morales Montalvo, Omar Andrew        | - 6.1.1. Core Entities Unit Tests            |
+| TP1     |17/5/25       | Gutierrez Tume, Stanley Jeremy       | - 6.1.4. Core System Tests |
+| TP1     |17/5/25       | Salgado Luna, Fernando Brian         | - 6.1.2. Core Integration Tests                  |
+| TP1     |17/5/25       | Antonio Loayza, Luiggi Jeremy        | - 7.3. Continuous Deployment  |
+| TB2     |21/6/25       | Arana Ramos, Jack                    | - 7.4. Continuous Monitoring<br>- 7.4.1. Tools and Practices<br>- 7.4.2. Monitoring Pipeline Components<br>- 7.4.3. Alerting Pipeline Components<br>- 7.4.4. Notification Pipeline Components  |
+| TB2     |21/6/25       | Gutierrez Tume, Stanley Jeremy       | - 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection<br>- 8.2.7. Web and Mobile Tracking Plan<br>- 8.3. Experimentation |
+| TB2     |21/6/25       | Escobar Palomino, Sebastian Matias   | - 8.3.1. To-Be User Stories<br>- 8.3.2. To-Be Product Backlog<br>- Avance de Conclusiones, Bibliografía y Anexos<br>- Outcomes |
+| TB2     |21/6/25       | Morales Montalvo, Omar Andrew        | - 6.3.3. Evaluaciones según heurísticas<br>- 6.4. Auditoría de Experiencias de Usuario<br>- 6.4.1. Auditoría realizada<br>- 6.4.1.1. Información del grupo auditado<br>- 6.4.1.2. Cronograma de auditoría realizada<br>- 6.4.1.3. Contenido de auditoría realizada<br>- 6.4.2. Auditoría recibida<br>- 6.4.2.1. Información del grupo auditor<br>- 6.4.2.2. Cronograma de auditoría recibida<br>- 6.4.2.3. Contenido de auditoría recibida<br>- 6.4.2.4. Resumen de modificaciones para subsanar hallazgos<br>- 8.1.5. Experiment Cards<br>- 8.2. Experiment Design<br>- 8.2.1. Hypotheses<br>- 8.2.2. Measures |
+| TB2     |21/6/25       | Antonio Loayza, Luiggi Jeremy        | - 8.1.1. As-Is Summary<br>- 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims<br>- 8.1.3. Experiment-Ready Questions<br>- 8.1.4. Question Backlog |
+| TB2     |21/6/25       | Salgado Luna, Fernando Brian         | - 8.2.3. Conditions<br>- 8.2.4. Scale Calculations and Decisions<br>- 8.2.5. Methods Selection |
+| TF      |       | Arana Ramos, Jack                    | - 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle<br>- 8.3.3.1. To-Be Sprint Backlogs<br>- Conclusiones<br>- Conclusiones y recomendaciones<br>- Bibliografía<br>- Anexos |
+| TF      |11/7/25       | Gutierrez Tume, Stanley Jeremy       | - 8.3.3.2. Implemented To-Be Landing Page Evidence<br>- 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence |
+| TF      |11/7/25       | Morales Montalvo, Omar Andrew        | - 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence<br>- 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence |
+| TF      |11/7/25       | Salgado Luna, Fernando Brian         | - 8.3.3.6. Team Collaboration Insights<br>- 8.3.4. To-Be Validation Interviews<br>- 8.3.4.1. Diseño de Entrevistas |
+| TF      |11/7/25       | Escobar Palomino, Sebastian Matias   | - 8.3.4.2. Registro de Entrevistas<br>- 8.4. Experiment Aftermath & Analysis<br>- 8.4.1. Analysis and Interpretation of Results<br>- 8.4.2. Re-scored and Re-prioritized Question Backlog |
+| TF      |11/7/25       | Antonio Loayza, Luiggi Jeremy        | - 8.5. Continuous Learning<br>- 8.5.1. Shareback Session Artifacts: Learning Workflow<br>- 8.6. To-Be Software Platform Pre-launch<br>- 8.6.1. About-the-Product Intro Video |
+| TF      |11/7/25       | Todos los participantes              | - Video About-The-Team |
 
 ---
 # Project Report Collaboration Insights
@@ -93,186 +100,181 @@ En esta entrega del trabajo parcial se completó de manera exitosa. Durante la e
 
 ## Tabla de Contenidos Interactiva
 
-## Capítulo I: Introducción
-### [1.1. Startup Profile](#11-startup-profile)
-- [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-- [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+### Capítulo I: Introducción
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-### [1.2. Solution Profile](#12-solution-profile)
-- [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-- [1.2.2. Lean UX Process](#122-lean-ux-process)
-  - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-  - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-  - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-  - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+### Capítulo II: Requirements Elicitation & Analysis
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-### [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+### Capítulo III: Requirements Specification
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Product Backlog](#33-product-backlog)
+- [3.4. Impact Mapping](#34-impact-mapping)
 
-## Capítulo II: Requirements Elicitation & Analysis
-### [2.1. Competidores](#21-competidores)
-- [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-- [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+### Capítulo IV: Product Design
+- [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+  - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
+  - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+  - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+  - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+  - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+  - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
+  - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+  - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
+  - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+  - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
+  - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
+  - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+  - [4.9.1. Class Diagrams](#491-class-diagrams)
+  - [4.9.2. Class Dictionary](#492-class-dictionary)
+- [4.10. Database Design](#410-database-design)
+  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
 
-### [2.2. Entrevistas](#22-entrevistas)
-- [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-- [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-- [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+### Capítulo V: Product Implementation
+- [5.1. Software Configuration Management](#51-software-configuration-management)
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+  - [5.1.2. Source Code Management](#512-source-code-management)
+  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+- [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
+  - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+  - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+  - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+  - [5.2.7. RESTful API Documentation](#527-restful-api-documentation)
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
+- [5.3. Video About-the-Product](#53-video-about-the-product)
 
-### [2.3. Needfinding](#23-needfinding)
-- [2.3.1. User Personas](#231-user-personas)
-- [2.3.2. User Task Matrix](#232-user-task-matrix)
-- [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-- [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+### Capítulo VI: Product Verification & Validation
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+  - [6.1.4. Core System Tests](#614-core-system-tests)
+- [6.2. Static testing & Verification](#62-static-testing--verification)
+  - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+    - [6.2.1.1. Coding standard & Code conventions](#6211-coding-standard--code-conventions)
+    - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+  - [6.2.2. Reviews](#622-reviews)
+- [6.3. Validation Interviews](#63-validation-interviews)
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+- [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+  - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+    - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+    - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+    - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+  - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+    - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+    - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+    - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+    - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 
-### [2.4. Ubiquitous Language](#24-ubiquitous-language)
+### Capítulo VII: DevOps Practices
+- [7.1. Continuous Integration](#71-continuous-integration)
+  - [7.1.1. Tools and Practices](#711-tools-and-practices)
+  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+- [7.2. Continuous Delivery](#72-continuous-delivery)
+  - [7.2.1. Tools and Practices](#721-tools-and-practices)
+  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+- [7.3. Continuous Deployment](#73-continuous-deployment)
+  - [7.3.1. Tools and Practices](#731-tools-and-practices)
+  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [7.4. Continuous Monitoring](#74-continuous-monitoring)
+  - [7.4.1. Tools and Practices](#741-tools-and-practices)
+  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
 
-## Capítulo III: Requirements Specification
-### [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-### [3.2. User Stories](#32-user-stories)
-### [3.3. Product Backlog](#33-product-backlog)
-### [3.4. Impact Mapping](#34-impact-mapping)
+### Capítulo VIII: Experiment-Driven Development
+- [8.1. Experiment Planning](#81-experiment-planning)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+  - [8.1.5. Experiment Cards](#815-experiment-cards)
+- [8.2. Experiment Design](#82-experiment-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Measures](#822-measures)
+  - [8.2.3. Conditions](#823-conditions)
+  - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)
+  - [8.2.5. Methods Selection](#825-methods-selection)
+  - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)
+  - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
+- [8.3. Experimentation](#83-experimentation)
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+  - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+    - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
+    - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+    - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+    - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+    - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+  - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+    - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+    - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+- [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+  - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+  - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+- [8.5. Continuous Learning](#85-continuous-learning)
+  - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+- [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
+  - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 
-## Capítulo IV: Product Design
-### [4.1. Style Guidelines](#41-style-guidelines)
-- [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-- [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
-  - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-  - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+### [Video About-the-Team](#video-about-the-team)
+### [Bibliografía](#bibliografía)
+### [Anexos](#anexos)
 
-### [4.2. Information Architecture](#42-information-architecture)
-- [4.2.1. Organization Systems](#421-organization-systems)
-- [4.2.2. Labeling Systems](#422-labeling-systems)
-- [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-- [4.2.4. Searching Systems](#424-searching-systems)
-- [4.2.5. Navigation Systems](#425-navigation-systems)
-
-### [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-- [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-- [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-
-### [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
-- [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
-- [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
-- [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
-- [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-
-### [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-- [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-- [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
-
-### [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
-- [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
-- [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-- [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
-- [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-
-### [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
-
-### [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-- [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
-- [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
-- [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
-
-### [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
-- [4.9.1. Class Diagrams](#491-class-diagrams)
-- [4.9.2. Class Dictionary](#492-class-dictionary)
-
-### [4.10. Database Design](#410-database-design)
-- [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
-
-## Capítulo V: Product Implementation
-### [5.1. Software Configuration Management](#51-software-configuration-management)
-- [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-- [5.1.2. Source Code Management](#512-source-code-management)
-- [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-- [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-
-### [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
-- [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
-- [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-- [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-- [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-- [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
-- [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
-- [5.2.7. RESTful API Documentation](#527-restful-api-documentation)
-- [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
-
-### [5.3. Video About-the-Product](#53-video-about-the-product)
-
-## Capítulo VI: Product Verification & Validation
-### [6.1. Testing Suites & Validation](#61-testing-suites--validation)
-- [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
-- [6.1.2. Core Integration Tests](#612-core-integration-tests)
-- [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
-- [6.1.4. Core System Tests](#614-core-system-tests)
-
-### [6.2. Static testing & Verification](#62-static-testing--verification)
-- [6.2.1. Static Code Analysis](#621-static-code-analysis)
-  - [6.2.1.1. Coding standard & Code conventions](#6211-coding-standard--code-conventions)
-  - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
-- [6.2.2. Reviews](#622-reviews)
-
-### [6.3. Validation Interviews](#63-validation-interviews)
-- [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
-- [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
-- [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-
-### [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
-- [6.4.1. Auditoría realizada](#641-auditoría-realizada)
-  - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
-  - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
-  - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
-- [6.4.2. Auditoría recibida](#642-auditoría-recibida)
-  - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
-  - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
-  - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
-  - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
-
-## Capítulo VII: DevOps Practices
-### [7.1. Continuous Integration](#71-continuous-integration) 
-- [7.1.1. Tools and Practices](#711-tools-and-practices)
-- [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
-
-### [7.2. Continuous Delivery](#72-continuous-delivery) 
-- [7.2.1. Tools and Practices](#721-tools-and-practices)
-- [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-
-### [7.3. Continuous Deployment](#73-continuous-deployment) 
-- [7.3.1. Tools and Practices](#731-tools-and-practices)
-- [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
-
-### [7.4. Continuous Monitoring](#74-continuous-monitoring)
-- [7.4.1. Tools and Practices](#741-tools-and-practices)
-- [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-- [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
-- [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
-
-## Capítulo VIII: Experiment-Driven Development
-### [8.1. Experiment Planning](#81-experiment-planning)
-- [8.1.1. As-Is Summary](#811-as-is-summary)
-- [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
-- [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
-- [8.1.4. Question Backlog](#814-question-backlog)
-- [8.1.5. Experiment Cards](#815-experiment-cards)
-
-### [8.2. Experiment Design](#82-experiment-design)
-- [8.2.1. Hypotheses](#821-hypotheses)
-- [8.2.2. Measures](#822-measures)
-- [8.2.3. Conditions](#823-conditions)
-- [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)
-- [8.2.5. Methods Selection](#825-methods-selection)
-- [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)
-- [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
-
-### [8.3. Experimentation](#83-experimentation)
-- [8.3.1. To-Be User Stories](#831-to-be-user-stories)
-- [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
-
-## [Conclusiones](#conclusiones)
-## [Bibliografía](#bibliografía)
-## [Anexos](#anexos)
 
 # Student Outcome 4
 
@@ -280,10 +282,12 @@ En esta entrega del trabajo parcial se completó de manera exitosa. Durante la e
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 4.
 
-| Criterio Específico | Acciones Realizadas (TB1-TP-TB2) | Conclusiones |
+| Criterio Específico | Acciones Realizadas (TB1-TP-TB2-TF) | Conclusiones |
 |---------------------|---------------------------|-------------|
-| **Reconoce las responsabilidades éticas y profesionales en situaciones de ingeniería** | **TB1:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** Durante el desarrollo del TB1, identifiqué y documenté los principios éticos fundamentales que debían guiar nuestro proyecto, incluyendo la privacidad de datos, la transparencia en algoritmos y la accesibilidad universal. Implementé un marco de evaluación ética que consideraba el impacto potencial de cada funcionalidad en diferentes grupos de usuarios, especialmente aquellos en situación de vulnerabilidad. Además, establecí protocolos para el manejo responsable de información sensible y promovimos el uso de tecnologías abiertas cuando era posible.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Mi contribución se enfocó en el análisis de las implicaciones éticas del manejo de datos personales en el sistema. Desarrollé políticas de privacidad claras y comprensibles, implementé medidas de seguridad robustas para proteger la información de los usuarios, y aseguré el cumplimiento de regulaciones como GDPR y LOPD. También promovimos la transparencia en el procesamiento de datos, permitiendo a los usuarios conocer y controlar el uso de su información.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante esta fase, me dediqué a evaluar el impacto social de nuestras decisiones de diseño, considerando cómo diferentes grupos demográficos podrían verse afectados por la implementación del sistema. Realicé análisis de accesibilidad para usuarios con discapacidades, propuse interfaces inclusivas y documenté consideraciones éticas relacionadas con la equidad en el acceso a la tecnología. También participé en discusiones sobre el uso responsable de la inteligencia artificial en nuestras funcionalidades.<br><br>**Salgado Luna, Fernando Brian (u202212023):** Mi enfoque se centró en identificar dilemas éticos relacionados con la automatización y su impacto en el empleo. Analicé cómo nuestro sistema podría afectar los roles laborales existentes y propuse estrategias para minimizar disrupciones negativas. Además, establecí criterios éticos para la toma de decisiones automatizadas, asegurando que el sistema mantuviera la dignidad humana y evitara sesgos discriminatorios en sus procesos.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TB1, me responsabilicé de evaluar las implicaciones ambientales de nuestras decisiones tecnológicas, promoviendo el uso de arquitecturas eficientes energéticamente y servicios en la nube con políticas de sostenibilidad. También analicé el ciclo de vida del software, considerando el impacto ambiental desde el desarrollo hasta el despliegue y mantenimiento del sistema.<br><br>**Arana Ramos, Jack (u202121875):** En el TB1, me especialicé en el análisis de dilemas éticos relacionados con la inteligencia artificial y machine learning implementados en el sistema. Desarrollé lineamientos para el uso ético de algoritmos de aprendizaje automático, estableciendo protocolos para la detección y mitigación de sesgos algorítmicos. También me enfoqué en garantizar la explicabilidad de los modelos de IA, asegurando que las decisiones automatizadas fueran transparentes y auditables. Además, establecí marcos de evaluación continua para monitorear el comportamiento ético de los algoritmos en diferentes contextos culturales y demográficos.<br><br>**TP:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En esta entrega, profundicé en la implementación de pruebas éticas para validar que nuestro sistema cumpliera con los estándares profesionales establecidos. Desarrollé casos de prueba específicos para evaluar la equidad, transparencia y responsabilidad de nuestras funcionalidades, asegurando que los resultados fueran auditables y justificables desde una perspectiva ética.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Mi contribución se centró en la documentación ética del sistema, creando manuales que explicaran claramente las decisiones éticas tomadas durante el desarrollo. Implementé mecanismos de monitoreo continuo para detectar posibles sesgos o problemas éticos en el funcionamiento del sistema, y establecí procedimientos para la corrección rápida de estos problemas.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante el TP, me enfoqué en validar que las pruebas automatizadas incluyeran verificaciones éticas, asegurando que el sistema no solo funcionara correctamente desde un punto de vista técnico, sino que también cumpliera con nuestros estándares éticos y profesionales. Desarrollé métricas para medir el impacto social positivo de nuestras funcionalidades.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta fase, elaboré documentación detallada sobre las consideraciones éticas en el desarrollo de pruebas unitarias, asegurando que cada componente del sistema fuera evaluado no solo por su funcionalidad técnica, sino también por su impacto ético. Implementé protocolos de revisión ética que se integraron en nuestro proceso de desarrollo continuo.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Mi trabajo se centró en establecer procesos de despliegue continuo que incorporaran verificaciones éticas automáticas. Desarrollé pipelines que no solo validaran la funcionalidad técnica, sino que también evaluaran el cumplimiento de nuestros estándares éticos antes de cada despliegue en producción.<br><br>**Arana Ramos, Jack (u202121875):** Durante el TP, implementé sistemas de testing ético específicos para validar el comportamiento de los algoritmos de machine learning en condiciones diversas. Desarrollé suites de pruebas que evaluaban la fairness algorítmica, la robustez ante datos sesgados y la consistencia de decisiones en diferentes grupos demográficos. También establecí procesos de validación cruzada ética que aseguraban que los modelos de IA mantuvieran comportamientos éticos consistentes durante las actualizaciones y reentrenamientos del sistema.<br><br>**TB2:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En la fase final, lideré la implementación de un sistema de auditoría ética continua que monitoreaba el comportamiento del sistema en producción. Establecí métricas de impacto social y ambiental, y desarrollé informes regulares para evaluar el cumplimiento de nuestros compromisos éticos. También implementé mecanismos de retroalimentación de usuarios para identificar problemas éticos no previstos.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Durante el TB2, consolidé toda la documentación ética del proyecto, creando un marco completo que detallaba nuestras políticas, procedimientos y compromisos éticos. Desarrollé un sistema de certificación interna que garantizaba que cada nueva funcionalidad cumpliera con nuestros estándares éticos antes de su liberación.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Mi contribución final se centró en validar que todas las funcionalidades del sistema cumplieran con principios éticos de transparencia, equidad y responsabilidad. Desarrollé un conjunto completo de pruebas éticas automatizadas que se ejecutaban como parte de nuestro pipeline de integración continua, asegurando que ningún cambio comprometiera nuestros estándares éticos.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta etapa final, me enfoqué en evaluar el impacto real de nuestro sistema en los usuarios finales, desarrollando métricas de bienestar y satisfacción que iban más allá de la funcionalidad técnica. Implementé sistemas de feedback ético que permitían a los usuarios reportar preocupaciones éticas y sugerir mejoras en la responsabilidad social del sistema.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TB2, establecí procesos de monitoreo post-despliegue que evaluaban continuamente el impacto ético y social de nuestro sistema. Desarrollé alertas automáticas para identificar patrones de uso que pudieran indicar problemas éticos, y establecí procedimientos de respuesta rápida para abordar cualquier problema identificado.<br><br>**Arana Ramos, Jack (u202121875):** En la fase final del TB2, implementé un sistema completo de gobernanza de IA que aseguraba el cumplimiento ético continuo de todos los componentes de machine learning del sistema. Desarrollé dashboards de transparencia algorítmica que permitían a los stakeholders monitorear el comportamiento ético de los modelos en tiempo real. También establecí protocolos de intervención humana para casos donde los algoritmos pudieran tomar decisiones éticamente cuestionables, garantizando que siempre existiera supervisión humana en decisiones críticas que afectaran a los usuarios finales. | La integración de consideraciones éticas desde el inicio del proyecto (TB1) demostró ser fundamental para el desarrollo responsable de soluciones de ingeniería. El equipo logró establecer un marco ético sólido que guió todas las decisiones técnicas, desde la arquitectura del sistema hasta la implementación de funcionalidades específicas. La identificación temprana de dilemas éticos relacionados con privacidad, accesibilidad, impacto social, sostenibilidad ambiental y ética en inteligencia artificial permitió tomar decisiones informadas que balancearon efectividad técnica con responsabilidad social. Este enfoque proactivo hacia la ética en ingeniería se reflejó en un sistema que no solo cumple con estándares técnicos, sino que también contribuye positivamente al bienestar social y ambiental.<br><br>Durante el desarrollo del trabajo parcial (TP), el equipo fortaleció su capacidad para integrar consideraciones éticas en procesos técnicos como testing y despliegue continuo. La implementación de pruebas éticas automatizadas, incluyendo validaciones específicas para algoritmos de IA, y la documentación detallada de decisiones éticas demostró que es posible mantener altos estándares éticos sin comprometer la eficiencia del desarrollo. La experiencia evidenció que la ética en ingeniería no es un obstáculo para la innovación, sino un facilitador de soluciones más robustas y socialmente responsables. El enfoque sistemático hacia la evaluación ética continua estableció precedentes valiosos para futuros proyectos de ingeniería.<br><br>La finalización del proyecto (TB2) consolidó nuestro enfoque hacia la ingeniería ética y socialmente responsable. La implementación de sistemas de monitoreo ético continuo, incluyendo gobernanza especializada para componentes de IA, y la evaluación del impacto real en usuarios finales demostró que los ingenieros tienen la responsabilidad no solo de crear soluciones técnicamente efectivas, sino también de asegurar que estas contribuyan positivamente a la sociedad. El desarrollo de métricas de impacto social y ambiental, junto con mecanismos de retroalimentación de usuarios y transparencia algorítmica, estableció un modelo de desarrollo que puede ser replicado en futuros proyectos. Esta experiencia reforzó la comprensión de que la excelencia en ingeniería incluye necesariamente la responsabilidad ética y el compromiso con el bienestar global. |
-| **Evalúa las soluciones de ingeniería considerando el impacto global, económico, ambiental y social** | **TB1:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** Desarrollé un marco de evaluación multidimensional que analizaba cada decisión técnica desde perspectivas globales, económicas, ambientales y sociales. Implementé matrices de impacto que consideraban efectos a corto y largo plazo, evaluando cómo nuestras soluciones podrían afectar diferentes regiones geográficas y grupos socioeconómicos. También establecí indicadores cuantitativos para medir el impacto positivo de nuestras decisiones en cada dimensión.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Me enfoqué en evaluar el impacto económico de nuestras decisiones tecnológicas, analizando el costo-beneficio no solo para nuestro proyecto, sino para los stakeholders y la sociedad en general. Desarrollé modelos de análisis que consideraban la democratización del acceso a la tecnología, la creación de valor social y la sostenibilidad económica a largo plazo de nuestras soluciones.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante el TB1, me dediqué a evaluar el impacto social de nuestras decisiones de diseño, considerando factores como inclusión digital, accesibilidad para diferentes grupos demográficos y potencial para reducir brechas tecnológicas. Desarrollé criterios de evaluación que priorizaban soluciones que beneficiaran a comunidades marginadas y promovieran la equidad social.<br><br>**Salgado Luna, Fernando Brian (u202212023):** Mi contribución se centró en el análisis del impacto ambiental de nuestras decisiones tecnológicas, evaluando la huella de carbono, el consumo energético y la sostenibilidad de los recursos utilizados. Implementé métricas de eficiencia ambiental y propuse alternativas más sostenibles cuando era posible, considerando el ciclo de vida completo de nuestras soluciones.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante esta fase, desarrollé análisis de impacto global que consideraban cómo nuestras soluciones podrían escalar y adaptarse a diferentes contextos culturales y regulatorios. Evalué la interoperabilidad con sistemas existentes en diferentes países y regiones, y consideré implicaciones geopolíticas de nuestras decisiones tecnológicas.<br><br>**Arana Ramos, Jack (u202121875):** En el TB1, me enfoqué en evaluar el impacto socioeconómico de la implementación de algoritmos de inteligencia artificial en diferentes contextos globales. Analicé cómo los modelos de machine learning podrían afectar la distribución de oportunidades económicas, considerando factores como el acceso desigual a la tecnología y las diferencias en infraestructura digital entre países desarrollados y en desarrollo. También evalué el impacto potencial en mercados laborales específicos, desarrollando estrategias para maximizar los beneficios sociales mientras se minimizan las disrupciones negativas. Adicionalmente, consideré las implicaciones culturales de nuestros algoritmos, asegurando que fueran culturalmente sensibles y apropiados para implementación global.<br><br>**TP:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En el trabajo parcial, refiné nuestros métodos de evaluación de impacto, incorporando feedback de la primera fase para desarrollar métricas más precisas. Implementé sistemas de monitoreo que rastreaban el impacto real de nuestras decisiones en las cuatro dimensiones, permitiendo ajustes basados en datos reales en lugar de proyecciones teóricas.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Mi trabajo se centró en documentar detalladamente las evaluaciones de impacto realizadas, creando un marco replicable para futuros proyectos. Desarrollé plantillas de análisis que facilitaran la evaluación sistemática de impacto en proyectos similares, contribuyendo al desarrollo de mejores prácticas en ingeniería responsable.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante el TP, implementé pruebas específicas que validaran que nuestro sistema cumpliera con los criterios de impacto social positivo establecidos en la primera fase. Desarrollé casos de prueba que evaluaban no solo la funcionalidad técnica, sino también la contribución social de cada característica del sistema.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta fase, consolidé las evaluaciones de impacto ambiental, desarrollando un sistema de métricas que permitía el monitoreo continuo de nuestra huella ecológica. Implementé alertas automáticas para identificar cuando el sistema excedía umbrales ambientales predefinidos, permitiendo acciones correctivas inmediatas.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Mi contribución se enfocó en validar que nuestros procesos de despliegue continuo consideraran evaluaciones de impacto en cada liberación. Desarrollé pipelines que incluían verificaciones automáticas de impacto global, económico, ambiental y social antes de cada despliegue en producción.<br><br>**Arana Ramos, Jack (u202121875):** Durante el TP, desarrollé métricas específicas para evaluar el impacto de los algoritmos de IA en la equidad económica y social. Implementé sistemas de monitoreo que rastreaban cómo las decisiones algorítmicas afectaban diferentes grupos demográficos y socioeconómicos, asegurando que el sistema promoviera la inclusión en lugar de perpetuar desigualdades existentes. También establecí protocolos de evaluación continua que consideraban el impacto cultural de nuestros algoritmos en diferentes regiones, adaptando el comportamiento del sistema para ser culturalmente apropiado y socialmente beneficioso en contextos diversos.<br><br>**TB2:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En la fase final, implementé un sistema completo de evaluación de impacto que operaba en tiempo real, proporcionando retroalimentación continua sobre el desempeño de nuestro sistema en las cuatro dimensiones. Desarrollé dashboards que permitían a los stakeholders monitorear el impacto positivo del sistema y identificar áreas de mejora.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Durante el TB2, consolidé toda la documentación de impacto del proyecto, creando un informe completo que detallaba cómo cada decisión técnica había sido evaluada y validada desde perspectivas múltiples. Este documento sirvió como modelo para futuros proyectos y como evidencia del compromiso del equipo con la ingeniería responsable.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Mi trabajo final se centró en validar que el sistema cumpliera con todos los criterios de impacto positivo establecidos durante el proyecto. Desarrollé un conjunto completo de pruebas de impacto que evaluaban el desempeño del sistema en condiciones reales, confirmando que nuestras proyecciones teóricas se materializaran en beneficios concretos.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta etapa final, establecí sistemas de monitoreo post-implementación que continuarían evaluando el impacto ambiental del sistema después de su despliegue. Desarrollé protocolos de optimización continua que aseguraran que el sistema mantuviera y mejorara su desempeño ambiental a lo largo del tiempo.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TB2, implementé procesos de evaluación de impacto post-despliegue que proporcionaban feedback continuo sobre el desempeño real del sistema en contextos globales diversos. Establecí métricas de éxito que iban más allá de indicadores técnicos tradicionales, incluyendo medidas de impacto social, económico y ambiental positivo.<br><br>**Arana Ramos, Jack (u202121875):** En la fase final del TB2, implementé un sistema completo de evaluación de impacto algorítmico que monitoreaba continuamente cómo los componentes de IA del sistema afectaban las cuatro dimensiones de impacto. Desarrollé indicadores específicos para medir la contribución de los algoritmos al desarrollo económico inclusivo, la reducción de brechas digitales y la promoción de oportunidades equitativas a nivel global. También establecí mecanismos de retroalimentación que permitían ajustes algorítmicos basados en el impacto real observado en diferentes contextos culturales y socioeconómicos, asegurando que el sistema evolucionara para maximizar su contribución positiva al bienestar global. | El desarrollo del TB1 estableció un precedente importante al demostrar que la evaluación multidimensional de impacto no solo es posible sino esencial para el desarrollo de soluciones de ingeniería responsables. La implementación de marcos de evaluación que consideraron simultáneamente impactos globales, económicos, ambientales y sociales, incluyendo consideraciones específicas para el impacto de la inteligencia artificial, permitió tomar decisiones más informadas y desarrollar soluciones más robustas y sostenibles. Esta aproximación holística resultó en un sistema que no solo cumple con objetivos técnicos, sino que también contribuye positivamente a objetivos de desarrollo sostenible y bienestar social global.<br><br>La experiencia del trabajo parcial (TP) demostró que es posible integrar evaluaciones de impacto en procesos de desarrollo ágil sin comprometer la eficiencia. La implementación de métricas automáticas de impacto, incluyendo evaluaciones específicas para algoritmos de IA, y la integración de evaluaciones en pipelines de desarrollo continuo estableció un modelo escalable para ingeniería responsable. El enfoque sistemático hacia la medición y optimización de impacto positivo demostró que los ingenieros pueden y deben asumir responsabilidad por las consecuencias más amplias de sus decisiones técnicas, especialmente cuando implementan tecnologías de inteligencia artificial con potencial de impacto social significativo.<br><br>La finalización del proyecto (TB2) consolidó nuestro enfoque hacia la ingeniería con impacto positivo, demostrando que es posible crear soluciones técnicamente excelentes que también generen valor social, económico y ambiental significativo. La implementación de sistemas de monitoreo continuo de impacto, incluyendo evaluaciones específicas para componentes algorítmicos, y la validación de beneficios reales en usuarios finales confirmó que nuestro enfoque multidimensional había sido efectivo. Esta experiencia estableció un modelo replicable para futuros proyectos de ingeniería que busquen maximizar su contribución positiva a la sociedad mientras mantienen excelencia técnica. El proyecto demostró que la consideración sistemática de impactos diversos, incluyendo las implicaciones específicas de la IA en contextos globales, no es una limitación sino una oportunidad para crear soluciones más innovadoras y valiosas. |
+| **Reconoce las responsabilidades éticas y profesionales en situaciones de ingeniería** | **TB1:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** Durante el desarrollo del TB1, identifiqué y documenté los principios éticos fundamentales que debían guiar nuestro proyecto, incluyendo la privacidad de datos, la transparencia en algoritmos y la accesibilidad universal. Implementé un marco de evaluación ética que consideraba el impacto potencial de cada funcionalidad en diferentes grupos de usuarios, especialmente aquellos en situación de vulnerabilidad. Además, establecí protocolos para el manejo responsable de información sensible y promovimos el uso de tecnologías abiertas cuando era posible.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Mi contribución se enfocó en el análisis de las implicaciones éticas del manejo de datos personales en el sistema. Desarrollé políticas de privacidad claras y comprensibles, implementé medidas de seguridad robustas para proteger la información de los usuarios, y aseguré el cumplimiento de regulaciones como GDPR y LOPD. También promovimos la transparencia en el procesamiento de datos, permitiendo a los usuarios conocer y controlar el uso de su información.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante esta fase, me dediqué a evaluar el impacto social de nuestras decisiones de diseño, considerando cómo diferentes grupos demográficos podrían verse afectados por la implementación del sistema. Realicé análisis de accesibilidad para usuarios con discapacidades, propuse interfaces inclusivas y documenté consideraciones éticas relacionadas con la equidad en el acceso a la tecnología. También participé en discusiones sobre el uso responsable de la inteligencia artificial en nuestras funcionalidades.<br><br>**Salgado Luna, Fernando Brian (u202212023):** Mi enfoque se centró en identificar dilemas éticos relacionados con la automatización y su impacto en el empleo. Analicé cómo nuestro sistema podría afectar los roles laborales existentes y propuse estrategias para minimizar disrupciones negativas. Además, establecí criterios éticos para la toma de decisiones automatizadas, asegurando que el sistema mantuviera la dignidad humana y evitara sesgos discriminatorios en sus procesos.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TB1, me responsabilicé de evaluar las implicaciones ambientales de nuestras decisiones tecnológicas, promoviendo el uso de arquitecturas eficientes energéticamente y servicios en la nube con políticas de sostenibilidad. También analicé el ciclo de vida del software, considerando el impacto ambiental desde el desarrollo hasta el despliegue y mantenimiento del sistema.<br><br>**Arana Ramos, Jack (u202121875):** En el TB1, me especialicé en el análisis de dilemas éticos relacionados con la inteligencia artificial y machine learning implementados en el sistema. Desarrollé lineamientos para el uso ético de algoritmos de aprendizaje automático, estableciendo protocolos para la detección y mitigación de sesgos algorítmicos. También me enfoqué en garantizar la explicabilidad de los modelos de IA, asegurando que las decisiones automatizadas fueran transparentes y auditables. Además, establecí marcos de evaluación continua para monitorear el comportamiento ético de los algoritmos en diferentes contextos culturales y demográficos.<br><br>**TP:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En esta entrega, profundicé en la implementación de pruebas éticas para validar que nuestro sistema cumpliera con los estándares profesionales establecidos. Desarrollé casos de prueba específicos para evaluar la equidad, transparencia y responsabilidad de nuestras funcionalidades, asegurando que los resultados fueran auditables y justificables desde una perspectiva ética.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Mi contribución se centró en la documentación ética del sistema, creando manuales que explicaran claramente las decisiones éticas tomadas durante el desarrollo. Implementé mecanismos de monitoreo continuo para detectar posibles sesgos o problemas éticos en el funcionamiento del sistema, y establecí procedimientos para la corrección rápida de estos problemas.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante el TP, me enfoqué en validar que las pruebas automatizadas incluyeran verificaciones éticas, asegurando que el sistema no solo funcionara correctamente desde un punto de vista técnico, sino que también cumpliera con nuestros estándares éticos y profesionales. Desarrollé métricas para medir el impacto social positivo de nuestras funcionalidades.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta fase, elaboré documentación detallada sobre las consideraciones éticas en el desarrollo de pruebas unitarias, asegurando que cada componente del sistema fuera evaluado no solo por su funcionalidad técnica, sino también por su impacto ético. Implementé protocolos de revisión ética que se integraron en nuestro proceso de desarrollo continuo.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Mi trabajo se centró en establecer procesos de despliegue continuo que incorporaran verificaciones éticas automáticas. Desarrollé pipelines que no solo validaran la funcionalidad técnica, sino que también evaluaran el cumplimiento de nuestros estándares éticos antes de cada despliegue en producción.<br><br>**Arana Ramos, Jack (u202121875):** Durante el TP, implementé sistemas de testing ético específicos para validar el comportamiento de los algoritmos de machine learning en condiciones diversas. Desarrollé suites de pruebas que evaluaban la fairness algorítmica, la robustez ante datos sesgados y la consistencia de decisiones en diferentes grupos demográficos. También establecí procesos de validación cruzada ética que aseguraban que los modelos de IA mantuvieran comportamientos éticos consistentes durante las actualizaciones y reentrenamientos del sistema.<br><br>**TB2:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En la fase final, lideré la implementación de un sistema de auditoría ética continua que monitoreaba el comportamiento del sistema en producción. Establecí métricas de impacto social y ambiental, y desarrollé informes regulares para evaluar el cumplimiento de nuestros compromisos éticos. También implementé mecanismos de retroalimentación de usuarios para identificar problemas éticos no previstos.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Durante el TB2, consolidé toda la documentación ética del proyecto, creando un marco completo que detallaba nuestras políticas, procedimientos y compromisos éticos. Desarrollé un sistema de certificación interna que garantizaba que cada nueva funcionalidad cumpliera con nuestros estándares éticos antes de su liberación.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Mi contribución final se centró en validar que todas las funcionalidades del sistema cumplieran con principios éticos de transparencia, equidad y responsabilidad. Desarrollé un conjunto completo de pruebas éticas automatizadas que se ejecutaban como parte de nuestro pipeline de integración continua, asegurando que ningún cambio comprometiera nuestros estándares éticos.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta etapa final, me enfoqué en evaluar el impacto real de nuestro sistema en los usuarios finales, desarrollando métricas de bienestar y satisfacción que iban más allá de la funcionalidad técnica. Implementé sistemas de feedback ético que permitían a los usuarios reportar preocupaciones éticas y sugerir mejoras en la responsabilidad social del sistema.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TB2, establecí procesos de monitoreo post-despliegue que evaluaban continuamente el impacto ético y social de nuestro sistema. Desarrollé alertas automáticas para identificar patrones de uso que pudieran indicar problemas éticos, y establecí procedimientos de respuesta rápida para abordar cualquier problema identificado.<br><br>**Arana Ramos, Jack (u202121875):** En la fase final del TB2, implementé un sistema completo de gobernanza de IA que aseguraba el cumplimiento ético continuo de todos los componentes de machine learning del sistema. Desarrollé dashboards de transparencia algorítmica que permitían a los stakeholders monitorear el comportamiento ético de los modelos en tiempo real. También establecí protocolos de intervención humana para casos donde los algoritmos pudieran tomar decisiones éticamente cuestionables, garantizando que siempre existiera supervisión humana en decisiones críticas que afectaran a los usuarios finales.<br><br>**TF:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En el trabajo final, consolidé la evaluación integral del impacto ético del proyecto completo, desarrollando un informe exhaustivo que documentaba todas las decisiones éticas tomadas durante el ciclo de vida del proyecto. Implementé un framework de lecciones aprendidas que servirá como guía para futuros proyectos, estableciendo mejores prácticas para la integración de consideraciones éticas en proyectos de ingeniería de software. También desarrollé métricas de éxito ético que permitieron cuantificar el impacto positivo del sistema en términos de responsabilidad social y profesional.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Durante el TF, creé un manual completo de ética en ingeniería que compilaba todas las políticas, procedimientos y herramientas desarrolladas durante el proyecto. Este manual incluye templates reutilizables para evaluaciones éticas, checklists de verificación y marcos de toma de decisiones éticas que pueden ser aplicados en futuros proyectos. También desarrollé un sistema de certificación ética que garantiza que los ingenieros del equipo mantengan competencias actualizadas en ética profesional.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Mi contribución al TF se centró en la validación final de que el sistema cumpliera con todos los estándares éticos y profesionales establecidos desde el inicio del proyecto. Desarrollé un conjunto completo de métricas de impacto social que demuestran cómo el sistema contribuye positivamente al bienestar de diferentes grupos de usuarios. También implementé un sistema de monitoreo a largo plazo que continuará evaluando el impacto ético del sistema post-implementación.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En la fase final, desarrollé un análisis retrospectivo completo que evaluaba la efectividad de nuestras decisiones éticas y su impacto real en los usuarios finales. Implementé un sistema de mejora continua que utilizaba feedback de usuarios para refinar continuamente nuestros estándares éticos. También creé un programa de capacitación en ética profesional que asegura que futuros miembros del equipo comprendan y apliquen nuestros principios éticos establecidos.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TF, establecí un framework completo de sostenibilidad ética que asegura que el sistema mantenga altos estándares éticos a lo largo de su ciclo de vida operativo. Desarrollé procesos de auditoría ética regular y sistemas de alerta temprana que identifican potenciales problemas éticos antes de que se materialicen. También implementé un plan de evolución ética que permite que el sistema se adapte a nuevos estándares y expectativas éticas emergentes.<br><br>**Arana Ramos, Jack (u202121875):** En el trabajo final, desarrollé un marco completo de ética en inteligencia artificial que establece estándares de la industria para el desarrollo y despliegue responsable de sistemas de IA. Este framework incluye protocolos específicos para la evaluación continua de sesgos algorítmicos, procedimientos de transparencia algorítmica y sistemas de accountability que aseguran la responsabilidad humana en todas las decisiones automatizadas. También implementé un sistema de monitoreo de impacto ético de largo plazo que evalúa continuamente cómo los algoritmos de IA afectan a diferentes comunidades y grupos demográficos, asegurando que el sistema evolucione para maximizar el beneficio social mientras minimiza potenciales daños. | La integración de consideraciones éticas desde el inicio del proyecto (TB1) demostró ser fundamental para el desarrollo responsable de soluciones de ingeniería. El equipo logró establecer un marco ético sólido que guió todas las decisiones técnicas, desde la arquitectura del sistema hasta la implementación de funcionalidades específicas. La identificación temprana de dilemas éticos relacionados con privacidad, accesibilidad, impacto social, sostenibilidad ambiental y ética en inteligencia artificial permitió tomar decisiones informadas que balancearon efectividad técnica con responsabilidad social.<br><br>Durante el desarrollo del trabajo parcial (TP), el equipo fortaleció su capacidad para integrar consideraciones éticas en procesos técnicos como testing y despliegue continuo. La implementación de pruebas éticas automatizadas, incluyendo validaciones específicas para algoritmos de IA, demostró que es posible mantener altos estándares éticos sin comprometer la eficiencia del desarrollo.<br><br>La finalización del TB2 consolidó nuestro enfoque hacia la ingeniería ética y socialmente responsable. La implementación de sistemas de monitoreo ético continuo, incluyendo gobernanza especializada para componentes de IA, demostró que los ingenieros tienen la responsabilidad de asegurar que sus soluciones contribuyan positivamente a la sociedad.<br><br>El trabajo final (TF) estableció un legado duradero al crear frameworks, manuales y sistemas de mejora continua que aseguran la sostenibilidad ética a largo plazo. La experiencia completa del proyecto reforzó que la excelencia en ingeniería incluye necesariamente la responsabilidad ética y el compromiso con el bienestar global, estableciendo precedentes valiosos para futuros proyectos de ingeniería responsable. |
+| **Evalúa las soluciones de ingeniería considerando el impacto global, económico, ambiental y social** | **TB1:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** Desarrollé un marco de evaluación multidimensional que analizaba cada decisión técnica desde perspectivas globales, económicas, ambientales y sociales. Implementé matrices de impacto que consideraban efectos a corto y largo plazo, evaluando cómo nuestras soluciones podrían afectar diferentes regiones geográficas y grupos socioeconómicos. También establecí indicadores cuantitativos para medir el impacto positivo de nuestras decisiones en cada dimensión.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Me enfoqué en evaluar el impacto económico de nuestras decisiones tecnológicas, analizando el costo-beneficio no solo para nuestro proyecto, sino para los stakeholders y la sociedad en general. Desarrollé modelos de análisis que consideraban la democratización del acceso a la tecnología, la creación de valor social y la sostenibilidad económica a largo plazo de nuestras soluciones.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante el TB1, me dediqué a evaluar el impacto social de nuestras decisiones de diseño, considerando factores como inclusión digital, accesibilidad para diferentes grupos demográficos y potencial para reducir brechas tecnológicas. Desarrollé criterios de evaluación que priorizaban soluciones que beneficiaran a comunidades marginadas y promovieran la equidad social.<br><br>**Salgado Luna, Fernando Brian (u202212023):** Mi contribución se centró en el análisis del impacto ambiental de nuestras decisiones tecnológicas, evaluando la huella de carbono, el consumo energético y la sostenibilidad de los recursos utilizados. Implementé métricas de eficiencia ambiental y propuse alternativas más sostenibles cuando era posible, considerando el ciclo de vida completo de nuestras soluciones.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante esta fase, desarrollé análisis de impacto global que consideraban cómo nuestras soluciones podrían escalar y adaptarse a diferentes contextos culturales y regulatorios. Evalué la interoperabilidad con sistemas existentes en diferentes países y regiones, y consideré implicaciones geopolíticas de nuestras decisiones tecnológicas.<br><br>**Arana Ramos, Jack (u202121875):** En el TB1, me enfoqué en evaluar el impacto socioeconómico de la implementación de algoritmos de inteligencia artificial en diferentes contextos globales. Analicé cómo los modelos de machine learning podrían afectar la distribución de oportunidades económicas, considerando factores como el acceso desigual a la tecnología y las diferencias en infraestructura digital entre países desarrollados y en desarrollo. También evalué el impacto potencial en mercados laborales específicos, desarrollando estrategias para maximizar los beneficios sociales mientras se minimizan las disrupciones negativas.<br><br>**TP:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En el trabajo parcial, refiné nuestros métodos de evaluación de impacto, incorporando feedback de la primera fase para desarrollar métricas más precisas. Implementé sistemas de monitoreo que rastreaban el impacto real de nuestras decisiones en las cuatro dimensiones, permitiendo ajustes basados en datos reales en lugar de proyecciones teóricas.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Mi trabajo se centró en documentar detalladamente las evaluaciones de impacto realizadas, creando un marco replicable para futuros proyectos. Desarrollé plantillas de análisis que facilitaran la evaluación sistemática de impacto en proyectos similares, contribuyendo al desarrollo de mejores prácticas en ingeniería responsable.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Durante el TP, implementé pruebas específicas que validaran que nuestro sistema cumpliera con los criterios de impacto social positivo establecidos en la primera fase. Desarrollé casos de prueba que evaluaban no solo la funcionalidad técnica, sino también la contribución social de cada característica del sistema.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta fase, consolidé las evaluaciones de impacto ambiental, desarrollando un sistema de métricas que permitía el monitoreo continuo de nuestra huella ecológica. Implementé alertas automáticas para identificar cuando el sistema excedía umbrales ambientales predefinidos, permitiendo acciones correctivas inmediatas.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Mi contribución se enfocó en validar que nuestros procesos de despliegue continuo consideraran evaluaciones de impacto en cada liberación. Desarrollé pipelines que incluían verificaciones automáticas de impacto global, económico, ambiental y social antes de cada despliegue en producción.<br><br>**Arana Ramos, Jack (u202121875):** Durante el TP, desarrollé métricas específicas para evaluar el impacto de los algoritmos de IA en la equidad económica y social. Implementé sistemas de monitoreo que rastreaban cómo las decisiones algorítmicas afectaban diferentes grupos demográficos y socioeconómicos, asegurando que el sistema promoviera la inclusión en lugar de perpetuar desigualdades existentes.<br><br>**TB2:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En la fase final, implementé un sistema completo de evaluación de impacto que operaba en tiempo real, proporcionando retroalimentación continua sobre el desempeño de nuestro sistema en las cuatro dimensiones. Desarrollé dashboards que permitían a los stakeholders monitorear el impacto positivo del sistema y identificar áreas de mejora.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Durante el TB2, consolidé toda la documentación de impacto del proyecto, creando un informe completo que detallaba cómo cada decisión técnica había sido evaluada y validada desde perspectivas múltiples. Este documento sirvió como modelo para futuros proyectos y como evidencia del compromiso del equipo con la ingeniería responsable.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Mi trabajo final se centró en validar que el sistema cumpliera con todos los criterios de impacto positivo establecidos durante el proyecto. Desarrollé un conjunto completo de pruebas de impacto que evaluaban el desempeño del sistema en condiciones reales, confirmando que nuestras proyecciones teóricas se materializaran en beneficios concretos.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En esta etapa final, establecí sistemas de monitoreo post-implementación que continuarían evaluando el impacto ambiental del sistema después de su despliegue. Desarrollé protocolos de optimización continua que aseguraran que el sistema mantuviera y mejorara su desempeño ambiental a lo largo del tiempo.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TB2, implementé procesos de evaluación de impacto post-despliegue que proporcionaban feedback continuo sobre el desempeño real del sistema en contextos globales diversos. Establecí métricas de éxito que iban más allá de indicadores técnicos tradicionales, incluyendo medidas de impacto social, económico y ambiental positivo.<br><br>**Arana Ramos, Jack (u202121875):** En la fase final del TB2, implementé un sistema completo de evaluación de impacto algorítmico que monitoreaba continuamente cómo los componentes de IA del sistema afectaban las cuatro dimensiones de impacto. Desarrollé indicadores específicos para medir la contribución de los algoritmos al desarrollo económico inclusivo, la reducción de brechas digitales y la promoción de oportunidades equitativas a nivel global.<br><br>**TF:** <br><br>**Escobar Palomino, Sebastian Matias (u202125968):** En el trabajo final, desarrollé un análisis integral del impacto acumulativo del proyecto en las cuatro dimensiones evaluadas. Creé un modelo predictivo que estima el impacto a largo plazo de nuestras decisiones tecnológicas, permitiendo una evaluación más precisa del retorno social de la inversión en ingeniería responsable. También establecí un framework de evaluación continua que permitirá monitorear y optimizar el impacto del sistema durante toda su vida útil operativa.<br><br>**Morales Montalvo, Omar Andrew (u202212383):** Durante el TF, consolidé un reporte completo de impacto que cuantifica los beneficios económicos, sociales, ambientales y globales generados por el proyecto. Desarrollé métricas de valor social creado que demuestran cómo la inversión en consideraciones éticas genera retornos positivos tanto para los stakeholders como para la sociedad. También creé un modelo de escalabilidad que evalúa cómo estos impactos positivos pueden replicarse y amplificarse en futuros proyectos.<br><br>**Gutierrez Tume, Stanley Jeremy (u202118152):** Mi contribución al TF se centró en validar el impacto social real del sistema mediante estudios de caso con usuarios finales. Desarrollé un conjunto de métricas de impacto social que demuestran cómo el sistema ha mejorado la calidad de vida y las oportunidades de diferentes grupos de usuarios. También implementé un sistema de seguimiento longitudinal que continuará evaluando el impacto social del sistema a largo plazo.<br><br>**Salgado Luna, Fernando Brian (u202212023):** En la fase final, desarrollé un análisis completo del impacto ambiental del ciclo de vida del proyecto, cuantificando tanto los beneficios ambientales generados como la huella ecológica del sistema. Implementé un programa de compensación ambiental que asegura que el proyecto sea carbono-neutral y contribuya positivamente a objetivos de sostenibilidad ambiental. También establecí métricas de eficiencia ambiental que guiarán futuras optimizaciones del sistema.<br><br>**Antonio Loayza, Luiggi Jeremy (u202011431):** Durante el TF, creé un análisis completo del impacto global del proyecto, evaluando cómo nuestras decisiones tecnológicas han contribuido a objetivos de desarrollo sostenible global. Desarrollé un modelo de escalabilidad internacional que evalúa el potencial del sistema para generar impacto positivo en diferentes contextos culturales y socioeconómicos. También implementé un framework de adaptación cultural que permitirá que el sistema mantenga su efectividad e impacto positivo cuando se despliegue en diferentes regiones del mundo.<br><br>**Arana Ramos, Jack (u202121875):** En el trabajo final, desarrollé un análisis comprehensivo del impacto de los algoritmos de IA en las cuatro dimensiones evaluadas, creando el primer framework de evaluación de impacto algorítmico multidimensional del equipo. Este análisis incluyó métricas específicas para evaluar cómo los algoritmos de machine learning contribuyen a la equidad económica, la inclusión social, la sostenibilidad ambiental y el desarrollo global responsable. También implementé un sistema de optimización algorítmica continua que ajusta automáticamente los modelos de IA para maximizar el impacto positivo mientras mantiene la efectividad técnica, estableciendo un nuevo estándar para el desarrollo de IA socialmente responsable. | El desarrollo del TB1 estableció un precedente importante al demostrar que la evaluación multidimensional de impacto es esencial para el desarrollo de soluciones de ingeniería responsables. La implementación de marcos de evaluación que consideraron simultáneamente impactos globales, económicos, ambientales y sociales, incluyendo consideraciones específicas para el impacto de la inteligencia artificial, permitió tomar decisiones más informadas y desarrollar soluciones más robustas y sostenibles.<br><br>La experiencia del trabajo parcial (TP) demostró que es posible integrar evaluaciones de impacto en procesos de desarrollo ágil sin comprometer la eficiencia. La implementación de métricas automáticas de impacto y la integración de evaluaciones en pipelines de desarrollo continuo estableció un modelo escalable para ingeniería responsable.<br><br>La finalización del TB2 consolidó nuestro enfoque hacia la ingeniería con impacto positivo, demostrando que es posible crear soluciones técnicamente excelentes que también generen valor social, económico y ambiental significativo. La implementación de sistemas de monitoreo continuo de impacto confirmó que nuestro enfoque multidimensional había sido efectivo.<br><br>El trabajo final (TF) estableció un modelo completo y replicable para la evaluación e optimización continua del impacto multidimensional en proyectos de ingeniería. La cuantificación del impacto acumulativo y el desarrollo de frameworks de escalabilidad demuestran que la consideración sistemática de impactos diversos no es una limitación sino una oportunidad para crear soluciones más innovadoras y valiosas. El proyecto estableció precedentes importantes para futuros proyectos que busquen maximizar su contribución positiva a la sociedad mientras mantienen excelencia técnica. |
+
+
 
 
 # Capítulo I: Introducción
@@ -1255,55 +1259,57 @@ SEGMENTO GERENTE:
 | EPIC ID | TÍTULO                        | Descripción                                                                 |
 |---------|-------------------------------|-----------------------------------------------------------------------------|
 | EP01    | Información del Producto       | Como visitante, quiero ver información clara del producto, para comprender sus beneficios. |
-| EP02    | Crear cuenta                   | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación Sweet Manager |
-| EP03    | Gestión de habitaciones en el área de Housekeeping | Como gerente o trabajador, deseo consultar y modificar el estado de las habitaciones del hotel |
-| EP04    | Administrar el inventario del hotel | Como gerente, deseo gestionar el inventario del hotel para asegurarme de que los suministros estén siempre disponibles. |
-| EP05    | Administrar las tareas asignadas a los empleados | Como gerente, deseo gestionar las tareas asignadas a los empleados para asegurarme de que todo esté en orden. |
-| EP06    | Gestión de Seguridad de Usuarios | Como administrador o desarrollador de Sweet Manager, quiero garantizar que los usuarios puedan acceder al sistema de manera segura mediante un proceso de autenticación. |
-
+| EP02    | Gestión de Usuarios y Autenticación | Como usuario del sistema, deseo gestionar cuentas y acceder de manera segura a Sweet Manager. |
+| EP03    | Gestión Operativa del Hotel    | Como administrador, deseo gestionar habitaciones, trabajadores, proveedores e inventario para optimizar la operación hotelera. |
+| EP04    | Gestión de Reservas y Comunicación | Como administrador, deseo gestionar reservas y notificaciones para mantener una comunicación eficiente. |
+| EP05    | Análisis y Reportes            | Como gerente, deseo visualizar dashboards, reportes y analíticos para tomar decisiones informadas. |
 
 | US ID | TÍTULO | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-------|--------|-------------|--------------------------|--------------------------|
-| US01 | Acceder a la información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | - DADO QUE el visitante navega en la sección "Nosotros",CUANDO revisa la información relevante sobre la compañía,ENTONCES se genera un mayor interés por el producto,Y opta por registrarse como usuario. | EP01 |
-| US02 | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | - DADO QUE el visitante está en la sección de beneficios,CUANDOrevisa las ventajas asociadas al uso de nuestra solución,ENTONCES aumenta su interés por el producto,Y decide registrarse como usuario. | EP01 |
-| US03 | Consultar los planes de precios del producto | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto | -DADO QUE el visitante se encuentra en la sección de planes de precios,CUANDO examina las diferentes alternativas ofrecidas,ENTONCES puede comprender mejor las opciones disponibles y tomar una decisión informada,Y optar por registrarse como usuario. | EP01 |
-| US04 | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | - DADO QUE el visitante se encuentra en la página principal,CUANDO busca una opción de contacto accesible,ENTONCES puede establecer comunicación de forma rápida Y sencilla con la empresa. | EP01 |
-| US05 | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión | - DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema. | EP02 |
-| US06 | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo. | - DADO QUE ya se ha realizado el pago del plan,CUANDO el usuario completa el formulario con los datos del hotel y su información como gerente,ENTONCES se muestra un mensaje de bienvenidaY se accede al panel principal del gerente. | EP02 |
-| US07 | Modificar el estado de una habitación | Como gerente, deseo cambiar el estado de una habitación del hotel | - DADO QUE el usuario accede a la sección de Habitaciones,CUANDO hace clic en el botón de ediciónY selecciona un nuevo estado desde la ventana emergente (popup),ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
-| US08 | Actualizar el estado de la habitación (Empleado) | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | - DADO QUE el usuario se encuentra en la sección de Habitaciones, CUANDO el usuario finaliza su tarea de limpieza o mantenimiento, Y hace clic en el botón para actualizar el estado de la habitación, ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
-| US09 | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión. | -DADO QUE el usuario tiene permisos para agregar habitaciones en la sección de Habitaciones,CUANDOingresa los detalles de la habitación (tipo, número, etc.),ENTONCES la nueva habitación se registra en el sistema Y aparece en la lista de habitaciones. | EP03 |
-| US10 | Agregar un nuevo ítem al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel | -DADO QUE el usuario tiene acceso para añadir ítems en la sección de Inventario,CUANDO ingresa los detalles del nuevo ítem (nombre, cantidad, etc.),ENTONCES el ítem se añade al inventario correctamente,Y se muestra en la sección de Inventario. | EP04 |
-| US11 | Registro de cuenta para administrador | Como gerente quiero agregar a un nuevo administrador a mi hotel para su correcto servicio|- DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema.  | EP02 |
-| US12 | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | - DADO QUE el usuario tiene acceso para modificar los detalles de un ítem,CUANDO selecciona el ítem que desea actualizarY modifica sus detalles (cantidad, descripción, etc.),ENTONCES los cambios se reflejan correctamente en el inventario. | EP04 |
-| US13 | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO presiona el botón para agregar una nueva tareaY define los detalles de la tarea (descripción, empleado asignado, fecha límite, etc.),ENTONCES la tarea se añade a la lista de tareas y se muestra en la sección correspondiente. | EP05 |
-| US14 | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona la tarea que desea eliminar Y presiona el botón para eliminarla,ENTONCES la tarea se elimina correctamente de la lista de tareas. | EP05 |
-| US15 | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | -DADO QUE el usuario tiene acceso para asignar o editar tareas en la sección de tareas,CUANDO selecciona una tarea existente o crea una nueva tarea Y ingresa o modifica los detalles (empleado asignado, descripción, fecha límite, etc.),ENTONCES la tarea se actualiza o se asigna correctamente al empleado correspondiente. | EP05 |
-| US16 | Asignar una tarea a un empleado específico | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras. | -DADO QUE el usuario tiene acceso para asignar tareas,CUANDO selecciona una tarea Y especifica el empleado asignado en el diálogo correspondiente,ENTONCES la tarea se asigna al empleado seleccionado y los detalles se actualizan correctamente | EP05 |
-| US17 | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | -DADO QUE el usuario se encuentra en la pantalla de inicio de sesión (Sign In),CUANDO introduce sus credenciales correctamente y se valida su token JWT,ENTONCES el usuario puede iniciar sesión de manera exitosa y será dirigido a su dashboard. | EP06 |
+| US01 | Acceder a información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | DADO QUE el visitante navega en la sección "Nosotros", CUANDO revisa la información relevante sobre la compañía, ENTONCES se genera un mayor interés por el producto Y opta por registrarse como usuario. | EP01 |
+| US02 | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | DADO QUE el visitante está en la sección de beneficios, CUANDO revisa las ventajas asociadas al uso de nuestra solución, ENTONCES aumenta su interés por el producto Y decide registrarse como usuario. | EP01 |
+| US03 | Consultar planes de precios | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto. | DADO QUE el visitante se encuentra en la sección de planes de precios, CUANDO examina las diferentes alternativas ofrecidas, ENTONCES puede comprender mejor las opciones disponibles Y optar por registrarse como usuario. | EP01 |
+| US04 | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa. | DADO QUE el visitante se encuentra en la página principal, CUANDO busca una opción de contacto accesible, ENTONCES puede establecer comunicación de forma rápida Y sencilla con la empresa. | EP01 |
+| US05 | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | DADO QUE el usuario se encuentra en la pantalla de inicio de sesión, CUANDO introduce sus credenciales correctamente, ENTONCES puede iniciar sesión de manera exitosa Y será dirigido a su dashboard. | EP02 |
+| US06 | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | DADO QUE el usuario completa el formulario de registro, CUANDO ingresa los datos del hotel y su información personal, ENTONCES se crea la cuenta correctamente Y accede al panel principal. | EP02 |
+| US07 | Gestión de perfil de usuario | Como usuario, deseo actualizar mi información personal en el sistema. | DADO QUE el usuario accede a su perfil, CUANDO modifica sus datos personales Y guarda los cambios, ENTONCES la información se actualiza correctamente. | EP02 |
+| US08 | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | DADO QUE el usuario tiene permisos administrativos, CUANDO accede a la sección de trabajadores, ENTONCES puede agregar nuevos trabajadores Y visualizar la lista completa del personal. | EP03 |
+| US09 | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | DADO QUE el usuario gestiona habitaciones, CUANDO crea nuevas habitaciones o tipos, ENTONCES se registran correctamente Y aparecen en la lista de habitaciones. | EP03 |
+| US10 | Gestión de proveedores | Como administrador, deseo agregar y visualizar proveedores del hotel. | DADO QUE el usuario gestiona proveedores, CUANDO agrega un nuevo proveedor, ENTONCES se registra correctamente Y aparece en la lista de proveedores. | EP03 |
+| US11 | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | DADO QUE el usuario gestiona inventario, CUANDO agrega suministros o crea solicitudes, ENTONCES se registran correctamente en el sistema de inventario. | EP03 |
+| US12 | Gestión de administradores | Como gerente, deseo agregar y visualizar administradores del hotel. | DADO QUE el usuario tiene permisos de gerente, CUANDO accede a la sección de administradores, ENTONCES puede agregar nuevos administradores Y visualizar la lista completa. | EP03 |
+| US13 | Gestión de información del hotel | Como gerente, deseo crear y visualizar la información del hotel. | DADO QUE el usuario registra información del hotel, CUANDO completa los datos, ENTONCES la información se guarda correctamente Y puede ser consultada posteriormente. | EP03 |
+| US14 | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | DADO QUE el usuario gestiona reservas, CUANDO crea una nueva reserva, ENTONCES se registra correctamente Y aparece en la tabla de reservas. | EP04 |
+| US15 | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | DADO QUE el usuario gestiona notificaciones, CUANDO crea alertas o mensajes, ENTONCES se envían correctamente Y los usuarios pueden visualizar sus notificaciones. | EP04 |
+| US16 | Visualizar notificaciones | Como usuario, deseo ver todas las notificaciones que he recibido. | DADO QUE el usuario accede a la sección de notificaciones, CUANDO la página se carga, ENTONCES se muestra una lista de todas las notificaciones recibidas. | EP04 |
+| US17 | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | DADO QUE el usuario accede al dashboard, CUANDO la página se carga, ENTONCES se muestra un resumen personalizado con estadísticas relevantes para su rol (admin, worker). | EP05 |
+| US18 | Reportes estadísticos | Como administrador, deseo visualizar reportes estadísticos y analíticos del hotel. | DADO QUE el usuario accede a reportes, CUANDO selecciona el tipo de reporte, ENTONCES se generan gráficos y estadísticas detalladas del rendimiento del hotel. | EP05 |
 
 
 ## 3.3. Product Backlog
 
 | #ORDEN | USER STORY ID | TÍTULO                                  | DESCRIPCIÓN | STORY POINTS(1/2/3/5/8/13) |
 |--------|--------------|----------------------------------------|-------------|---------------------------|
-| 1      | US01 - EP01  | Acceder a la información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | 3 |
+| 1      | US01 - EP01  | Acceder a información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | 3 |
 | 2      | US02 - EP01  | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | 3 |
-| 3      | US03 - EP01  | Consultar los planes de precios del producto | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto. | 3 |
-| 4      | US04 - EP01  | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | 2 |
-| 5      | US05 - EP02  | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión. | 2 |
-| 6      | US06 - EP02  | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo. | 5 |
-| 7      | US07 - EP03  | Modificar el estado de una habitación | Como gerente, deseo cambiar el estado de una habitación del hotel. | 3 |
-| 8      | US08 - EP03  | Actualizar el estado de la habitación (Empleado) | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | 2 |
-| 9      | US09 - EP03  | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión. | 5 |
-| 10     | US10 - EP04  | Agregar un nuevo ítem al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel. | 3 |
-| 11     | US11 - EP04  | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | 3 |
-| 12     | US12 - EP05  | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | 3 |
-| 13     | US13 - EP05  | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | 2 |
-| 14     | US14 - EP05  | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | 3 |
-| 15     | US15 - EP05  | Actualizar el estado de una tarea asignada | Como empleado, deseo cambiar el estado de una tarea asignada para reflejar su progreso. | 2 |
-| 16     | US16 - EP05  | Asignar una tarea a un empleado específico | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras. | 3 |
-| 17     | US17 - EP08  | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | 3 |
+| 3      | US03 - EP01  | Consultar planes de precios | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto. | 3 |
+| 4      | US04 - EP01  | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa. | 2 |
+| 5      | US05 - EP02  | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | 3 |
+| 6      | US06 - EP02  | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | 5 |
+| 7      | US07 - EP02  | Gestión de perfil de usuario | Como usuario, deseo actualizar mi información personal en el sistema. | 3 |
+| 8      | US08 - EP03  | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | 5 |
+| 9      | US09 - EP03  | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | 5 |
+| 10     | US10 - EP03  | Gestión de proveedores | Como administrador, deseo agregar y visualizar proveedores del hotel. | 5 |
+| 11     | US11 - EP03  | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | 5 |
+| 12     | US12 - EP03  | Gestión de administradores | Como gerente, deseo agregar y visualizar administradores del hotel. | 5 |
+| 13     | US13 - EP03  | Gestión de información del hotel | Como gerente, deseo crear y visualizar la información del hotel. | 3 |
+| 14     | US14 - EP04  | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | 8 |
+| 15     | US15 - EP04  | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | 5 |
+| 16     | US16 - EP04  | Visualizar notificaciones | Como usuario, deseo ver todas las notificaciones que he recibido. | 3 |
+| 17     | US17 - EP05  | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | 8 |
+| 18     | US18 - EP05  | Reportes estadísticos | Como administrador, deseo visualizar reportes estadísticos y analíticos del hotel. | 8 |
+
+
 
 ## 3.4. Impact Mapping
 
@@ -1913,21 +1919,19 @@ __Evidencia del Jira__
 
 | Module                | Sprint # | User Story ID | User Story Description                      | Work-item Task                         | Estimation (hours) | Assigned To | Status |
 |-----------------------|----------|---------------|--------------------------------------------|----------------------------------------|--------------------|-------------|--------|
-| Landing Page          | Sprint 1 | US03 - EP01   | Consultar planes de precios                | Mostrar planes de precios en landing page | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US04 - EP01   | Establecer contacto                        | Implementar formulario de contacto        | 2                | XXXX        | Done   |
-| Autenticación         | Sprint 1 | US05 - EP02   | Activación de cuenta empleado              | Implementar verificación de cuentas      | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US06 - EP02   | Registro cuenta gerente                    | Formulario registro gerentes             | 4                | XXXX        | Done   |
-|                       | Sprint 1 | US17 - EP08   | Seguridad de Usuario                       | Integración JWT para login               | 4                | XXXX        | Done   |
-| Gestión Habitaciones  | Sprint 1 | US07 - EP03   | Modificar estado habitación                | UI para cambiar estados                  | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US08 - EP03   | Actualizar estado (empleado)               | Botón "Tarea completada"                 | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US09 - EP03   | Agregar habitaciones                       | Formulario nueva habitación              | 3                | XXXX        | Done   |
-| Gestión Inventario    | Sprint 1 | US10 - EP04   | Agregar ítem inventario                   | Formulario añadir ítems                  | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US11 - EP04   | Actualizar ítem inventario                | Funcionalidad edición ítems              | 3                | XXXX        | Done   |
-| Gestión Tareas        | Sprint 1 | US12 - EP05   | Crear nueva tarea                          | Formulario creación tareas               | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US13 - EP05   | Eliminar tarea                             | Funcionalidad eliminación                | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US14 - EP05   | Asignar/editar tareas                      | UI asignación tareas                     | 3                | XXXX        | Done   |
-|                       | Sprint 1 | US15 - EP05   | Actualizar estado tarea                    | Selector estados tareas                  | 2                | XXXX        | Done   |
-|                       | Sprint 1 | US16 - EP05   | Asignar a empleado específico              | Dropdown selección empleado              | 2                | XXXX        | Done   |
+| Landing Page          | Sprint 1 | US03 - EP01   | Consultar planes de precios                | Mostrar planes de precios en landing page | 2                | Omar        | Done   |
+|                       | Sprint 1 | US04 - EP01   | Establecer contacto con la empresa         | Implementar formulario de contacto        | 2                | Jeremy A         | Done   |
+| Autenticación         | Sprint 1 | US05 - EP02   | Iniciar sesión en el sistema               | Implementar login con JWT                | 4                | Jeremy G        | Done   |
+|                       | Sprint 1 | US06 - EP02   | Registro de cuenta                         | Formulario registro gerentes             | 4                | Jeremy A        | Done   |
+| Gestión Operativa     | Sprint 1 | US08 - EP03   | Gestión de trabajadores                    | CRUD básico de trabajadores              | 5                | Fernando        | Done   |
+|                       | Sprint 1 | US09 - EP03   | Gestión de habitaciones                    | CRUD habitaciones y tipos                | 5                | Jack        | Done   |
+|                       | Sprint 1 | US10 - EP03   | Gestión de proveedores                     | CRUD básico de proveedores               | 4                | Sebastian        | Done   |
+|                       | Sprint 1 | US11 - EP03   | Gestión de inventario                      | Agregar suministros y solicitudes       | 5                | Omar        | Done   |
+|                       | Sprint 1 | US12 - EP03   | Gestión de administradores                 | CRUD básico de administradores           | 4                | Sebastian        | Done   |
+|                       | Sprint 1 | US13 - EP03   | Gestión de información del hotel           | Formulario información del hotel         | 3                | Jack        | Done   |
+| Gestión Reservas      | Sprint 1 | US14 - EP04   | Gestión de reservas                        | CRUD básico de reservas                  | 6                | Fernando        | Done   |
+| Comunicación          | Sprint 1 | US15 - EP04   | Sistema de notificaciones                  | Crear alertas y mensajes                 | 4                | Omar        | Done   |
+|                       | Sprint 1 | US16 - EP04   | Visualizar notificaciones                  | Lista de notificaciones recibidas       | 3                | Jack        | Done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 
@@ -3416,32 +3420,29 @@ versión del proyecto, aún no se han desarrollado experimentos formales, pero s
 
 # User Stories (To-Be)
 
-| **User Story ID** | **Título**                                      | **Descripción**                                                                                     | **Criterios de Aceptación**                                                                                                                                  | **Relacionado con (Epic ID)** |
-|-------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| **US01 - EP02**   | Registro de cuenta para gerente                 | Como gerente, deseo crear mi cuenta para poder administrar el personal a mi cargo.                   | **Given** que el usuario ha completado el proceso de registro, <br> **When** ingresa sus credenciales (correo electrónico, contraseña, y rol), <br> **Then** el usuario puede acceder al sistema y gestionar el panel de administración. | EP02                          |
-| **US06 - EP03**   | Modificar el estado de una habitación (Administrador y Empleado) | Como gerente o trabajador, deseo consultar y modificar el estado de las habitaciones del hotel.      | **Given** que el usuario accede a la sección de habitaciones, <br> **When** selecciona una habitación y cambia su estado (Ej. Limpia, En mantenimiento), <br> **Then** el estado de la habitación se actualiza correctamente. | EP03                          |
-| **US10 - EP04**   | Agregar un nuevo ítem al inventario              | Como gestor, deseo agregar un nuevo ítem al inventario del hotel.                                    | **Given** que el usuario tiene acceso para añadir ítems en la sección de inventario, <br> **When** ingresa los detalles del nuevo ítem (nombre, cantidad, etc.), <br> **Then** el ítem se añade al inventario y se muestra en la lista. | EP04                          |
-| **US12 - EP05**   | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo.         | **Given** que el usuario se encuentra en la sección de tareas, <br> **When** presiona el botón para agregar una nueva tarea, <br> **Then** la tarea se añade a la lista de tareas y se asigna al empleado correspondiente. | EP05                          |
-| **US17 - EP06**   | Seguridad de Usuario                            | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal.                   | **Given** que el usuario está en la pantalla de inicio de sesión, <br> **When** introduce correctamente sus credenciales y se valida, <br> **Then** el usuario tiene acceso a su dashboard y puede continuar. | EP06                          |
-
+| **User Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
+|-------------------|------------|-----------------|----------------------------|-------------------------------|
+| **US05** | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | **Given** que el usuario se encuentra en la pantalla de inicio de sesión, **When** introduce sus credenciales correctamente, **Then** puede iniciar sesión de manera exitosa Y será dirigido a su dashboard. | EP02 |
+| **US06** | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | **Given** que el usuario completa el formulario de registro, **When** ingresa los datos del hotel y su información personal, **Then** se crea la cuenta correctamente Y accede al panel principal. | EP02 |
+| **US08** | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | **Given** que el usuario tiene permisos administrativos, **When** accede a la sección de trabajadores, **Then** puede agregar nuevos trabajadores Y visualizar la lista completa del personal. | EP03 |
+| **US09** | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | **Given** que el usuario gestiona habitaciones, **When** crea nuevas habitaciones o tipos, **Then** se registran correctamente Y aparecen en la lista de habitaciones. | EP03 |
+| **US11** | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | **Given** que el usuario gestiona inventario, **When** agrega suministros o crea solicitudes, **Then** se registran correctamente en el sistema de inventario. | EP03 |
+| **US14** | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | **Given** que el usuario gestiona reservas, **When** crea una nueva reserva, **Then** se registra correctamente Y aparece en la tabla de reservas. | EP04 |
+| **US15** | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | **Given** que el usuario gestiona notificaciones, **When** crea alertas o mensajes, **Then** se envían correctamente Y los usuarios pueden visualizar sus notificaciones. | EP04 |
+| **US17** | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | **Given** que el usuario accede al dashboard, **When** la página se carga, **Then** se muestra un resumen personalizado con estadísticas relevantes para su rol (admin, worker). | EP05 |
 
 ### 8.3.2. To-Be Product Backlog
 
-| **#ORDEN** | **USER STORY ID** | **TÍTULO**                                      | **DESCRIPCIÓN**                                                                                     | **STORY POINTS (1/2/3/5/8/13)** |
-|------------|-------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------|
-| **1**      | **US01 - EP02**   | Registro de cuenta para gerente                 | Como gerente, deseo crear mi cuenta para poder administrar el personal a mi cargo. Esto incluirá la verificación de mi correo electrónico y la selección del rol para acceder al sistema. | 5 |
-| **2**      | **US06 - EP02**   | Registro de cuenta para administrador            | Como administrador, quiero poder agregar un nuevo administrador para que se pueda gestionar el hotel adecuadamente. Esto incluye la creación del perfil y asignación de permisos. | 5 |
-| **3**      | **US07 - EP03**   | Modificar el estado de una habitación            | Como gerente, quiero poder cambiar el estado de las habitaciones del hotel para reflejar si están disponibles, en mantenimiento, o ya limpiadas. Esto incluirá un cambio dinámico del estado a través de una ventana emergente. | 3 |
-| **4**      | **US08 - EP03**   | Actualizar el estado de la habitación (Empleado) | Como empleado, quiero actualizar el estado de la habitación para reflejar que he terminado con mi tarea de limpieza o mantenimiento. Esto incluye una acción de actualización rápida desde el panel de habitaciones. | 2 |
-| **5**      | **US09 - EP03**   | Agregar nuevas habitaciones al sistema           | Como gerente, quiero agregar nuevas habitaciones al sistema de gestión para mantener el inventario del hotel actualizado. Esto incluirá un formulario para ingresar detalles como el número de la habitación, tipo, y capacidad. | 5 |
-| **6**      | **US10 - EP04**   | Agregar un nuevo ítem al inventario              | Como gestor, quiero agregar nuevos ítems al inventario del hotel para asegurarme de que siempre haya suministros disponibles para el personal. Esto implicará la actualización de la lista de inventario y su cantidad. | 3 |
-| **7**      | **US11 - EP04**   | Actualizar la información de un ítem en el inventario | Como gestor, quiero actualizar los detalles de un ítem ya existente en el inventario (como nombre, cantidad, o ubicación) para mantener la información precisa y actualizada. Esto implicará una acción de edición directa en el sistema. | 3 |
-| **8**      | **US12 - EP05**   | Crear una nueva tarea para asignar a un empleado | Como gerente, quiero crear tareas para asignar a los empleados y organizar el flujo de trabajo. Esto incluirá definir tareas específicas y asignarlas a un empleado, así como establecer fechas límite. | 3 |
-| **9**      | **US13 - EP05**   | Eliminar una tarea no necesaria                  | Como gerente, quiero eliminar las tareas que ya no sean necesarias para optimizar la carga de trabajo y mantener las tareas relevantes en la lista de pendientes. | 2 |
-| **10**     | **US14 - EP05**   | Asignar o editar tareas                          | Como gerente, quiero asignar tareas a empleados específicos o editar las tareas existentes para asegurarme de que se cumplan las responsabilidades de manera eficiente. | 3 |
-| **11**     | **US15 - EP05**   | Actualizar el estado de una tarea asignada       | Como empleado, quiero actualizar el estado de una tarea asignada para reflejar si está en progreso, completada o pendiente. Esto incluirá un cambio de estado rápido desde el panel de tareas. | 2 |
-| **12**     | **US16 - EP05**   | Asignar una tarea a un empleado específico       | Como gerente, quiero asignar tareas a un empleado específico, asegurando que las responsabilidades sean claras para cada miembro del equipo. Esto incluirá la selección de un empleado y la asignación directa de la tarea. | 3 |
-| **13**     | **US17 - EP06**   | Seguridad de Usuario                            | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal de manera segura. Esto incluirá autenticación mediante un nombre de usuario y contraseña, y acceso a mi dashboard una vez autenticado. | 3 |
+| **#ORDEN** | **USER STORY ID** | **TÍTULO** | **DESCRIPCIÓN** | **SUBTAREAS** | **STORY POINTS (1/2/3/5/8/13)** |
+|------------|-------------------|------------|-----------------|---------------|--------------------------------|
+| **1** | **US05** | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | **ST01:** Diseñar interfaz de login<br>**ST02:** Implementar validación de credenciales<br>**ST03:** Crear redirección a dashboard<br>**ST04:** Manejar errores de autenticación | 5 |
+| **2** | **US06** | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | **ST01:** Diseñar formulario de registro<br>**ST02:** Implementar validación de datos<br>**ST03:** Crear proceso de verificación<br>**ST04:** Configurar cuenta inicial | 8 |
+| **3** | **US17** | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | **ST01:** Diseñar layout del dashboard<br>**ST02:** Implementar widgets por rol<br>**ST03:** Crear métricas en tiempo real<br>**ST04:** Optimizar rendimiento | 8 |
+| **4** | **US08** | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | **ST01:** Crear lista de trabajadores<br>**ST02:** Implementar formulario de registro<br>**ST03:** Asignar roles y permisos<br>**ST04:** Gestionar estados de empleados | 5 |
+| **5** | **US09** | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | **ST01:** Crear catálogo de habitaciones<br>**ST02:** Implementar tipos de habitación<br>**ST03:** Gestionar estados<br>**ST04:** Configurar características | 5 |
+| **6** | **US11** | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | **ST01:** Crear catálogo de suministros<br>**ST02:** Implementar solicitudes<br>**ST03:** Gestionar stock<br>**ST04:** Generar alertas de inventario | 8 |
+| **7** | **US14** | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | **ST01:** Crear sistema de reservas<br>**ST02:** Implementar calendario<br>**ST03:** Gestionar disponibilidad<br>**ST04:** Procesar pagos | 8 |
+| **8** | **US15** | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | **ST01:** Crear sistema de alertas<br>**ST02:** Implementar envío de mensajes<br>**ST03:** Configurar tipos de notificación<br>**ST04:** Gestionar preferencias | 5 |
 
 ---
 
@@ -3455,38 +3456,203 @@ Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que
 
 #### 8.3.3.1. To-Be Sprint Backlog
 
-<table><tr><th valign="top"><b>Sprint #</b></th><th colspan="7" valign="top"><b>Sprint 1</b></th></tr>
-<tr><td colspan="2" valign="top"><b>User Story</b></td><td colspan="6" valign="top"><b>WorkItem/Task</b></td></tr>
-<tr><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Estimation (Story Points)</b></td><td valign="top"><b>Assigned To</b></td><td valign="top"><b>Status</b></td></tr>
-<tr><td rowspan="2">US01 - EP02</td><td rowspan="2">Registro de cuenta para gerente</td><td>T1</td><td>Crear formulario de registro</td><td>Crear formulario de registro para gerente, incluyendo campos requeridos.</td><td>3</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
-<tr><td>T2</td><td>Verificación de correo electrónico</td><td>Implementar lógica para enviar y verificar el correo electrónico del gerente.</td><td>2</td></tr>
-<tr><td rowspan="2">US06 - EP02</td><td rowspan="2">Registro de cuenta para administrador</td><td>T3</td><td>Formulario de nuevo administrador</td><td>Diseñar e implementar formulario para registrar un nuevo administrador.</td><td>3</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
-<tr><td>T4</td><td>Asignar permisos a administrador</td><td>Implementar lógica para asignación de permisos por rol.</td><td>2</td></tr>
-<tr><td rowspan="2">US07 - EP03</td><td rowspan="2">Modificar estado de habitación</td><td>T5</td><td>Vista de gestión de estados</td><td>Crear una ventana emergente con opciones de estado (disponible, mantenimiento, limpio).</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
-<tr><td>T6</td><td>Actualizar estado desde la vista del gerente</td><td>Programar lógica para que el gerente pueda cambiar el estado desde su panel.</td><td>1</td></tr>
-<tr><td rowspan="2">US08 - EP03</td><td rowspan="2">Actualizar estado (Empleado)</td><td>T7</td><td>Botón de actualización rápida</td><td>Crear botón de acción rápida en el panel del empleado para cambiar estado.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
-<tr><td>T8</td><td>Conexión con backend</td><td>Conectar botón de estado con el backend para reflejar cambios.</td><td>1</td></tr>
-<tr><td rowspan="2">US09 - EP03</td><td rowspan="2">Agregar nuevas habitaciones</td><td>T9</td><td>Formulario de nueva habitación</td><td>Crear formulario con campos como número, tipo y capacidad de habitación.</td><td>3</td><td rowspan="2">Sebastian</td><td rowspan="2">Done</td></tr>
-<tr><td>T10</td><td>Validación de datos de habitación</td><td>Validar datos ingresados antes de ser enviados al sistema.</td><td>2</td></tr>
-<tr><td rowspan="2">US10 - EP04</td><td rowspan="2">Agregar ítem al inventario</td><td>T11</td><td>Formulario de nuevo ítem</td><td>Crear formulario para añadir ítems al inventario.</td><td>2</td><td rowspan="2">Stanley</td><td rowspan="2">Done</td></tr>
-<tr><td>T12</td><td>Lógica de almacenamiento de ítems</td><td>Programar la lógica de almacenamiento en la base de datos.</td><td>1</td></tr>
-<tr><td rowspan="2">US11 - EP04</td><td rowspan="2">Actualizar ítem del inventario</td><td>T13</td><td>Vista editable del ítem</td><td>Habilitar edición directa de datos de un ítem (nombre, cantidad, ubicación).</td><td>2</td><td rowspan="2">Jack</td><td rowspan="2">Done</td></tr>
-<tr><td>T14</td><td>Control de cambios</td><td>Agregar control para registrar modificaciones realizadas.</td><td>1</td></tr>
-<tr><td rowspan="2">US12 - EP05</td><td rowspan="2">Crear tarea para empleado</td><td>T15</td><td>Formulario de nueva tarea</td><td>Crear formulario para agregar tareas con campos como descripción y fecha límite.</td><td>2</td><td rowspan="2">Omar</td><td rowspan="2">Done</td></tr>
-<tr><td>T16</td><td>Lógica para asignación de tarea</td><td>Programar asignación de tarea a un empleado seleccionado.</td><td>1</td></tr>
-<tr><td rowspan="2">US13 - EP05</td><td rowspan="2">Eliminar tarea no necesaria</td><td>T17</td><td>Botón para eliminar tareas</td><td>Implementar botón de eliminación en listado de tareas.</td><td>1</td><td rowspan="2">Luiggi</td><td rowspan="2">Done</td></tr>
-<tr><td>T18</td><td>Confirmación de eliminación</td><td>Agregar ventana de confirmación para eliminar una tarea.</td><td>1</td></tr>
-<tr><td valign="top">US14 - EP05</td><td rowspan="2">Asignar o editar tareas</td><td>T19</td><td>Asignar tareas</td><td>Crear componente para asignar tareas existentes a empleados.</td><td>2</td><td rowspan="2">Fernando</td><td rowspan="2">Done</td></tr>
-<tr><td valign="top">US14 - EP05</td><td>T20</td><td>Editar tareas existentes</td><td>Implementar funcionalidad para modificar tareas ya asignadas.</td><td>1</td></tr>
-<tr><td rowspan="2" valign="top">US15 - EP05</td><td rowspan="2" valign="top">Actualizar estado de tarea</td><td valign="top">T21</td><td valign="top">Botón de estado en panel de tareas</td><td valign="top">Crear botón que permita cambiar entre estados: pendiente, en progreso, completada.</td><td valign="top">1</td><td rowspan="2" valign="top">Jack</td><td rowspan="2" valign="top">Done</td></tr>
-<tr><td valign="top">T22</td><td valign="top">Reflejar estado actualizado en backend</td><td valign="top">Programar envío del nuevo estado al backend y actualizar lista automáticamente.</td><td valign="top">1</td></tr>
-<tr><td rowspan="2" valign="top">US16 - EP05</td><td rowspan="2" valign="top">Asignar tarea a empleado específico</td><td valign="top">T23</td><td valign="top">Selector de empleados</td><td valign="top">Crear selector con lista de empleados para asignar una tarea.</td><td valign="top">2</td><td rowspan="2" valign="top">Sebastian</td><td rowspan="2" valign="top">Done</td></tr>
-<tr><td valign="top">T24</td><td valign="top">Validación de asignación</td><td valign="top">Validar que la tarea haya sido correctamente asignada y notificar.</td><td valign="top">1</td></tr>
-<tr><td rowspan="2" valign="top">US17 - EP06</td><td rowspan="2" valign="top">Seguridad de usuario</td><td valign="top">T25</td><td valign="top">Formulario de login</td><td valign="top">Crear pantalla de login con campos usuario y contraseña.</td><td valign="top">2</td><td rowspan="2" valign="top">Omar</td><td rowspan="2" valign="top">Done</td></tr>
-<tr><td valign="top">T26</td><td valign="top">Validación y autenticación</td><td valign="top">Implementar autenticación segura con validaciones y acceso a dashboard.</td><td valign="top">1</td></tr>
-</table>
+| **Sprint #** | **Sprint 3** | | | | | | |
+|--------------|--------------|--|--|--|--|--|--|
+| **User Story** | | **WorkItem/Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Story Points)** | **Assigned To** | **Status** |
+| US01 - EP01 | Acceder a información de la empresa | T1 | Diseñar sección "Nosotros" | Crear wireframe y diseño visual de la sección de información de la empresa | 2 | Omar | To-Do |
+| | | T2 | Implementar página "Nosotros" | Desarrollar la página web con información detallada de la empresa | 3 | Omar | To-Do |
+| US02 - EP01 | Conocer los beneficios del producto | T3 | Diseñar sección de beneficios | Crear wireframe y diseño visual de la sección de beneficios del producto | 2 | Stanley | To-Do |
+| | | T4 | Implementar página de beneficios | Desarrollar la página web con información detallada de las ventajas del producto | 3 | Stanley | To-Do |
+| US03 - EP01 | Consultar planes de precios | T5 | Diseñar tabla de precios | Crear diseño visual de la tabla comparativa de planes de precios | 2 | Fernando | To-Do |
+| | | T6 | Implementar página de precios | Desarrollar la página con información detallada de los diferentes planes | 3 | Fernando | To-Do |
+| US04 - EP01 | Establecer contacto con la empresa | T7 | Crear formulario de contacto | Diseñar e implementar formulario de contacto con validaciones | 2 | Luiggi | To-Do |
+| | | T8 | Implementar envío de mensajes | Programar funcionalidad para envío de mensajes desde el formulario | 2 | Luiggi | To-Do |
+| US05 - EP02 | Iniciar sesión en el sistema | T9 | Crear interfaz de login | Diseñar e implementar pantalla de inicio de sesión | 2 | Sebastian | To-Do |
+| | | T10 | Implementar autenticación | Programar validación de credenciales y redirección al dashboard | 3 | Sebastian | To-Do |
+| US06 - EP02 | Registro de cuenta | T11 | Crear formulario de registro | Diseñar e implementar formulario de registro para gerentes | 3 | Jack | To-Do |
+| | | T12 | Implementar creación de cuenta | Programar lógica de creación de cuenta y datos del hotel | 2 | Jack | To-Do |
+| US07 - EP02 | Gestión de perfil de usuario | T13 | Crear página de perfil | Diseñar e implementar página de perfil de usuario | 2 | Omar | To-Do |
+| | | T14 | Implementar actualización de datos | Programar funcionalidad para modificar información personal | 2 | Omar | To-Do |
+| US08 - EP03 | Gestión de trabajadores | T15 | Crear formulario de trabajador | Diseñar e implementar formulario para agregar trabajadores | 2 | Stanley | To-Do |
+| | | T16 | Implementar lista de trabajadores | Programar visualización y gestión de trabajadores del hotel | 3 | Stanley | To-Do |
+| US09 - EP03 | Gestión de habitaciones | T17 | Crear formulario de habitación | Diseñar e implementar formulario para agregar habitaciones | 2 | Fernando | To-Do |
+| | | T18 | Implementar gestión de habitaciones | Programar creación de habitaciones y tipos de habitaciones | 3 | Fernando | To-Do |
+| US10 - EP03 | Gestión de proveedores | T19 | Crear formulario de proveedor | Diseñar e implementar formulario para registrar proveedores | 2 | Luiggi | To-Do |
+| | | T20 | Implementar lista de proveedores | Programar visualización y gestión de proveedores | 2 | Luiggi | To-Do |
+| US11 - EP03 | Gestión de inventario | T21 | Crear formulario de inventario | Diseñar e implementar formulario para agregar suministros | 2 | Sebastian | To-Do |
+| | | T22 | Implementar solicitudes de inventario | Programar creación y gestión de solicitudes de inventario | 3 | Sebastian | To-Do |
+| US12 - EP03 | Gestión de administradores | T23 | Crear formulario de administrador | Diseñar e implementar formulario para agregar administradores | 2 | Jack | To-Do |
+| | | T24 | Implementar lista de administradores | Programar visualización y gestión de administradores | 2 | Jack | To-Do |
+| US13 - EP03 | Gestión de información del hotel | T25 | Crear formulario de información del hotel | Diseñar e implementar formulario para datos del hotel | 2 | Omar | To-Do |
+| | | T26 | Implementar visualización de información | Programar consulta y visualización de información del hotel | 2 | Omar | To-Do |
+| US14 - EP04 | Gestión de reservas | T27 | Crear formulario de reserva | Diseñar e implementar formulario para crear reservas | 3 | Stanley | To-Do |
+| | | T28 | Implementar tabla de reservas | Programar visualización y gestión de reservas | 2 | Stanley | To-Do |
+| US15 - EP04 | Sistema de notificaciones | T29 | Crear sistema de alertas | Implementar funcionalidad para crear y enviar alertas | 3 | Fernando | To-Do |
+| | | T30 | Implementar envío de mensajes | Programar funcionalidad para enviar mensajes a usuarios | 2 | Fernando | To-Do |
+| US16 - EP04 | Visualizar notificaciones | T31 | Crear panel de notificaciones | Diseñar e implementar panel para visualizar notificaciones | 2 | Luiggi | To-Do |
+| | | T32 | Implementar lista de notificaciones | Programar carga y visualización de notificaciones recibidas | 2 | Luiggi | To-Do |
+| US17 - EP05 | Dashboard personalizado | T33 | Crear dashboard base | Diseñar e implementar estructura base del dashboard | 3 | Sebastian | To-Do |
+| | | T34 | Implementar personalización por rol | Programar contenido personalizado según rol del usuario | 2 | Sebastian | To-Do |
+| US18 - EP05 | Reportes estadísticos | T35 | Crear interfaz de reportes | Diseñar e implementar interfaz para visualizar reportes | 3 | Jack | To-Do |
+| | | T36 | Implementar gráficos estadísticos | Programar generación de gráficos y estadísticas del hotel | 4 | Jack | To-Do |
 
 ---
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+En esta parte se expone la evidencia de la implementación de la Landing Page según el modelo To-Be planteado. En esta etapa, se llevaron a cabo mejoras sustanciales en elementos esenciales como la optimización para buscadores (SEO), la velocidad de carga, la estructura semántica del contenido y la adaptabilidad a diversos dispositivos (diseño responsivo). Estos avances no solo refuerzan la presencia digital del producto, sino que también mejoran la experiencia del usuario y aumentan su visibilidad en los motores de búsqueda.
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/Wuw4e7H.png" alt="" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/nkY4YFz.png" alt="" width="70%" />
+</div>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/5HLiUK4.png" alt="" width="70%" />
+</div>
+
+Enlace: <https://1asi0732-2510-4433-g1-roomwise.github.io/landing-page/>
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/UpZNLw6.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/4HWK3r7.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/VHtiL5y.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZJYUrZY.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ufKjcKU.png" alt="" width="70%" />
+</div>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/HTH8OkQ.png" alt="" width="70%" />
+</div>
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/PhqAq4k.png" alt="" width="40%" />
+</div>
+<br>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/ZGKWw5W.png" alt="" width="40%" />
+</div>
+<br>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/viIrOpx.png" alt="" width="40%" />
+</div>
+
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/mbkSzQv.png" alt="" width="70%" />
+</div>
+<br>
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/jjTXIEC.png" alt="" width="70%" />
+</div>
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Durante el desarrollo de los nuevos puntos a trabajar, el equipo adoptó un enfoque colaborativo y enfocado en la especialización de tareas, logrando una implementación eficiente y organizada de la plataforma.
+
+### Flujo de trabajo
+
+- Uso de **GitHub** con ramas por feature siguiendo el modelo **GitFlow**.
+- Gestión de tareas mediante **GitHub Projects** con tableros tipo **Kanban/Scrum**.
+- Validaciones y revisiones constantes a través de **Pull Requests**.
+
+###  Comunicación
+
+- Reuniones de sincronización por **Google meet**.
+- Coordinación ágil para resolver bloqueos y alinear criterios de implementación.
+
+### Validación y evidencias
+
+- Cada entregable fue documentado con capturas, pruebas funcionales y evidencia en los issues de GitHub.
+- Se utilizó Swagger para documentar la API y facilitar su consumo por parte del frontend y mobile.
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas.   
+
+## Segmento 1: Gerentes (Owners)
+
+### Landing Page
+
+- ¿La información en la landing page fue suficiente para entender los beneficios del sistema?
+- ¿Te resultó confiable el diseño y contenido del sitio para decidir registrarte?
+- ¿Qué tanto influyó la presentación de funcionalidades en tu interés por probar la plataforma?
+- ¿Faltó alguna información clave que te hubiera gustado ver antes de registrarte?
+
+### Aplicación Móvil
+
+- ¿Te resultó cómoda la experiencia de usar la app desde tu celular?
+- ¿Te sentiste en control al modificar precios o disponibilidad de habitaciones desde la app?
+- ¿Qué tan útil te pareció gestionar reservas y ver alertas desde tu celular?
+- ¿Cambiarías algo de la app para que se adapte mejor a tus decisiones diarias?
+
+## Segmento 2: Administradores (Admins)
+
+### Landing Page
+
+- ¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?
+- ¿Te sentiste identificado/a con los problemas que la plataforma promete solucionar?
+- ¿Te habría gustado una demo interactiva o más casos de uso concretos?
+- ¿La información fue clara para entender cómo aplicarías esta herramienta en tu rutina diaria?
+
+### Aplicación Móvil
+- ¿Fue fácil acceder a tus tareas desde la app móvil?
+- ¿Te ayudó a resolver incidencias o necesidades urgentes desde tu celular?
+- ¿Cómo calificarías la facilidad para actualizar tareas o estados de habitación desde la app?
+- ¿La aplicación móvil ayudó a reducir tu carga operativa o la mantuvo igual?
+
+## Segmento 3: Trabajadores (Staff Operativo)
+
+### Landing Page
+
+- ¿La información en la landing page te ayudó a entender cómo la plataforma puede ayudarte en tu trabajo diario?
+- ¿Te identificaste con las situaciones que se muestran en la página como problemas comunes?
+- ¿Te pareció fácil entender qué funciones específicas podrías usar tú como trabajador?
+- ¿Agregarías algún ejemplo o información para que se entienda mejor tu rol en la plataforma?
+
+### Aplicación Móvil
+- ¿Fue fácil para ti usar la aplicación desde tu celular?
+- ¿Pudiste cambiar el estado de las habitaciones o tareas sin dificultad?
+- ¿Te ayudó la app a organizar mejor tus tareas durante el día?
+- ¿Te sentiste más conectado o comunicado con tu equipo gracias a la aplicación?
+
+#### 8.3.4.2. Registro de Entrevistas. 
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+## 8.6. To-Be Software Platform Pre-launch
+### 8.6.1. About-the-Product Intro Video
+El siguiente video tiene como objetivo presentar SweetManager, una plataforma digital diseñada para facilitar la gestión integral de hoteles, pensada especialmente para propietarios que buscan optimizar la administración de sus establecimientos de forma eficiente y centralizada.
+A través de una interfaz moderna, intuitiva y potenciada por tecnología inteligente, SweetManager permite controlar reservas, gestionar habitaciones, monitorear ingresos y coordinar al personal en tiempo real.
+
+Este contenido destaca cómo la plataforma transforma la experiencia de gestión hotelera al reducir tareas manuales, automatizar procesos clave y ofrecer información valiosa para la toma de decisiones. Con SweetManager, los propietarios pueden enfocarse en brindar una mejor experiencia a sus huéspedes, mientras aprovechan el poder de la digitalización para hacer crecer su negocio en el competitivo sector turístico y urbano.
+
+Link del video: <https://www.youtube.com/watch?v=T92OwQTaaeg>
+
+<div style="text-align: center;">
+  <img src="https://i.imgur.com/NKa8wbB.png" alt="" width="70%" />
+</div>
 
 # Conclusiones
 
