@@ -3641,6 +3641,9 @@ Durante el desarrollo de los nuevos puntos a trabajar, el equipo adoptó un enfo
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+El prototipo interactivo creado en Figma representa las interfaces y soluciones definidas, elaboradas a partir de los requerimientos y preferencias identificadas en los usuarios. Este recurso evidencia cómo el equipo fue refinando tanto los aspectos visuales como funcionales a lo largo del proceso de diseño. 
+Link del figma:
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
 El siguiente video tiene como objetivo presentar SweetManager, una plataforma digital diseñada para facilitar la gestión integral de hoteles, pensada especialmente para propietarios que buscan optimizar la administración de sus establecimientos de forma eficiente y centralizada.
