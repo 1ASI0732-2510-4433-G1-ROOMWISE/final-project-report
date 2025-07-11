@@ -3590,6 +3590,98 @@ En cuanto a la app RoomWise, destaca que permite a los administradores gestionar
 
 No obstante, sugiere mejorar el botón de activación/desactivación de inventarios y propone incluir una función de mensajería más eficiente para mejorar la comunicación entre los empleados. En general, opina que el diseño es intuitivo y fácil de usar.
 
+## 8.4. Experiment Aftermath & Analysis
+### 8.4.1. Analysis and Interpretation of Results
+En el estudio, las preguntas originales formuladas en las entrevistas iniciales fueron reestructuradas para obtener respuestas más claras y pertinentes en relación con el análisis de la experiencia del usuario con el producto. Este enfoque facilitó la identificación más precisa de las percepciones, preferencias y necesidades de los participantes sobre las funcionalidades principales de la aplicación.
+
+## Entrevistas Realizadas:
+Las entrevistas fueron realizadas a una muestra de 5 participantes, que incluyen tanto dueños de hoteles como administradores. A continuación, se presenta un resumen de los hallazgos clave en relación con la **Landing Page** y la **Aplicación Móvil**, de acuerdo con las respuestas obtenidas:
+
+---
+
+## Landing Page
+
+### Dueños de Hoteles:
+
+#### **Camila Bustamante** (25 años, Miraflores, Perú)
+- Valoró positivamente la Landing Page, destacando la importancia de contar con herramientas digitales para la administración eficaz de reservas y personal.
+- Comentó que la información proporcionada fue clara y relevante, permitiendo entender los beneficios del sistema, pero también mencionó que una **demo interactiva** hubiera sido útil para comprender cómo la plataforma puede mejorar su experiencia diaria.
+
+#### **Sergio Renard** (21 años, La Plata, Argentina)
+- Destacó la **simplicidad** y **eficacia** de la presentación de funcionalidades en la Landing Page, mencionando que fue decisivo para probar la plataforma.
+- También expresó que la información sobre el producto fue suficiente para tomar la decisión de registrarse.
+
+### Administradores de Hotel:
+
+#### **Juan Reyes** (21 años, Lima, Perú)
+- Consideró que la Landing Page facilitó la comprensión de cómo la plataforma puede optimizar las tareas diarias, destacando que la información era clara y útil.
+- Hubiera preferido ver más casos de uso **concretos** para entender mejor la aplicabilidad del sistema en su trabajo cotidiano.
+
+#### **Manuel Chavez** (21 años, Lima, Perú)
+- Coincidió en que la información de la Landing Page fue adecuada para comprender cómo la plataforma ayuda en la organización de tareas administrativas.
+- Sin embargo, sugirió que hubiera sido útil ver ejemplos de cómo se aplicaría la herramienta en situaciones específicas del hotel.
+
+---
+
+## Aplicación Móvil
+
+### Dueños de Hoteles:
+
+#### **Camila Bustamante**
+- Consideró que la **experiencia móvil** fue cómoda, especialmente para gestionar reservas y habitaciones. Apreció la capacidad de recibir notificaciones de cambios en tiempo real.
+- Propuso que sería útil **mejorar la interfaz** para facilitar la navegación, ya que algunas opciones eran un poco difíciles de encontrar.
+
+#### **Sergio Renard**
+- Resaltó que la **gestión de reservas** desde el móvil le permitió tener un control total de las operaciones del hotel, aunque sugirió incluir una función de **alertas personalizadas** para eventos especiales, como promociones o disponibilidad de habitaciones.
+
+### Administradores de Hotel:
+
+#### **Juan Reyes**
+- Consideró que la **app móvil** facilitaba la **actualización de tareas**, como el estado de las habitaciones.
+- Destacó que sería importante incluir una **función de gestión de quejas** de los huéspedes directamente desde la aplicación.
+
+#### **Manuel Chavez**
+- Valora la aplicación como una **herramienta eficiente** para coordinar tareas entre el equipo y gestionar la disponibilidad de habitaciones.
+- Comentó que la **interfaz intuitiva** ayudaba a disminuir la carga operativa, aunque sugirió que la opción de cambiar la **disponibilidad de las habitaciones** podría ser más rápida.
+
+---
+
+## Resumen de Resultados Clave:
+
+1. **Simplicidad y Usabilidad:** 
+   - Tanto los dueños como los administradores valoraron la simplicidad en la presentación de la plataforma, destacando que la Landing Page y la aplicación móvil fueron fáciles de entender. 
+
+2. **Control de Reservas:** 
+   - La capacidad para gestionar reservas y habitaciones desde el móvil fue vista como una funcionalidad clave.
+
+3. **Recomendaciones de Mejora:**
+   - Los entrevistados sugirieron la **adición de alertas personalizadas** y **mejoras en la interfaz** para facilitar aún más las tareas diarias.
+   - Se recomendó proporcionar más **ejemplos prácticos** y **casos de uso concretos** para demostrar cómo la plataforma puede integrarse mejor con las operaciones de los hoteles.
+## Conclusión Final
+
+El análisis realizado sobre las entrevistas y los resultados obtenidos de los usuarios revela que tanto los **dueños** como los **administradores de hoteles** valoran positivamente la **Landing Page** y la **aplicación móvil** en términos de simplicidad y funcionalidad. La capacidad para gestionar reservas, habitaciones e información de los huéspedes desde una interfaz clara y accesible es considerada esencial por los entrevistados.
+
+Sin embargo, también se identificaron áreas de mejora, como la necesidad de **mejorar la interfaz** de la aplicación para facilitar la navegación y la **adición de alertas personalizadas** que mejoren la comunicación y la gestión diaria. Además, se destacó la importancia de contar con más **ejemplos prácticos** o **casos de uso concretos** en la Landing Page, que ayuden a los usuarios a visualizar cómo la plataforma podría integrarse en sus rutinas diarias.
+
+En resumen, aunque los usuarios aprecian las funcionalidades básicas del sistema, las recomendaciones sugieren un enfoque en la mejora de la experiencia de usuario, tanto en términos de diseño como de capacidad de personalización y utilidad de la información proporcionada. Esto contribuiría a aumentar la satisfacción y la adopción de la plataforma por parte de los usuarios.
+
+
+### 8.4.2. Re-scored and Re-prioritized Question
+
+| Prioridad (1,2,3,5,8) | Pregunta                                                                                             |
+|-----------------------|------------------------------------------------------------------------------------------------------|
+| 1                     | ¿La información en la landing page fue suficiente para entender los beneficios del sistema?         |
+| 2                     | ¿Te resultó confiable el diseño y contenido del sitio para decidir registrarte?                      |
+| 2                     | ¿Qué tanto influyó la presentación de funcionalidades en tu interés por probar la plataforma?        |
+| 3                     | ¿Faltó alguna información clave que te hubiera gustado ver antes de registrarte?                     |
+| 5                     | ¿Te resultó cómoda la experiencia de usar la app desde tu celular?                                    |
+| 5                     | ¿Te sentiste en control al modificar precios o disponibilidad de habitaciones desde la app?          |
+| 8                     | ¿Te ayudó la app a resolver incidencias o necesidades urgentes desde tu celular?                     |
+| 3                     | ¿Cambiarías algo de la app para que se adapte mejor a tus decisiones diarias?                        |
+| 8                     | ¿La app ayudó a reducir tu carga operativa o la mantuvo igual?                                        |
+| 1                     | ¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?       |
+
+
 # Conclusiones
 
 ## Conclusiones y Recomendaciones
