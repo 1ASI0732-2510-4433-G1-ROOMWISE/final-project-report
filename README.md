@@ -3498,6 +3498,200 @@ Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que
 | | | T36 | Implementar gráficos estadísticos | Programar generación de gráficos y estadísticas del hotel | 4 | Jack | To-Do |
 
 ---
+#### 8.3.4.2. Registro de Entrevistas
+
+A continuación, se registraron todas las entrevistas realizadas para nuestra solución, categorizadas según su segmento objetivo, y con un resumen que destaca las características y críticas realizadas sobre nuestro proyecto.
+
+**Entrevista 01 (Owners)**
+<br>
+Nombre: CAMILA BUSTAMANTE
+Edad: 25
+Sexo: FEMENINO
+Lugar donde vive: Miraflores - Perú
+Duración de la entrevista: 00:00 - 06:00 
+Ocupación: Dueña de hotel
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/uIanvK4.png" alt="Camila Bustamante Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Camila expresó su dedicación a la mejora continua de su hotel. Subrayó la relevancia de disponer de herramientas digitales que le ayuden a administrar reservas, habitaciones y personal de manera más eficaz. Valorizó la oportunidad de automatizar procesos que usualmente consumen mucho tiempo, lo que le permitiría concentrarse más en la experiencia del cliente.
+
+**Entrevista 02 (Owners)**
+
+<br>
+Nombre: Sergio Renard <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive: La Plata - Argentina <br>
+Ocupación: Dueño de hotel <br>
+Duración de la entrevista: 06:00 - 12:00 <br>
+Personalidad: Alegre <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/lV0xN0b.png" alt="Sergio Renard  Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Sergio expresó su entusiasmo por la implementación de tecnologías en la gestión hotelera. Aprecia las soluciones sencillas pero efectivas que faciliten el orden y fortalezcan la comunicación con los clientes. Comentó estar dispuesto a adoptar herramientas que mejoren su operación diaria y favorezcan el desarrollo de su negocio.
+
+
+**Entrevista 01 (Admins)**
+<br>
+Nombre: Juan Reyes  <br>
+Edad:  21 <br>
+Sexo:  Masculino <br>
+Lugar donde vive:    Lima <br>
+Ocupación:    Administrador de Hotel<br>
+Duración de la entrevista: 12:00 - 16:30 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/w7vZ0B1.png" alt="Juan Reyes Interview" width="80%" />
+ </div><br>
+
+ URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Juan destacó la importancia de contar con una plataforma unificada para gestionar tanto la información de los huéspedes como la asignación de habitaciones. Mostró disposición hacia soluciones tecnológicas que le permitan coordinarse mejor con el equipo y minimizar los errores en los registros.
+
+
+**Entrevista 02 (Admins)**
+
+<br>
+Nombre: Manuel Chavez  <br>
+Edad: 21 <br>
+Sexo: Masculino <br>
+Lugar donde vive:  Lima   <br>
+Ocupación:    Administrador de Hotel<br>
+Duración de la entrevista: 16:30 - 31:35 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/rbIHSxS.png" alt="Manuel Chavez Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/ES-LwF5Abv5JnminNe-j8z8BQG_C22-NOPPYz_W2hVsS3w?e=02ITEa&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Manuel mostró interés en disponer de una interfaz sencilla y eficaz para gestionar las operaciones diarias del hotel. Resaltó la necesidad de que el sistema sea fácil de usar, sobre todo para el personal recién incorporado. Su enfoque se centró en optimizar la eficiencia y en monitorear las tareas administrativas y de mantenimiento.
+
+
+**Entrevista 03 (Admins)**
+
+<br>
+Nombre: Sebastian Silva  <br>
+Edad: 25   <br>
+Sexo: masculino  <br>
+Lugar donde vive: San Luis     <br>
+Ocupación: Administrador de Hotel<br>
+Duración de la entrevista: 00:00 - 07:08 <br>
+Personalidad: <br>
+
+<div style="text-align: center;">
+   <img src="https://i.imgur.com/wfr536z.png" alt="  Interview" width="80%" />
+ </div><br>
+
+URL VIDEO: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202125968_upc_edu_pe/EcMhtW1zJ7FLhwn8Ll8bpdIB1ERaDVo7NOitzRnK9Mz3LQ?e=Bcau9L&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+RESUMEN: Sebastián Silva, administrador de hotel, comparte su opinión sobre la Landing Page y la aplicación móvil RoomWise. Señala que la Landing Page ofrece una descripción clara del producto, sus beneficios, misión, visión y planes de suscripción, además de que las secciones de empresas registradas y contacto resultan útiles.
+
+En cuanto a la app RoomWise, destaca que permite a los administradores gestionar clientes, proveedores, inventarios y habitaciones, valorando especialmente la funcionalidad de mensajería interna y los reportes. Considera que la plataforma facilita la gestión diaria del hotel, especialmente al ofrecer información en tiempo real sobre clientes e inventarios.
+
+No obstante, sugiere mejorar el botón de activación/desactivación de inventarios y propone incluir una función de mensajería más eficiente para mejorar la comunicación entre los empleados. En general, opina que el diseño es intuitivo y fácil de usar.
+
+## 8.4. Experiment Aftermath & Analysis
+### 8.4.1. Analysis and Interpretation of Results
+En el estudio, las preguntas originales formuladas en las entrevistas iniciales fueron reestructuradas para obtener respuestas más claras y pertinentes en relación con el análisis de la experiencia del usuario con el producto. Este enfoque facilitó la identificación más precisa de las percepciones, preferencias y necesidades de los participantes sobre las funcionalidades principales de la aplicación.
+
+## Entrevistas Realizadas:
+Las entrevistas fueron realizadas a una muestra de 5 participantes, que incluyen tanto dueños de hoteles como administradores. A continuación, se presenta un resumen de los hallazgos clave en relación con la **Landing Page** y la **Aplicación Móvil**, de acuerdo con las respuestas obtenidas:
+
+---
+
+## Landing Page
+
+### Dueños de Hoteles:
+
+#### **Camila Bustamante** (25 años, Miraflores, Perú)
+- Valoró positivamente la Landing Page, destacando la importancia de contar con herramientas digitales para la administración eficaz de reservas y personal.
+- Comentó que la información proporcionada fue clara y relevante, permitiendo entender los beneficios del sistema, pero también mencionó que una **demo interactiva** hubiera sido útil para comprender cómo la plataforma puede mejorar su experiencia diaria.
+
+#### **Sergio Renard** (21 años, La Plata, Argentina)
+- Destacó la **simplicidad** y **eficacia** de la presentación de funcionalidades en la Landing Page, mencionando que fue decisivo para probar la plataforma.
+- También expresó que la información sobre el producto fue suficiente para tomar la decisión de registrarse.
+
+### Administradores de Hotel:
+
+#### **Juan Reyes** (21 años, Lima, Perú)
+- Consideró que la Landing Page facilitó la comprensión de cómo la plataforma puede optimizar las tareas diarias, destacando que la información era clara y útil.
+- Hubiera preferido ver más casos de uso **concretos** para entender mejor la aplicabilidad del sistema en su trabajo cotidiano.
+
+#### **Manuel Chavez** (21 años, Lima, Perú)
+- Coincidió en que la información de la Landing Page fue adecuada para comprender cómo la plataforma ayuda en la organización de tareas administrativas.
+- Sin embargo, sugirió que hubiera sido útil ver ejemplos de cómo se aplicaría la herramienta en situaciones específicas del hotel.
+
+---
+
+## Aplicación Móvil
+
+### Dueños de Hoteles:
+
+#### **Camila Bustamante**
+- Consideró que la **experiencia móvil** fue cómoda, especialmente para gestionar reservas y habitaciones. Apreció la capacidad de recibir notificaciones de cambios en tiempo real.
+- Propuso que sería útil **mejorar la interfaz** para facilitar la navegación, ya que algunas opciones eran un poco difíciles de encontrar.
+
+#### **Sergio Renard**
+- Resaltó que la **gestión de reservas** desde el móvil le permitió tener un control total de las operaciones del hotel, aunque sugirió incluir una función de **alertas personalizadas** para eventos especiales, como promociones o disponibilidad de habitaciones.
+
+### Administradores de Hotel:
+
+#### **Juan Reyes**
+- Consideró que la **app móvil** facilitaba la **actualización de tareas**, como el estado de las habitaciones.
+- Destacó que sería importante incluir una **función de gestión de quejas** de los huéspedes directamente desde la aplicación.
+
+#### **Manuel Chavez**
+- Valora la aplicación como una **herramienta eficiente** para coordinar tareas entre el equipo y gestionar la disponibilidad de habitaciones.
+- Comentó que la **interfaz intuitiva** ayudaba a disminuir la carga operativa, aunque sugirió que la opción de cambiar la **disponibilidad de las habitaciones** podría ser más rápida.
+
+---
+
+## Resumen de Resultados Clave:
+
+1. **Simplicidad y Usabilidad:** 
+   - Tanto los dueños como los administradores valoraron la simplicidad en la presentación de la plataforma, destacando que la Landing Page y la aplicación móvil fueron fáciles de entender. 
+
+2. **Control de Reservas:** 
+   - La capacidad para gestionar reservas y habitaciones desde el móvil fue vista como una funcionalidad clave.
+
+3. **Recomendaciones de Mejora:**
+   - Los entrevistados sugirieron la **adición de alertas personalizadas** y **mejoras en la interfaz** para facilitar aún más las tareas diarias.
+   - Se recomendó proporcionar más **ejemplos prácticos** y **casos de uso concretos** para demostrar cómo la plataforma puede integrarse mejor con las operaciones de los hoteles.
+## Conclusión Final
+
+El análisis realizado sobre las entrevistas y los resultados obtenidos de los usuarios revela que tanto los **dueños** como los **administradores de hoteles** valoran positivamente la **Landing Page** y la **aplicación móvil** en términos de simplicidad y funcionalidad. La capacidad para gestionar reservas, habitaciones e información de los huéspedes desde una interfaz clara y accesible es considerada esencial por los entrevistados.
+
+Sin embargo, también se identificaron áreas de mejora, como la necesidad de **mejorar la interfaz** de la aplicación para facilitar la navegación y la **adición de alertas personalizadas** que mejoren la comunicación y la gestión diaria. Además, se destacó la importancia de contar con más **ejemplos prácticos** o **casos de uso concretos** en la Landing Page, que ayuden a los usuarios a visualizar cómo la plataforma podría integrarse en sus rutinas diarias.
+
+En resumen, aunque los usuarios aprecian las funcionalidades básicas del sistema, las recomendaciones sugieren un enfoque en la mejora de la experiencia de usuario, tanto en términos de diseño como de capacidad de personalización y utilidad de la información proporcionada. Esto contribuiría a aumentar la satisfacción y la adopción de la plataforma por parte de los usuarios.
+
+
+### 8.4.2. Re-scored and Re-prioritized Question
+
+| Prioridad (1,2,3,5,8) | Pregunta                                                                                             |
+|-----------------------|------------------------------------------------------------------------------------------------------|
+| 1                     | ¿La información en la landing page fue suficiente para entender los beneficios del sistema?         |
+| 2                     | ¿Te resultó confiable el diseño y contenido del sitio para decidir registrarte?                      |
+| 2                     | ¿Qué tanto influyó la presentación de funcionalidades en tu interés por probar la plataforma?        |
+| 3                     | ¿Faltó alguna información clave que te hubiera gustado ver antes de registrarte?                     |
+| 5                     | ¿Te resultó cómoda la experiencia de usar la app desde tu celular?                                    |
+| 5                     | ¿Te sentiste en control al modificar precios o disponibilidad de habitaciones desde la app?          |
+| 8                     | ¿Te ayudó la app a resolver incidencias o necesidades urgentes desde tu celular?                     |
+| 3                     | ¿Cambiarías algo de la app para que se adapte mejor a tus decisiones diarias?                        |
+| 8                     | ¿La app ayudó a reducir tu carga operativa o la mantuvo igual?                                        |
+| 1                     | ¿La landing page te ayudó a comprender cómo esta plataforma te facilitaría el trabajo diario?       |
+
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
