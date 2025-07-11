@@ -1259,55 +1259,59 @@ SEGMENTO GERENTE:
 | EPIC ID | TÍTULO                        | Descripción                                                                 |
 |---------|-------------------------------|-----------------------------------------------------------------------------|
 | EP01    | Información del Producto       | Como visitante, quiero ver información clara del producto, para comprender sus beneficios. |
-| EP02    | Crear cuenta                   | Como gerente de un hotel o hostal, deseo crear una cuenta para comenzar a utilizar la aplicación Sweet Manager |
-| EP03    | Gestión de habitaciones en el área de Housekeeping | Como gerente o trabajador, deseo consultar y modificar el estado de las habitaciones del hotel |
-| EP04    | Administrar el inventario del hotel | Como gerente, deseo gestionar el inventario del hotel para asegurarme de que los suministros estén siempre disponibles. |
-| EP05    | Administrar las tareas asignadas a los empleados | Como gerente, deseo gestionar las tareas asignadas a los empleados para asegurarme de que todo esté en orden. |
-| EP06    | Gestión de Seguridad de Usuarios | Como administrador o desarrollador de Sweet Manager, quiero garantizar que los usuarios puedan acceder al sistema de manera segura mediante un proceso de autenticación. |
-
+| EP02    | Gestión de Usuarios y Autenticación | Como usuario del sistema, deseo gestionar cuentas y acceder de manera segura a Sweet Manager. |
+| EP03    | Gestión Operativa del Hotel    | Como administrador, deseo gestionar habitaciones, trabajadores, proveedores e inventario para optimizar la operación hotelera. |
+| EP04    | Gestión de Reservas y Comunicación | Como administrador, deseo gestionar reservas y notificaciones para mantener una comunicación eficiente. |
+| EP05    | Análisis y Reportes            | Como gerente, deseo visualizar dashboards, reportes y analíticos para tomar decisiones informadas. |
 
 | US ID | TÍTULO | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-------|--------|-------------|--------------------------|--------------------------|
-| US01 | Acceder a la información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | - DADO QUE el visitante navega en la sección "Nosotros",CUANDO revisa la información relevante sobre la compañía,ENTONCES se genera un mayor interés por el producto,Y opta por registrarse como usuario. | EP01 |
-| US02 | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | - DADO QUE el visitante está en la sección de beneficios,CUANDOrevisa las ventajas asociadas al uso de nuestra solución,ENTONCES aumenta su interés por el producto,Y decide registrarse como usuario. | EP01 |
-| US03 | Consultar los planes de precios del producto | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto | -DADO QUE el visitante se encuentra en la sección de planes de precios,CUANDO examina las diferentes alternativas ofrecidas,ENTONCES puede comprender mejor las opciones disponibles y tomar una decisión informada,Y optar por registrarse como usuario. | EP01 |
-| US04 | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | - DADO QUE el visitante se encuentra en la página principal,CUANDO busca una opción de contacto accesible,ENTONCES puede establecer comunicación de forma rápida Y sencilla con la empresa. | EP01 |
-| US05 | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión | - DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema. | EP02 |
-| US06 | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo. | - DADO QUE ya se ha realizado el pago del plan,CUANDO el usuario completa el formulario con los datos del hotel y su información como gerente,ENTONCES se muestra un mensaje de bienvenidaY se accede al panel principal del gerente. | EP02 |
-| US07 | Modificar el estado de una habitación | Como gerente, deseo cambiar el estado de una habitación del hotel | - DADO QUE el usuario accede a la sección de Habitaciones,CUANDO hace clic en el botón de ediciónY selecciona un nuevo estado desde la ventana emergente (popup),ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
-| US08 | Actualizar el estado de la habitación (Empleado) | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | - DADO QUE el usuario se encuentra en la sección de Habitaciones, CUANDO el usuario finaliza su tarea de limpieza o mantenimiento, Y hace clic en el botón para actualizar el estado de la habitación, ENTONCES el estado de la habitación se actualiza correctamente. | EP03 |
-| US09 | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión. | -DADO QUE el usuario tiene permisos para agregar habitaciones en la sección de Habitaciones,CUANDOingresa los detalles de la habitación (tipo, número, etc.),ENTONCES la nueva habitación se registra en el sistema Y aparece en la lista de habitaciones. | EP03 |
-| US10 | Agregar un nuevo ítem al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel | -DADO QUE el usuario tiene acceso para añadir ítems en la sección de Inventario,CUANDO ingresa los detalles del nuevo ítem (nombre, cantidad, etc.),ENTONCES el ítem se añade al inventario correctamente,Y se muestra en la sección de Inventario. | EP04 |
-| US11 | Registro de cuenta para administrador | Como gerente quiero agregar a un nuevo administrador a mi hotel para su correcto servicio|- DADO QUE el administrador ha registrado al trabajador en la plataforma,CUANDO el empleado realiza la verificación de su cuenta,ENTONCES su cuenta se activa correctamente Y obtiene acceso al sistema.  | EP02 |
-| US12 | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | - DADO QUE el usuario tiene acceso para modificar los detalles de un ítem,CUANDO selecciona el ítem que desea actualizarY modifica sus detalles (cantidad, descripción, etc.),ENTONCES los cambios se reflejan correctamente en el inventario. | EP04 |
-| US13 | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO presiona el botón para agregar una nueva tareaY define los detalles de la tarea (descripción, empleado asignado, fecha límite, etc.),ENTONCES la tarea se añade a la lista de tareas y se muestra en la sección correspondiente. | EP05 |
-| US14 | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | -DADO QUE el usuario se encuentra en la sección de tareas,CUANDO selecciona la tarea que desea eliminar Y presiona el botón para eliminarla,ENTONCES la tarea se elimina correctamente de la lista de tareas. | EP05 |
-| US15 | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | -DADO QUE el usuario tiene acceso para asignar o editar tareas en la sección de tareas,CUANDO selecciona una tarea existente o crea una nueva tarea Y ingresa o modifica los detalles (empleado asignado, descripción, fecha límite, etc.),ENTONCES la tarea se actualiza o se asigna correctamente al empleado correspondiente. | EP05 |
-| US16 | Asignar una tarea a un empleado específico | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras. | -DADO QUE el usuario tiene acceso para asignar tareas,CUANDO selecciona una tarea Y especifica el empleado asignado en el diálogo correspondiente,ENTONCES la tarea se asigna al empleado seleccionado y los detalles se actualizan correctamente | EP05 |
-| US17 | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | -DADO QUE el usuario se encuentra en la pantalla de inicio de sesión (Sign In),CUANDO introduce sus credenciales correctamente y se valida su token JWT,ENTONCES el usuario puede iniciar sesión de manera exitosa y será dirigido a su dashboard. | EP06 |
+| US01 | Acceder a información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | DADO QUE el visitante navega en la sección "Nosotros", CUANDO revisa la información relevante sobre la compañía, ENTONCES se genera un mayor interés por el producto Y opta por registrarse como usuario. | EP01 |
+| US02 | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | DADO QUE el visitante está en la sección de beneficios, CUANDO revisa las ventajas asociadas al uso de nuestra solución, ENTONCES aumenta su interés por el producto Y decide registrarse como usuario. | EP01 |
+| US03 | Consultar planes de precios | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto. | DADO QUE el visitante se encuentra en la sección de planes de precios, CUANDO examina las diferentes alternativas ofrecidas, ENTONCES puede comprender mejor las opciones disponibles Y optar por registrarse como usuario. | EP01 |
+| US04 | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa. | DADO QUE el visitante se encuentra en la página principal, CUANDO busca una opción de contacto accesible, ENTONCES puede establecer comunicación de forma rápida Y sencilla con la empresa. | EP01 |
+| US05 | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | DADO QUE el usuario se encuentra en la pantalla de inicio de sesión, CUANDO introduce sus credenciales correctamente, ENTONCES puede iniciar sesión de manera exitosa Y será dirigido a su dashboard. | EP02 |
+| US06 | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | DADO QUE el usuario completa el formulario de registro, CUANDO ingresa los datos del hotel y su información personal, ENTONCES se crea la cuenta correctamente Y accede al panel principal. | EP02 |
+| US07 | Gestión de perfil de usuario | Como usuario, deseo actualizar mi información personal en el sistema. | DADO QUE el usuario accede a su perfil, CUANDO modifica sus datos personales Y guarda los cambios, ENTONCES la información se actualiza correctamente. | EP02 |
+| US08 | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | DADO QUE el usuario tiene permisos administrativos, CUANDO accede a la sección de trabajadores, ENTONCES puede agregar nuevos trabajadores Y visualizar la lista completa del personal. | EP03 |
+| US09 | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | DADO QUE el usuario gestiona habitaciones, CUANDO crea nuevas habitaciones o tipos, ENTONCES se registran correctamente Y aparecen en la lista de habitaciones. | EP03 |
+| US10 | Gestión de proveedores | Como administrador, deseo agregar y visualizar proveedores del hotel. | DADO QUE el usuario gestiona proveedores, CUANDO agrega un nuevo proveedor, ENTONCES se registra correctamente Y aparece en la lista de proveedores. | EP03 |
+| US11 | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | DADO QUE el usuario gestiona inventario, CUANDO agrega suministros o crea solicitudes, ENTONCES se registran correctamente en el sistema de inventario. | EP03 |
+| US12 | Gestión de administradores | Como gerente, deseo agregar y visualizar administradores del hotel. | DADO QUE el usuario tiene permisos de gerente, CUANDO accede a la sección de administradores, ENTONCES puede agregar nuevos administradores Y visualizar la lista completa. | EP03 |
+| US13 | Gestión de información del hotel | Como gerente, deseo crear y visualizar la información del hotel. | DADO QUE el usuario registra información del hotel, CUANDO completa los datos, ENTONCES la información se guarda correctamente Y puede ser consultada posteriormente. | EP03 |
+| US14 | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | DADO QUE el usuario gestiona reservas, CUANDO crea una nueva reserva, ENTONCES se registra correctamente Y aparece en la tabla de reservas. | EP04 |
+| US15 | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | DADO QUE el usuario gestiona notificaciones, CUANDO crea alertas o mensajes, ENTONCES se envían correctamente Y los usuarios pueden visualizar sus notificaciones. | EP04 |
+| US16 | Visualizar notificaciones | Como usuario, deseo ver todas las notificaciones que he recibido. | DADO QUE el usuario accede a la sección de notificaciones, CUANDO la página se carga, ENTONCES se muestra una lista de todas las notificaciones recibidas. | EP04 |
+| US17 | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | DADO QUE el usuario accede al dashboard, CUANDO la página se carga, ENTONCES se muestra un resumen personalizado con estadísticas relevantes para su rol (admin, worker). | EP05 |
+| US18 | Reportes estadísticos | Como administrador, deseo visualizar reportes estadísticos y analíticos del hotel. | DADO QUE el usuario accede a reportes, CUANDO selecciona el tipo de reporte, ENTONCES se generan gráficos y estadísticas detalladas del rendimiento del hotel. | EP05 |
+
+
 
 
 ## 3.3. Product Backlog
 
 | #ORDEN | USER STORY ID | TÍTULO                                  | DESCRIPCIÓN | STORY POINTS(1/2/3/5/8/13) |
 |--------|--------------|----------------------------------------|-------------|---------------------------|
-| 1      | US01 - EP01  | Acceder a la información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | 3 |
+| 1      | US01 - EP01  | Acceder a información de la empresa | Como visitante del sitio web, deseo conocer más acerca de la empresa responsable del producto. | 3 |
 | 2      | US02 - EP01  | Conocer los beneficios del producto | Como visitante del sitio web, deseo conocer las ventajas que ofrece el producto. | 3 |
-| 3      | US03 - EP01  | Consultar los planes de precios del producto | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto. | 3 |
-| 4      | US04 - EP01  | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa directamente desde la página de inicio. | 2 |
-| 5      | US05 - EP02  | Activación de cuenta de empleado | Como empleado, deseo verificar mi cuenta para poder acceder al sistema de gestión. | 2 |
-| 6      | US06 - EP02  | Registro de cuenta para gerente | Como gerente, deseo crear mi cuenta para poder administrar al personal a mi cargo. | 5 |
-| 7      | US07 - EP03  | Modificar el estado de una habitación | Como gerente, deseo cambiar el estado de una habitación del hotel. | 3 |
-| 8      | US08 - EP03  | Actualizar el estado de la habitación (Empleado) | Como empleado, deseo cambiar el estado de la habitación asignada para notificar que he terminado mi tarea. | 2 |
-| 9      | US09 - EP03  | Agregar nuevas habitaciones al sistema | Como gerente, deseo crear nuevas habitaciones en el sistema de gestión. | 5 |
-| 10     | US10 - EP04  | Agregar un nuevo ítem al inventario | Como gestor, deseo agregar un nuevo ítem al inventario del hotel. | 3 |
-| 11     | US11 - EP04  | Actualizar la información de un ítem en el inventario | Como gestor, deseo actualizar la información de un ítem en el inventario para mantener los datos actualizados. | 3 |
-| 12     | US12 - EP05  | Crear una nueva tarea para asignar a un empleado | Como gerente, deseo crear una nueva tarea para asignar a un empleado y organizar el trabajo. | 3 |
-| 13     | US13 - EP05  | Eliminar una tarea no necesaria | Como gerente, deseo eliminar una tarea que ya no sea necesaria para mantener la organización. | 2 |
-| 14     | US14 - EP05  | Asignar o editar tareas | Como gerente, deseo asignar o editar tareas para distribuir adecuadamente las responsabilidades entre los empleados. | 3 |
-| 15     | US15 - EP05  | Actualizar el estado de una tarea asignada | Como empleado, deseo cambiar el estado de una tarea asignada para reflejar su progreso. | 2 |
-| 16     | US16 - EP05  | Asignar una tarea a un empleado específico | Como gerente, deseo asignar una tarea a un empleado específico para asegurarme de que las responsabilidades estén claras. | 3 |
-| 17     | US17 - EP08  | Seguridad de Usuario | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | 3 |
+| 3      | US03 - EP01  | Consultar planes de precios | Como visitante del sitio web, deseo conocer las distintas opciones de precios disponibles para el producto. | 3 |
+| 4      | US04 - EP01  | Establecer contacto con la empresa | Como visitante del sitio web, deseo poder comunicarme fácilmente con la empresa. | 2 |
+| 5      | US05 - EP02  | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | 3 |
+| 6      | US06 - EP02  | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | 5 |
+| 7      | US07 - EP02  | Gestión de perfil de usuario | Como usuario, deseo actualizar mi información personal en el sistema. | 3 |
+| 8      | US08 - EP03  | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | 5 |
+| 9      | US09 - EP03  | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | 5 |
+| 10     | US10 - EP03  | Gestión de proveedores | Como administrador, deseo agregar y visualizar proveedores del hotel. | 5 |
+| 11     | US11 - EP03  | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | 5 |
+| 12     | US12 - EP03  | Gestión de administradores | Como gerente, deseo agregar y visualizar administradores del hotel. | 5 |
+| 13     | US13 - EP03  | Gestión de información del hotel | Como gerente, deseo crear y visualizar la información del hotel. | 3 |
+| 14     | US14 - EP04  | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | 8 |
+| 15     | US15 - EP04  | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | 5 |
+| 16     | US16 - EP04  | Visualizar notificaciones | Como usuario, deseo ver todas las notificaciones que he recibido. | 3 |
+| 17     | US17 - EP05  | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | 8 |
+| 18     | US18 - EP05  | Reportes estadísticos | Como administrador, deseo visualizar reportes estadísticos y analíticos del hotel. | 8 |
+
+
 
 ## 3.4. Impact Mapping
 
