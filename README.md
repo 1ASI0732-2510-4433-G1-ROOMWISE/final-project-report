@@ -3684,7 +3684,7 @@ Link del prototipo: <https://www.figma.com/proto/dgI7kPPYrsUiQ0wPGJ2Aqg/RoomWise
 Encuesta de Google Forms para RoomWise: Se creó una encuesta específica en Google Forms para recopilar feedback de usuarios hoteleros y validar las hipótesis de diseño de RoomWise. Esta herramienta evaluó la usabilidad de las funcionalidades de gestión hotelera y proporcionó datos que respaldaron las mejoras implementadas en la plataforma.
 
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/6slSQTC.png" alt="" width="70%" />
+  <img src="https://i.imgur.com/tJnOCsW.png" alt="" width="70%" />
 </div>
 
 Link de la encuesta: https://forms.gle/5ENXDJsXHHU7B5m49
