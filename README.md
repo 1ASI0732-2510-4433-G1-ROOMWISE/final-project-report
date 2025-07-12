@@ -3420,29 +3420,32 @@ versión del proyecto, aún no se han desarrollado experimentos formales, pero s
 
 # User Stories (To-Be)
 
-| **User Story ID** | **Título** | **Descripción** | **Criterios de Aceptación** | **Relacionado con (Epic ID)** |
-|-------------------|------------|-----------------|----------------------------|-------------------------------|
-| **US05** | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | **Given** que el usuario se encuentra en la pantalla de inicio de sesión, **When** introduce sus credenciales correctamente, **Then** puede iniciar sesión de manera exitosa Y será dirigido a su dashboard. | EP02 |
-| **US06** | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | **Given** que el usuario completa el formulario de registro, **When** ingresa los datos del hotel y su información personal, **Then** se crea la cuenta correctamente Y accede al panel principal. | EP02 |
-| **US08** | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | **Given** que el usuario tiene permisos administrativos, **When** accede a la sección de trabajadores, **Then** puede agregar nuevos trabajadores Y visualizar la lista completa del personal. | EP03 |
-| **US09** | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | **Given** que el usuario gestiona habitaciones, **When** crea nuevas habitaciones o tipos, **Then** se registran correctamente Y aparecen en la lista de habitaciones. | EP03 |
-| **US11** | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | **Given** que el usuario gestiona inventario, **When** agrega suministros o crea solicitudes, **Then** se registran correctamente en el sistema de inventario. | EP03 |
-| **US14** | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | **Given** que el usuario gestiona reservas, **When** crea una nueva reserva, **Then** se registra correctamente Y aparece en la tabla de reservas. | EP04 |
-| **US15** | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | **Given** que el usuario gestiona notificaciones, **When** crea alertas o mensajes, **Then** se envían correctamente Y los usuarios pueden visualizar sus notificaciones. | EP04 |
-| **US17** | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | **Given** que el usuario accede al dashboard, **When** la página se carga, **Then** se muestra un resumen personalizado con estadísticas relevantes para su rol (admin, worker). | EP05 |
+| User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---------------|--------|-------------|------------------------|---------------------------|
+| UA01 | Registro y autenticación de gerentes | Como gerente de hotel, deseo crear mi cuenta y acceder al sistema para poder administrar mi hotel de manera segura. | **DADO QUE** el gerente completa el formulario de registro con datos del hotel, **CUANDO** ingresa credenciales válidas, **ENTONCES** se crea la cuenta correctamente **Y** accede al panel principal con su rol asignado. | EP02 |
+| UA02 | Gestión integral de habitaciones | Como administrador, deseo crear, editar y visualizar habitaciones con sus tipos y estados para optimizar la disponibilidad del hotel. | **DADO QUE** el administrador accede a la gestión de habitaciones, **CUANDO** crea o modifica habitaciones, **ENTONCES** se registran correctamente **Y** el estado se actualiza en tiempo real para reservas. | EP03 |
+| UA03 | Gestión de personal del hotel | Como administrador, deseo registrar y administrar trabajadores del hotel para mantener un control efectivo del personal. | **DADO QUE** el administrador tiene permisos para gestionar personal, **CUANDO** agrega o modifica información de trabajadores, **ENTONCES** se registra correctamente **Y** aparece en la lista completa del personal. | EP03 |
+| UA04 | Sistema de reservas centralizado | Como administrador, deseo crear y gestionar reservas de manera centralizada para minimizar errores y optimizar la ocupación. | **DADO QUE** el administrador gestiona reservas, **CUANDO** crea una nueva reserva, **ENTONCES** se registra correctamente **Y** se actualiza automáticamente la disponibilidad de habitaciones. | EP04 |
+| UA05 | Gestión de proveedores e inventario | Como administrador, deseo administrar proveedores y controlar el inventario para asegurar el abastecimiento del hotel. | **DADO QUE** el administrador gestiona proveedores e inventario, **CUANDO** registra nuevos proveedores o suministros, **ENTONCES** se almacena correctamente **Y** permite crear solicitudes de inventario. | EP03 |
+| UA06 | Sistema de comunicación interna | Como usuario del sistema, deseo enviar y recibir notificaciones para mantener comunicación efectiva entre el equipo. | **DADO QUE** el usuario accede al sistema de notificaciones, **CUANDO** envía mensajes o alertas, **ENTONCES** se entregan correctamente **Y** los destinatarios pueden visualizarlas en tiempo real. | EP04 |
+| UA07 | Dashboard personalizado por rol | Como usuario, deseo visualizar un dashboard personalizado según mi rol para acceder rápidamente a la información relevante. | **DADO QUE** el usuario accede al dashboard, **CUANDO** la página se carga, **ENTONCES** se muestra un resumen personalizado con estadísticas **Y** funciones específicas para su rol (gerente, administrador, trabajador). | EP05 |
+| UA08 | Reportes y análisis operacional | Como gerente, deseo generar reportes estadísticos y analíticos para tomar decisiones informadas sobre el rendimiento del hotel. | **DADO QUE** el gerente accede a la sección de reportes, **CUANDO** selecciona el tipo de análisis, **ENTONCES** se generan gráficos y estadísticas detalladas del rendimiento operacional y financiero. | EP05 |
+| UA09 | Gestión de perfil y configuración | Como usuario, deseo actualizar mi información personal y configurar preferencias para personalizar mi experiencia en el sistema. | **DADO QUE** el usuario accede a su perfil, **CUANDO** modifica sus datos o configuraciones, **ENTONCES** la información se actualiza correctamente **Y** se aplican las preferencias seleccionadas. | EP02 |
+
 
 ### 8.3.2. To-Be Product Backlog
 
-| **#ORDEN** | **USER STORY ID** | **TÍTULO** | **DESCRIPCIÓN** | **SUBTAREAS** | **STORY POINTS (1/2/3/5/8/13)** |
-|------------|-------------------|------------|-----------------|---------------|--------------------------------|
-| **1** | **US05** | Iniciar sesión en el sistema | Como usuario, quiero poder acceder a Sweet Manager utilizando mi cuenta personal. | **ST01:** Diseñar interfaz de login<br>**ST02:** Implementar validación de credenciales<br>**ST03:** Crear redirección a dashboard<br>**ST04:** Manejar errores de autenticación | 5 |
-| **2** | **US06** | Registro de cuenta | Como gerente, deseo crear mi cuenta para poder administrar el hotel. | **ST01:** Diseñar formulario de registro<br>**ST02:** Implementar validación de datos<br>**ST03:** Crear proceso de verificación<br>**ST04:** Configurar cuenta inicial | 8 |
-| **3** | **US17** | Dashboard personalizado | Como usuario, deseo visualizar un dashboard con resumen del sistema según mi rol. | **ST01:** Diseñar layout del dashboard<br>**ST02:** Implementar widgets por rol<br>**ST03:** Crear métricas en tiempo real<br>**ST04:** Optimizar rendimiento | 8 |
-| **4** | **US08** | Gestión de trabajadores | Como administrador, deseo agregar y visualizar trabajadores del hotel. | **ST01:** Crear lista de trabajadores<br>**ST02:** Implementar formulario de registro<br>**ST03:** Asignar roles y permisos<br>**ST04:** Gestionar estados de empleados | 5 |
-| **5** | **US09** | Gestión de habitaciones | Como administrador, deseo agregar habitaciones y tipos de habitaciones. | **ST01:** Crear catálogo de habitaciones<br>**ST02:** Implementar tipos de habitación<br>**ST03:** Gestionar estados<br>**ST04:** Configurar características | 5 |
-| **6** | **US11** | Gestión de inventario | Como administrador, deseo agregar suministros y crear solicitudes de inventario. | **ST01:** Crear catálogo de suministros<br>**ST02:** Implementar solicitudes<br>**ST03:** Gestionar stock<br>**ST04:** Generar alertas de inventario | 8 |
-| **7** | **US14** | Gestión de reservas | Como administrador, deseo crear reservas y visualizar la tabla de reservas. | **ST01:** Crear sistema de reservas<br>**ST02:** Implementar calendario<br>**ST03:** Gestionar disponibilidad<br>**ST04:** Procesar pagos | 8 |
-| **8** | **US15** | Sistema de notificaciones | Como administrador, deseo crear alertas y enviar mensajes a los usuarios. | **ST01:** Crear sistema de alertas<br>**ST02:** Implementar envío de mensajes<br>**ST03:** Configurar tipos de notificación<br>**ST04:** Gestionar preferencias | 5 |
+| Orden | User Story ID | Título | Descripción | Story Points (1/2/3/5) |
+|-------|---------------|--------|-------------|------------------------|
+| 1 | UA01 | Registro y autenticación de gerentes | Como gerente de hotel, deseo crear mi cuenta y acceder al sistema para poder administrar mi hotel de manera segura. | 5 |
+| 2 | UA04 | Sistema de reservas centralizado | Como administrador, deseo crear y gestionar reservas de manera centralizada para minimizar errores y optimizar la ocupación. | 5 |
+| 3 | UA02 | Gestión integral de habitaciones | Como administrador, deseo crear, editar y visualizar habitaciones con sus tipos y estados para optimizar la disponibilidad del hotel. | 3 |
+| 4 | UA07 | Dashboard personalizado por rol | Como usuario, deseo visualizar un dashboard personalizado según mi rol para acceder rápidamente a la información relevante. | 5 |
+| 5 | UA03 | Gestión de personal del hotel | Como administrador, deseo registrar y administrar trabajadores del hotel para mantener un control efectivo del personal. | 3 |
+| 6 | UA06 | Sistema de comunicación interna | Como usuario del sistema, deseo enviar y recibir notificaciones para mantener comunicación efectiva entre el equipo. | 3 |
+| 7 | UA05 | Gestión de proveedores e inventario | Como administrador, deseo administrar proveedores y controlar el inventario para asegurar el abastecimiento del hotel. | 5 |
+| 8 | UA08 | Reportes y análisis operacional | Como gerente, deseo generar reportes estadísticos y analíticos para tomar decisiones informadas sobre el rendimiento del hotel. | 5 |
+| 9 | UA09 | Gestión de perfil y configuración | Como usuario, deseo actualizar mi información personal y configurar preferencias para personalizar mi experiencia en el sistema. | 2 |
 
 ---
 
@@ -3456,49 +3459,30 @@ Este enfoque integral no solo garantiza la entrega de un MVP funcional, sino que
 
 #### 8.3.3.1. To-Be Sprint Backlog
 
-| **Sprint #** | **Sprint 3** | | | | | | |
+| **Sprint #** | **Sprint 1** | | | | | | |
 |--------------|--------------|--|--|--|--|--|--|
 | **User Story** | | **WorkItem/Task** | | | | | |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Story Points)** | **Assigned To** | **Status** |
-| US01 - EP01 | Acceder a información de la empresa | T1 | Diseñar sección "Nosotros" | Crear wireframe y diseño visual de la sección de información de la empresa | 2 | Omar | To-Do |
-| | | T2 | Implementar página "Nosotros" | Desarrollar la página web con información detallada de la empresa | 3 | Omar | To-Do |
-| US02 - EP01 | Conocer los beneficios del producto | T3 | Diseñar sección de beneficios | Crear wireframe y diseño visual de la sección de beneficios del producto | 2 | Stanley | To-Do |
-| | | T4 | Implementar página de beneficios | Desarrollar la página web con información detallada de las ventajas del producto | 3 | Stanley | To-Do |
-| US03 - EP01 | Consultar planes de precios | T5 | Diseñar tabla de precios | Crear diseño visual de la tabla comparativa de planes de precios | 2 | Fernando | To-Do |
-| | | T6 | Implementar página de precios | Desarrollar la página con información detallada de los diferentes planes | 3 | Fernando | To-Do |
-| US04 - EP01 | Establecer contacto con la empresa | T7 | Crear formulario de contacto | Diseñar e implementar formulario de contacto con validaciones | 2 | Luiggi | To-Do |
-| | | T8 | Implementar envío de mensajes | Programar funcionalidad para envío de mensajes desde el formulario | 2 | Luiggi | To-Do |
-| US05 - EP02 | Iniciar sesión en el sistema | T9 | Crear interfaz de login | Diseñar e implementar pantalla de inicio de sesión | 2 | Sebastian | To-Do |
-| | | T10 | Implementar autenticación | Programar validación de credenciales y redirección al dashboard | 3 | Sebastian | To-Do |
-| US06 - EP02 | Registro de cuenta | T11 | Crear formulario de registro | Diseñar e implementar formulario de registro para gerentes | 3 | Jack | To-Do |
-| | | T12 | Implementar creación de cuenta | Programar lógica de creación de cuenta y datos del hotel | 2 | Jack | To-Do |
-| US07 - EP02 | Gestión de perfil de usuario | T13 | Crear página de perfil | Diseñar e implementar página de perfil de usuario | 2 | Omar | To-Do |
-| | | T14 | Implementar actualización de datos | Programar funcionalidad para modificar información personal | 2 | Omar | To-Do |
-| US08 - EP03 | Gestión de trabajadores | T15 | Crear formulario de trabajador | Diseñar e implementar formulario para agregar trabajadores | 2 | Stanley | To-Do |
-| | | T16 | Implementar lista de trabajadores | Programar visualización y gestión de trabajadores del hotel | 3 | Stanley | To-Do |
-| US09 - EP03 | Gestión de habitaciones | T17 | Crear formulario de habitación | Diseñar e implementar formulario para agregar habitaciones | 2 | Fernando | To-Do |
-| | | T18 | Implementar gestión de habitaciones | Programar creación de habitaciones y tipos de habitaciones | 3 | Fernando | To-Do |
-| US10 - EP03 | Gestión de proveedores | T19 | Crear formulario de proveedor | Diseñar e implementar formulario para registrar proveedores | 2 | Luiggi | To-Do |
-| | | T20 | Implementar lista de proveedores | Programar visualización y gestión de proveedores | 2 | Luiggi | To-Do |
-| US11 - EP03 | Gestión de inventario | T21 | Crear formulario de inventario | Diseñar e implementar formulario para agregar suministros | 2 | Sebastian | To-Do |
-| | | T22 | Implementar solicitudes de inventario | Programar creación y gestión de solicitudes de inventario | 3 | Sebastian | To-Do |
-| US12 - EP03 | Gestión de administradores | T23 | Crear formulario de administrador | Diseñar e implementar formulario para agregar administradores | 2 | Jack | To-Do |
-| | | T24 | Implementar lista de administradores | Programar visualización y gestión de administradores | 2 | Jack | To-Do |
-| US13 - EP03 | Gestión de información del hotel | T25 | Crear formulario de información del hotel | Diseñar e implementar formulario para datos del hotel | 2 | Omar | To-Do |
-| | | T26 | Implementar visualización de información | Programar consulta y visualización de información del hotel | 2 | Omar | To-Do |
-| US14 - EP04 | Gestión de reservas | T27 | Crear formulario de reserva | Diseñar e implementar formulario para crear reservas | 3 | Stanley | To-Do |
-| | | T28 | Implementar tabla de reservas | Programar visualización y gestión de reservas | 2 | Stanley | To-Do |
-| US15 - EP04 | Sistema de notificaciones | T29 | Crear sistema de alertas | Implementar funcionalidad para crear y enviar alertas | 3 | Fernando | To-Do |
-| | | T30 | Implementar envío de mensajes | Programar funcionalidad para enviar mensajes a usuarios | 2 | Fernando | To-Do |
-| US16 - EP04 | Visualizar notificaciones | T31 | Crear panel de notificaciones | Diseñar e implementar panel para visualizar notificaciones | 2 | Luiggi | To-Do |
-| | | T32 | Implementar lista de notificaciones | Programar carga y visualización de notificaciones recibidas | 2 | Luiggi | To-Do |
-| US17 - EP05 | Dashboard personalizado | T33 | Crear dashboard base | Diseñar e implementar estructura base del dashboard | 3 | Sebastian | To-Do |
-| | | T34 | Implementar personalización por rol | Programar contenido personalizado según rol del usuario | 2 | Sebastian | To-Do |
-| US18 - EP05 | Reportes estadísticos | T35 | Crear interfaz de reportes | Diseñar e implementar interfaz para visualizar reportes | 3 | Jack | To-Do |
-| | | T36 | Implementar gráficos estadísticos | Programar generación de gráficos y estadísticas del hotel | 4 | Jack | To-Do |
+| UA01 - EP02 | Registro y autenticación de gerentes | T1 | Crear interfaz de registro | Diseñar e implementar formulario de registro para gerentes con validaciones | 3 | Omar | To-Do |
+| | | T2 | Implementar autenticación JWT | Programar sistema de autenticación segura con tokens JWT | 5 | Omar | To-Do |
+| UA02 - EP03 | Gestión integral de habitaciones | T3 | Crear formulario de habitación | Diseñar e implementar formulario para agregar habitaciones y tipos | 2 | Stanley | To-Do |
+| | | T4 | Implementar gestión de estados | Programar actualización automática de estados de habitaciones | 3 | Stanley | To-Do |
+| UA03 - EP03 | Gestión de personal del hotel | T5 | Crear formulario de trabajador | Diseñar e implementar formulario para agregar trabajadores | 2 | Fernando | To-Do |
+| | | T6 | Implementar gestión de empleados | Programar CRUD completo de trabajadores con roles y permisos | 3 | Fernando | To-Do |
+| UA04 - EP04 | Sistema de reservas centralizado | T7 | Crear formulario de reserva | Diseñar e implementar formulario para crear reservas con validaciones | 3 | Luiggi | To-Do |
+| | | T8 | Implementar gestión de reservas | Programar CRUD completo de reservas con estado en tiempo real | 5 | Luiggi | To-Do |
+| UA05 - EP03 | Gestión de proveedores e inventario | T9 | Crear formulario de proveedor | Diseñar e implementar formulario para registrar proveedores | 2 | Sebastian | To-Do |
+| | | T10 | Implementar gestión de inventario | Programar CRUD de suministros y control de stock | 5 | Sebastian | To-Do |
+| UA06 - EP04 | Sistema de comunicación interna | T11 | Crear sistema de notificaciones | Implementar funcionalidad para crear y enviar alertas | 3 | Jack | To-Do |
+| | | T12 | Implementar mensajería interna | Programar sistema de mensajes entre usuarios | 3 | Jack | To-Do |
+| UA07 - EP05 | Dashboard personalizado por rol | T13 | Crear dashboard base | Diseñar e implementar estructura base del dashboard | 3 | Omar | To-Do |
+| | | T14 | Implementar personalización por rol | Programar contenido personalizado según rol del usuario | 5 | Omar | To-Do |
+| UA08 - EP05 | Reportes y análisis operacional | T15 | Crear interfaz de reportes | Diseñar e implementar interfaz para visualizar reportes | 3 | Stanley | To-Do |
+| | | T16 | Implementar gráficos estadísticos | Programar generación de gráficos y estadísticas del hotel | 4 | Stanley | To-Do |
+| UA09 - EP02 | Gestión de perfil y configuración | T17 | Crear página de perfil | Diseñar e implementar página de perfil de usuario | 2 | Fernando | To-Do |
+| | | T18 | Implementar actualización de datos | Programar funcionalidad para modificar información personal | 2 | Fernando | To-Do |
 
 ---
-
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 En esta parte se expone la evidencia de la implementación de la Landing Page según el modelo To-Be planteado. En esta etapa, se llevaron a cabo mejoras sustanciales en elementos esenciales como la optimización para buscadores (SEO), la velocidad de carga, la estructura semántica del contenido y la adaptabilidad a diversos dispositivos (diseño responsivo). Estos avances no solo refuerzan la presencia digital del producto, sino que también mejoran la experiencia del usuario y aumentan su visibilidad en los motores de búsqueda.
