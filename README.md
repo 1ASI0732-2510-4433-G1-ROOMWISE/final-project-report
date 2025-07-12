@@ -269,6 +269,7 @@ En esta entrega del trabajo parcial se completó de manera exitosa. Durante la e
   - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
 - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
   - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+  - [8.6.2. About-the-Team](#861-about-the-team)
 
 ### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 ### [Video About-the-Team](#video-about-the-team)
@@ -3873,6 +3874,12 @@ Link del video: <https://www.youtube.com/watch?v=T92OwQTaaeg>
 <div style="text-align: center;">
   <img src="https://i.imgur.com/NKa8wbB.png" alt="" width="70%" />
 </div>
+
+### 8.6.2. About-the-Team
+Esta sección presenta el video About-the-Team, el cual resume el proceso de trabajo y la experiencia vivida por el equipo durante el desarrollo de ManageWise. El video incluye escenas reales de las sesiones de trabajo del equipo, mostrando momentos clave de discusión, desarrollo y toma de decisiones. Además, cada integrante comparte su testimonio en cámara, explicando sus funciones, los desafíos enfrentados y los resultados obtenidos.
+
+Link del video About-the-Team:
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212383_upc_edu_pe/EVBGqYPhRBpOvCvi0EWZJS4BwKA08RB-AS1seli1nU_mJA?e=ge23Gd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 # Conclusiones
 
